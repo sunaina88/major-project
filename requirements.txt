@@ -1,0 +1,9 @@
+# Inferred from actual imports across src/ingestion and src/models (Person 1 phase).
+# Versions are conservative lower bounds, not exact pins -- tighten these once
+# the full 6-person team's environment is finalized (e.g. to match GNN framework
+# requirements from Person 2 onward).
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+matplotlib>=3.7
+seaborn>=0.12
