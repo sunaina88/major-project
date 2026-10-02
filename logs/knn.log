@@ -1,0 +1,25 @@
+[data] years 1999-2022 | zeros treated as missing: 263
+[cfg] gcn graph=knn weather=1 single=0 K=3 horizons=[1] tag=knn
+h=1 2010 done
+h=1 2011 done
+h=1 2012 done
+h=1 2013 done
+h=1 2014 done
+h=1 2015 done
+h=1 2016 done
+h=1 2017 done
+h=1 2018 done
+h=1 2019 done
+h=1 2020 done
+h=1 2021 done
+h=1 2022 done
+
+=== horizon 1 year(s) ahead | MEAN over 13 folds ===
+mae_model    4201.444
+mae_last     4265.784
+mae_avg2     5134.835
+log_model       0.827
+log_last        0.846
+log_avg2        0.890
+mae_model minus persistence: mean -64.340 CI [-315.414, 197.076] folds better 9/13
+log_model minus persistence: mean -0.018 CI [-0.066, 0.025] folds better 10/13
