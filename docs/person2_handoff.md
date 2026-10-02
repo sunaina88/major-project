@@ -21,3 +21,10 @@ The model is statistically tied with "same as last year". No evidence that the g
 - Do not report monthly forecast accuracy or lead time from this tensor.
 - Risk and early-warning layers should use annual or seasonal-level signals only until real monthly data exists.
 - Always show "persistence (last year)" next to the model forecast.
+
+## Final status
+- Annual model with real weather: log-MAE 0.828 vs 0.846 for last-year persistence (diff -0.018, 95% CI [-0.061, +0.025]); a statistical tie.
+- No evidence that the graph (GCN/GAT) or weather helps on the available data.
+- stgnn_forecast_2023_handoff.csv is low-confidence; always show persistence beside it.
+- Open requests to Person 1: newer annual data, real monthly data, which zeros are unreported.
+- Reproduce: pip install -r requirements-stgnn.txt, then run models/stgnn/step2_build_graph.py, step3_build_dataset.py, rolling_annual.py.
