@@ -1,0 +1,6 @@
+[data] years 1999-2022 | zeros treated as missing: 263
+[cfg] gcn graph=geo weather=1 single=0 K=3 horizons=[1, 2, 3] tag=final
+saved data/processed/stgnn_forecast_final.csv (324 rows) and models/stgnn/annual_final.pt
+confidence
+normal    260
+low        64
