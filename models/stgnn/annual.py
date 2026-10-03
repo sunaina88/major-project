@@ -1,6 +1,6 @@
 import argparse, warnings, numpy as np, pandas as pd, torch
 from model import STModel, masked_huber
-from annual_data import load_annual, load_graph, to_cases, forecast_table
+from annual_data import load_annual, load_graph, to_cases, forecast_table, DIS
 warnings.filterwarnings("ignore")
 
 p = argparse.ArgumentParser()
@@ -108,6 +108,7 @@ if a.forecast:
 rng = np.random.default_rng(0)
 for h in HS:
     rows = []
+    pair_rows = []
     for Yr in range(2010, int(years[-1]) + 1):
         tgt = Yr - int(years[0]); o = tgt - (h - 1)
         r = run(o, h)
@@ -117,6 +118,13 @@ for h in HS:
         true, ly = Y[tgt], Y[o - 1]
         avg2 = np.nanmean(np.stack([Y[o - 1], Y[o - 2]]), 0)
         ok = (M[tgt] > 0) & ~np.isnan(ly) & ~np.isnan(avg2)
+        for j in range(N):
+            for k in range(3):
+                if ok[j, k]:
+                    pair_rows.append(dict(year=Yr, state_id=states[j],
+                                          disease=DIS[k].replace("_cases", ""),
+                                          true=float(true[j, k]), model=float(pred[j, k]),
+                                          persistence=float(ly[j, k])))
         mae = lambda q: np.abs(q - true)[ok].mean()
         lmae = lambda q: np.abs(np.log1p(q) - np.log1p(true))[ok].mean()
         rows.append(dict(year=Yr, n=int(ok.sum()), mae_model=mae(pred), mae_last=mae(ly), mae_avg2=mae(avg2),
@@ -131,3 +139,4 @@ for h in HS:
         lo, hi = np.percentile(bs, [2.5, 97.5])
         print(f"{col} minus persistence: mean {dl.mean():.3f} CI [{lo:.3f}, {hi:.3f}] folds better {(dl < 0).sum()}/{len(dl)}")
     r.to_csv(f"data/processed/stgnn_annual_{a.tag}_h{h}.csv", index=False)
+    pd.DataFrame(pair_rows).to_csv(f"data/processed/stgnn_annual_{a.tag}_h{h}_pairs.csv", index=False)
