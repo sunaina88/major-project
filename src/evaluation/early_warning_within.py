@@ -3,6 +3,7 @@
 (b) AUROC computed inside each state-disease series, averaged over series that have both outcomes."""
 import numpy as np, pandas as pd
 from .data import get_data, DISEASES
+from .metrics import bootstrap_ci
 from .early_warning import threshold, auroc, DEFS, MIN_PRIOR
 
 def build(pairs, Y, years, states):
@@ -33,10 +34,15 @@ if __name__ == "__main__":
                 for _, g in sub.groupby(["state_id", "disease"]):
                     a = auroc(g[rel], g.label)
                     if not np.isnan(a): within.append(a)
+                lo = hi = np.nan
+                if len(within) >= 3: _, lo, hi = bootstrap_ci(within, n=5000, seed=0)
                 rows.append(dict(definition=dfn, disease=dis, predictor=pred, n=len(sub), n_outbreak=int(sub.label.sum()),
                                  auroc_relative_pooled=auroc(sub[rel], sub.label),
                                  auroc_raw_count_pooled=auroc(sub[raw], sub.label),
                                  auroc_within_series_mean=float(np.mean(within)) if within else np.nan,
+                                 within_ci_lo=lo, within_ci_hi=hi,
+                                 within_series_median=float(np.median(within)) if within else np.nan,
+                                 frac_series_above_chance=float(np.mean(np.array(within) > 0.5)) if within else np.nan,
                                  n_series_usable=len(within), n_series_total=sub.groupby(["state_id", "disease"]).ngroups))
     res = pd.DataFrame(rows); res.to_csv("data/processed/early_warning_sensitivity.csv", index=False)
     print(res.round(3).to_string())

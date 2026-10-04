@@ -12,3 +12,8 @@ def test_reproduces_person2():
     df = pd.read_csv("data/processed/stgnn_annual_geo_w_h1.csv")
     assert round(df["log_model"].mean(), 3) == 0.828
     assert round(df["log_last"].mean(), 3) == 0.846
+
+def test_bootstrap_warns_on_nan():
+    import pytest
+    with pytest.warns(RuntimeWarning):
+        bootstrap_ci([1.0, float("nan"), 3.0], n=100)

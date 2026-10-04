@@ -1,3 +1,4 @@
+import warnings
 import numpy as np
 
 def mae(pred, true):
@@ -15,6 +16,9 @@ def paired_diff(model_errors, reference_errors):
 def bootstrap_ci(values, n=10000, seed=0, alpha=0.05):
     """Mean and (1-alpha) percentile bootstrap CI over folds. Returns (mean, lo, hi)."""
     v = np.asarray(values, float)
+    n_nan = int(np.isnan(v).sum())
+    if n_nan:
+        warnings.warn(f"bootstrap_ci: dropping {n_nan} NaN of {len(v)} values", RuntimeWarning)
     v = v[~np.isnan(v)]
     rng = np.random.default_rng(seed)
     idx = rng.integers(0, len(v), size=(n, len(v)))

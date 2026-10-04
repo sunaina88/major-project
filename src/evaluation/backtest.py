@@ -1,4 +1,5 @@
 """Rolling-origin backtest. predict_fn only ever sees Y[:t], so leakage is impossible by construction."""
+import warnings
 import numpy as np, pandas as pd
 from .data import DISEASES
 from .metrics import mae, log_mae
@@ -21,7 +22,10 @@ def run_backtest(Y, years, states, predict_fn, test_years=range(2010, 2023)):
         if m.sum() == 0:
             continue
         pred = np.asarray(predict_fn(Y[:t].copy(), np.array(years[:t]), yr), float)
-        true, last, avg2 = Y[t][m], Y[t - 1][m], ((Y[t - 1] + Y[t - 2]) / 2)[m]
+        true, last = Y[t][m], Y[t - 1][m]
+        with warnings.catch_warnings():            # all-NaN slices are unscored pairs
+            warnings.simplefilter("ignore", RuntimeWarning)
+            avg2 = np.nanmean(np.stack([Y[t - 1], Y[t - 2]]), axis=0)[m]
         p = pred[m]
         rows.append(dict(year=yr, n=int(m.sum()),
                          mae_model=mae(p, true), mae_last=mae(last, true), mae_avg2=mae(avg2, true),
