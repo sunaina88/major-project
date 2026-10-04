@@ -128,7 +128,7 @@ Columns: `year, state_id, disease, true, model, persistence`. One row per state 
 ## 6. Metric definitions (use exactly these)
 
 - **Test folds:** test year Y from 2010 to 2022, trained on years before Y only.
-- **Scored pairs:** a state and disease are scored in a fold if the target is observed and both of the last two years are observed.
+- **Scored pairs:** a state and disease are scored in a fold if the the target year and last year are both observed (the mean-of-last-2-years comparator averages whichever of the two previous years is available).
 - **MAE:** mean absolute error in cases over the scored pairs.
 - **log-MAE:** mean of `|log1p(pred) - log1p(true)|`. Use this as the main metric. Raw MAE is dominated by a few high-burden states.
 - **Comparison:** report the per-fold difference (model minus persistence) with a 95% bootstrap interval over folds (10,000 resamples). If the interval includes 0, the result is a tie.

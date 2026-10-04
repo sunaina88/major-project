@@ -43,7 +43,7 @@ Create `src/evaluation/metrics.py` with: `mae`, `log_mae`, `paired_diff(model_er
 Create `src/evaluation/backtest.py`:
 
 - Folds: test year Y from 2010 to 2022, training on years before Y only. Any normalization is computed from those training years only.
-- Scored pairs: target observed and both of the last two years observed (so your numbers are comparable to Person 2's).
+- Scored pairs: target year and last year both observed (so your numbers are comparable to Person 2's).
 - Output: a DataFrame with the same columns as `stgnn_annual_<tag>_h1.csv`.
 
 ### Task 3: Annual anomaly detector
