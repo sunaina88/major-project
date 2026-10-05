@@ -1,0 +1,8370 @@
+[
+ {
+  "year": 2010,
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "malaria",
+  "true": 2484.0,
+  "model": 5664.491283743301,
+  "persistence": 5760.0
+ },
+ {
+  "year": 2010,
+  "state_id": "andhra_pradesh",
+  "disease": "dengue",
+  "true": 776.0,
+  "model": 427.2981488665948,
+  "persistence": 697.519633450518
+ },
+ {
+  "year": 2010,
+  "state_id": "andhra_pradesh",
+  "disease": "malaria",
+  "true": 19573.3387561455,
+  "model": 15193.100189035786,
+  "persistence": 14742.868756762544
+ },
+ {
+  "year": 2010,
+  "state_id": "andhra_pradesh",
+  "disease": "chikungunya",
+  "true": 116.0,
+  "model": 241.4638616108996,
+  "persistence": 346.4152129153413
+ },
+ {
+  "year": 2010,
+  "state_id": "arunachal_pradesh",
+  "disease": "malaria",
+  "true": 17944.0,
+  "model": 23277.788107762397,
+  "persistence": 22066.0
+ },
+ {
+  "year": 2010,
+  "state_id": "assam",
+  "disease": "malaria",
+  "true": 68353.0,
+  "model": 83014.11114419755,
+  "persistence": 91413.0
+ },
+ {
+  "year": 2010,
+  "state_id": "bihar",
+  "disease": "dengue",
+  "true": 510.0,
+  "model": 1.116088289006808,
+  "persistence": 1.0
+ },
+ {
+  "year": 2010,
+  "state_id": "bihar",
+  "disease": "malaria",
+  "true": 1908.0,
+  "model": 3369.357296708616,
+  "persistence": 3255.0
+ },
+ {
+  "year": 2010,
+  "state_id": "chandigarh",
+  "disease": "dengue",
+  "true": 221.0,
+  "model": 47.21784688063116,
+  "persistence": 25.0
+ },
+ {
+  "year": 2010,
+  "state_id": "chandigarh",
+  "disease": "malaria",
+  "true": 351.0,
+  "model": 330.9736979037034,
+  "persistence": 430.0
+ },
+ {
+  "year": 2010,
+  "state_id": "chhattisgarh",
+  "disease": "dengue",
+  "true": 4.0,
+  "model": 25.670691479251047,
+  "persistence": 26.0
+ },
+ {
+  "year": 2010,
+  "state_id": "chhattisgarh",
+  "disease": "malaria",
+  "true": 152209.0,
+  "model": 134472.97375162147,
+  "persistence": 129397.0
+ },
+ {
+  "year": 2010,
+  "state_id": "chhattisgarh",
+  "disease": "chikungunya",
+  "true": 0.0,
+  "model": 0.0,
+  "persistence": 0.0
+ },
+ {
+  "year": 2010,
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "malaria",
+  "true": 5907.0,
+  "model": 3053.1809416339293,
+  "persistence": 3505.0
+ },
+ {
+  "year": 2010,
+  "state_id": "delhi",
+  "disease": "dengue",
+  "true": 6259.0,
+  "model": 1582.1474376655897,
+  "persistence": 1153.0
+ },
+ {
+  "year": 2010,
+  "state_id": "delhi",
+  "disease": "malaria",
+  "true": 251.0,
+  "model": 136.68860441993556,
+  "persistence": 169.0
+ },
+ {
+  "year": 2010,
+  "state_id": "delhi",
+  "disease": "chikungunya",
+  "true": 120.0,
+  "model": 33.693569299798696,
+  "persistence": 18.0
+ },
+ {
+  "year": 2010,
+  "state_id": "goa",
+  "disease": "dengue",
+  "true": 242.0,
+  "model": 176.22751290748965,
+  "persistence": 277.0
+ },
+ {
+  "year": 2010,
+  "state_id": "goa",
+  "disease": "malaria",
+  "true": 2368.0,
+  "model": 5339.273962780349,
+  "persistence": 5056.0
+ },
+ {
+  "year": 2010,
+  "state_id": "goa",
+  "disease": "chikungunya",
+  "true": 1429.0,
+  "model": 1510.036083661761,
+  "persistence": 1839.0
+ },
+ {
+  "year": 2010,
+  "state_id": "gujarat",
+  "disease": "dengue",
+  "true": 2568.0,
+  "model": 1702.9854868766215,
+  "persistence": 2461.0
+ },
+ {
+  "year": 2010,
+  "state_id": "gujarat",
+  "disease": "malaria",
+  "true": 66501.0,
+  "model": 42803.95573394614,
+  "persistence": 45902.0
+ },
+ {
+  "year": 2010,
+  "state_id": "gujarat",
+  "disease": "chikungunya",
+  "true": 1709.0,
+  "model": 2604.13643073663,
+  "persistence": 1740.0
+ },
+ {
+  "year": 2010,
+  "state_id": "haryana",
+  "disease": "dengue",
+  "true": 866.0,
+  "model": 297.0260675865773,
+  "persistence": 125.0
+ },
+ {
+  "year": 2010,
+  "state_id": "haryana",
+  "disease": "malaria",
+  "true": 18921.0,
+  "model": 15451.208489544177,
+  "persistence": 30168.0
+ },
+ {
+  "year": 2010,
+  "state_id": "haryana",
+  "disease": "chikungunya",
+  "true": 26.0,
+  "model": 4.058309867142548,
+  "persistence": 2.0
+ },
+ {
+  "year": 2010,
+  "state_id": "himachal_pradesh",
+  "disease": "malaria",
+  "true": 210.0,
+  "model": 161.60501648859793,
+  "persistence": 192.0
+ },
+ {
+  "year": 2010,
+  "state_id": "jammu_and_kashmir",
+  "disease": "malaria",
+  "true": 784.4577417593248,
+  "model": 266.7622157567664,
+  "persistence": 338.4318935769656
+ },
+ {
+  "year": 2010,
+  "state_id": "jammu_and_kashmir",
+  "disease": "chikungunya",
+  "true": 0.0,
+  "model": 0.0,
+  "persistence": 0.0
+ },
+ {
+  "year": 2010,
+  "state_id": "jharkhand",
+  "disease": "malaria",
+  "true": 199842.0,
+  "model": 225290.13819913196,
+  "persistence": 230683.0
+ },
+ {
+  "year": 2010,
+  "state_id": "karnataka",
+  "disease": "dengue",
+  "true": 2285.0,
+  "model": 1292.7461747268164,
+  "persistence": 1764.0
+ },
+ {
+  "year": 2010,
+  "state_id": "karnataka",
+  "disease": "malaria",
+  "true": 44319.0,
+  "model": 39610.87463409993,
+  "persistence": 36859.0
+ },
+ {
+  "year": 2010,
+  "state_id": "karnataka",
+  "disease": "chikungunya",
+  "true": 8740.0,
+  "model": 32009.454291128364,
+  "persistence": 41230.0
+ },
+ {
+  "year": 2010,
+  "state_id": "kerala",
+  "disease": "dengue",
+  "true": 2597.0,
+  "model": 1042.8724768036568,
+  "persistence": 1425.0
+ },
+ {
+  "year": 2010,
+  "state_id": "kerala",
+  "disease": "malaria",
+  "true": 2299.0,
+  "model": 2096.175718199096,
+  "persistence": 2046.0
+ },
+ {
+  "year": 2010,
+  "state_id": "kerala",
+  "disease": "chikungunya",
+  "true": 1708.0,
+  "model": 12405.202495080952,
+  "persistence": 13349.0
+ },
+ {
+  "year": 2010,
+  "state_id": "ladakh",
+  "disease": "dengue",
+  "true": 0.0,
+  "model": 0.1533279183952998,
+  "persistence": 0.0437462799019323
+ },
+ {
+  "year": 2010,
+  "state_id": "ladakh",
+  "disease": "malaria",
+  "true": 17.54225824067511,
+  "model": 5.979952860802026,
+  "persistence": 7.5681064230344
+ },
+ {
+  "year": 2010,
+  "state_id": "ladakh",
+  "disease": "chikungunya",
+  "true": 0.0,
+  "model": 0.0,
+  "persistence": 0.0
+ },
+ {
+  "year": 2010,
+  "state_id": "lakshadweep",
+  "disease": "dengue",
+  "true": 0.0,
+  "model": 0.0,
+  "persistence": 0.0
+ },
+ {
+  "year": 2010,
+  "state_id": "lakshadweep",
+  "disease": "malaria",
+  "true": 6.0,
+  "model": 7.49206908577834,
+  "persistence": 8.0
+ },
+ {
+  "year": 2010,
+  "state_id": "madhya_pradesh",
+  "disease": "dengue",
+  "true": 175.0,
+  "model": 832.569781034424,
+  "persistence": 1467.0
+ },
+ {
+  "year": 2010,
+  "state_id": "madhya_pradesh",
+  "disease": "malaria",
+  "true": 87165.0,
+  "model": 86797.78645534167,
+  "persistence": 87628.0
+ },
+ {
+  "year": 2010,
+  "state_id": "madhya_pradesh",
+  "disease": "chikungunya",
+  "true": 113.0,
+  "model": 42.18612478375943,
+  "persistence": 30.0
+ },
+ {
+  "year": 2010,
+  "state_id": "maharashtra",
+  "disease": "dengue",
+  "true": 1489.0,
+  "model": 1492.7963765214308,
+  "persistence": 2255.0
+ },
+ {
+  "year": 2010,
+  "state_id": "maharashtra",
+  "disease": "malaria",
+  "true": 139198.0,
+  "model": 90617.50115976048,
+  "persistence": 93818.0
+ },
+ {
+  "year": 2010,
+  "state_id": "maharashtra",
+  "disease": "chikungunya",
+  "true": 7431.0,
+  "model": 2047.834726621124,
+  "persistence": 1594.0
+ },
+ {
+  "year": 2010,
+  "state_id": "manipur",
+  "disease": "malaria",
+  "true": 947.0,
+  "model": 1123.9748143222248,
+  "persistence": 1069.0
+ },
+ {
+  "year": 2010,
+  "state_id": "meghalaya",
+  "disease": "malaria",
+  "true": 41642.0,
+  "model": 60421.45677899802,
+  "persistence": 76759.0
+ },
+ {
+  "year": 2010,
+  "state_id": "mizoram",
+  "disease": "malaria",
+  "true": 15594.0,
+  "model": 8717.34049371912,
+  "persistence": 9399.0
+ },
+ {
+  "year": 2010,
+  "state_id": "nagaland",
+  "disease": "malaria",
+  "true": 4959.0,
+  "model": 8458.718515343187,
+  "persistence": 8489.0
+ },
+ {
+  "year": 2010,
+  "state_id": "nagaland",
+  "disease": "chikungunya",
+  "true": 0.0,
+  "model": 0.0,
+  "persistence": 0.0
+ },
+ {
+  "year": 2010,
+  "state_id": "odisha",
+  "disease": "malaria",
+  "true": 395651.0,
+  "model": 390250.3112288804,
+  "persistence": 380904.0
+ },
+ {
+  "year": 2010,
+  "state_id": "odisha",
+  "disease": "chikungunya",
+  "true": 544.0,
+  "model": 1927.0720489965352,
+  "persistence": 2306.0
+ },
+ {
+  "year": 2010,
+  "state_id": "puducherry",
+  "disease": "dengue",
+  "true": 96.0,
+  "model": 48.770866077656585,
+  "persistence": 66.0
+ },
+ {
+  "year": 2010,
+  "state_id": "puducherry",
+  "disease": "malaria",
+  "true": 175.0,
+  "model": 67.67469765693875,
+  "persistence": 65.0
+ },
+ {
+  "year": 2010,
+  "state_id": "punjab",
+  "disease": "dengue",
+  "true": 4012.0,
+  "model": 497.8412099004967,
+  "persistence": 245.0
+ },
+ {
+  "year": 2010,
+  "state_id": "punjab",
+  "disease": "malaria",
+  "true": 3477.0000000000005,
+  "model": 1931.730146518764,
+  "persistence": 2955.0
+ },
+ {
+  "year": 2010,
+  "state_id": "rajasthan",
+  "disease": "dengue",
+  "true": 1823.0,
+  "model": 1513.3350750513457,
+  "persistence": 1389.0
+ },
+ {
+  "year": 2010,
+  "state_id": "rajasthan",
+  "disease": "malaria",
+  "true": 50963.0,
+  "model": 28512.4923756527,
+  "persistence": 32709.0
+ },
+ {
+  "year": 2010,
+  "state_id": "rajasthan",
+  "disease": "chikungunya",
+  "true": 1326.0,
+  "model": 256.00000000000006,
+  "persistence": 256.0
+ },
+ {
+  "year": 2010,
+  "state_id": "sikkim",
+  "disease": "malaria",
+  "true": 49.0,
+  "model": 53.55178954329481,
+  "persistence": 42.0
+ },
+ {
+  "year": 2010,
+  "state_id": "tamil_nadu",
+  "disease": "dengue",
+  "true": 2051.0,
+  "model": 856.7451435766825,
+  "persistence": 1072.0
+ },
+ {
+  "year": 2010,
+  "state_id": "tamil_nadu",
+  "disease": "malaria",
+  "true": 17086.0,
+  "model": 15782.336851564898,
+  "persistence": 14988.0
+ },
+ {
+  "year": 2010,
+  "state_id": "tamil_nadu",
+  "disease": "chikungunya",
+  "true": 4319.0,
+  "model": 3208.125353653231,
+  "persistence": 5063.0
+ },
+ {
+  "year": 2010,
+  "state_id": "telangana",
+  "disease": "malaria",
+  "true": 13819.661243854498,
+  "model": 10679.28541757138,
+  "persistence": 10409.131243237456
+ },
+ {
+  "year": 2010,
+  "state_id": "tripura",
+  "disease": "malaria",
+  "true": 23939.0,
+  "model": 22854.49482194711,
+  "persistence": 24430.0
+ },
+ {
+  "year": 2010,
+  "state_id": "uttar_pradesh",
+  "disease": "dengue",
+  "true": 960.0,
+  "model": 195.8238248900653,
+  "persistence": 168.0
+ },
+ {
+  "year": 2010,
+  "state_id": "uttar_pradesh",
+  "disease": "malaria",
+  "true": 64606.0,
+  "model": 53827.23981184877,
+  "persistence": 55437.0
+ },
+ {
+  "year": 2010,
+  "state_id": "uttarakhand",
+  "disease": "malaria",
+  "true": 1672.0,
+  "model": 1167.5908596064144,
+  "persistence": 1264.0
+ },
+ {
+  "year": 2010,
+  "state_id": "west_bengal",
+  "disease": "dengue",
+  "true": 805.0,
+  "model": 356.34540693917893,
+  "persistence": 399.0
+ },
+ {
+  "year": 2010,
+  "state_id": "west_bengal",
+  "disease": "malaria",
+  "true": 134795.0,
+  "model": 160392.08682403024,
+  "persistence": 141211.0
+ },
+ {
+  "year": 2010,
+  "state_id": "west_bengal",
+  "disease": "chikungunya",
+  "true": 20503.0,
+  "model": 2041.283218712089,
+  "persistence": 5270.0
+ },
+ {
+  "year": 2011,
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "dengue",
+  "true": 6.0,
+  "model": 25.000000000000004,
+  "persistence": 25.0
+ },
+ {
+  "year": 2011,
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "malaria",
+  "true": 1918.0,
+  "model": 1744.79521525918,
+  "persistence": 2484.0
+ },
+ {
+  "year": 2011,
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "chikungunya",
+  "true": 96.0,
+  "model": 92.87011208545518,
+  "persistence": 59.0
+ },
+ {
+  "year": 2011,
+  "state_id": "andhra_pradesh",
+  "disease": "dengue",
+  "true": 1209.0,
+  "model": 775.9999999999999,
+  "persistence": 776.0
+ },
+ {
+  "year": 2011,
+  "state_id": "andhra_pradesh",
+  "disease": "malaria",
+  "true": 34949.0,
+  "model": 18523.27144212645,
+  "persistence": 19573.3387561455
+ },
+ {
+  "year": 2011,
+  "state_id": "andhra_pradesh",
+  "disease": "chikungunya",
+  "true": 99.0,
+  "model": 180.6036791397269,
+  "persistence": 116.0
+ },
+ {
+  "year": 2011,
+  "state_id": "arunachal_pradesh",
+  "disease": "malaria",
+  "true": 13950.0,
+  "model": 19494.664798935355,
+  "persistence": 17944.0
+ },
+ {
+  "year": 2011,
+  "state_id": "assam",
+  "disease": "malaria",
+  "true": 47397.0,
+  "model": 60996.53817605638,
+  "persistence": 68353.0
+ },
+ {
+  "year": 2011,
+  "state_id": "bihar",
+  "disease": "dengue",
+  "true": 21.0,
+  "model": 506.2201611496824,
+  "persistence": 510.0
+ },
+ {
+  "year": 2011,
+  "state_id": "bihar",
+  "disease": "malaria",
+  "true": 2643.0,
+  "model": 2014.744124497256,
+  "persistence": 1908.0
+ },
+ {
+  "year": 2011,
+  "state_id": "chandigarh",
+  "disease": "dengue",
+  "true": 73.0,
+  "model": 200.4664333574152,
+  "persistence": 221.0
+ },
+ {
+  "year": 2011,
+  "state_id": "chandigarh",
+  "disease": "malaria",
+  "true": 582.0,
+  "model": 303.7038154293725,
+  "persistence": 351.0
+ },
+ {
+  "year": 2011,
+  "state_id": "chhattisgarh",
+  "disease": "dengue",
+  "true": 313.0,
+  "model": 4.633655621705253,
+  "persistence": 4.0
+ },
+ {
+  "year": 2011,
+  "state_id": "chhattisgarh",
+  "disease": "malaria",
+  "true": 136899.0,
+  "model": 152304.55475832094,
+  "persistence": 152209.0
+ },
+ {
+  "year": 2011,
+  "state_id": "chhattisgarh",
+  "disease": "chikungunya",
+  "true": 0.0,
+  "model": 0.0,
+  "persistence": 0.0
+ },
+ {
+  "year": 2011,
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "dengue",
+  "true": 68.0,
+  "model": 42.10691007009797,
+  "persistence": 46.0
+ },
+ {
+  "year": 2011,
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "malaria",
+  "true": 5412.0,
+  "model": 4607.270732052519,
+  "persistence": 5907.0
+ },
+ {
+  "year": 2011,
+  "state_id": "delhi",
+  "disease": "dengue",
+  "true": 1131.0,
+  "model": 6150.673056556906,
+  "persistence": 6259.0
+ },
+ {
+  "year": 2011,
+  "state_id": "delhi",
+  "disease": "malaria",
+  "true": 413.0,
+  "model": 287.0723898630409,
+  "persistence": 251.0
+ },
+ {
+  "year": 2011,
+  "state_id": "delhi",
+  "disease": "chikungunya",
+  "true": 110.0,
+  "model": 103.09559795464212,
+  "persistence": 120.0
+ },
+ {
+  "year": 2011,
+  "state_id": "goa",
+  "disease": "dengue",
+  "true": 26.0,
+  "model": 225.7261576432894,
+  "persistence": 242.0
+ },
+ {
+  "year": 2011,
+  "state_id": "goa",
+  "disease": "malaria",
+  "true": 1187.0,
+  "model": 2550.33714378091,
+  "persistence": 2368.0
+ },
+ {
+  "year": 2011,
+  "state_id": "goa",
+  "disease": "chikungunya",
+  "true": 664.0,
+  "model": 1176.8120500870325,
+  "persistence": 1429.0
+ },
+ {
+  "year": 2011,
+  "state_id": "gujarat",
+  "disease": "dengue",
+  "true": 1693.0,
+  "model": 2399.760918225195,
+  "persistence": 2568.0
+ },
+ {
+  "year": 2011,
+  "state_id": "gujarat",
+  "disease": "malaria",
+  "true": 89764.0,
+  "model": 61578.68018649519,
+  "persistence": 66501.0
+ },
+ {
+  "year": 2011,
+  "state_id": "gujarat",
+  "disease": "chikungunya",
+  "true": 1042.0,
+  "model": 1603.4292817683324,
+  "persistence": 1709.0
+ },
+ {
+  "year": 2011,
+  "state_id": "haryana",
+  "disease": "dengue",
+  "true": 267.0,
+  "model": 869.5035848779149,
+  "persistence": 866.0
+ },
+ {
+  "year": 2011,
+  "state_id": "haryana",
+  "disease": "malaria",
+  "true": 33401.0,
+  "model": 16343.700868283917,
+  "persistence": 18921.0
+ },
+ {
+  "year": 2011,
+  "state_id": "haryana",
+  "disease": "chikungunya",
+  "true": 215.0,
+  "model": 24.63788019525205,
+  "persistence": 26.0
+ },
+ {
+  "year": 2011,
+  "state_id": "himachal_pradesh",
+  "disease": "malaria",
+  "true": 247.0,
+  "model": 175.38041837853697,
+  "persistence": 210.0
+ },
+ {
+  "year": 2011,
+  "state_id": "jammu_and_kashmir",
+  "disease": "malaria",
+  "true": 1067.1364043134956,
+  "model": 592.4658268763418,
+  "persistence": 784.4577417593248
+ },
+ {
+  "year": 2011,
+  "state_id": "jammu_and_kashmir",
+  "disease": "chikungunya",
+  "true": 0.0,
+  "model": 0.0,
+  "persistence": 0.0
+ },
+ {
+  "year": 2011,
+  "state_id": "jharkhand",
+  "disease": "dengue",
+  "true": 36.0,
+  "model": 27.0,
+  "persistence": 27.0
+ },
+ {
+  "year": 2011,
+  "state_id": "jharkhand",
+  "disease": "malaria",
+  "true": 160653.0,
+  "model": 192812.15733179243,
+  "persistence": 199842.0
+ },
+ {
+  "year": 2011,
+  "state_id": "karnataka",
+  "disease": "dengue",
+  "true": 405.0,
+  "model": 2277.796496472521,
+  "persistence": 2285.0
+ },
+ {
+  "year": 2011,
+  "state_id": "karnataka",
+  "disease": "malaria",
+  "true": 24237.0,
+  "model": 44018.70402719124,
+  "persistence": 44319.0
+ },
+ {
+  "year": 2011,
+  "state_id": "karnataka",
+  "disease": "chikungunya",
+  "true": 1941.0,
+  "model": 7720.87561146916,
+  "persistence": 8740.0
+ },
+ {
+  "year": 2011,
+  "state_id": "kerala",
+  "disease": "dengue",
+  "true": 1304.0,
+  "model": 3162.784036895871,
+  "persistence": 2597.0
+ },
+ {
+  "year": 2011,
+  "state_id": "kerala",
+  "disease": "malaria",
+  "true": 1993.0,
+  "model": 2074.5204838110462,
+  "persistence": 2299.0
+ },
+ {
+  "year": 2011,
+  "state_id": "kerala",
+  "disease": "chikungunya",
+  "true": 183.0,
+  "model": 2361.991972886618,
+  "persistence": 1708.0
+ },
+ {
+  "year": 2011,
+  "state_id": "ladakh",
+  "disease": "dengue",
+  "true": 0.0656194198528985,
+  "model": 0.057637568346838,
+  "persistence": 0.0
+ },
+ {
+  "year": 2011,
+  "state_id": "ladakh",
+  "disease": "malaria",
+  "true": 23.863595686504425,
+  "model": 13.38027155690522,
+  "persistence": 17.54225824067511
+ },
+ {
+  "year": 2011,
+  "state_id": "ladakh",
+  "disease": "chikungunya",
+  "true": 0.0,
+  "model": 0.0,
+  "persistence": 0.0
+ },
+ {
+  "year": 2011,
+  "state_id": "lakshadweep",
+  "disease": "malaria",
+  "true": 8.0,
+  "model": 3.262862451091122,
+  "persistence": 6.0
+ },
+ {
+  "year": 2011,
+  "state_id": "madhya_pradesh",
+  "disease": "dengue",
+  "true": 50.0,
+  "model": 182.32895806371172,
+  "persistence": 175.0
+ },
+ {
+  "year": 2011,
+  "state_id": "madhya_pradesh",
+  "disease": "malaria",
+  "true": 91851.0,
+  "model": 88004.51606692887,
+  "persistence": 87165.0
+ },
+ {
+  "year": 2011,
+  "state_id": "madhya_pradesh",
+  "disease": "chikungunya",
+  "true": 280.0,
+  "model": 86.37208265816287,
+  "persistence": 113.0
+ },
+ {
+  "year": 2011,
+  "state_id": "maharashtra",
+  "disease": "dengue",
+  "true": 1138.0,
+  "model": 1512.259586842781,
+  "persistence": 1489.0
+ },
+ {
+  "year": 2011,
+  "state_id": "maharashtra",
+  "disease": "malaria",
+  "true": 96577.0,
+  "model": 129319.51230334833,
+  "persistence": 139198.0
+ },
+ {
+  "year": 2011,
+  "state_id": "maharashtra",
+  "disease": "chikungunya",
+  "true": 5113.0,
+  "model": 6234.860275495047,
+  "persistence": 7431.0
+ },
+ {
+  "year": 2011,
+  "state_id": "manipur",
+  "disease": "dengue",
+  "true": 220.0,
+  "model": 8.932677193326136,
+  "persistence": 7.0
+ },
+ {
+  "year": 2011,
+  "state_id": "manipur",
+  "disease": "malaria",
+  "true": 714.0,
+  "model": 828.6720064466834,
+  "persistence": 947.0
+ },
+ {
+  "year": 2011,
+  "state_id": "meghalaya",
+  "disease": "malaria",
+  "true": 25143.0,
+  "model": 33247.97983898486,
+  "persistence": 41642.0
+ },
+ {
+  "year": 2011,
+  "state_id": "meghalaya",
+  "disease": "chikungunya",
+  "true": 168.0,
+  "model": 15.967956943858365,
+  "persistence": 16.0
+ },
+ {
+  "year": 2011,
+  "state_id": "mizoram",
+  "disease": "malaria",
+  "true": 8861.0,
+  "model": 13473.974023979776,
+  "persistence": 15594.0
+ },
+ {
+  "year": 2011,
+  "state_id": "nagaland",
+  "disease": "malaria",
+  "true": 3363.0,
+  "model": 5033.171105847151,
+  "persistence": 4959.0
+ },
+ {
+  "year": 2011,
+  "state_id": "nagaland",
+  "disease": "chikungunya",
+  "true": 0.0,
+  "model": 0.0,
+  "persistence": 0.0
+ },
+ {
+  "year": 2011,
+  "state_id": "odisha",
+  "disease": "dengue",
+  "true": 1816.0,
+  "model": 29.000000000000004,
+  "persistence": 29.0
+ },
+ {
+  "year": 2011,
+  "state_id": "odisha",
+  "disease": "malaria",
+  "true": 308968.0,
+  "model": 378272.1025476442,
+  "persistence": 395651.0
+ },
+ {
+  "year": 2011,
+  "state_id": "odisha",
+  "disease": "chikungunya",
+  "true": 236.0,
+  "model": 698.603786725439,
+  "persistence": 544.0
+ },
+ {
+  "year": 2011,
+  "state_id": "puducherry",
+  "disease": "dengue",
+  "true": 463.0,
+  "model": 125.40533816616735,
+  "persistence": 96.0
+ },
+ {
+  "year": 2011,
+  "state_id": "puducherry",
+  "disease": "malaria",
+  "true": 196.0,
+  "model": 149.9757162652547,
+  "persistence": 175.0
+ },
+ {
+  "year": 2011,
+  "state_id": "puducherry",
+  "disease": "chikungunya",
+  "true": 42.0,
+  "model": 17.489528949590582,
+  "persistence": 11.0
+ },
+ {
+  "year": 2011,
+  "state_id": "punjab",
+  "disease": "dengue",
+  "true": 3921.0,
+  "model": 3748.540185773661,
+  "persistence": 4012.0
+ },
+ {
+  "year": 2011,
+  "state_id": "punjab",
+  "disease": "malaria",
+  "true": 2693.0,
+  "model": 2425.314633611129,
+  "persistence": 3477.0000000000005
+ },
+ {
+  "year": 2011,
+  "state_id": "rajasthan",
+  "disease": "dengue",
+  "true": 1072.0,
+  "model": 1690.02810765139,
+  "persistence": 1823.0
+ },
+ {
+  "year": 2011,
+  "state_id": "rajasthan",
+  "disease": "malaria",
+  "true": 54294.0,
+  "model": 49956.80422993583,
+  "persistence": 50963.0
+ },
+ {
+  "year": 2011,
+  "state_id": "rajasthan",
+  "disease": "chikungunya",
+  "true": 608.0,
+  "model": 1014.891147299086,
+  "persistence": 1326.0
+ },
+ {
+  "year": 2011,
+  "state_id": "sikkim",
+  "disease": "malaria",
+  "true": 51.0,
+  "model": 61.21826914395715,
+  "persistence": 49.0
+ },
+ {
+  "year": 2011,
+  "state_id": "tamil_nadu",
+  "disease": "dengue",
+  "true": 2501.0,
+  "model": 2051.0,
+  "persistence": 2051.0
+ },
+ {
+  "year": 2011,
+  "state_id": "tamil_nadu",
+  "disease": "malaria",
+  "true": 22171.0,
+  "model": 15488.312662130871,
+  "persistence": 17086.0
+ },
+ {
+  "year": 2011,
+  "state_id": "tamil_nadu",
+  "disease": "chikungunya",
+  "true": 4194.0,
+  "model": 6885.980162102601,
+  "persistence": 4319.0
+ },
+ {
+  "year": 2011,
+  "state_id": "tripura",
+  "disease": "malaria",
+  "true": 14417.0,
+  "model": 21133.034210157308,
+  "persistence": 23939.0
+ },
+ {
+  "year": 2011,
+  "state_id": "uttar_pradesh",
+  "disease": "dengue",
+  "true": 155.0,
+  "model": 945.12771831173,
+  "persistence": 960.0
+ },
+ {
+  "year": 2011,
+  "state_id": "uttar_pradesh",
+  "disease": "malaria",
+  "true": 56968.0,
+  "model": 65529.28572451376,
+  "persistence": 64606.0
+ },
+ {
+  "year": 2011,
+  "state_id": "uttar_pradesh",
+  "disease": "chikungunya",
+  "true": 3.0,
+  "model": 4.661980866377269,
+  "persistence": 5.0
+ },
+ {
+  "year": 2011,
+  "state_id": "uttarakhand",
+  "disease": "dengue",
+  "true": 454.0,
+  "model": 169.58855063300066,
+  "persistence": 178.0
+ },
+ {
+  "year": 2011,
+  "state_id": "uttarakhand",
+  "disease": "malaria",
+  "true": 1277.0,
+  "model": 1568.4523894776478,
+  "persistence": 1672.0
+ },
+ {
+  "year": 2011,
+  "state_id": "west_bengal",
+  "disease": "dengue",
+  "true": 510.0,
+  "model": 1155.8330815747472,
+  "persistence": 805.0
+ },
+ {
+  "year": 2011,
+  "state_id": "west_bengal",
+  "disease": "malaria",
+  "true": 66368.0,
+  "model": 127034.3375231628,
+  "persistence": 134795.0
+ },
+ {
+  "year": 2011,
+  "state_id": "west_bengal",
+  "disease": "chikungunya",
+  "true": 4482.0,
+  "model": 20503.00000000002,
+  "persistence": 20503.0
+ },
+ {
+  "year": 2012,
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "dengue",
+  "true": 24.0,
+  "model": 6.879993021665029,
+  "persistence": 6.0
+ },
+ {
+  "year": 2012,
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "malaria",
+  "true": 1539.0,
+  "model": 2030.2480102788988,
+  "persistence": 1918.0
+ },
+ {
+  "year": 2012,
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "chikungunya",
+  "true": 256.0,
+  "model": 125.6553345546965,
+  "persistence": 96.0
+ },
+ {
+  "year": 2012,
+  "state_id": "andhra_pradesh",
+  "disease": "dengue",
+  "true": 2299.0,
+  "model": 977.4678232207948,
+  "persistence": 1209.0
+ },
+ {
+  "year": 2012,
+  "state_id": "andhra_pradesh",
+  "disease": "malaria",
+  "true": 24699.0,
+  "model": 31129.642273562626,
+  "persistence": 34949.0
+ },
+ {
+  "year": 2012,
+  "state_id": "andhra_pradesh",
+  "disease": "chikungunya",
+  "true": 2827.0,
+  "model": 120.141231622242,
+  "persistence": 99.0
+ },
+ {
+  "year": 2012,
+  "state_id": "arunachal_pradesh",
+  "disease": "malaria",
+  "true": 8368.0,
+  "model": 17074.772949306407,
+  "persistence": 13950.0
+ },
+ {
+  "year": 2012,
+  "state_id": "assam",
+  "disease": "malaria",
+  "true": 29999.0,
+  "model": 54930.93597256623,
+  "persistence": 47397.0
+ },
+ {
+  "year": 2012,
+  "state_id": "bihar",
+  "disease": "dengue",
+  "true": 872.0,
+  "model": 27.167772839650212,
+  "persistence": 21.0
+ },
+ {
+  "year": 2012,
+  "state_id": "bihar",
+  "disease": "malaria",
+  "true": 2605.0,
+  "model": 2778.187954536344,
+  "persistence": 2643.0
+ },
+ {
+  "year": 2012,
+  "state_id": "bihar",
+  "disease": "chikungunya",
+  "true": 34.0,
+  "model": 90.76371388463464,
+  "persistence": 91.0
+ },
+ {
+  "year": 2012,
+  "state_id": "chandigarh",
+  "disease": "dengue",
+  "true": 351.0,
+  "model": 71.38785655449495,
+  "persistence": 73.0
+ },
+ {
+  "year": 2012,
+  "state_id": "chandigarh",
+  "disease": "malaria",
+  "true": 201.0,
+  "model": 443.3139703761392,
+  "persistence": 582.0
+ },
+ {
+  "year": 2012,
+  "state_id": "chandigarh",
+  "disease": "chikungunya",
+  "true": 1.0,
+  "model": 0.9722840672753442,
+  "persistence": 1.0
+ },
+ {
+  "year": 2012,
+  "state_id": "chhattisgarh",
+  "disease": "dengue",
+  "true": 45.0,
+  "model": 288.7192440906172,
+  "persistence": 313.0
+ },
+ {
+  "year": 2012,
+  "state_id": "chhattisgarh",
+  "disease": "malaria",
+  "true": 124006.0,
+  "model": 128227.73001073996,
+  "persistence": 136899.0
+ },
+ {
+  "year": 2012,
+  "state_id": "chhattisgarh",
+  "disease": "chikungunya",
+  "true": 0.0,
+  "model": 0.0,
+  "persistence": 0.0
+ },
+ {
+  "year": 2012,
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "dengue",
+  "true": 252.0,
+  "model": 59.05945607291229,
+  "persistence": 68.0
+ },
+ {
+  "year": 2012,
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "malaria",
+  "true": 5126.0,
+  "model": 3747.3424045703223,
+  "persistence": 5412.0
+ },
+ {
+  "year": 2012,
+  "state_id": "delhi",
+  "disease": "dengue",
+  "true": 2093.0,
+  "model": 1192.6496679438744,
+  "persistence": 1131.0
+ },
+ {
+  "year": 2012,
+  "state_id": "delhi",
+  "disease": "malaria",
+  "true": 382.0,
+  "model": 340.2479177595589,
+  "persistence": 413.0
+ },
+ {
+  "year": 2012,
+  "state_id": "delhi",
+  "disease": "chikungunya",
+  "true": 6.0,
+  "model": 85.5006601569898,
+  "persistence": 110.0
+ },
+ {
+  "year": 2012,
+  "state_id": "goa",
+  "disease": "dengue",
+  "true": 39.0,
+  "model": 28.344256984223307,
+  "persistence": 26.0
+ },
+ {
+  "year": 2012,
+  "state_id": "goa",
+  "disease": "malaria",
+  "true": 1714.0,
+  "model": 1115.0509995121276,
+  "persistence": 1187.0
+ },
+ {
+  "year": 2012,
+  "state_id": "goa",
+  "disease": "chikungunya",
+  "true": 571.0,
+  "model": 600.5952362661045,
+  "persistence": 664.0
+ },
+ {
+  "year": 2012,
+  "state_id": "gujarat",
+  "disease": "dengue",
+  "true": 3067.0,
+  "model": 1505.8150452299003,
+  "persistence": 1693.0
+ },
+ {
+  "year": 2012,
+  "state_id": "gujarat",
+  "disease": "malaria",
+  "true": 76246.0,
+  "model": 72677.76242321102,
+  "persistence": 89764.0
+ },
+ {
+  "year": 2012,
+  "state_id": "gujarat",
+  "disease": "chikungunya",
+  "true": 1317.0,
+  "model": 903.426835693758,
+  "persistence": 1042.0
+ },
+ {
+  "year": 2012,
+  "state_id": "haryana",
+  "disease": "dengue",
+  "true": 768.0,
+  "model": 264.5583906597221,
+  "persistence": 267.0
+ },
+ {
+  "year": 2012,
+  "state_id": "haryana",
+  "disease": "malaria",
+  "true": 26819.0,
+  "model": 17279.148470887918,
+  "persistence": 33401.0
+ },
+ {
+  "year": 2012,
+  "state_id": "haryana",
+  "disease": "chikungunya",
+  "true": 8.0,
+  "model": 146.9758874087378,
+  "persistence": 215.0
+ },
+ {
+  "year": 2012,
+  "state_id": "himachal_pradesh",
+  "disease": "malaria",
+  "true": 216.0,
+  "model": 202.71840352401065,
+  "persistence": 247.0
+ },
+ {
+  "year": 2012,
+  "state_id": "jammu_and_kashmir",
+  "disease": "dengue",
+  "true": 16.62815662083357,
+  "model": 3.1375621945192846,
+  "persistence": 2.934380580147101
+ },
+ {
+  "year": 2012,
+  "state_id": "jammu_and_kashmir",
+  "disease": "malaria",
+  "true": 845.1016070823649,
+  "model": 771.4294886513175,
+  "persistence": 1067.1364043134956
+ },
+ {
+  "year": 2012,
+  "state_id": "jharkhand",
+  "disease": "dengue",
+  "true": 42.0,
+  "model": 35.99999999999999,
+  "persistence": 36.0
+ },
+ {
+  "year": 2012,
+  "state_id": "jharkhand",
+  "disease": "malaria",
+  "true": 131476.0,
+  "model": 161815.33181285567,
+  "persistence": 160653.0
+ },
+ {
+  "year": 2012,
+  "state_id": "jharkhand",
+  "disease": "chikungunya",
+  "true": 86.0,
+  "model": 815.5016334910864,
+  "persistence": 816.0
+ },
+ {
+  "year": 2012,
+  "state_id": "karnataka",
+  "disease": "dengue",
+  "true": 3924.0,
+  "model": 373.762342560796,
+  "persistence": 405.0
+ },
+ {
+  "year": 2012,
+  "state_id": "karnataka",
+  "disease": "malaria",
+  "true": 16466.0,
+  "model": 19663.825178764168,
+  "persistence": 24237.0
+ },
+ {
+  "year": 2012,
+  "state_id": "karnataka",
+  "disease": "chikungunya",
+  "true": 2382.0,
+  "model": 1983.1968936506044,
+  "persistence": 1941.0
+ },
+ {
+  "year": 2012,
+  "state_id": "kerala",
+  "disease": "dengue",
+  "true": 4172.0,
+  "model": 1138.71942222678,
+  "persistence": 1304.0
+ },
+ {
+  "year": 2012,
+  "state_id": "kerala",
+  "disease": "malaria",
+  "true": 2036.0,
+  "model": 1802.0424707229115,
+  "persistence": 1993.0
+ },
+ {
+  "year": 2012,
+  "state_id": "kerala",
+  "disease": "chikungunya",
+  "true": 66.0,
+  "model": 204.46932821469167,
+  "persistence": 183.0
+ },
+ {
+  "year": 2012,
+  "state_id": "ladakh",
+  "disease": "dengue",
+  "true": 0.37184337916643,
+  "model": 0.0740547842139271,
+  "persistence": 0.0656194198528985
+ },
+ {
+  "year": 2012,
+  "state_id": "ladakh",
+  "disease": "malaria",
+  "true": 18.89839291763504,
+  "model": 17.53795236595272,
+  "persistence": 23.863595686504425
+ },
+ {
+  "year": 2012,
+  "state_id": "lakshadweep",
+  "disease": "malaria",
+  "true": 9.0,
+  "model": 4.745036141218008,
+  "persistence": 8.0
+ },
+ {
+  "year": 2012,
+  "state_id": "madhya_pradesh",
+  "disease": "dengue",
+  "true": 239.0,
+  "model": 46.27843403262315,
+  "persistence": 50.0
+ },
+ {
+  "year": 2012,
+  "state_id": "madhya_pradesh",
+  "disease": "malaria",
+  "true": 76538.0,
+  "model": 84642.44462731933,
+  "persistence": 91851.0
+ },
+ {
+  "year": 2012,
+  "state_id": "madhya_pradesh",
+  "disease": "chikungunya",
+  "true": 20.0,
+  "model": 203.8296152875248,
+  "persistence": 280.0
+ },
+ {
+  "year": 2012,
+  "state_id": "maharashtra",
+  "disease": "dengue",
+  "true": 2931.0,
+  "model": 1034.5386896118405,
+  "persistence": 1138.0
+ },
+ {
+  "year": 2012,
+  "state_id": "maharashtra",
+  "disease": "malaria",
+  "true": 58517.0,
+  "model": 83488.31190510797,
+  "persistence": 96577.0
+ },
+ {
+  "year": 2012,
+  "state_id": "maharashtra",
+  "disease": "chikungunya",
+  "true": 1544.0,
+  "model": 4501.576844839362,
+  "persistence": 5113.0
+ },
+ {
+  "year": 2012,
+  "state_id": "manipur",
+  "disease": "dengue",
+  "true": 6.0,
+  "model": 219.99999999999991,
+  "persistence": 220.0
+ },
+ {
+  "year": 2012,
+  "state_id": "manipur",
+  "disease": "malaria",
+  "true": 255.0,
+  "model": 916.4238747830656,
+  "persistence": 714.0
+ },
+ {
+  "year": 2012,
+  "state_id": "meghalaya",
+  "disease": "malaria",
+  "true": 20834.0,
+  "model": 28672.197278656997,
+  "persistence": 25143.0
+ },
+ {
+  "year": 2012,
+  "state_id": "mizoram",
+  "disease": "malaria",
+  "true": 9883.0,
+  "model": 10075.16069852111,
+  "persistence": 8861.0
+ },
+ {
+  "year": 2012,
+  "state_id": "nagaland",
+  "disease": "malaria",
+  "true": 2891.0,
+  "model": 3999.569606873288,
+  "persistence": 3363.0
+ },
+ {
+  "year": 2012,
+  "state_id": "odisha",
+  "disease": "dengue",
+  "true": 2255.0,
+  "model": 1789.2233913965044,
+  "persistence": 1816.0
+ },
+ {
+  "year": 2012,
+  "state_id": "odisha",
+  "disease": "malaria",
+  "true": 262842.0,
+  "model": 312595.2816350777,
+  "persistence": 308968.0
+ },
+ {
+  "year": 2012,
+  "state_id": "odisha",
+  "disease": "chikungunya",
+  "true": 129.0,
+  "model": 302.9797742316611,
+  "persistence": 236.0
+ },
+ {
+  "year": 2012,
+  "state_id": "puducherry",
+  "disease": "dengue",
+  "true": 3506.0,
+  "model": 390.66040831655,
+  "persistence": 463.0
+ },
+ {
+  "year": 2012,
+  "state_id": "puducherry",
+  "disease": "malaria",
+  "true": 143.0,
+  "model": 160.18284561567566,
+  "persistence": 196.0
+ },
+ {
+  "year": 2012,
+  "state_id": "puducherry",
+  "disease": "chikungunya",
+  "true": 45.0,
+  "model": 45.52917255330616,
+  "persistence": 42.0
+ },
+ {
+  "year": 2012,
+  "state_id": "punjab",
+  "disease": "dengue",
+  "true": 770.0,
+  "model": 3881.104245055987,
+  "persistence": 3921.0
+ },
+ {
+  "year": 2012,
+  "state_id": "punjab",
+  "disease": "malaria",
+  "true": 1689.0,
+  "model": 1738.845537865501,
+  "persistence": 2693.0
+ },
+ {
+  "year": 2012,
+  "state_id": "rajasthan",
+  "disease": "dengue",
+  "true": 1295.0,
+  "model": 1038.7964189581808,
+  "persistence": 1072.0
+ },
+ {
+  "year": 2012,
+  "state_id": "rajasthan",
+  "disease": "malaria",
+  "true": 45809.0,
+  "model": 43844.52947838845,
+  "persistence": 54294.0
+ },
+ {
+  "year": 2012,
+  "state_id": "rajasthan",
+  "disease": "chikungunya",
+  "true": 172.0,
+  "model": 438.3893986766546,
+  "persistence": 608.0
+ },
+ {
+  "year": 2012,
+  "state_id": "sikkim",
+  "disease": "dengue",
+  "true": 2.0,
+  "model": 2.58189080342316,
+  "persistence": 2.0
+ },
+ {
+  "year": 2012,
+  "state_id": "sikkim",
+  "disease": "malaria",
+  "true": 77.0,
+  "model": 67.33071243361718,
+  "persistence": 51.0
+ },
+ {
+  "year": 2012,
+  "state_id": "tamil_nadu",
+  "disease": "dengue",
+  "true": 12826.0,
+  "model": 2227.7224952931074,
+  "persistence": 2501.0
+ },
+ {
+  "year": 2012,
+  "state_id": "tamil_nadu",
+  "disease": "malaria",
+  "true": 18869.0,
+  "model": 19067.56401670071,
+  "persistence": 22171.0
+ },
+ {
+  "year": 2012,
+  "state_id": "tamil_nadu",
+  "disease": "chikungunya",
+  "true": 5018.0,
+  "model": 4937.490741436591,
+  "persistence": 4194.0
+ },
+ {
+  "year": 2012,
+  "state_id": "tripura",
+  "disease": "malaria",
+  "true": 11565.0,
+  "model": 16154.842152309036,
+  "persistence": 14417.0
+ },
+ {
+  "year": 2012,
+  "state_id": "uttar_pradesh",
+  "disease": "dengue",
+  "true": 342.0,
+  "model": 154.86619855593008,
+  "persistence": 155.0
+ },
+ {
+  "year": 2012,
+  "state_id": "uttar_pradesh",
+  "disease": "malaria",
+  "true": 47400.0,
+  "model": 52021.57778130996,
+  "persistence": 56968.0
+ },
+ {
+  "year": 2012,
+  "state_id": "uttar_pradesh",
+  "disease": "chikungunya",
+  "true": 13.0,
+  "model": 2.662819216766213,
+  "persistence": 3.0
+ },
+ {
+  "year": 2012,
+  "state_id": "uttarakhand",
+  "disease": "dengue",
+  "true": 110.0,
+  "model": 435.7182682761133,
+  "persistence": 454.0
+ },
+ {
+  "year": 2012,
+  "state_id": "uttarakhand",
+  "disease": "malaria",
+  "true": 1948.0,
+  "model": 1128.1693198076905,
+  "persistence": 1277.0
+ },
+ {
+  "year": 2012,
+  "state_id": "west_bengal",
+  "disease": "dengue",
+  "true": 6456.0,
+  "model": 779.689960430614,
+  "persistence": 510.0
+ },
+ {
+  "year": 2012,
+  "state_id": "west_bengal",
+  "disease": "malaria",
+  "true": 55793.0,
+  "model": 79170.90346209654,
+  "persistence": 66368.0
+ },
+ {
+  "year": 2012,
+  "state_id": "west_bengal",
+  "disease": "chikungunya",
+  "true": 1381.0,
+  "model": 8588.296778668016,
+  "persistence": 4482.0
+ },
+ {
+  "year": 2013,
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "dengue",
+  "true": 67.0,
+  "model": 25.000000000000004,
+  "persistence": 24.0
+ },
+ {
+  "year": 2013,
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "malaria",
+  "true": 1005.0,
+  "model": 1589.2811898400116,
+  "persistence": 1539.0
+ },
+ {
+  "year": 2013,
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "chikungunya",
+  "true": 202.0,
+  "model": 300.27909786776087,
+  "persistence": 256.0
+ },
+ {
+  "year": 2013,
+  "state_id": "andhra_pradesh",
+  "disease": "dengue",
+  "true": 910.0,
+  "model": 2277.9934287882866,
+  "persistence": 2299.0
+ },
+ {
+  "year": 2013,
+  "state_id": "andhra_pradesh",
+  "disease": "malaria",
+  "true": 19787.0,
+  "model": 24314.850324962757,
+  "persistence": 24699.0
+ },
+ {
+  "year": 2013,
+  "state_id": "andhra_pradesh",
+  "disease": "chikungunya",
+  "true": 4827.0,
+  "model": 4444.166981971905,
+  "persistence": 2827.0
+ },
+ {
+  "year": 2013,
+  "state_id": "arunachal_pradesh",
+  "disease": "malaria",
+  "true": 6398.0,
+  "model": 10495.358044168825,
+  "persistence": 8368.0
+ },
+ {
+  "year": 2013,
+  "state_id": "assam",
+  "disease": "dengue",
+  "true": 4526.0,
+  "model": 1002.8132549159212,
+  "persistence": 1058.0
+ },
+ {
+  "year": 2013,
+  "state_id": "assam",
+  "disease": "malaria",
+  "true": 19542.0,
+  "model": 36106.43581565965,
+  "persistence": 29999.0
+ },
+ {
+  "year": 2013,
+  "state_id": "bihar",
+  "disease": "dengue",
+  "true": 1246.0,
+  "model": 856.9831543213846,
+  "persistence": 872.0
+ },
+ {
+  "year": 2013,
+  "state_id": "bihar",
+  "disease": "malaria",
+  "true": 2693.0,
+  "model": 2739.5990654290504,
+  "persistence": 2605.0
+ },
+ {
+  "year": 2013,
+  "state_id": "chandigarh",
+  "disease": "dengue",
+  "true": 107.0,
+  "model": 350.99999999999983,
+  "persistence": 351.0
+ },
+ {
+  "year": 2013,
+  "state_id": "chandigarh",
+  "disease": "malaria",
+  "true": 150.0,
+  "model": 160.01109326288778,
+  "persistence": 201.0
+ },
+ {
+  "year": 2013,
+  "state_id": "chandigarh",
+  "disease": "chikungunya",
+  "true": 1.0,
+  "model": 0.9772447624627582,
+  "persistence": 1.0
+ },
+ {
+  "year": 2013,
+  "state_id": "chhattisgarh",
+  "disease": "dengue",
+  "true": 83.0,
+  "model": 50.39310861451912,
+  "persistence": 45.0
+ },
+ {
+  "year": 2013,
+  "state_id": "chhattisgarh",
+  "disease": "malaria",
+  "true": 110145.0,
+  "model": 127429.37318312658,
+  "persistence": 124006.0
+ },
+ {
+  "year": 2013,
+  "state_id": "chhattisgarh",
+  "disease": "chikungunya",
+  "true": 0.0,
+  "model": 0.0,
+  "persistence": 0.0
+ },
+ {
+  "year": 2013,
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "dengue",
+  "true": 251.0,
+  "model": 252.00000000000003,
+  "persistence": 252.0
+ },
+ {
+  "year": 2013,
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "malaria",
+  "true": 1869.0,
+  "model": 3868.479582182749,
+  "persistence": 5126.0
+ },
+ {
+  "year": 2013,
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "chikungunya",
+  "true": 2.0,
+  "model": 100.39831897740925,
+  "persistence": 101.0
+ },
+ {
+  "year": 2013,
+  "state_id": "delhi",
+  "disease": "dengue",
+  "true": 5574.0,
+  "model": 2349.113576682399,
+  "persistence": 2093.0
+ },
+ {
+  "year": 2013,
+  "state_id": "delhi",
+  "disease": "malaria",
+  "true": 353.0,
+  "model": 338.2271625170176,
+  "persistence": 382.0
+ },
+ {
+  "year": 2013,
+  "state_id": "delhi",
+  "disease": "chikungunya",
+  "true": 18.0,
+  "model": 6.157528805102955,
+  "persistence": 6.0
+ },
+ {
+  "year": 2013,
+  "state_id": "goa",
+  "disease": "dengue",
+  "true": 198.0,
+  "model": 40.7662222747935,
+  "persistence": 39.0
+ },
+ {
+  "year": 2013,
+  "state_id": "goa",
+  "disease": "malaria",
+  "true": 1530.0,
+  "model": 1984.5255906127493,
+  "persistence": 1714.0
+ },
+ {
+  "year": 2013,
+  "state_id": "goa",
+  "disease": "chikungunya",
+  "true": 1049.0,
+  "model": 737.5317127654353,
+  "persistence": 571.0
+ },
+ {
+  "year": 2013,
+  "state_id": "gujarat",
+  "disease": "dengue",
+  "true": 6272.0,
+  "model": 3067.0000000000023,
+  "persistence": 3067.0
+ },
+ {
+  "year": 2013,
+  "state_id": "gujarat",
+  "disease": "malaria",
+  "true": 58513.0,
+  "model": 66881.04113287681,
+  "persistence": 76246.0
+ },
+ {
+  "year": 2013,
+  "state_id": "gujarat",
+  "disease": "chikungunya",
+  "true": 2890.0,
+  "model": 1226.1395111866204,
+  "persistence": 1317.0
+ },
+ {
+  "year": 2013,
+  "state_id": "haryana",
+  "disease": "dengue",
+  "true": 1784.0,
+  "model": 1137.0,
+  "persistence": 768.0
+ },
+ {
+  "year": 2013,
+  "state_id": "haryana",
+  "disease": "malaria",
+  "true": 14471.0,
+  "model": 14934.69777966034,
+  "persistence": 26819.0
+ },
+ {
+  "year": 2013,
+  "state_id": "haryana",
+  "disease": "chikungunya",
+  "true": 1.0,
+  "model": 5.368880672025884,
+  "persistence": 8.0
+ },
+ {
+  "year": 2013,
+  "state_id": "himachal_pradesh",
+  "disease": "dengue",
+  "true": 89.0,
+  "model": 73.00000000000003,
+  "persistence": 73.0
+ },
+ {
+  "year": 2013,
+  "state_id": "himachal_pradesh",
+  "disease": "malaria",
+  "true": 141.0,
+  "model": 177.85414542972612,
+  "persistence": 216.0
+ },
+ {
+  "year": 2013,
+  "state_id": "jammu_and_kashmir",
+  "disease": "dengue",
+  "true": 1796.8190419100745,
+  "model": 23.230649261189477,
+  "persistence": 16.62815662083357
+ },
+ {
+  "year": 2013,
+  "state_id": "jammu_and_kashmir",
+  "disease": "malaria",
+  "true": 682.7325483142254,
+  "model": 606.611228834518,
+  "persistence": 845.1016070823649
+ },
+ {
+  "year": 2013,
+  "state_id": "jharkhand",
+  "disease": "dengue",
+  "true": 161.0,
+  "model": 42.0,
+  "persistence": 42.0
+ },
+ {
+  "year": 2013,
+  "state_id": "jharkhand",
+  "disease": "malaria",
+  "true": 97786.0,
+  "model": 136541.97201211494,
+  "persistence": 131476.0
+ },
+ {
+  "year": 2013,
+  "state_id": "jharkhand",
+  "disease": "chikungunya",
+  "true": 61.0,
+  "model": 104.41519272522233,
+  "persistence": 86.0
+ },
+ {
+  "year": 2013,
+  "state_id": "karnataka",
+  "disease": "dengue",
+  "true": 6408.0,
+  "model": 3773.481198102867,
+  "persistence": 3924.0
+ },
+ {
+  "year": 2013,
+  "state_id": "karnataka",
+  "disease": "malaria",
+  "true": 13302.0,
+  "model": 18119.58633880556,
+  "persistence": 16466.0
+ },
+ {
+  "year": 2013,
+  "state_id": "karnataka",
+  "disease": "chikungunya",
+  "true": 5295.0,
+  "model": 4148.862205472111,
+  "persistence": 2382.0
+ },
+ {
+  "year": 2013,
+  "state_id": "kerala",
+  "disease": "dengue",
+  "true": 7938.0,
+  "model": 4154.897895191909,
+  "persistence": 4172.0
+ },
+ {
+  "year": 2013,
+  "state_id": "kerala",
+  "disease": "malaria",
+  "true": 1634.0,
+  "model": 1962.2474285282256,
+  "persistence": 2036.0
+ },
+ {
+  "year": 2013,
+  "state_id": "kerala",
+  "disease": "chikungunya",
+  "true": 273.0,
+  "model": 97.6906788633089,
+  "persistence": 66.0
+ },
+ {
+  "year": 2013,
+  "state_id": "ladakh",
+  "disease": "dengue",
+  "true": 40.18095808992542,
+  "model": 0.4729015906631026,
+  "persistence": 0.37184337916643
+ },
+ {
+  "year": 2013,
+  "state_id": "ladakh",
+  "disease": "malaria",
+  "true": 15.2674516857746,
+  "model": 13.72467916622844,
+  "persistence": 18.89839291763504
+ },
+ {
+  "year": 2013,
+  "state_id": "lakshadweep",
+  "disease": "malaria",
+  "true": 8.0,
+  "model": 7.866457010308818,
+  "persistence": 9.0
+ },
+ {
+  "year": 2013,
+  "state_id": "madhya_pradesh",
+  "disease": "dengue",
+  "true": 1255.0,
+  "model": 287.36700556853697,
+  "persistence": 239.0
+ },
+ {
+  "year": 2013,
+  "state_id": "madhya_pradesh",
+  "disease": "malaria",
+  "true": 78260.0,
+  "model": 73889.87862963187,
+  "persistence": 76538.0
+ },
+ {
+  "year": 2013,
+  "state_id": "madhya_pradesh",
+  "disease": "chikungunya",
+  "true": 139.0,
+  "model": 22.13659208918662,
+  "persistence": 20.0
+ },
+ {
+  "year": 2013,
+  "state_id": "maharashtra",
+  "disease": "dengue",
+  "true": 5610.0,
+  "model": 2913.345451088886,
+  "persistence": 2931.0
+ },
+ {
+  "year": 2013,
+  "state_id": "maharashtra",
+  "disease": "malaria",
+  "true": 43677.0,
+  "model": 56914.3319389775,
+  "persistence": 58517.0
+ },
+ {
+  "year": 2013,
+  "state_id": "maharashtra",
+  "disease": "chikungunya",
+  "true": 1578.0,
+  "model": 1918.115483288068,
+  "persistence": 1544.0
+ },
+ {
+  "year": 2013,
+  "state_id": "manipur",
+  "disease": "dengue",
+  "true": 9.0,
+  "model": 5.990205182802812,
+  "persistence": 6.0
+ },
+ {
+  "year": 2013,
+  "state_id": "manipur",
+  "disease": "malaria",
+  "true": 120.0,
+  "model": 342.8001712906527,
+  "persistence": 255.0
+ },
+ {
+  "year": 2013,
+  "state_id": "meghalaya",
+  "disease": "dengue",
+  "true": 43.0,
+  "model": 26.57461347537965,
+  "persistence": 27.0
+ },
+ {
+  "year": 2013,
+  "state_id": "meghalaya",
+  "disease": "malaria",
+  "true": 24727.0,
+  "model": 22666.84439845693,
+  "persistence": 20834.0
+ },
+ {
+  "year": 2013,
+  "state_id": "mizoram",
+  "disease": "dengue",
+  "true": 7.0,
+  "model": 5.980933282438161,
+  "persistence": 6.0
+ },
+ {
+  "year": 2013,
+  "state_id": "mizoram",
+  "disease": "malaria",
+  "true": 11747.0,
+  "model": 11089.272167993962,
+  "persistence": 9883.0
+ },
+ {
+  "year": 2013,
+  "state_id": "nagaland",
+  "disease": "malaria",
+  "true": 2285.0,
+  "model": 3379.0229931929134,
+  "persistence": 2891.0
+ },
+ {
+  "year": 2013,
+  "state_id": "odisha",
+  "disease": "dengue",
+  "true": 7132.0,
+  "model": 2253.188181252337,
+  "persistence": 2255.0
+ },
+ {
+  "year": 2013,
+  "state_id": "odisha",
+  "disease": "malaria",
+  "true": 228858.0,
+  "model": 271855.3535561439,
+  "persistence": 262842.0
+ },
+ {
+  "year": 2013,
+  "state_id": "odisha",
+  "disease": "chikungunya",
+  "true": 35.0,
+  "model": 180.96444593805776,
+  "persistence": 129.0
+ },
+ {
+  "year": 2013,
+  "state_id": "puducherry",
+  "disease": "dengue",
+  "true": 2215.0,
+  "model": 3480.4338082493523,
+  "persistence": 3506.0
+ },
+ {
+  "year": 2013,
+  "state_id": "puducherry",
+  "disease": "malaria",
+  "true": 127.0,
+  "model": 133.24973754101245,
+  "persistence": 143.0
+ },
+ {
+  "year": 2013,
+  "state_id": "puducherry",
+  "disease": "chikungunya",
+  "true": 146.0,
+  "model": 52.37824005650634,
+  "persistence": 45.0
+ },
+ {
+  "year": 2013,
+  "state_id": "punjab",
+  "disease": "dengue",
+  "true": 4117.0,
+  "model": 1304.240280034248,
+  "persistence": 770.0
+ },
+ {
+  "year": 2013,
+  "state_id": "punjab",
+  "disease": "malaria",
+  "true": 1760.0,
+  "model": 1119.441990410602,
+  "persistence": 1689.0
+ },
+ {
+  "year": 2013,
+  "state_id": "rajasthan",
+  "disease": "dengue",
+  "true": 4413.0,
+  "model": 1704.4881780921023,
+  "persistence": 1295.0
+ },
+ {
+  "year": 2013,
+  "state_id": "rajasthan",
+  "disease": "malaria",
+  "true": 33139.0,
+  "model": 38876.13598972691,
+  "persistence": 45809.0
+ },
+ {
+  "year": 2013,
+  "state_id": "rajasthan",
+  "disease": "chikungunya",
+  "true": 76.0,
+  "model": 122.77310487802208,
+  "persistence": 172.0
+ },
+ {
+  "year": 2013,
+  "state_id": "sikkim",
+  "disease": "dengue",
+  "true": 38.0,
+  "model": 2.021971069367047,
+  "persistence": 2.0
+ },
+ {
+  "year": 2013,
+  "state_id": "sikkim",
+  "disease": "malaria",
+  "true": 39.0,
+  "model": 93.71072006624316,
+  "persistence": 77.0
+ },
+ {
+  "year": 2013,
+  "state_id": "tamil_nadu",
+  "disease": "dengue",
+  "true": 6122.0,
+  "model": 12660.00078053117,
+  "persistence": 12826.0
+ },
+ {
+  "year": 2013,
+  "state_id": "tamil_nadu",
+  "disease": "malaria",
+  "true": 15081.0,
+  "model": 18189.014431524105,
+  "persistence": 18869.0
+ },
+ {
+  "year": 2013,
+  "state_id": "tamil_nadu",
+  "disease": "chikungunya",
+  "true": 859.0,
+  "model": 7463.751448171195,
+  "persistence": 5018.0
+ },
+ {
+  "year": 2013,
+  "state_id": "tripura",
+  "disease": "dengue",
+  "true": 8.0,
+  "model": 8.976349271061352,
+  "persistence": 9.0
+ },
+ {
+  "year": 2013,
+  "state_id": "tripura",
+  "disease": "malaria",
+  "true": 7396.0,
+  "model": 12962.521039349138,
+  "persistence": 11565.0
+ },
+ {
+  "year": 2013,
+  "state_id": "uttar_pradesh",
+  "disease": "dengue",
+  "true": 1414.0,
+  "model": 430.5373576426345,
+  "persistence": 342.0
+ },
+ {
+  "year": 2013,
+  "state_id": "uttar_pradesh",
+  "disease": "malaria",
+  "true": 48346.0,
+  "model": 43925.012852265216,
+  "persistence": 47400.0
+ },
+ {
+  "year": 2013,
+  "state_id": "uttarakhand",
+  "disease": "dengue",
+  "true": 54.0,
+  "model": 139.81836714592865,
+  "persistence": 110.0
+ },
+ {
+  "year": 2013,
+  "state_id": "uttarakhand",
+  "disease": "malaria",
+  "true": 1426.0,
+  "model": 1712.371461326046,
+  "persistence": 1948.0
+ },
+ {
+  "year": 2013,
+  "state_id": "west_bengal",
+  "disease": "dengue",
+  "true": 5920.0,
+  "model": 6207.646171410236,
+  "persistence": 6456.0
+ },
+ {
+  "year": 2013,
+  "state_id": "west_bengal",
+  "disease": "malaria",
+  "true": 34717.0,
+  "model": 65316.08035383115,
+  "persistence": 55793.0
+ },
+ {
+  "year": 2013,
+  "state_id": "west_bengal",
+  "disease": "chikungunya",
+  "true": 646.0,
+  "model": 2839.460354062968,
+  "persistence": 1381.0
+ },
+ {
+  "year": 2014,
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "malaria",
+  "true": 557.0,
+  "model": 733.3857393810167,
+  "persistence": 1005.0
+ },
+ {
+  "year": 2014,
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "chikungunya",
+  "true": 161.0,
+  "model": 146.1515432656981,
+  "persistence": 202.0
+ },
+ {
+  "year": 2014,
+  "state_id": "andhra_pradesh",
+  "disease": "malaria",
+  "true": 21077.0,
+  "model": 18147.89005041604,
+  "persistence": 19787.0
+ },
+ {
+  "year": 2014,
+  "state_id": "andhra_pradesh",
+  "disease": "chikungunya",
+  "true": 1359.0,
+  "model": 3432.808625142147,
+  "persistence": 4827.0
+ },
+ {
+  "year": 2014,
+  "state_id": "arunachal_pradesh",
+  "disease": "malaria",
+  "true": 6082.0,
+  "model": 7074.632593591233,
+  "persistence": 6398.0
+ },
+ {
+  "year": 2014,
+  "state_id": "assam",
+  "disease": "malaria",
+  "true": 14540.0,
+  "model": 20191.329433915245,
+  "persistence": 19542.0
+ },
+ {
+  "year": 2014,
+  "state_id": "bihar",
+  "disease": "malaria",
+  "true": 2043.0,
+  "model": 2484.0751203258906,
+  "persistence": 2693.0
+ },
+ {
+  "year": 2014,
+  "state_id": "chandigarh",
+  "disease": "malaria",
+  "true": 114.0,
+  "model": 121.2827474357559,
+  "persistence": 150.0
+ },
+ {
+  "year": 2014,
+  "state_id": "chhattisgarh",
+  "disease": "malaria",
+  "true": 128993.0,
+  "model": 101977.0306874504,
+  "persistence": 110145.0
+ },
+ {
+  "year": 2014,
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "malaria",
+  "true": 725.0,
+  "model": 1343.339179776359,
+  "persistence": 1869.0
+ },
+ {
+  "year": 2014,
+  "state_id": "delhi",
+  "disease": "malaria",
+  "true": 98.0,
+  "model": 310.732021646673,
+  "persistence": 353.0
+ },
+ {
+  "year": 2014,
+  "state_id": "delhi",
+  "disease": "chikungunya",
+  "true": 8.0,
+  "model": 24.61696140290431,
+  "persistence": 18.0
+ },
+ {
+  "year": 2014,
+  "state_id": "goa",
+  "disease": "malaria",
+  "true": 824.0,
+  "model": 1483.9186756050483,
+  "persistence": 1530.0
+ },
+ {
+  "year": 2014,
+  "state_id": "goa",
+  "disease": "chikungunya",
+  "true": 1205.0,
+  "model": 1012.382872287644,
+  "persistence": 1049.0
+ },
+ {
+  "year": 2014,
+  "state_id": "gujarat",
+  "disease": "malaria",
+  "true": 41608.0,
+  "model": 49654.08668875627,
+  "persistence": 58513.0
+ },
+ {
+  "year": 2014,
+  "state_id": "gujarat",
+  "disease": "chikungunya",
+  "true": 574.0,
+  "model": 2417.564446928453,
+  "persistence": 2890.0
+ },
+ {
+  "year": 2014,
+  "state_id": "haryana",
+  "disease": "malaria",
+  "true": 4485.0,
+  "model": 8435.981158467426,
+  "persistence": 14471.0
+ },
+ {
+  "year": 2014,
+  "state_id": "haryana",
+  "disease": "chikungunya",
+  "true": 3.0,
+  "model": 1.050176676682255,
+  "persistence": 1.0
+ },
+ {
+  "year": 2014,
+  "state_id": "himachal_pradesh",
+  "disease": "malaria",
+  "true": 102.0,
+  "model": 116.88311778212515,
+  "persistence": 141.0
+ },
+ {
+  "year": 2014,
+  "state_id": "jammu_and_kashmir",
+  "disease": "malaria",
+  "true": 284.63491627426873,
+  "model": 494.26273615728,
+  "persistence": 682.7325483142254
+ },
+ {
+  "year": 2014,
+  "state_id": "jharkhand",
+  "disease": "malaria",
+  "true": 103735.0,
+  "model": 85800.65071334156,
+  "persistence": 97786.0
+ },
+ {
+  "year": 2014,
+  "state_id": "jharkhand",
+  "disease": "chikungunya",
+  "true": 11.0,
+  "model": 53.241708253625696,
+  "persistence": 61.0
+ },
+ {
+  "year": 2014,
+  "state_id": "karnataka",
+  "disease": "malaria",
+  "true": 14794.0,
+  "model": 12492.439459776548,
+  "persistence": 13302.0
+ },
+ {
+  "year": 2014,
+  "state_id": "karnataka",
+  "disease": "chikungunya",
+  "true": 6962.0,
+  "model": 5842.10960833936,
+  "persistence": 5295.0
+ },
+ {
+  "year": 2014,
+  "state_id": "kerala",
+  "disease": "malaria",
+  "true": 1751.0000000000002,
+  "model": 1518.7743399178537,
+  "persistence": 1634.0
+ },
+ {
+  "year": 2014,
+  "state_id": "kerala",
+  "disease": "chikungunya",
+  "true": 272.0,
+  "model": 327.59082219207204,
+  "persistence": 273.0
+ },
+ {
+  "year": 2014,
+  "state_id": "ladakh",
+  "disease": "malaria",
+  "true": 6.365083725731244,
+  "model": 11.140872542767395,
+  "persistence": 15.2674516857746
+ },
+ {
+  "year": 2014,
+  "state_id": "lakshadweep",
+  "disease": "malaria",
+  "true": 0.0,
+  "model": 6.454796613122959,
+  "persistence": 8.0
+ },
+ {
+  "year": 2014,
+  "state_id": "madhya_pradesh",
+  "disease": "malaria",
+  "true": 96879.0,
+  "model": 73011.79587794213,
+  "persistence": 78260.0
+ },
+ {
+  "year": 2014,
+  "state_id": "madhya_pradesh",
+  "disease": "chikungunya",
+  "true": 161.0,
+  "model": 124.92115269466308,
+  "persistence": 139.0
+ },
+ {
+  "year": 2014,
+  "state_id": "maharashtra",
+  "disease": "malaria",
+  "true": 53385.0,
+  "model": 40140.99650806268,
+  "persistence": 43677.0
+ },
+ {
+  "year": 2014,
+  "state_id": "maharashtra",
+  "disease": "chikungunya",
+  "true": 1572.0,
+  "model": 1370.5759413908538,
+  "persistence": 1578.0
+ },
+ {
+  "year": 2014,
+  "state_id": "manipur",
+  "disease": "malaria",
+  "true": 145.0,
+  "model": 149.7065819437265,
+  "persistence": 120.0
+ },
+ {
+  "year": 2014,
+  "state_id": "meghalaya",
+  "disease": "malaria",
+  "true": 39168.0,
+  "model": 22116.74356127612,
+  "persistence": 24727.0
+ },
+ {
+  "year": 2014,
+  "state_id": "mizoram",
+  "disease": "malaria",
+  "true": 23145.0,
+  "model": 12585.488127314376,
+  "persistence": 11747.0
+ },
+ {
+  "year": 2014,
+  "state_id": "nagaland",
+  "disease": "malaria",
+  "true": 1936.0,
+  "model": 2474.1719209408307,
+  "persistence": 2285.0
+ },
+ {
+  "year": 2014,
+  "state_id": "odisha",
+  "disease": "malaria",
+  "true": 395035.0,
+  "model": 208694.30036289312,
+  "persistence": 228858.0
+ },
+ {
+  "year": 2014,
+  "state_id": "odisha",
+  "disease": "chikungunya",
+  "true": 10.0,
+  "model": 25.370245917421325,
+  "persistence": 35.0
+ },
+ {
+  "year": 2014,
+  "state_id": "puducherry",
+  "disease": "malaria",
+  "true": 79.0,
+  "model": 108.92545410548492,
+  "persistence": 127.0
+ },
+ {
+  "year": 2014,
+  "state_id": "puducherry",
+  "disease": "chikungunya",
+  "true": 399.0,
+  "model": 142.48334756915366,
+  "persistence": 146.0
+ },
+ {
+  "year": 2014,
+  "state_id": "punjab",
+  "disease": "malaria",
+  "true": 1036.0,
+  "model": 1200.5738257206085,
+  "persistence": 1760.0
+ },
+ {
+  "year": 2014,
+  "state_id": "rajasthan",
+  "disease": "malaria",
+  "true": 15118.0,
+  "model": 27737.2923142037,
+  "persistence": 33139.0
+ },
+ {
+  "year": 2014,
+  "state_id": "rajasthan",
+  "disease": "chikungunya",
+  "true": 50.0,
+  "model": 67.62677754871059,
+  "persistence": 76.0
+ },
+ {
+  "year": 2014,
+  "state_id": "sikkim",
+  "disease": "malaria",
+  "true": 35.0,
+  "model": 36.63824648094887,
+  "persistence": 39.0
+ },
+ {
+  "year": 2014,
+  "state_id": "tamil_nadu",
+  "disease": "malaria",
+  "true": 8729.0,
+  "model": 13525.713186733728,
+  "persistence": 15081.0
+ },
+ {
+  "year": 2014,
+  "state_id": "tamil_nadu",
+  "disease": "chikungunya",
+  "true": 543.0,
+  "model": 795.2071756440197,
+  "persistence": 859.0
+ },
+ {
+  "year": 2014,
+  "state_id": "tripura",
+  "disease": "malaria",
+  "true": 51240.0,
+  "model": 7959.9998764112,
+  "persistence": 7396.0
+ },
+ {
+  "year": 2014,
+  "state_id": "uttar_pradesh",
+  "disease": "malaria",
+  "true": 41612.0,
+  "model": 43357.73085269413,
+  "persistence": 48346.0
+ },
+ {
+  "year": 2014,
+  "state_id": "uttarakhand",
+  "disease": "malaria",
+  "true": 1171.0,
+  "model": 1265.2473462369232,
+  "persistence": 1426.0
+ },
+ {
+  "year": 2014,
+  "state_id": "west_bengal",
+  "disease": "malaria",
+  "true": 26484.0,
+  "model": 29084.29181220573,
+  "persistence": 34717.0
+ },
+ {
+  "year": 2014,
+  "state_id": "west_bengal",
+  "disease": "chikungunya",
+  "true": 1032.0,
+  "model": 406.99754010400414,
+  "persistence": 646.0
+ },
+ {
+  "year": 2015,
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "malaria",
+  "true": 409.0,
+  "model": 670.1571705434548,
+  "persistence": 557.0
+ },
+ {
+  "year": 2015,
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "chikungunya",
+  "true": 68.0,
+  "model": 237.827204180101,
+  "persistence": 161.0
+ },
+ {
+  "year": 2015,
+  "state_id": "andhra_pradesh",
+  "disease": "malaria",
+  "true": 25042.0,
+  "model": 23316.716844661347,
+  "persistence": 21077.0
+ },
+ {
+  "year": 2015,
+  "state_id": "andhra_pradesh",
+  "disease": "chikungunya",
+  "true": 817.0,
+  "model": 4227.633589882449,
+  "persistence": 1359.0
+ },
+ {
+  "year": 2015,
+  "state_id": "arunachal_pradesh",
+  "disease": "malaria",
+  "true": 5088.0,
+  "model": 7944.53351062904,
+  "persistence": 6082.0
+ },
+ {
+  "year": 2015,
+  "state_id": "assam",
+  "disease": "malaria",
+  "true": 15557.0,
+  "model": 18684.4866541088,
+  "persistence": 14540.0
+ },
+ {
+  "year": 2015,
+  "state_id": "bihar",
+  "disease": "malaria",
+  "true": 4006.0,
+  "model": 2254.3444736889182,
+  "persistence": 2043.0
+ },
+ {
+  "year": 2015,
+  "state_id": "chandigarh",
+  "disease": "malaria",
+  "true": 152.0,
+  "model": 137.2952736217045,
+  "persistence": 114.0
+ },
+ {
+  "year": 2015,
+  "state_id": "chhattisgarh",
+  "disease": "malaria",
+  "true": 144886.0,
+  "model": 146062.09202655606,
+  "persistence": 128993.0
+ },
+ {
+  "year": 2015,
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "malaria",
+  "true": 502.0,
+  "model": 911.227572086342,
+  "persistence": 725.0
+ },
+ {
+  "year": 2015,
+  "state_id": "delhi",
+  "disease": "malaria",
+  "true": 54.0,
+  "model": 133.86790060464207,
+  "persistence": 98.0
+ },
+ {
+  "year": 2015,
+  "state_id": "goa",
+  "disease": "malaria",
+  "true": 651.0,
+  "model": 1113.3375354590364,
+  "persistence": 824.0
+ },
+ {
+  "year": 2015,
+  "state_id": "goa",
+  "disease": "chikungunya",
+  "true": 561.0,
+  "model": 1684.8081599805485,
+  "persistence": 1205.0
+ },
+ {
+  "year": 2015,
+  "state_id": "gujarat",
+  "disease": "malaria",
+  "true": 41566.0,
+  "model": 49587.51830818861,
+  "persistence": 41608.0
+ },
+ {
+  "year": 2015,
+  "state_id": "gujarat",
+  "disease": "chikungunya",
+  "true": 406.0,
+  "model": 1086.4029370535134,
+  "persistence": 574.0
+ },
+ {
+  "year": 2015,
+  "state_id": "haryana",
+  "disease": "malaria",
+  "true": 9308.0,
+  "model": 7325.880791107919,
+  "persistence": 4485.0
+ },
+ {
+  "year": 2015,
+  "state_id": "haryana",
+  "disease": "chikungunya",
+  "true": 1.0,
+  "model": 6.738114044464832,
+  "persistence": 3.0
+ },
+ {
+  "year": 2015,
+  "state_id": "himachal_pradesh",
+  "disease": "malaria",
+  "true": 60.0,
+  "model": 102.58217684781198,
+  "persistence": 102.0
+ },
+ {
+  "year": 2015,
+  "state_id": "jammu_and_kashmir",
+  "disease": "malaria",
+  "true": 216.0,
+  "model": 222.69475819113973,
+  "persistence": 284.63491627426873
+ },
+ {
+  "year": 2015,
+  "state_id": "jharkhand",
+  "disease": "malaria",
+  "true": 104800.0,
+  "model": 118358.2636241137,
+  "persistence": 103735.0
+ },
+ {
+  "year": 2015,
+  "state_id": "jharkhand",
+  "disease": "chikungunya",
+  "true": 21.0,
+  "model": 22.355765850928407,
+  "persistence": 11.0
+ },
+ {
+  "year": 2015,
+  "state_id": "karnataka",
+  "disease": "malaria",
+  "true": 12445.0,
+  "model": 20404.7380702454,
+  "persistence": 14794.0
+ },
+ {
+  "year": 2015,
+  "state_id": "karnataka",
+  "disease": "chikungunya",
+  "true": 20763.0,
+  "model": 15013.307736934665,
+  "persistence": 6962.0
+ },
+ {
+  "year": 2015,
+  "state_id": "kerala",
+  "disease": "malaria",
+  "true": 1549.0,
+  "model": 1892.067919872815,
+  "persistence": 1751.0000000000002
+ },
+ {
+  "year": 2015,
+  "state_id": "kerala",
+  "disease": "chikungunya",
+  "true": 175.0,
+  "model": 741.7677405621862,
+  "persistence": 272.0
+ },
+ {
+  "year": 2015,
+  "state_id": "ladakh",
+  "disease": "malaria",
+  "true": 0.0,
+  "model": 4.662996458270855,
+  "persistence": 6.365083725731244
+ },
+ {
+  "year": 2015,
+  "state_id": "lakshadweep",
+  "disease": "malaria",
+  "true": 4.0,
+  "model": 0.3502968817345398,
+  "persistence": 0.0
+ },
+ {
+  "year": 2015,
+  "state_id": "madhya_pradesh",
+  "disease": "malaria",
+  "true": 100597.0,
+  "model": 106729.38773460954,
+  "persistence": 96879.0
+ },
+ {
+  "year": 2015,
+  "state_id": "madhya_pradesh",
+  "disease": "chikungunya",
+  "true": 67.0,
+  "model": 463.30925383433777,
+  "persistence": 161.0
+ },
+ {
+  "year": 2015,
+  "state_id": "maharashtra",
+  "disease": "malaria",
+  "true": 56603.0,
+  "model": 61544.0064473149,
+  "persistence": 53385.0
+ },
+ {
+  "year": 2015,
+  "state_id": "maharashtra",
+  "disease": "chikungunya",
+  "true": 78.0,
+  "model": 3294.192540193843,
+  "persistence": 1572.0
+ },
+ {
+  "year": 2015,
+  "state_id": "manipur",
+  "disease": "malaria",
+  "true": 216.0,
+  "model": 210.5745855473704,
+  "persistence": 145.0
+ },
+ {
+  "year": 2015,
+  "state_id": "meghalaya",
+  "disease": "malaria",
+  "true": 48603.0,
+  "model": 42085.963754900855,
+  "persistence": 39168.0
+ },
+ {
+  "year": 2015,
+  "state_id": "mizoram",
+  "disease": "malaria",
+  "true": 28593.0,
+  "model": 23145.000000000004,
+  "persistence": 23145.0
+ },
+ {
+  "year": 2015,
+  "state_id": "nagaland",
+  "disease": "malaria",
+  "true": 1527.0,
+  "model": 2279.3690444643184,
+  "persistence": 1936.0
+ },
+ {
+  "year": 2015,
+  "state_id": "odisha",
+  "disease": "malaria",
+  "true": 436850.0,
+  "model": 428707.4065222044,
+  "persistence": 395035.0
+ },
+ {
+  "year": 2015,
+  "state_id": "odisha",
+  "disease": "chikungunya",
+  "true": 81.0,
+  "model": 25.876175053065708,
+  "persistence": 10.0
+ },
+ {
+  "year": 2015,
+  "state_id": "puducherry",
+  "disease": "malaria",
+  "true": 54.0,
+  "model": 91.76035132205888,
+  "persistence": 79.0
+ },
+ {
+  "year": 2015,
+  "state_id": "puducherry",
+  "disease": "chikungunya",
+  "true": 245.0,
+  "model": 541.9999999999999,
+  "persistence": 399.0
+ },
+ {
+  "year": 2015,
+  "state_id": "punjab",
+  "disease": "malaria",
+  "true": 596.0,
+  "model": 1264.0837385624989,
+  "persistence": 1036.0
+ },
+ {
+  "year": 2015,
+  "state_id": "punjab",
+  "disease": "chikungunya",
+  "true": 180.0,
+  "model": 2.0000000000000004,
+  "persistence": 2.0
+ },
+ {
+  "year": 2015,
+  "state_id": "rajasthan",
+  "disease": "malaria",
+  "true": 11796.0,
+  "model": 19009.500668464843,
+  "persistence": 15118.0
+ },
+ {
+  "year": 2015,
+  "state_id": "rajasthan",
+  "disease": "chikungunya",
+  "true": 7.0,
+  "model": 121.20954542325416,
+  "persistence": 50.0
+ },
+ {
+  "year": 2015,
+  "state_id": "sikkim",
+  "disease": "malaria",
+  "true": 27.0,
+  "model": 41.91181586151315,
+  "persistence": 35.0
+ },
+ {
+  "year": 2015,
+  "state_id": "tamil_nadu",
+  "disease": "malaria",
+  "true": 5587.0,
+  "model": 10203.959375180011,
+  "persistence": 8729.0
+ },
+ {
+  "year": 2015,
+  "state_id": "tamil_nadu",
+  "disease": "chikungunya",
+  "true": 329.0,
+  "model": 1291.4926551423107,
+  "persistence": 543.0
+ },
+ {
+  "year": 2015,
+  "state_id": "telangana",
+  "disease": "malaria",
+  "true": 10951.0,
+  "model": 5984.2133446199,
+  "persistence": 5189.0
+ },
+ {
+  "year": 2015,
+  "state_id": "telangana",
+  "disease": "chikungunya",
+  "true": 2067.0,
+  "model": 6113.149946953654,
+  "persistence": 1687.0
+ },
+ {
+  "year": 2015,
+  "state_id": "tripura",
+  "disease": "malaria",
+  "true": 32525.0,
+  "model": 51240.00000000004,
+  "persistence": 51240.0
+ },
+ {
+  "year": 2015,
+  "state_id": "tripura",
+  "disease": "chikungunya",
+  "true": 180.0,
+  "model": 33.99999999999999,
+  "persistence": 34.0
+ },
+ {
+  "year": 2015,
+  "state_id": "uttar_pradesh",
+  "disease": "malaria",
+  "true": 42767.0,
+  "model": 48155.10097683547,
+  "persistence": 41612.0
+ },
+ {
+  "year": 2015,
+  "state_id": "uttarakhand",
+  "disease": "malaria",
+  "true": 1466.0,
+  "model": 1257.4350142484166,
+  "persistence": 1171.0
+ },
+ {
+  "year": 2015,
+  "state_id": "west_bengal",
+  "disease": "malaria",
+  "true": 24208.0,
+  "model": 34451.60316737551,
+  "persistence": 26484.0
+ },
+ {
+  "year": 2015,
+  "state_id": "west_bengal",
+  "disease": "chikungunya",
+  "true": 1013.0,
+  "model": 2579.750087254516,
+  "persistence": 1032.0
+ },
+ {
+  "year": 2016,
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "malaria",
+  "true": 485.0,
+  "model": 525.1433061885795,
+  "persistence": 409.0
+ },
+ {
+  "year": 2016,
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "chikungunya",
+  "true": 18.0,
+  "model": 80.54678095541605,
+  "persistence": 68.0
+ },
+ {
+  "year": 2016,
+  "state_id": "andhra_pradesh",
+  "disease": "malaria",
+  "true": 23613.0,
+  "model": 27678.396968869016,
+  "persistence": 25042.0
+ },
+ {
+  "year": 2016,
+  "state_id": "andhra_pradesh",
+  "disease": "chikungunya",
+  "true": 960.0,
+  "model": 1086.8481908261183,
+  "persistence": 817.0
+ },
+ {
+  "year": 2016,
+  "state_id": "arunachal_pradesh",
+  "disease": "malaria",
+  "true": 3128.0,
+  "model": 6308.584724521407,
+  "persistence": 5088.0
+ },
+ {
+  "year": 2016,
+  "state_id": "arunachal_pradesh",
+  "disease": "chikungunya",
+  "true": 239.0,
+  "model": 34.77230559754539,
+  "persistence": 35.0
+ },
+ {
+  "year": 2016,
+  "state_id": "assam",
+  "disease": "malaria",
+  "true": 7826.0,
+  "model": 19180.85233387483,
+  "persistence": 15557.0
+ },
+ {
+  "year": 2016,
+  "state_id": "bihar",
+  "disease": "malaria",
+  "true": 5189.0,
+  "model": 4108.000000000002,
+  "persistence": 4006.0
+ },
+ {
+  "year": 2016,
+  "state_id": "bihar",
+  "disease": "chikungunya",
+  "true": 566.0,
+  "model": 3.959923988903821,
+  "persistence": 3.0
+ },
+ {
+  "year": 2016,
+  "state_id": "chandigarh",
+  "disease": "malaria",
+  "true": 157.0,
+  "model": 182.21916008966147,
+  "persistence": 152.0
+ },
+ {
+  "year": 2016,
+  "state_id": "chandigarh",
+  "disease": "chikungunya",
+  "true": 2857.0,
+  "model": 0.9967544796390326,
+  "persistence": 1.0
+ },
+ {
+  "year": 2016,
+  "state_id": "chhattisgarh",
+  "disease": "malaria",
+  "true": 148220.0,
+  "model": 162155.55499178564,
+  "persistence": 144886.0
+ },
+ {
+  "year": 2016,
+  "state_id": "chhattisgarh",
+  "disease": "chikungunya",
+  "true": 0.0,
+  "model": 0.0,
+  "persistence": 0.0
+ },
+ {
+  "year": 2016,
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "malaria",
+  "true": 423.0,
+  "model": 671.9366906258641,
+  "persistence": 502.0
+ },
+ {
+  "year": 2016,
+  "state_id": "delhi",
+  "disease": "malaria",
+  "true": 31.0,
+  "model": 74.95556532435675,
+  "persistence": 54.0
+ },
+ {
+  "year": 2016,
+  "state_id": "goa",
+  "disease": "malaria",
+  "true": 742.0,
+  "model": 895.7185244004946,
+  "persistence": 651.0
+ },
+ {
+  "year": 2016,
+  "state_id": "goa",
+  "disease": "chikungunya",
+  "true": 337.0,
+  "model": 600.7658107713322,
+  "persistence": 561.0
+ },
+ {
+  "year": 2016,
+  "state_id": "gujarat",
+  "disease": "malaria",
+  "true": 44783.0,
+  "model": 50123.83276938336,
+  "persistence": 41566.0
+ },
+ {
+  "year": 2016,
+  "state_id": "gujarat",
+  "disease": "chikungunya",
+  "true": 3285.0,
+  "model": 487.0820879347767,
+  "persistence": 406.0
+ },
+ {
+  "year": 2016,
+  "state_id": "haryana",
+  "disease": "malaria",
+  "true": 7866.0,
+  "model": 14830.051361685437,
+  "persistence": 9308.0
+ },
+ {
+  "year": 2016,
+  "state_id": "haryana",
+  "disease": "chikungunya",
+  "true": 5394.0,
+  "model": 1.1881680029275026,
+  "persistence": 1.0
+ },
+ {
+  "year": 2016,
+  "state_id": "himachal_pradesh",
+  "disease": "malaria",
+  "true": 106.0,
+  "model": 68.65195194264614,
+  "persistence": 60.0
+ },
+ {
+  "year": 2016,
+  "state_id": "jammu_and_kashmir",
+  "disease": "malaria",
+  "true": 242.0,
+  "model": 239.0109147384211,
+  "persistence": 216.0
+ },
+ {
+  "year": 2016,
+  "state_id": "jammu_and_kashmir",
+  "disease": "chikungunya",
+  "true": 0.978126860049033,
+  "model": 0.0,
+  "persistence": 0.0
+ },
+ {
+  "year": 2016,
+  "state_id": "jharkhand",
+  "disease": "malaria",
+  "true": 141414.0,
+  "model": 118483.64220217348,
+  "persistence": 104800.0
+ },
+ {
+  "year": 2016,
+  "state_id": "jharkhand",
+  "disease": "chikungunya",
+  "true": 47.0,
+  "model": 27.564605525871524,
+  "persistence": 21.0
+ },
+ {
+  "year": 2016,
+  "state_id": "karnataka",
+  "disease": "malaria",
+  "true": 11078.0,
+  "model": 17205.243781115943,
+  "persistence": 12445.0
+ },
+ {
+  "year": 2016,
+  "state_id": "karnataka",
+  "disease": "chikungunya",
+  "true": 15666.0,
+  "model": 23352.39425145821,
+  "persistence": 20763.0
+ },
+ {
+  "year": 2016,
+  "state_id": "kerala",
+  "disease": "malaria",
+  "true": 1547.0,
+  "model": 1683.256149763483,
+  "persistence": 1549.0
+ },
+ {
+  "year": 2016,
+  "state_id": "kerala",
+  "disease": "chikungunya",
+  "true": 129.0,
+  "model": 234.47367747468425,
+  "persistence": 175.0
+ },
+ {
+  "year": 2016,
+  "state_id": "ladakh",
+  "disease": "malaria",
+  "true": 0.0,
+  "model": 0.0670539549909564,
+  "persistence": 0.0
+ },
+ {
+  "year": 2016,
+  "state_id": "ladakh",
+  "disease": "chikungunya",
+  "true": 0.0218731399509659,
+  "model": 0.0,
+  "persistence": 0.0
+ },
+ {
+  "year": 2016,
+  "state_id": "lakshadweep",
+  "disease": "malaria",
+  "true": 2.0,
+  "model": 5.515398474999974,
+  "persistence": 4.0
+ },
+ {
+  "year": 2016,
+  "state_id": "madhya_pradesh",
+  "disease": "malaria",
+  "true": 69106.0,
+  "model": 110000.80554882257,
+  "persistence": 100597.0
+ },
+ {
+  "year": 2016,
+  "state_id": "madhya_pradesh",
+  "disease": "chikungunya",
+  "true": 2280.0,
+  "model": 92.77948295621556,
+  "persistence": 67.0
+ },
+ {
+  "year": 2016,
+  "state_id": "maharashtra",
+  "disease": "malaria",
+  "true": 23983.0,
+  "model": 64739.96158463447,
+  "persistence": 56603.0
+ },
+ {
+  "year": 2016,
+  "state_id": "maharashtra",
+  "disease": "chikungunya",
+  "true": 7570.0,
+  "model": 98.31075213546949,
+  "persistence": 78.0
+ },
+ {
+  "year": 2016,
+  "state_id": "manipur",
+  "disease": "malaria",
+  "true": 122.0,
+  "model": 284.3759223454011,
+  "persistence": 216.0
+ },
+ {
+  "year": 2016,
+  "state_id": "meghalaya",
+  "disease": "malaria",
+  "true": 35147.0,
+  "model": 51657.37954217017,
+  "persistence": 48603.0
+ },
+ {
+  "year": 2016,
+  "state_id": "mizoram",
+  "disease": "malaria",
+  "true": 7583.0,
+  "model": 28593.00000000001,
+  "persistence": 28593.0
+ },
+ {
+  "year": 2016,
+  "state_id": "nagaland",
+  "disease": "malaria",
+  "true": 828.0,
+  "model": 1744.920960218493,
+  "persistence": 1527.0
+ },
+ {
+  "year": 2016,
+  "state_id": "nagaland",
+  "disease": "chikungunya",
+  "true": 0.0,
+  "model": 0.0,
+  "persistence": 0.0
+ },
+ {
+  "year": 2016,
+  "state_id": "odisha",
+  "disease": "malaria",
+  "true": 444843.0,
+  "model": 469036.6893937043,
+  "persistence": 436850.0
+ },
+ {
+  "year": 2016,
+  "state_id": "odisha",
+  "disease": "chikungunya",
+  "true": 51.0,
+  "model": 114.83981604114022,
+  "persistence": 81.0
+ },
+ {
+  "year": 2016,
+  "state_id": "puducherry",
+  "disease": "malaria",
+  "true": 76.0,
+  "model": 63.36104727240426,
+  "persistence": 54.0
+ },
+ {
+  "year": 2016,
+  "state_id": "puducherry",
+  "disease": "chikungunya",
+  "true": 463.0,
+  "model": 269.03163143715705,
+  "persistence": 245.0
+ },
+ {
+  "year": 2016,
+  "state_id": "punjab",
+  "disease": "malaria",
+  "true": 693.0,
+  "model": 771.8134527585458,
+  "persistence": 596.0
+ },
+ {
+  "year": 2016,
+  "state_id": "punjab",
+  "disease": "chikungunya",
+  "true": 4407.0,
+  "model": 164.8999272082497,
+  "persistence": 180.0
+ },
+ {
+  "year": 2016,
+  "state_id": "rajasthan",
+  "disease": "malaria",
+  "true": 12741.0,
+  "model": 15303.467265039284,
+  "persistence": 11796.0
+ },
+ {
+  "year": 2016,
+  "state_id": "rajasthan",
+  "disease": "chikungunya",
+  "true": 2506.0,
+  "model": 8.972175537073605,
+  "persistence": 7.0
+ },
+ {
+  "year": 2016,
+  "state_id": "sikkim",
+  "disease": "malaria",
+  "true": 15.0,
+  "model": 32.47793345292053,
+  "persistence": 27.0
+ },
+ {
+  "year": 2016,
+  "state_id": "tamil_nadu",
+  "disease": "malaria",
+  "true": 4341.0,
+  "model": 6820.744176257017,
+  "persistence": 5587.0
+ },
+ {
+  "year": 2016,
+  "state_id": "tamil_nadu",
+  "disease": "chikungunya",
+  "true": 86.0,
+  "model": 390.40357897662506,
+  "persistence": 329.0
+ },
+ {
+  "year": 2016,
+  "state_id": "telangana",
+  "disease": "malaria",
+  "true": 3512.0,
+  "model": 12460.055687592345,
+  "persistence": 10951.0
+ },
+ {
+  "year": 2016,
+  "state_id": "telangana",
+  "disease": "chikungunya",
+  "true": 611.0,
+  "model": 2779.4350188409844,
+  "persistence": 2067.0
+ },
+ {
+  "year": 2016,
+  "state_id": "tripura",
+  "disease": "malaria",
+  "true": 10546.0,
+  "model": 33714.04030019104,
+  "persistence": 32525.0
+ },
+ {
+  "year": 2016,
+  "state_id": "tripura",
+  "disease": "chikungunya",
+  "true": 311.0,
+  "model": 173.9650171887878,
+  "persistence": 180.0
+ },
+ {
+  "year": 2016,
+  "state_id": "uttar_pradesh",
+  "disease": "malaria",
+  "true": 40700.0,
+  "model": 49292.274169021344,
+  "persistence": 42767.0
+ },
+ {
+  "year": 2016,
+  "state_id": "uttarakhand",
+  "disease": "malaria",
+  "true": 961.0,
+  "model": 1592.324865512781,
+  "persistence": 1466.0
+ },
+ {
+  "year": 2016,
+  "state_id": "west_bengal",
+  "disease": "malaria",
+  "true": 35236.0,
+  "model": 31950.602695295285,
+  "persistence": 24208.0
+ },
+ {
+  "year": 2016,
+  "state_id": "west_bengal",
+  "disease": "chikungunya",
+  "true": 1071.0,
+  "model": 1299.385539934757,
+  "persistence": 1013.0
+ },
+ {
+  "year": 2017,
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "malaria",
+  "true": 505.0,
+  "model": 528.2857596648846,
+  "persistence": 485.0
+ },
+ {
+  "year": 2017,
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "chikungunya",
+  "true": 93.0,
+  "model": 30.97693745671544,
+  "persistence": 18.0
+ },
+ {
+  "year": 2017,
+  "state_id": "andhra_pradesh",
+  "disease": "malaria",
+  "true": 16972.0,
+  "model": 24848.66833529961,
+  "persistence": 23613.0
+ },
+ {
+  "year": 2017,
+  "state_id": "andhra_pradesh",
+  "disease": "chikungunya",
+  "true": 1162.0,
+  "model": 2189.395837016095,
+  "persistence": 960.0
+ },
+ {
+  "year": 2017,
+  "state_id": "arunachal_pradesh",
+  "disease": "malaria",
+  "true": 1546.0,
+  "model": 3190.174842558446,
+  "persistence": 3128.0
+ },
+ {
+  "year": 2017,
+  "state_id": "arunachal_pradesh",
+  "disease": "chikungunya",
+  "true": 133.0,
+  "model": 221.49935460845347,
+  "persistence": 239.0
+ },
+ {
+  "year": 2017,
+  "state_id": "assam",
+  "disease": "malaria",
+  "true": 5281.0,
+  "model": 8175.637552016783,
+  "persistence": 7826.0
+ },
+ {
+  "year": 2017,
+  "state_id": "assam",
+  "disease": "chikungunya",
+  "true": 41.0,
+  "model": 38.791954520738834,
+  "persistence": 40.0
+ },
+ {
+  "year": 2017,
+  "state_id": "bihar",
+  "disease": "malaria",
+  "true": 4020.0,
+  "model": 5189.0,
+  "persistence": 5189.0
+ },
+ {
+  "year": 2017,
+  "state_id": "bihar",
+  "disease": "chikungunya",
+  "true": 1251.0,
+  "model": 529.1574756157386,
+  "persistence": 566.0
+ },
+ {
+  "year": 2017,
+  "state_id": "chandigarh",
+  "disease": "malaria",
+  "true": 114.0,
+  "model": 156.9333590598118,
+  "persistence": 157.0
+ },
+ {
+  "year": 2017,
+  "state_id": "chandigarh",
+  "disease": "chikungunya",
+  "true": 1810.0,
+  "model": 1821.1011796094065,
+  "persistence": 2857.0
+ },
+ {
+  "year": 2017,
+  "state_id": "chhattisgarh",
+  "disease": "malaria",
+  "true": 140727.0,
+  "model": 155974.76787288886,
+  "persistence": 148220.0
+ },
+ {
+  "year": 2017,
+  "state_id": "chhattisgarh",
+  "disease": "chikungunya",
+  "true": 0.0,
+  "model": 0.0,
+  "persistence": 0.0
+ },
+ {
+  "year": 2017,
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "malaria",
+  "true": 328.0,
+  "model": 480.3559646497324,
+  "persistence": 423.0
+ },
+ {
+  "year": 2017,
+  "state_id": "delhi",
+  "disease": "malaria",
+  "true": 577.0,
+  "model": 33.638828710399466,
+  "persistence": 31.0
+ },
+ {
+  "year": 2017,
+  "state_id": "delhi",
+  "disease": "chikungunya",
+  "true": 940.0,
+  "model": 10120.129111940045,
+  "persistence": 12279.0
+ },
+ {
+  "year": 2017,
+  "state_id": "goa",
+  "disease": "malaria",
+  "true": 653.0,
+  "model": 839.2318683045783,
+  "persistence": 742.0
+ },
+ {
+  "year": 2017,
+  "state_id": "goa",
+  "disease": "chikungunya",
+  "true": 509.0,
+  "model": 382.3435146663929,
+  "persistence": 337.0
+ },
+ {
+  "year": 2017,
+  "state_id": "gujarat",
+  "disease": "malaria",
+  "true": 38588.0,
+  "model": 48375.19698861433,
+  "persistence": 44783.0
+ },
+ {
+  "year": 2017,
+  "state_id": "gujarat",
+  "disease": "chikungunya",
+  "true": 7953.0,
+  "model": 3784.031749628929,
+  "persistence": 3285.0
+ },
+ {
+  "year": 2017,
+  "state_id": "haryana",
+  "disease": "malaria",
+  "true": 5696.0,
+  "model": 8774.893505461177,
+  "persistence": 7866.0
+ },
+ {
+  "year": 2017,
+  "state_id": "haryana",
+  "disease": "chikungunya",
+  "true": 220.0,
+  "model": 4033.30596700833,
+  "persistence": 5394.0
+ },
+ {
+  "year": 2017,
+  "state_id": "himachal_pradesh",
+  "disease": "malaria",
+  "true": 96.0,
+  "model": 113.0241556414765,
+  "persistence": 106.0
+ },
+ {
+  "year": 2017,
+  "state_id": "jammu_and_kashmir",
+  "disease": "malaria",
+  "true": 226.0,
+  "model": 262.47429665975864,
+  "persistence": 242.0
+ },
+ {
+  "year": 2017,
+  "state_id": "jammu_and_kashmir",
+  "disease": "chikungunya",
+  "true": 0.0,
+  "model": 0.9308147795569296,
+  "persistence": 0.978126860049033
+ },
+ {
+  "year": 2017,
+  "state_id": "jharkhand",
+  "disease": "malaria",
+  "true": 94114.0,
+  "model": 149099.28891312002,
+  "persistence": 141414.0
+ },
+ {
+  "year": 2017,
+  "state_id": "jharkhand",
+  "disease": "chikungunya",
+  "true": 269.0,
+  "model": 58.755335360442814,
+  "persistence": 47.0
+ },
+ {
+  "year": 2017,
+  "state_id": "karnataka",
+  "disease": "malaria",
+  "true": 7381.0,
+  "model": 13084.404530849017,
+  "persistence": 11078.0
+ },
+ {
+  "year": 2017,
+  "state_id": "karnataka",
+  "disease": "chikungunya",
+  "true": 32831.0,
+  "model": 23279.256883134374,
+  "persistence": 15666.0
+ },
+ {
+  "year": 2017,
+  "state_id": "kerala",
+  "disease": "malaria",
+  "true": 1192.0,
+  "model": 1620.4952823051538,
+  "persistence": 1547.0
+ },
+ {
+  "year": 2017,
+  "state_id": "kerala",
+  "disease": "chikungunya",
+  "true": 78.0,
+  "model": 338.0419319694074,
+  "persistence": 129.0
+ },
+ {
+  "year": 2017,
+  "state_id": "ladakh",
+  "disease": "malaria",
+  "true": 0.0,
+  "model": 0.1306559921579963,
+  "persistence": 0.0
+ },
+ {
+  "year": 2017,
+  "state_id": "ladakh",
+  "disease": "chikungunya",
+  "true": 0.0,
+  "model": 0.0175129902460407,
+  "persistence": 0.0218731399509659
+ },
+ {
+  "year": 2017,
+  "state_id": "lakshadweep",
+  "disease": "malaria",
+  "true": 1.0,
+  "model": 2.442166132112811,
+  "persistence": 2.0
+ },
+ {
+  "year": 2017,
+  "state_id": "madhya_pradesh",
+  "disease": "malaria",
+  "true": 47541.0,
+  "model": 71698.43490242552,
+  "persistence": 69106.0
+ },
+ {
+  "year": 2017,
+  "state_id": "madhya_pradesh",
+  "disease": "chikungunya",
+  "true": 2477.0,
+  "model": 2879.7852037857465,
+  "persistence": 2280.0
+ },
+ {
+  "year": 2017,
+  "state_id": "maharashtra",
+  "disease": "malaria",
+  "true": 17710.0,
+  "model": 25953.76842228092,
+  "persistence": 23983.0
+ },
+ {
+  "year": 2017,
+  "state_id": "maharashtra",
+  "disease": "chikungunya",
+  "true": 8110.0,
+  "model": 10676.554993991616,
+  "persistence": 7570.0
+ },
+ {
+  "year": 2017,
+  "state_id": "manipur",
+  "disease": "malaria",
+  "true": 80.0,
+  "model": 129.62598556558677,
+  "persistence": 122.0
+ },
+ {
+  "year": 2017,
+  "state_id": "meghalaya",
+  "disease": "malaria",
+  "true": 16454.0,
+  "model": 34707.39906745699,
+  "persistence": 35147.0
+ },
+ {
+  "year": 2017,
+  "state_id": "meghalaya",
+  "disease": "chikungunya",
+  "true": 236.0,
+  "model": 322.7964238513702,
+  "persistence": 360.0
+ },
+ {
+  "year": 2017,
+  "state_id": "mizoram",
+  "disease": "malaria",
+  "true": 5715.0,
+  "model": 7683.988335261092,
+  "persistence": 7583.0
+ },
+ {
+  "year": 2017,
+  "state_id": "nagaland",
+  "disease": "malaria",
+  "true": 394.0,
+  "model": 846.3727075933158,
+  "persistence": 828.0
+ },
+ {
+  "year": 2017,
+  "state_id": "nagaland",
+  "disease": "chikungunya",
+  "true": 0.0,
+  "model": 0.0,
+  "persistence": 0.0
+ },
+ {
+  "year": 2017,
+  "state_id": "odisha",
+  "disease": "malaria",
+  "true": 347860.0,
+  "model": 461674.8665063218,
+  "persistence": 444843.0
+ },
+ {
+  "year": 2017,
+  "state_id": "puducherry",
+  "disease": "malaria",
+  "true": 60.0,
+  "model": 82.05953077914198,
+  "persistence": 76.0
+ },
+ {
+  "year": 2017,
+  "state_id": "puducherry",
+  "disease": "chikungunya",
+  "true": 475.0,
+  "model": 541.9999999999999,
+  "persistence": 463.0
+ },
+ {
+  "year": 2017,
+  "state_id": "punjab",
+  "disease": "malaria",
+  "true": 805.0,
+  "model": 745.3746923938517,
+  "persistence": 693.0
+ },
+ {
+  "year": 2017,
+  "state_id": "punjab",
+  "disease": "chikungunya",
+  "true": 3251.0,
+  "model": 3298.438764711109,
+  "persistence": 4407.0
+ },
+ {
+  "year": 2017,
+  "state_id": "rajasthan",
+  "disease": "malaria",
+  "true": 10607.0,
+  "model": 14049.261830610203,
+  "persistence": 12741.0
+ },
+ {
+  "year": 2017,
+  "state_id": "rajasthan",
+  "disease": "chikungunya",
+  "true": 1612.0,
+  "model": 2138.7886289866096,
+  "persistence": 2506.0
+ },
+ {
+  "year": 2017,
+  "state_id": "sikkim",
+  "disease": "malaria",
+  "true": 14.0,
+  "model": 16.236824787450065,
+  "persistence": 15.0
+ },
+ {
+  "year": 2017,
+  "state_id": "sikkim",
+  "disease": "chikungunya",
+  "true": 130.0,
+  "model": 30.0,
+  "persistence": 30.0
+ },
+ {
+  "year": 2017,
+  "state_id": "tamil_nadu",
+  "disease": "malaria",
+  "true": 5444.0,
+  "model": 4875.037811351851,
+  "persistence": 4341.0
+ },
+ {
+  "year": 2017,
+  "state_id": "tamil_nadu",
+  "disease": "chikungunya",
+  "true": 131.0,
+  "model": 172.61795594158778,
+  "persistence": 86.0
+ },
+ {
+  "year": 2017,
+  "state_id": "telangana",
+  "disease": "malaria",
+  "true": 2688.0,
+  "model": 3792.66960184271,
+  "persistence": 3512.0
+ },
+ {
+  "year": 2017,
+  "state_id": "telangana",
+  "disease": "chikungunya",
+  "true": 1277.0,
+  "model": 1078.047840051921,
+  "persistence": 611.0
+ },
+ {
+  "year": 2017,
+  "state_id": "tripura",
+  "disease": "malaria",
+  "true": 7051.0,
+  "model": 10524.694868007611,
+  "persistence": 10546.0
+ },
+ {
+  "year": 2017,
+  "state_id": "tripura",
+  "disease": "chikungunya",
+  "true": 574.0,
+  "model": 299.16795191549426,
+  "persistence": 311.0
+ },
+ {
+  "year": 2017,
+  "state_id": "uttar_pradesh",
+  "disease": "malaria",
+  "true": 32345.0,
+  "model": 43147.39491402167,
+  "persistence": 40700.0
+ },
+ {
+  "year": 2017,
+  "state_id": "uttar_pradesh",
+  "disease": "chikungunya",
+  "true": 103.0,
+  "model": 2065.1615328187327,
+  "persistence": 2458.0
+ },
+ {
+  "year": 2017,
+  "state_id": "uttarakhand",
+  "disease": "malaria",
+  "true": 508.0,
+  "model": 985.7168967862872,
+  "persistence": 961.0
+ },
+ {
+  "year": 2017,
+  "state_id": "west_bengal",
+  "disease": "malaria",
+  "true": 31265.0,
+  "model": 40031.57721589024,
+  "persistence": 35236.0
+ },
+ {
+  "year": 2017,
+  "state_id": "west_bengal",
+  "disease": "chikungunya",
+  "true": 2103.0,
+  "model": 1850.3906370939883,
+  "persistence": 1071.0
+ },
+ {
+  "year": 2018,
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "dengue",
+  "true": 49.0,
+  "model": 23.776751607318516,
+  "persistence": 18.0
+ },
+ {
+  "year": 2018,
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "malaria",
+  "true": 259.0,
+  "model": 407.1760456385603,
+  "persistence": 505.0
+ },
+ {
+  "year": 2018,
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "chikungunya",
+  "true": 205.0,
+  "model": 68.28703056943662,
+  "persistence": 93.0
+ },
+ {
+  "year": 2018,
+  "state_id": "andhra_pradesh",
+  "disease": "dengue",
+  "true": 4011.0,
+  "model": 4161.992494731773,
+  "persistence": 4925.0
+ },
+ {
+  "year": 2018,
+  "state_id": "andhra_pradesh",
+  "disease": "malaria",
+  "true": 6040.0,
+  "model": 15714.350896147516,
+  "persistence": 16972.0
+ },
+ {
+  "year": 2018,
+  "state_id": "andhra_pradesh",
+  "disease": "chikungunya",
+  "true": 622.0,
+  "model": 391.96709931236177,
+  "persistence": 1162.0
+ },
+ {
+  "year": 2018,
+  "state_id": "arunachal_pradesh",
+  "disease": "dengue",
+  "true": 1.0,
+  "model": 39.09079796129458,
+  "persistence": 18.0
+ },
+ {
+  "year": 2018,
+  "state_id": "arunachal_pradesh",
+  "disease": "malaria",
+  "true": 625.0,
+  "model": 1096.801282318858,
+  "persistence": 1546.0
+ },
+ {
+  "year": 2018,
+  "state_id": "arunachal_pradesh",
+  "disease": "chikungunya",
+  "true": 507.0,
+  "model": 100.86339475141948,
+  "persistence": 133.0
+ },
+ {
+  "year": 2018,
+  "state_id": "assam",
+  "disease": "dengue",
+  "true": 166.0,
+  "model": 5024.000000000001,
+  "persistence": 5024.0
+ },
+ {
+  "year": 2018,
+  "state_id": "assam",
+  "disease": "malaria",
+  "true": 3816.0,
+  "model": 3590.4800195344164,
+  "persistence": 5281.0
+ },
+ {
+  "year": 2018,
+  "state_id": "assam",
+  "disease": "chikungunya",
+  "true": 3.0,
+  "model": 21.79936783824928,
+  "persistence": 41.0
+ },
+ {
+  "year": 2018,
+  "state_id": "bihar",
+  "disease": "dengue",
+  "true": 2142.0,
+  "model": 1490.3600166146043,
+  "persistence": 1854.0
+ },
+ {
+  "year": 2018,
+  "state_id": "bihar",
+  "disease": "malaria",
+  "true": 1536.0,
+  "model": 3687.418983519086,
+  "persistence": 4020.0
+ },
+ {
+  "year": 2018,
+  "state_id": "bihar",
+  "disease": "chikungunya",
+  "true": 156.0,
+  "model": 520.6129657905417,
+  "persistence": 1251.0
+ },
+ {
+  "year": 2018,
+  "state_id": "chandigarh",
+  "disease": "dengue",
+  "true": 301.0,
+  "model": 943.7500976497056,
+  "persistence": 1125.0
+ },
+ {
+  "year": 2018,
+  "state_id": "chandigarh",
+  "disease": "malaria",
+  "true": 44.0,
+  "model": 98.49670802054202,
+  "persistence": 114.0
+ },
+ {
+  "year": 2018,
+  "state_id": "chandigarh",
+  "disease": "chikungunya",
+  "true": 357.0,
+  "model": 422.161282456146,
+  "persistence": 1810.0
+ },
+ {
+  "year": 2018,
+  "state_id": "chhattisgarh",
+  "disease": "dengue",
+  "true": 2674.0,
+  "model": 381.6002482105509,
+  "persistence": 444.00000000000006
+ },
+ {
+  "year": 2018,
+  "state_id": "chhattisgarh",
+  "disease": "malaria",
+  "true": 78717.0,
+  "model": 129820.84266393182,
+  "persistence": 140727.0
+ },
+ {
+  "year": 2018,
+  "state_id": "chhattisgarh",
+  "disease": "chikungunya",
+  "true": 0.0,
+  "model": 0.0,
+  "persistence": 0.0
+ },
+ {
+  "year": 2018,
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "dengue",
+  "true": 656.0,
+  "model": 1889.6057149661729,
+  "persistence": 2123.0
+ },
+ {
+  "year": 2018,
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "malaria",
+  "true": 245.0,
+  "model": 263.42233955778573,
+  "persistence": 328.0
+ },
+ {
+  "year": 2018,
+  "state_id": "delhi",
+  "disease": "dengue",
+  "true": 7136.0,
+  "model": 7877.045612848079,
+  "persistence": 9271.0
+ },
+ {
+  "year": 2018,
+  "state_id": "delhi",
+  "disease": "malaria",
+  "true": 473.0,
+  "model": 445.5298523465887,
+  "persistence": 577.0
+ },
+ {
+  "year": 2018,
+  "state_id": "delhi",
+  "disease": "chikungunya",
+  "true": 407.0,
+  "model": 359.6579087420507,
+  "persistence": 940.0
+ },
+ {
+  "year": 2018,
+  "state_id": "goa",
+  "disease": "dengue",
+  "true": 335.0,
+  "model": 257.0725465706358,
+  "persistence": 235.0
+ },
+ {
+  "year": 2018,
+  "state_id": "goa",
+  "disease": "malaria",
+  "true": 377.0,
+  "model": 505.1924950501885,
+  "persistence": 653.0
+ },
+ {
+  "year": 2018,
+  "state_id": "goa",
+  "disease": "chikungunya",
+  "true": 455.0,
+  "model": 322.6103967617537,
+  "persistence": 509.0
+ },
+ {
+  "year": 2018,
+  "state_id": "gujarat",
+  "disease": "dengue",
+  "true": 7579.000000000001,
+  "model": 5144.611507439861,
+  "persistence": 4753.0
+ },
+ {
+  "year": 2018,
+  "state_id": "gujarat",
+  "disease": "malaria",
+  "true": 22114.0,
+  "model": 33747.155634770985,
+  "persistence": 38588.0
+ },
+ {
+  "year": 2018,
+  "state_id": "gujarat",
+  "disease": "chikungunya",
+  "true": 10601.0,
+  "model": 4023.875096730624,
+  "persistence": 7953.0
+ },
+ {
+  "year": 2018,
+  "state_id": "haryana",
+  "disease": "dengue",
+  "true": 1898.0,
+  "model": 3557.76937202001,
+  "persistence": 4550.0
+ },
+ {
+  "year": 2018,
+  "state_id": "haryana",
+  "disease": "malaria",
+  "true": 3149.0,
+  "model": 4217.245007667426,
+  "persistence": 5696.0
+ },
+ {
+  "year": 2018,
+  "state_id": "haryana",
+  "disease": "chikungunya",
+  "true": 62.0,
+  "model": 69.57982709362,
+  "persistence": 220.0
+ },
+ {
+  "year": 2018,
+  "state_id": "himachal_pradesh",
+  "disease": "dengue",
+  "true": 4672.0,
+  "model": 369.95629826059286,
+  "persistence": 452.0
+ },
+ {
+  "year": 2018,
+  "state_id": "himachal_pradesh",
+  "disease": "malaria",
+  "true": 98.0,
+  "model": 85.67853681935442,
+  "persistence": 96.0
+ },
+ {
+  "year": 2018,
+  "state_id": "jammu_and_kashmir",
+  "disease": "dengue",
+  "true": 214.0,
+  "model": 740.9339991541038,
+  "persistence": 488.0
+ },
+ {
+  "year": 2018,
+  "state_id": "jammu_and_kashmir",
+  "disease": "malaria",
+  "true": 168.0,
+  "model": 198.30041939828936,
+  "persistence": 226.0
+ },
+ {
+  "year": 2018,
+  "state_id": "jammu_and_kashmir",
+  "disease": "chikungunya",
+  "true": 1.0,
+  "model": 0.0,
+  "persistence": 0.0
+ },
+ {
+  "year": 2018,
+  "state_id": "jharkhand",
+  "disease": "dengue",
+  "true": 463.0,
+  "model": 637.7033576309499,
+  "persistence": 710.0
+ },
+ {
+  "year": 2018,
+  "state_id": "jharkhand",
+  "disease": "malaria",
+  "true": 57095.0,
+  "model": 85443.3424418457,
+  "persistence": 94114.0
+ },
+ {
+  "year": 2018,
+  "state_id": "jharkhand",
+  "disease": "chikungunya",
+  "true": 3405.0,
+  "model": 145.12608964379874,
+  "persistence": 269.0
+ },
+ {
+  "year": 2018,
+  "state_id": "karnataka",
+  "disease": "dengue",
+  "true": 4427.0,
+  "model": 15759.185480303802,
+  "persistence": 17844.0
+ },
+ {
+  "year": 2018,
+  "state_id": "karnataka",
+  "disease": "malaria",
+  "true": 5721.0,
+  "model": 5693.988729380543,
+  "persistence": 7381.0
+ },
+ {
+  "year": 2018,
+  "state_id": "karnataka",
+  "disease": "chikungunya",
+  "true": 20411.0,
+  "model": 15040.384323319226,
+  "persistence": 32831.0
+ },
+ {
+  "year": 2018,
+  "state_id": "kerala",
+  "disease": "dengue",
+  "true": 4083.0,
+  "model": 19641.324640556733,
+  "persistence": 19994.0
+ },
+ {
+  "year": 2018,
+  "state_id": "kerala",
+  "disease": "malaria",
+  "true": 908.0,
+  "model": 1108.253290985834,
+  "persistence": 1192.0
+ },
+ {
+  "year": 2018,
+  "state_id": "kerala",
+  "disease": "chikungunya",
+  "true": 77.0,
+  "model": 32.47544361317619,
+  "persistence": 78.0
+ },
+ {
+  "year": 2018,
+  "state_id": "ladakh",
+  "disease": "dengue",
+  "true": 0.0,
+  "model": 0.2131160508345006,
+  "persistence": 0.0
+ },
+ {
+  "year": 2018,
+  "state_id": "ladakh",
+  "disease": "malaria",
+  "true": 0.0,
+  "model": 0.0,
+  "persistence": 0.0
+ },
+ {
+  "year": 2018,
+  "state_id": "ladakh",
+  "disease": "chikungunya",
+  "true": 0.0,
+  "model": 0.0,
+  "persistence": 0.0
+ },
+ {
+  "year": 2018,
+  "state_id": "lakshadweep",
+  "disease": "dengue",
+  "true": 0.0,
+  "model": 0.0,
+  "persistence": 0.0
+ },
+ {
+  "year": 2018,
+  "state_id": "lakshadweep",
+  "disease": "malaria",
+  "true": 5.0,
+  "model": 0.7747801377417597,
+  "persistence": 1.0
+ },
+ {
+  "year": 2018,
+  "state_id": "madhya_pradesh",
+  "disease": "dengue",
+  "true": 4506.0,
+  "model": 2235.2337619649493,
+  "persistence": 2666.0
+ },
+ {
+  "year": 2018,
+  "state_id": "madhya_pradesh",
+  "disease": "malaria",
+  "true": 22279.0,
+  "model": 43841.50179086866,
+  "persistence": 47541.0
+ },
+ {
+  "year": 2018,
+  "state_id": "madhya_pradesh",
+  "disease": "chikungunya",
+  "true": 3211.0,
+  "model": 826.3392962271182,
+  "persistence": 2477.0
+ },
+ {
+  "year": 2018,
+  "state_id": "maharashtra",
+  "disease": "dengue",
+  "true": 11011.0,
+  "model": 6956.544183530644,
+  "persistence": 7829.000000000001
+ },
+ {
+  "year": 2018,
+  "state_id": "maharashtra",
+  "disease": "malaria",
+  "true": 10757.0,
+  "model": 15427.04005292752,
+  "persistence": 17710.0
+ },
+ {
+  "year": 2018,
+  "state_id": "maharashtra",
+  "disease": "chikungunya",
+  "true": 9884.0,
+  "model": 3297.457159046348,
+  "persistence": 8110.0
+ },
+ {
+  "year": 2018,
+  "state_id": "manipur",
+  "disease": "dengue",
+  "true": 14.0,
+  "model": 219.99999999999991,
+  "persistence": 193.0
+ },
+ {
+  "year": 2018,
+  "state_id": "manipur",
+  "disease": "malaria",
+  "true": 12.0,
+  "model": 54.41156683545742,
+  "persistence": 80.0
+ },
+ {
+  "year": 2018,
+  "state_id": "meghalaya",
+  "disease": "dengue",
+  "true": 44.0,
+  "model": 52.00000000000001,
+  "persistence": 52.0
+ },
+ {
+  "year": 2018,
+  "state_id": "meghalaya",
+  "disease": "malaria",
+  "true": 6394.0,
+  "model": 14098.621853783236,
+  "persistence": 16454.0
+ },
+ {
+  "year": 2018,
+  "state_id": "meghalaya",
+  "disease": "chikungunya",
+  "true": 44.0,
+  "model": 161.36811658440465,
+  "persistence": 236.0
+ },
+ {
+  "year": 2018,
+  "state_id": "mizoram",
+  "disease": "dengue",
+  "true": 68.0,
+  "model": 136.00000000000003,
+  "persistence": 136.0
+ },
+ {
+  "year": 2018,
+  "state_id": "mizoram",
+  "disease": "malaria",
+  "true": 4296.0,
+  "model": 4908.059838349305,
+  "persistence": 5715.0
+ },
+ {
+  "year": 2018,
+  "state_id": "nagaland",
+  "disease": "dengue",
+  "true": 369.0,
+  "model": 357.0,
+  "persistence": 357.0
+ },
+ {
+  "year": 2018,
+  "state_id": "nagaland",
+  "disease": "malaria",
+  "true": 113.0,
+  "model": 305.8343234719751,
+  "persistence": 394.0
+ },
+ {
+  "year": 2018,
+  "state_id": "nagaland",
+  "disease": "chikungunya",
+  "true": 0.0,
+  "model": 0.0,
+  "persistence": 0.0
+ },
+ {
+  "year": 2018,
+  "state_id": "odisha",
+  "disease": "dengue",
+  "true": 5198.0,
+  "model": 5411.862330119461,
+  "persistence": 4158.0
+ },
+ {
+  "year": 2018,
+  "state_id": "odisha",
+  "disease": "malaria",
+  "true": 66311.0,
+  "model": 326689.421939594,
+  "persistence": 347860.0
+ },
+ {
+  "year": 2018,
+  "state_id": "puducherry",
+  "disease": "dengue",
+  "true": 592.0,
+  "model": 3853.830610259922,
+  "persistence": 4568.0
+ },
+ {
+  "year": 2018,
+  "state_id": "puducherry",
+  "disease": "malaria",
+  "true": 54.0,
+  "model": 53.05653971606728,
+  "persistence": 60.0
+ },
+ {
+  "year": 2018,
+  "state_id": "puducherry",
+  "disease": "chikungunya",
+  "true": 2876.0,
+  "model": 282.32588525527103,
+  "persistence": 475.0
+ },
+ {
+  "year": 2018,
+  "state_id": "punjab",
+  "disease": "dengue",
+  "true": 14980.0,
+  "model": 12347.657530647484,
+  "persistence": 15398.0
+ },
+ {
+  "year": 2018,
+  "state_id": "punjab",
+  "disease": "malaria",
+  "true": 624.0,
+  "model": 659.7412623900387,
+  "persistence": 805.0
+ },
+ {
+  "year": 2018,
+  "state_id": "punjab",
+  "disease": "chikungunya",
+  "true": 736.0,
+  "model": 661.1442291140498,
+  "persistence": 3251.0
+ },
+ {
+  "year": 2018,
+  "state_id": "rajasthan",
+  "disease": "dengue",
+  "true": 9587.0,
+  "model": 6950.944954105406,
+  "persistence": 8427.0
+ },
+ {
+  "year": 2018,
+  "state_id": "rajasthan",
+  "disease": "malaria",
+  "true": 5728.0,
+  "model": 8616.065001705545,
+  "persistence": 10607.0
+ },
+ {
+  "year": 2018,
+  "state_id": "rajasthan",
+  "disease": "chikungunya",
+  "true": 254.0,
+  "model": 545.6763242973749,
+  "persistence": 1612.0
+ },
+ {
+  "year": 2018,
+  "state_id": "sikkim",
+  "disease": "dengue",
+  "true": 320.0,
+  "model": 311.9999999999999,
+  "persistence": 312.0
+ },
+ {
+  "year": 2018,
+  "state_id": "sikkim",
+  "disease": "malaria",
+  "true": 6.0,
+  "model": 11.573048430196382,
+  "persistence": 14.0
+ },
+ {
+  "year": 2018,
+  "state_id": "sikkim",
+  "disease": "chikungunya",
+  "true": 384.0,
+  "model": 93.98790781205582,
+  "persistence": 130.0
+ },
+ {
+  "year": 2018,
+  "state_id": "tamil_nadu",
+  "disease": "dengue",
+  "true": 4486.0,
+  "model": 20815.42320789576,
+  "persistence": 23294.0
+ },
+ {
+  "year": 2018,
+  "state_id": "tamil_nadu",
+  "disease": "malaria",
+  "true": 3758.0,
+  "model": 4492.607934479986,
+  "persistence": 5444.0
+ },
+ {
+  "year": 2018,
+  "state_id": "tamil_nadu",
+  "disease": "chikungunya",
+  "true": 284.0,
+  "model": 51.596545105861615,
+  "persistence": 131.0
+ },
+ {
+  "year": 2018,
+  "state_id": "telangana",
+  "disease": "dengue",
+  "true": 4592.0,
+  "model": 4629.126331397692,
+  "persistence": 5369.0
+ },
+ {
+  "year": 2018,
+  "state_id": "telangana",
+  "disease": "malaria",
+  "true": 1792.0,
+  "model": 2302.853225031041,
+  "persistence": 2688.0
+ },
+ {
+  "year": 2018,
+  "state_id": "telangana",
+  "disease": "chikungunya",
+  "true": 1954.0,
+  "model": 378.488691417657,
+  "persistence": 1277.0
+ },
+ {
+  "year": 2018,
+  "state_id": "tripura",
+  "disease": "dengue",
+  "true": 100.0,
+  "model": 126.99999999999996,
+  "persistence": 127.0
+ },
+ {
+  "year": 2018,
+  "state_id": "tripura",
+  "disease": "malaria",
+  "true": 13079.0,
+  "model": 5953.589367426634,
+  "persistence": 7051.0
+ },
+ {
+  "year": 2018,
+  "state_id": "tripura",
+  "disease": "chikungunya",
+  "true": 683.0,
+  "model": 373.8463308285839,
+  "persistence": 574.0
+ },
+ {
+  "year": 2018,
+  "state_id": "uttar_pradesh",
+  "disease": "dengue",
+  "true": 3829.0,
+  "model": 2532.315849329152,
+  "persistence": 3092.0
+ },
+ {
+  "year": 2018,
+  "state_id": "uttar_pradesh",
+  "disease": "malaria",
+  "true": 86486.0,
+  "model": 28767.66531215729,
+  "persistence": 32345.0
+ },
+ {
+  "year": 2018,
+  "state_id": "uttar_pradesh",
+  "disease": "chikungunya",
+  "true": 58.0,
+  "model": 37.641868851122304,
+  "persistence": 103.0
+ },
+ {
+  "year": 2018,
+  "state_id": "uttarakhand",
+  "disease": "dengue",
+  "true": 689.0,
+  "model": 737.1750893137759,
+  "persistence": 849.0
+ },
+ {
+  "year": 2018,
+  "state_id": "uttarakhand",
+  "disease": "malaria",
+  "true": 409.0,
+  "model": 466.4523813350889,
+  "persistence": 508.0
+ },
+ {
+  "year": 2018,
+  "state_id": "west_bengal",
+  "disease": "dengue",
+  "true": 23301.0,
+  "model": 37745.99999999999,
+  "persistence": 37746.0
+ },
+ {
+  "year": 2018,
+  "state_id": "west_bengal",
+  "disease": "malaria",
+  "true": 26440.0,
+  "model": 24439.67959660068,
+  "persistence": 31265.0
+ },
+ {
+  "year": 2018,
+  "state_id": "west_bengal",
+  "disease": "chikungunya",
+  "true": 52.0,
+  "model": 890.9575501126828,
+  "persistence": 2103.0
+ },
+ {
+  "year": 2019,
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "dengue",
+  "true": 168.0,
+  "model": 56.07654238408414,
+  "persistence": 49.0
+ },
+ {
+  "year": 2019,
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "malaria",
+  "true": 202.0,
+  "model": 230.8900312791984,
+  "persistence": 259.0
+ },
+ {
+  "year": 2019,
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "chikungunya",
+  "true": 702.0,
+  "model": 233.11985641328707,
+  "persistence": 205.0
+ },
+ {
+  "year": 2019,
+  "state_id": "andhra_pradesh",
+  "disease": "dengue",
+  "true": 5286.0,
+  "model": 4925.000000000005,
+  "persistence": 4011.0
+ },
+ {
+  "year": 2019,
+  "state_id": "andhra_pradesh",
+  "disease": "malaria",
+  "true": 3104.0,
+  "model": 5272.629620488121,
+  "persistence": 6040.0
+ },
+ {
+  "year": 2019,
+  "state_id": "andhra_pradesh",
+  "disease": "chikungunya",
+  "true": 832.0,
+  "model": 457.00847720151177,
+  "persistence": 622.0
+ },
+ {
+  "year": 2019,
+  "state_id": "arunachal_pradesh",
+  "disease": "dengue",
+  "true": 123.0,
+  "model": 3.274813731708317,
+  "persistence": 1.0
+ },
+ {
+  "year": 2019,
+  "state_id": "arunachal_pradesh",
+  "disease": "malaria",
+  "true": 139.0,
+  "model": 512.0061941820321,
+  "persistence": 625.0
+ },
+ {
+  "year": 2019,
+  "state_id": "arunachal_pradesh",
+  "disease": "chikungunya",
+  "true": 332.0,
+  "model": 501.4536660030586,
+  "persistence": 507.0
+ },
+ {
+  "year": 2019,
+  "state_id": "assam",
+  "disease": "dengue",
+  "true": 196.0,
+  "model": 299.09167605333045,
+  "persistence": 166.0
+ },
+ {
+  "year": 2019,
+  "state_id": "assam",
+  "disease": "malaria",
+  "true": 1459.0,
+  "model": 2766.565617627862,
+  "persistence": 3816.0
+ },
+ {
+  "year": 2019,
+  "state_id": "bihar",
+  "disease": "dengue",
+  "true": 6712.0,
+  "model": 2142.0000000000005,
+  "persistence": 2142.0
+ },
+ {
+  "year": 2019,
+  "state_id": "bihar",
+  "disease": "malaria",
+  "true": 1608.0,
+  "model": 1337.6776335310303,
+  "persistence": 1536.0
+ },
+ {
+  "year": 2019,
+  "state_id": "bihar",
+  "disease": "chikungunya",
+  "true": 594.0,
+  "model": 91.38169898739356,
+  "persistence": 156.0
+ },
+ {
+  "year": 2019,
+  "state_id": "chandigarh",
+  "disease": "dengue",
+  "true": 286.0,
+  "model": 391.4839650636149,
+  "persistence": 301.0
+ },
+ {
+  "year": 2019,
+  "state_id": "chandigarh",
+  "disease": "malaria",
+  "true": 22.0,
+  "model": 32.792021052641054,
+  "persistence": 44.0
+ },
+ {
+  "year": 2019,
+  "state_id": "chandigarh",
+  "disease": "chikungunya",
+  "true": 82.0,
+  "model": 121.98404598591216,
+  "persistence": 357.0
+ },
+ {
+  "year": 2019,
+  "state_id": "chhattisgarh",
+  "disease": "dengue",
+  "true": 722.0,
+  "model": 2673.9999999999995,
+  "persistence": 2674.0
+ },
+ {
+  "year": 2019,
+  "state_id": "chhattisgarh",
+  "disease": "malaria",
+  "true": 60458.0,
+  "model": 68596.57707654648,
+  "persistence": 78717.0
+ },
+ {
+  "year": 2019,
+  "state_id": "chhattisgarh",
+  "disease": "chikungunya",
+  "true": 0.0,
+  "model": 0.0,
+  "persistence": 0.0
+ },
+ {
+  "year": 2019,
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "dengue",
+  "true": 2116.0,
+  "model": 764.0081412829128,
+  "persistence": 656.0
+ },
+ {
+  "year": 2019,
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "malaria",
+  "true": 81.0,
+  "model": 196.64960689723117,
+  "persistence": 245.0
+ },
+ {
+  "year": 2019,
+  "state_id": "delhi",
+  "disease": "dengue",
+  "true": 5077.0,
+  "model": 8083.322191269209,
+  "persistence": 7136.0
+ },
+ {
+  "year": 2019,
+  "state_id": "delhi",
+  "disease": "malaria",
+  "true": 713.0,
+  "model": 299.58340752905445,
+  "persistence": 473.0
+ },
+ {
+  "year": 2019,
+  "state_id": "delhi",
+  "disease": "chikungunya",
+  "true": 520.0,
+  "model": 194.6521378458797,
+  "persistence": 407.0
+ },
+ {
+  "year": 2019,
+  "state_id": "goa",
+  "disease": "dengue",
+  "true": 992.0,
+  "model": 335.0,
+  "persistence": 335.0
+ },
+ {
+  "year": 2019,
+  "state_id": "goa",
+  "disease": "malaria",
+  "true": 272.0,
+  "model": 276.58509458231543,
+  "persistence": 377.0
+ },
+ {
+  "year": 2019,
+  "state_id": "goa",
+  "disease": "chikungunya",
+  "true": 867.0,
+  "model": 403.1981403684749,
+  "persistence": 455.0
+ },
+ {
+  "year": 2019,
+  "state_id": "gujarat",
+  "disease": "dengue",
+  "true": 18219.0,
+  "model": 7579.000000000003,
+  "persistence": 7579.000000000001
+ },
+ {
+  "year": 2019,
+  "state_id": "gujarat",
+  "disease": "malaria",
+  "true": 13883.000000000002,
+  "model": 17853.44625601717,
+  "persistence": 22114.0
+ },
+ {
+  "year": 2019,
+  "state_id": "gujarat",
+  "disease": "chikungunya",
+  "true": 8084.0,
+  "model": 7206.875253652727,
+  "persistence": 10601.0
+ },
+ {
+  "year": 2019,
+  "state_id": "haryana",
+  "disease": "dengue",
+  "true": 1207.0,
+  "model": 2980.3450097734294,
+  "persistence": 1898.0
+ },
+ {
+  "year": 2019,
+  "state_id": "haryana",
+  "disease": "malaria",
+  "true": 1497.0,
+  "model": 1810.881061365324,
+  "persistence": 3149.0
+ },
+ {
+  "year": 2019,
+  "state_id": "himachal_pradesh",
+  "disease": "dengue",
+  "true": 344.0,
+  "model": 4176.41498679364,
+  "persistence": 4672.0
+ },
+ {
+  "year": 2019,
+  "state_id": "himachal_pradesh",
+  "disease": "malaria",
+  "true": 109.0,
+  "model": 83.92939957691193,
+  "persistence": 98.0
+ },
+ {
+  "year": 2019,
+  "state_id": "jammu_and_kashmir",
+  "disease": "dengue",
+  "true": 439.0,
+  "model": 223.70418053222116,
+  "persistence": 214.0
+ },
+ {
+  "year": 2019,
+  "state_id": "jammu_and_kashmir",
+  "disease": "malaria",
+  "true": 105.0,
+  "model": 146.31126814347152,
+  "persistence": 168.0
+ },
+ {
+  "year": 2019,
+  "state_id": "jammu_and_kashmir",
+  "disease": "chikungunya",
+  "true": 0.0,
+  "model": 0.9023277428474318,
+  "persistence": 1.0
+ },
+ {
+  "year": 2019,
+  "state_id": "jharkhand",
+  "disease": "dengue",
+  "true": 825.0,
+  "model": 578.7253156459027,
+  "persistence": 463.0
+ },
+ {
+  "year": 2019,
+  "state_id": "jharkhand",
+  "disease": "malaria",
+  "true": 37133.0,
+  "model": 48480.062585039785,
+  "persistence": 57095.0
+ },
+ {
+  "year": 2019,
+  "state_id": "jharkhand",
+  "disease": "chikungunya",
+  "true": 1691.0,
+  "model": 2006.634262667986,
+  "persistence": 3405.0
+ },
+ {
+  "year": 2019,
+  "state_id": "karnataka",
+  "disease": "dengue",
+  "true": 16986.0,
+  "model": 6498.022285302987,
+  "persistence": 4427.0
+ },
+ {
+  "year": 2019,
+  "state_id": "karnataka",
+  "disease": "malaria",
+  "true": 3499.0,
+  "model": 4135.793887725267,
+  "persistence": 5721.0
+ },
+ {
+  "year": 2019,
+  "state_id": "karnataka",
+  "disease": "chikungunya",
+  "true": 43698.0,
+  "model": 16440.85712960173,
+  "persistence": 20411.0
+ },
+ {
+  "year": 2019,
+  "state_id": "kerala",
+  "disease": "dengue",
+  "true": 4652.0,
+  "model": 5563.918610940102,
+  "persistence": 4083.0
+ },
+ {
+  "year": 2019,
+  "state_id": "kerala",
+  "disease": "malaria",
+  "true": 656.0,
+  "model": 888.0016783170751,
+  "persistence": 908.0
+ },
+ {
+  "year": 2019,
+  "state_id": "kerala",
+  "disease": "chikungunya",
+  "true": 109.0,
+  "model": 131.91438418529887,
+  "persistence": 77.0
+ },
+ {
+  "year": 2019,
+  "state_id": "ladakh",
+  "disease": "dengue",
+  "true": 0.0,
+  "model": 0.0333404026622247,
+  "persistence": 0.0
+ },
+ {
+  "year": 2019,
+  "state_id": "ladakh",
+  "disease": "malaria",
+  "true": 0.0,
+  "model": 0.0,
+  "persistence": 0.0
+ },
+ {
+  "year": 2019,
+  "state_id": "ladakh",
+  "disease": "chikungunya",
+  "true": 0.0,
+  "model": 0.0004953695501006,
+  "persistence": 0.0
+ },
+ {
+  "year": 2019,
+  "state_id": "lakshadweep",
+  "disease": "dengue",
+  "true": 0.0,
+  "model": 0.0,
+  "persistence": 0.0
+ },
+ {
+  "year": 2019,
+  "state_id": "lakshadweep",
+  "disease": "malaria",
+  "true": 11.0,
+  "model": 5.445816564012848,
+  "persistence": 5.0
+ },
+ {
+  "year": 2019,
+  "state_id": "madhya_pradesh",
+  "disease": "dengue",
+  "true": 4189.0,
+  "model": 4505.999999999997,
+  "persistence": 4506.0
+ },
+ {
+  "year": 2019,
+  "state_id": "madhya_pradesh",
+  "disease": "malaria",
+  "true": 14147.0,
+  "model": 18347.49229576676,
+  "persistence": 22279.0
+ },
+ {
+  "year": 2019,
+  "state_id": "madhya_pradesh",
+  "disease": "chikungunya",
+  "true": 2749.0,
+  "model": 1492.6301334434463,
+  "persistence": 3211.0
+ },
+ {
+  "year": 2019,
+  "state_id": "maharashtra",
+  "disease": "dengue",
+  "true": 14907.0,
+  "model": 11010.999999999998,
+  "persistence": 11011.0
+ },
+ {
+  "year": 2019,
+  "state_id": "maharashtra",
+  "disease": "malaria",
+  "true": 8866.0,
+  "model": 8460.825857357655,
+  "persistence": 10757.0
+ },
+ {
+  "year": 2019,
+  "state_id": "maharashtra",
+  "disease": "chikungunya",
+  "true": 5158.0,
+  "model": 6176.105853452719,
+  "persistence": 9884.0
+ },
+ {
+  "year": 2019,
+  "state_id": "manipur",
+  "disease": "dengue",
+  "true": 359.0,
+  "model": 22.55791537983197,
+  "persistence": 14.0
+ },
+ {
+  "year": 2019,
+  "state_id": "manipur",
+  "disease": "malaria",
+  "true": 16.0,
+  "model": 10.406417940217658,
+  "persistence": 12.0
+ },
+ {
+  "year": 2019,
+  "state_id": "manipur",
+  "disease": "chikungunya",
+  "true": 40.0,
+  "model": 4.581685073572142,
+  "persistence": 2.0
+ },
+ {
+  "year": 2019,
+  "state_id": "meghalaya",
+  "disease": "dengue",
+  "true": 82.0,
+  "model": 52.00000000000001,
+  "persistence": 44.0
+ },
+ {
+  "year": 2019,
+  "state_id": "meghalaya",
+  "disease": "malaria",
+  "true": 2615.0,
+  "model": 5499.369706633629,
+  "persistence": 6394.0
+ },
+ {
+  "year": 2019,
+  "state_id": "meghalaya",
+  "disease": "chikungunya",
+  "true": 114.0,
+  "model": 46.911763979881535,
+  "persistence": 44.0
+ },
+ {
+  "year": 2019,
+  "state_id": "mizoram",
+  "disease": "dengue",
+  "true": 42.0,
+  "model": 104.10643290202349,
+  "persistence": 68.0
+ },
+ {
+  "year": 2019,
+  "state_id": "mizoram",
+  "disease": "malaria",
+  "true": 8543.0,
+  "model": 3897.7998481570576,
+  "persistence": 4296.0
+ },
+ {
+  "year": 2019,
+  "state_id": "nagaland",
+  "disease": "dengue",
+  "true": 8.0,
+  "model": 368.99999999999983,
+  "persistence": 369.0
+ },
+ {
+  "year": 2019,
+  "state_id": "nagaland",
+  "disease": "malaria",
+  "true": 20.0,
+  "model": 101.44127366442645,
+  "persistence": 113.0
+ },
+ {
+  "year": 2019,
+  "state_id": "nagaland",
+  "disease": "chikungunya",
+  "true": 0.0,
+  "model": 0.0,
+  "persistence": 0.0
+ },
+ {
+  "year": 2019,
+  "state_id": "odisha",
+  "disease": "dengue",
+  "true": 3758.0,
+  "model": 7131.999999999996,
+  "persistence": 5198.0
+ },
+ {
+  "year": 2019,
+  "state_id": "odisha",
+  "disease": "malaria",
+  "true": 39556.0,
+  "model": 57853.79925050894,
+  "persistence": 66311.0
+ },
+ {
+  "year": 2019,
+  "state_id": "puducherry",
+  "disease": "dengue",
+  "true": 2030.0,
+  "model": 937.7900151221496,
+  "persistence": 592.0
+ },
+ {
+  "year": 2019,
+  "state_id": "puducherry",
+  "disease": "malaria",
+  "true": 21.0,
+  "model": 49.10109659441122,
+  "persistence": 54.0
+ },
+ {
+  "year": 2019,
+  "state_id": "puducherry",
+  "disease": "chikungunya",
+  "true": 7084.0,
+  "model": 2875.6617340106554,
+  "persistence": 2876.0
+ },
+ {
+  "year": 2019,
+  "state_id": "punjab",
+  "disease": "dengue",
+  "true": 10289.0,
+  "model": 15398.00000000001,
+  "persistence": 14980.0
+ },
+ {
+  "year": 2019,
+  "state_id": "punjab",
+  "disease": "malaria",
+  "true": 1139.0,
+  "model": 447.8939678806153,
+  "persistence": 624.0
+ },
+ {
+  "year": 2019,
+  "state_id": "punjab",
+  "disease": "chikungunya",
+  "true": 372.0,
+  "model": 232.95223752203532,
+  "persistence": 736.0
+ },
+ {
+  "year": 2019,
+  "state_id": "rajasthan",
+  "disease": "dengue",
+  "true": 13706.0,
+  "model": 9586.999999999996,
+  "persistence": 9587.0
+ },
+ {
+  "year": 2019,
+  "state_id": "rajasthan",
+  "disease": "malaria",
+  "true": 3421.0,
+  "model": 3792.003297674839,
+  "persistence": 5728.0
+ },
+ {
+  "year": 2019,
+  "state_id": "rajasthan",
+  "disease": "chikungunya",
+  "true": 365.0,
+  "model": 112.93345307986928,
+  "persistence": 254.0
+ },
+ {
+  "year": 2019,
+  "state_id": "sikkim",
+  "disease": "dengue",
+  "true": 444.00000000000006,
+  "model": 314.6053744427882,
+  "persistence": 320.0
+ },
+ {
+  "year": 2019,
+  "state_id": "sikkim",
+  "disease": "malaria",
+  "true": 7.0,
+  "model": 4.655411797535689,
+  "persistence": 6.0
+ },
+ {
+  "year": 2019,
+  "state_id": "sikkim",
+  "disease": "chikungunya",
+  "true": 1126.0,
+  "model": 330.52847572229814,
+  "persistence": 384.0
+ },
+ {
+  "year": 2019,
+  "state_id": "tamil_nadu",
+  "disease": "dengue",
+  "true": 8527.0,
+  "model": 6436.054747430298,
+  "persistence": 4486.0
+ },
+ {
+  "year": 2019,
+  "state_id": "tamil_nadu",
+  "disease": "malaria",
+  "true": 2088.0,
+  "model": 3140.627131665078,
+  "persistence": 3758.0
+ },
+ {
+  "year": 2019,
+  "state_id": "tamil_nadu",
+  "disease": "chikungunya",
+  "true": 623.0,
+  "model": 291.5354634908439,
+  "persistence": 284.0
+ },
+ {
+  "year": 2019,
+  "state_id": "telangana",
+  "disease": "dengue",
+  "true": 13331.0,
+  "model": 5369.000000000003,
+  "persistence": 4592.0
+ },
+ {
+  "year": 2019,
+  "state_id": "telangana",
+  "disease": "malaria",
+  "true": 1711.0,
+  "model": 1399.0247370090922,
+  "persistence": 1792.0
+ },
+ {
+  "year": 2019,
+  "state_id": "telangana",
+  "disease": "chikungunya",
+  "true": 5352.0,
+  "model": 1205.9286598699562,
+  "persistence": 1954.0
+ },
+ {
+  "year": 2019,
+  "state_id": "tripura",
+  "disease": "dengue",
+  "true": 114.0,
+  "model": 126.99999999999996,
+  "persistence": 100.0
+ },
+ {
+  "year": 2019,
+  "state_id": "tripura",
+  "disease": "malaria",
+  "true": 12437.0,
+  "model": 11378.037674315245,
+  "persistence": 13079.0
+ },
+ {
+  "year": 2019,
+  "state_id": "tripura",
+  "disease": "chikungunya",
+  "true": 1105.0,
+  "model": 642.3779226959186,
+  "persistence": 683.0
+ },
+ {
+  "year": 2019,
+  "state_id": "uttar_pradesh",
+  "disease": "dengue",
+  "true": 10557.0,
+  "model": 3829.0,
+  "persistence": 3829.0
+ },
+ {
+  "year": 2019,
+  "state_id": "uttar_pradesh",
+  "disease": "malaria",
+  "true": 92732.0,
+  "model": 71284.22184885302,
+  "persistence": 86486.0
+ },
+ {
+  "year": 2019,
+  "state_id": "uttar_pradesh",
+  "disease": "chikungunya",
+  "true": 72.0,
+  "model": 25.55410172974553,
+  "persistence": 58.0
+ },
+ {
+  "year": 2019,
+  "state_id": "uttarakhand",
+  "disease": "dengue",
+  "true": 10622.0,
+  "model": 727.0727276174271,
+  "persistence": 689.0
+ },
+ {
+  "year": 2019,
+  "state_id": "uttarakhand",
+  "disease": "malaria",
+  "true": 296.0,
+  "model": 350.45111071230525,
+  "persistence": 409.0
+ },
+ {
+  "year": 2019,
+  "state_id": "uttarakhand",
+  "disease": "chikungunya",
+  "true": 1.0,
+  "model": 26.48637678944317,
+  "persistence": 29.0
+ },
+ {
+  "year": 2019,
+  "state_id": "west_bengal",
+  "disease": "dengue",
+  "true": 47928.0,
+  "model": 36092.63947647997,
+  "persistence": 23301.0
+ },
+ {
+  "year": 2019,
+  "state_id": "west_bengal",
+  "disease": "malaria",
+  "true": 25928.0,
+  "model": 19690.28121592449,
+  "persistence": 26440.0
+ },
+ {
+  "year": 2020,
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "dengue",
+  "true": 98.0,
+  "model": 168.0,
+  "persistence": 168.0
+ },
+ {
+  "year": 2020,
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "malaria",
+  "true": 85.0,
+  "model": 154.75454805356347,
+  "persistence": 202.0
+ },
+ {
+  "year": 2020,
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "chikungunya",
+  "true": 610.0,
+  "model": 804.1312310101606,
+  "persistence": 702.0
+ },
+ {
+  "year": 2020,
+  "state_id": "andhra_pradesh",
+  "disease": "dengue",
+  "true": 925.0,
+  "model": 5285.999999999999,
+  "persistence": 5286.0
+ },
+ {
+  "year": 2020,
+  "state_id": "andhra_pradesh",
+  "disease": "malaria",
+  "true": 2027.0,
+  "model": 2486.563279653752,
+  "persistence": 3104.0
+ },
+ {
+  "year": 2020,
+  "state_id": "andhra_pradesh",
+  "disease": "chikungunya",
+  "true": 318.0,
+  "model": 1697.2861784152894,
+  "persistence": 832.0
+ },
+ {
+  "year": 2020,
+  "state_id": "arunachal_pradesh",
+  "disease": "dengue",
+  "true": 1.0,
+  "model": 297.45301301043787,
+  "persistence": 123.0
+ },
+ {
+  "year": 2020,
+  "state_id": "arunachal_pradesh",
+  "disease": "malaria",
+  "true": 33.0,
+  "model": 101.9945320131394,
+  "persistence": 139.0
+ },
+ {
+  "year": 2020,
+  "state_id": "assam",
+  "disease": "dengue",
+  "true": 33.0,
+  "model": 384.4635671792841,
+  "persistence": 196.0
+ },
+ {
+  "year": 2020,
+  "state_id": "assam",
+  "disease": "malaria",
+  "true": 484.0,
+  "model": 988.8965583349728,
+  "persistence": 1459.0
+ },
+ {
+  "year": 2020,
+  "state_id": "bihar",
+  "disease": "dengue",
+  "true": 493.0,
+  "model": 6711.999999999997,
+  "persistence": 6712.0
+ },
+ {
+  "year": 2020,
+  "state_id": "bihar",
+  "disease": "malaria",
+  "true": 518.0,
+  "model": 1417.210420957286,
+  "persistence": 1608.0
+ },
+ {
+  "year": 2020,
+  "state_id": "bihar",
+  "disease": "chikungunya",
+  "true": 38.0,
+  "model": 454.3981182544414,
+  "persistence": 594.0
+ },
+ {
+  "year": 2020,
+  "state_id": "chandigarh",
+  "disease": "dengue",
+  "true": 265.0,
+  "model": 415.4983121302967,
+  "persistence": 286.0
+ },
+ {
+  "year": 2020,
+  "state_id": "chandigarh",
+  "disease": "malaria",
+  "true": 7.0,
+  "model": 17.104938918268072,
+  "persistence": 22.0
+ },
+ {
+  "year": 2020,
+  "state_id": "chhattisgarh",
+  "disease": "dengue",
+  "true": 57.0,
+  "model": 1629.514720516687,
+  "persistence": 722.0
+ },
+ {
+  "year": 2020,
+  "state_id": "chhattisgarh",
+  "disease": "malaria",
+  "true": 36667.0,
+  "model": 51867.97512502759,
+  "persistence": 60458.0
+ },
+ {
+  "year": 2020,
+  "state_id": "chhattisgarh",
+  "disease": "chikungunya",
+  "true": 0.0,
+  "model": 0.0,
+  "persistence": 0.0
+ },
+ {
+  "year": 2020,
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "dengue",
+  "true": 319.0,
+  "model": 2123.0000000000005,
+  "persistence": 2116.0
+ },
+ {
+  "year": 2020,
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "malaria",
+  "true": 40.0,
+  "model": 58.66429268722002,
+  "persistence": 81.0
+ },
+ {
+  "year": 2020,
+  "state_id": "delhi",
+  "disease": "dengue",
+  "true": 1269.0,
+  "model": 5483.269817686142,
+  "persistence": 5077.0
+ },
+ {
+  "year": 2020,
+  "state_id": "delhi",
+  "disease": "malaria",
+  "true": 135.0,
+  "model": 510.985662877028,
+  "persistence": 713.0
+ },
+ {
+  "year": 2020,
+  "state_id": "delhi",
+  "disease": "chikungunya",
+  "true": 126.0,
+  "model": 306.1596745854638,
+  "persistence": 520.0
+ },
+ {
+  "year": 2020,
+  "state_id": "goa",
+  "disease": "dengue",
+  "true": 376.0,
+  "model": 992.0000000000005,
+  "persistence": 992.0
+ },
+ {
+  "year": 2020,
+  "state_id": "goa",
+  "disease": "malaria",
+  "true": 102.0,
+  "model": 180.39040147236105,
+  "persistence": 272.0
+ },
+ {
+  "year": 2020,
+  "state_id": "goa",
+  "disease": "chikungunya",
+  "true": 64.0,
+  "model": 953.3350738553704,
+  "persistence": 867.0
+ },
+ {
+  "year": 2020,
+  "state_id": "gujarat",
+  "disease": "dengue",
+  "true": 1564.0,
+  "model": 18218.99999999999,
+  "persistence": 18219.0
+ },
+ {
+  "year": 2020,
+  "state_id": "gujarat",
+  "disease": "malaria",
+  "true": 4771.0,
+  "model": 10972.294731289128,
+  "persistence": 13883.000000000002
+ },
+ {
+  "year": 2020,
+  "state_id": "gujarat",
+  "disease": "chikungunya",
+  "true": 8120.0,
+  "model": 9253.53537286851,
+  "persistence": 8084.0
+ },
+ {
+  "year": 2020,
+  "state_id": "haryana",
+  "disease": "dengue",
+  "true": 1377.0,
+  "model": 1956.900905847154,
+  "persistence": 1207.0
+ },
+ {
+  "year": 2020,
+  "state_id": "haryana",
+  "disease": "malaria",
+  "true": 111.0,
+  "model": 952.419962438266,
+  "persistence": 1497.0
+ },
+ {
+  "year": 2020,
+  "state_id": "himachal_pradesh",
+  "disease": "dengue",
+  "true": 21.0,
+  "model": 475.5628410985692,
+  "persistence": 344.0
+ },
+ {
+  "year": 2020,
+  "state_id": "himachal_pradesh",
+  "disease": "malaria",
+  "true": 34.0,
+  "model": 99.78349827260476,
+  "persistence": 109.0
+ },
+ {
+  "year": 2020,
+  "state_id": "jammu_and_kashmir",
+  "disease": "dengue",
+  "true": 53.0,
+  "model": 520.20303905449,
+  "persistence": 439.0
+ },
+ {
+  "year": 2020,
+  "state_id": "jammu_and_kashmir",
+  "disease": "malaria",
+  "true": 37.0,
+  "model": 99.566954198672,
+  "persistence": 105.0
+ },
+ {
+  "year": 2020,
+  "state_id": "jammu_and_kashmir",
+  "disease": "chikungunya",
+  "true": 1.0,
+  "model": 0.0518581975721796,
+  "persistence": 0.0
+ },
+ {
+  "year": 2020,
+  "state_id": "jharkhand",
+  "disease": "dengue",
+  "true": 79.0,
+  "model": 824.9999999999997,
+  "persistence": 825.0
+ },
+ {
+  "year": 2020,
+  "state_id": "jharkhand",
+  "disease": "malaria",
+  "true": 16653.0,
+  "model": 30934.617489501263,
+  "persistence": 37133.0
+ },
+ {
+  "year": 2020,
+  "state_id": "jharkhand",
+  "disease": "chikungunya",
+  "true": 627.0,
+  "model": 1530.8188675224408,
+  "persistence": 1691.0
+ },
+ {
+  "year": 2020,
+  "state_id": "karnataka",
+  "disease": "dengue",
+  "true": 3823.0,
+  "model": 17844.000000000015,
+  "persistence": 16986.0
+ },
+ {
+  "year": 2020,
+  "state_id": "karnataka",
+  "disease": "malaria",
+  "true": 1701.0000000000002,
+  "model": 2269.947150149313,
+  "persistence": 3499.0
+ },
+ {
+  "year": 2020,
+  "state_id": "karnataka",
+  "disease": "chikungunya",
+  "true": 16111.0,
+  "model": 61386.12479326608,
+  "persistence": 43698.0
+ },
+ {
+  "year": 2020,
+  "state_id": "kerala",
+  "disease": "dengue",
+  "true": 4399.0,
+  "model": 8168.164360503117,
+  "persistence": 4652.0
+ },
+ {
+  "year": 2020,
+  "state_id": "kerala",
+  "disease": "malaria",
+  "true": 268.0,
+  "model": 592.3753689720323,
+  "persistence": 656.0
+ },
+ {
+  "year": 2020,
+  "state_id": "kerala",
+  "disease": "chikungunya",
+  "true": 2302.0,
+  "model": 256.6530421444948,
+  "persistence": 109.0
+ },
+ {
+  "year": 2020,
+  "state_id": "ladakh",
+  "disease": "dengue",
+  "true": 0.0,
+  "model": 0.0707671157021985,
+  "persistence": 0.0
+ },
+ {
+  "year": 2020,
+  "state_id": "ladakh",
+  "disease": "malaria",
+  "true": 0.0,
+  "model": 0.0404515218496722,
+  "persistence": 0.0
+ },
+ {
+  "year": 2020,
+  "state_id": "ladakh",
+  "disease": "chikungunya",
+  "true": 0.0,
+  "model": 0.0099804472748833,
+  "persistence": 0.0
+ },
+ {
+  "year": 2020,
+  "state_id": "lakshadweep",
+  "disease": "dengue",
+  "true": 0.0,
+  "model": 0.0,
+  "persistence": 0.0
+ },
+ {
+  "year": 2020,
+  "state_id": "lakshadweep",
+  "disease": "malaria",
+  "true": 6.0,
+  "model": 10.3670783980237,
+  "persistence": 11.0
+ },
+ {
+  "year": 2020,
+  "state_id": "madhya_pradesh",
+  "disease": "dengue",
+  "true": 806.0,
+  "model": 4505.999999999997,
+  "persistence": 4189.0
+ },
+ {
+  "year": 2020,
+  "state_id": "madhya_pradesh",
+  "disease": "malaria",
+  "true": 6760.0,
+  "model": 11259.35406472878,
+  "persistence": 14147.0
+ },
+ {
+  "year": 2020,
+  "state_id": "madhya_pradesh",
+  "disease": "chikungunya",
+  "true": 1871.0,
+  "model": 2969.789473948292,
+  "persistence": 2749.0
+ },
+ {
+  "year": 2020,
+  "state_id": "maharashtra",
+  "disease": "dengue",
+  "true": 3356.0,
+  "model": 14907.000000000002,
+  "persistence": 14907.0
+ },
+ {
+  "year": 2020,
+  "state_id": "maharashtra",
+  "disease": "malaria",
+  "true": 15215.0,
+  "model": 6632.358162750173,
+  "persistence": 8866.0
+ },
+ {
+  "year": 2020,
+  "state_id": "maharashtra",
+  "disease": "chikungunya",
+  "true": 4258.0,
+  "model": 7222.774725407161,
+  "persistence": 5158.0
+ },
+ {
+  "year": 2020,
+  "state_id": "manipur",
+  "disease": "dengue",
+  "true": 37.0,
+  "model": 359.00000000000006,
+  "persistence": 359.0
+ },
+ {
+  "year": 2020,
+  "state_id": "manipur",
+  "disease": "malaria",
+  "true": 36.0,
+  "model": 12.214664167583942,
+  "persistence": 16.0
+ },
+ {
+  "year": 2020,
+  "state_id": "meghalaya",
+  "disease": "dengue",
+  "true": 4.0,
+  "model": 82.00000000000003,
+  "persistence": 82.0
+ },
+ {
+  "year": 2020,
+  "state_id": "meghalaya",
+  "disease": "malaria",
+  "true": 2018.0,
+  "model": 2183.6141020217515,
+  "persistence": 2615.0
+ },
+ {
+  "year": 2020,
+  "state_id": "meghalaya",
+  "disease": "chikungunya",
+  "true": 3.0,
+  "model": 153.51349926694868,
+  "persistence": 114.0
+ },
+ {
+  "year": 2020,
+  "state_id": "mizoram",
+  "disease": "dengue",
+  "true": 67.0,
+  "model": 56.10318455676753,
+  "persistence": 42.0
+ },
+ {
+  "year": 2020,
+  "state_id": "mizoram",
+  "disease": "malaria",
+  "true": 7781.0,
+  "model": 7714.935243201278,
+  "persistence": 8543.0
+ },
+ {
+  "year": 2020,
+  "state_id": "nagaland",
+  "disease": "dengue",
+  "true": 1.0,
+  "model": 20.35323773105206,
+  "persistence": 8.0
+ },
+ {
+  "year": 2020,
+  "state_id": "nagaland",
+  "disease": "malaria",
+  "true": 12.0,
+  "model": 16.05432378949827,
+  "persistence": 20.0
+ },
+ {
+  "year": 2020,
+  "state_id": "nagaland",
+  "disease": "chikungunya",
+  "true": 0.0,
+  "model": 0.0,
+  "persistence": 0.0
+ },
+ {
+  "year": 2020,
+  "state_id": "odisha",
+  "disease": "dengue",
+  "true": 496.0,
+  "model": 7131.999999999996,
+  "persistence": 3758.0
+ },
+ {
+  "year": 2020,
+  "state_id": "odisha",
+  "disease": "malaria",
+  "true": 41739.0,
+  "model": 31302.787593275887,
+  "persistence": 39556.0
+ },
+ {
+  "year": 2020,
+  "state_id": "odisha",
+  "disease": "chikungunya",
+  "true": 15.0,
+  "model": 323.0705476877871,
+  "persistence": 242.0
+ },
+ {
+  "year": 2020,
+  "state_id": "puducherry",
+  "disease": "dengue",
+  "true": 633.0,
+  "model": 4500.90794967629,
+  "persistence": 2030.0
+ },
+ {
+  "year": 2020,
+  "state_id": "puducherry",
+  "disease": "malaria",
+  "true": 15.0,
+  "model": 17.510097100543973,
+  "persistence": 21.0
+ },
+ {
+  "year": 2020,
+  "state_id": "puducherry",
+  "disease": "chikungunya",
+  "true": 3980.0,
+  "model": 7084.000000000003,
+  "persistence": 7084.0
+ },
+ {
+  "year": 2020,
+  "state_id": "punjab",
+  "disease": "dengue",
+  "true": 8435.0,
+  "model": 13548.005003940369,
+  "persistence": 10289.0
+ },
+ {
+  "year": 2020,
+  "state_id": "punjab",
+  "disease": "malaria",
+  "true": 109.0,
+  "model": 898.7239974064447,
+  "persistence": 1139.0
+ },
+ {
+  "year": 2020,
+  "state_id": "punjab",
+  "disease": "chikungunya",
+  "true": 25.0,
+  "model": 331.0991647397538,
+  "persistence": 372.0
+ },
+ {
+  "year": 2020,
+  "state_id": "rajasthan",
+  "disease": "dengue",
+  "true": 2023.0,
+  "model": 13706.0,
+  "persistence": 13706.0
+ },
+ {
+  "year": 2020,
+  "state_id": "rajasthan",
+  "disease": "malaria",
+  "true": 1276.0,
+  "model": 2330.0999982082963,
+  "persistence": 3421.0
+ },
+ {
+  "year": 2020,
+  "state_id": "rajasthan",
+  "disease": "chikungunya",
+  "true": 1015.0,
+  "model": 352.74084152179927,
+  "persistence": 365.0
+ },
+ {
+  "year": 2020,
+  "state_id": "sikkim",
+  "disease": "dengue",
+  "true": 11.0,
+  "model": 400.6982078398112,
+  "persistence": 444.00000000000006
+ },
+ {
+  "year": 2020,
+  "state_id": "sikkim",
+  "disease": "malaria",
+  "true": 4.0,
+  "model": 5.2093678992115215,
+  "persistence": 7.0
+ },
+ {
+  "year": 2020,
+  "state_id": "sikkim",
+  "disease": "chikungunya",
+  "true": 253.0,
+  "model": 833.1578931173705,
+  "persistence": 1126.0
+ },
+ {
+  "year": 2020,
+  "state_id": "tamil_nadu",
+  "disease": "dengue",
+  "true": 2410.0,
+  "model": 16378.893171496136,
+  "persistence": 8527.0
+ },
+ {
+  "year": 2020,
+  "state_id": "tamil_nadu",
+  "disease": "malaria",
+  "true": 891.0,
+  "model": 1536.0236581572935,
+  "persistence": 2088.0
+ },
+ {
+  "year": 2020,
+  "state_id": "tamil_nadu",
+  "disease": "chikungunya",
+  "true": 1461.0,
+  "model": 1143.0330500400594,
+  "persistence": 623.0
+ },
+ {
+  "year": 2020,
+  "state_id": "telangana",
+  "disease": "dengue",
+  "true": 2173.0,
+  "model": 13331.00000000001,
+  "persistence": 13331.0
+ },
+ {
+  "year": 2020,
+  "state_id": "telangana",
+  "disease": "malaria",
+  "true": 870.0,
+  "model": 1276.1495380641422,
+  "persistence": 1711.0
+ },
+ {
+  "year": 2020,
+  "state_id": "telangana",
+  "disease": "chikungunya",
+  "true": 364.0,
+  "model": 9515.35108095516,
+  "persistence": 5352.0
+ },
+ {
+  "year": 2020,
+  "state_id": "tripura",
+  "disease": "dengue",
+  "true": 24.0,
+  "model": 121.0623375620624,
+  "persistence": 114.0
+ },
+ {
+  "year": 2020,
+  "state_id": "tripura",
+  "disease": "malaria",
+  "true": 3395.0,
+  "model": 10910.597109997005,
+  "persistence": 12437.0
+ },
+ {
+  "year": 2020,
+  "state_id": "tripura",
+  "disease": "chikungunya",
+  "true": 454.0,
+  "model": 1026.399985744185,
+  "persistence": 1105.0
+ },
+ {
+  "year": 2020,
+  "state_id": "uttar_pradesh",
+  "disease": "dengue",
+  "true": 3715.0,
+  "model": 10557.000000000004,
+  "persistence": 10557.0
+ },
+ {
+  "year": 2020,
+  "state_id": "uttar_pradesh",
+  "disease": "malaria",
+  "true": 28668.0,
+  "model": 78656.023833556,
+  "persistence": 92732.0
+ },
+ {
+  "year": 2020,
+  "state_id": "uttar_pradesh",
+  "disease": "chikungunya",
+  "true": 53.0,
+  "model": 47.92781003784171,
+  "persistence": 72.0
+ },
+ {
+  "year": 2020,
+  "state_id": "uttarakhand",
+  "disease": "dengue",
+  "true": 76.0,
+  "model": 9661.790099033113,
+  "persistence": 10622.0
+ },
+ {
+  "year": 2020,
+  "state_id": "uttarakhand",
+  "disease": "malaria",
+  "true": 15.0,
+  "model": 261.3826742681313,
+  "persistence": 296.0
+ },
+ {
+  "year": 2020,
+  "state_id": "west_bengal",
+  "disease": "dengue",
+  "true": 5166.0,
+  "model": 47928.00000000003,
+  "persistence": 47928.0
+ },
+ {
+  "year": 2020,
+  "state_id": "west_bengal",
+  "disease": "malaria",
+  "true": 14049.0,
+  "model": 18893.929488300106,
+  "persistence": 25928.0
+ },
+ {
+  "year": 2021,
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "dengue",
+  "true": 175.0,
+  "model": 145.87152977635242,
+  "persistence": 98.0
+ },
+ {
+  "year": 2021,
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "malaria",
+  "true": 27.0,
+  "model": 68.2834309191207,
+  "persistence": 85.0
+ },
+ {
+  "year": 2021,
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "chikungunya",
+  "true": 187.0,
+  "model": 894.9820602742421,
+  "persistence": 610.0
+ },
+ {
+  "year": 2021,
+  "state_id": "andhra_pradesh",
+  "disease": "dengue",
+  "true": 4760.0,
+  "model": 2614.5698960499176,
+  "persistence": 925.0
+ },
+ {
+  "year": 2021,
+  "state_id": "andhra_pradesh",
+  "disease": "malaria",
+  "true": 1315.0,
+  "model": 1678.8040901814263,
+  "persistence": 2027.0
+ },
+ {
+  "year": 2021,
+  "state_id": "andhra_pradesh",
+  "disease": "chikungunya",
+  "true": 753.0,
+  "model": 720.9503429481459,
+  "persistence": 318.0
+ },
+ {
+  "year": 2021,
+  "state_id": "arunachal_pradesh",
+  "disease": "dengue",
+  "true": 7.0,
+  "model": 4.425882785657064,
+  "persistence": 1.0
+ },
+ {
+  "year": 2021,
+  "state_id": "arunachal_pradesh",
+  "disease": "malaria",
+  "true": 8.0,
+  "model": 30.950890470069407,
+  "persistence": 33.0
+ },
+ {
+  "year": 2021,
+  "state_id": "assam",
+  "disease": "dengue",
+  "true": 103.0,
+  "model": 79.27921746238576,
+  "persistence": 33.0
+ },
+ {
+  "year": 2021,
+  "state_id": "assam",
+  "disease": "malaria",
+  "true": 162.0,
+  "model": 422.13889534535065,
+  "persistence": 484.0
+ },
+ {
+  "year": 2021,
+  "state_id": "bihar",
+  "disease": "dengue",
+  "true": 633.0,
+  "model": 1751.2479333354806,
+  "persistence": 493.0
+ },
+ {
+  "year": 2021,
+  "state_id": "bihar",
+  "disease": "malaria",
+  "true": 647.0,
+  "model": 472.7814897499995,
+  "persistence": 518.0
+ },
+ {
+  "year": 2021,
+  "state_id": "bihar",
+  "disease": "chikungunya",
+  "true": 40.0,
+  "model": 67.85107558745139,
+  "persistence": 38.0
+ },
+ {
+  "year": 2021,
+  "state_id": "chandigarh",
+  "disease": "dengue",
+  "true": 1596.0,
+  "model": 439.4409588173477,
+  "persistence": 265.0
+ },
+ {
+  "year": 2021,
+  "state_id": "chandigarh",
+  "disease": "malaria",
+  "true": 6.0,
+  "model": 5.546363285157824,
+  "persistence": 7.0
+ },
+ {
+  "year": 2021,
+  "state_id": "chhattisgarh",
+  "disease": "dengue",
+  "true": 1086.0,
+  "model": 131.10789169072098,
+  "persistence": 57.0
+ },
+ {
+  "year": 2021,
+  "state_id": "chhattisgarh",
+  "disease": "malaria",
+  "true": 29733.0,
+  "model": 32258.257013790742,
+  "persistence": 36667.0
+ },
+ {
+  "year": 2021,
+  "state_id": "chhattisgarh",
+  "disease": "chikungunya",
+  "true": 0.0,
+  "model": 0.0,
+  "persistence": 0.0
+ },
+ {
+  "year": 2021,
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "dengue",
+  "true": 826.0,
+  "model": 632.6651612819786,
+  "persistence": 319.0
+ },
+ {
+  "year": 2021,
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "malaria",
+  "true": 54.0,
+  "model": 28.171375390917504,
+  "persistence": 40.0
+ },
+ {
+  "year": 2021,
+  "state_id": "delhi",
+  "disease": "dengue",
+  "true": 13089.0,
+  "model": 2032.4759248999628,
+  "persistence": 1269.0
+ },
+ {
+  "year": 2021,
+  "state_id": "delhi",
+  "disease": "malaria",
+  "true": 167.0,
+  "model": 115.3362897928294,
+  "persistence": 135.0
+ },
+ {
+  "year": 2021,
+  "state_id": "delhi",
+  "disease": "chikungunya",
+  "true": 112.0,
+  "model": 188.9951679938645,
+  "persistence": 126.0
+ },
+ {
+  "year": 2021,
+  "state_id": "goa",
+  "disease": "dengue",
+  "true": 649.0,
+  "model": 712.5966223484816,
+  "persistence": 376.0
+ },
+ {
+  "year": 2021,
+  "state_id": "goa",
+  "disease": "malaria",
+  "true": 90.0,
+  "model": 65.67842303714605,
+  "persistence": 102.0
+ },
+ {
+  "year": 2021,
+  "state_id": "goa",
+  "disease": "chikungunya",
+  "true": 114.0,
+  "model": 91.78295259139202,
+  "persistence": 64.0
+ },
+ {
+  "year": 2021,
+  "state_id": "gujarat",
+  "disease": "dengue",
+  "true": 10983.0,
+  "model": 3090.8927932686697,
+  "persistence": 1564.0
+ },
+ {
+  "year": 2021,
+  "state_id": "gujarat",
+  "disease": "malaria",
+  "true": 4921.0,
+  "model": 3737.1254726875177,
+  "persistence": 4771.0
+ },
+ {
+  "year": 2021,
+  "state_id": "gujarat",
+  "disease": "chikungunya",
+  "true": 32372.0,
+  "model": 12326.727278411774,
+  "persistence": 8120.0
+ },
+ {
+  "year": 2021,
+  "state_id": "haryana",
+  "disease": "dengue",
+  "true": 11835.0,
+  "model": 3491.143626475751,
+  "persistence": 1377.0
+ },
+ {
+  "year": 2021,
+  "state_id": "haryana",
+  "disease": "malaria",
+  "true": 54.0,
+  "model": 75.7117757383562,
+  "persistence": 111.0
+ },
+ {
+  "year": 2021,
+  "state_id": "haryana",
+  "disease": "chikungunya",
+  "true": 765.0,
+  "model": 1845.319087575499,
+  "persistence": 930.0
+ },
+ {
+  "year": 2021,
+  "state_id": "himachal_pradesh",
+  "disease": "dengue",
+  "true": 349.0,
+  "model": 56.6951493888224,
+  "persistence": 21.0
+ },
+ {
+  "year": 2021,
+  "state_id": "himachal_pradesh",
+  "disease": "malaria",
+  "true": 15.0,
+  "model": 31.82470728675275,
+  "persistence": 34.0
+ },
+ {
+  "year": 2021,
+  "state_id": "jammu_and_kashmir",
+  "disease": "dengue",
+  "true": 1709.0,
+  "model": 132.03912605571807,
+  "persistence": 53.0
+ },
+ {
+  "year": 2021,
+  "state_id": "jammu_and_kashmir",
+  "disease": "malaria",
+  "true": 31.0,
+  "model": 34.90869861305094,
+  "persistence": 37.0
+ },
+ {
+  "year": 2021,
+  "state_id": "jammu_and_kashmir",
+  "disease": "chikungunya",
+  "true": 7.0,
+  "model": 1.0,
+  "persistence": 1.0
+ },
+ {
+  "year": 2021,
+  "state_id": "jharkhand",
+  "disease": "dengue",
+  "true": 220.0,
+  "model": 142.25735469855996,
+  "persistence": 79.0
+ },
+ {
+  "year": 2021,
+  "state_id": "jharkhand",
+  "disease": "malaria",
+  "true": 14198.0,
+  "model": 14449.938091729418,
+  "persistence": 16653.0
+ },
+ {
+  "year": 2021,
+  "state_id": "jharkhand",
+  "disease": "chikungunya",
+  "true": 1064.0,
+  "model": 1199.366823604559,
+  "persistence": 627.0
+ },
+ {
+  "year": 2021,
+  "state_id": "karnataka",
+  "disease": "dengue",
+  "true": 7393.0,
+  "model": 8016.753722243707,
+  "persistence": 3823.0
+ },
+ {
+  "year": 2021,
+  "state_id": "karnataka",
+  "disease": "malaria",
+  "true": 913.0,
+  "model": 1161.3611699615265,
+  "persistence": 1701.0000000000002
+ },
+ {
+  "year": 2021,
+  "state_id": "karnataka",
+  "disease": "chikungunya",
+  "true": 40134.0,
+  "model": 28550.239539405666,
+  "persistence": 16111.0
+ },
+ {
+  "year": 2021,
+  "state_id": "kerala",
+  "disease": "dengue",
+  "true": 3251.0,
+  "model": 8028.007835441013,
+  "persistence": 4399.0
+ },
+ {
+  "year": 2021,
+  "state_id": "kerala",
+  "disease": "malaria",
+  "true": 309.0,
+  "model": 228.5564239478831,
+  "persistence": 268.0
+ },
+ {
+  "year": 2021,
+  "state_id": "kerala",
+  "disease": "chikungunya",
+  "true": 3030.0,
+  "model": 5080.383090473002,
+  "persistence": 2302.0
+ },
+ {
+  "year": 2021,
+  "state_id": "ladakh",
+  "disease": "dengue",
+  "true": 0.0,
+  "model": 0.5180407413934637,
+  "persistence": 0.0
+ },
+ {
+  "year": 2021,
+  "state_id": "ladakh",
+  "disease": "malaria",
+  "true": 0.0,
+  "model": 0.0,
+  "persistence": 0.0
+ },
+ {
+  "year": 2021,
+  "state_id": "ladakh",
+  "disease": "chikungunya",
+  "true": 0.0,
+  "model": 0.0097497602819005,
+  "persistence": 0.0
+ },
+ {
+  "year": 2021,
+  "state_id": "lakshadweep",
+  "disease": "dengue",
+  "true": 1.0,
+  "model": 0.0,
+  "persistence": 0.0
+ },
+ {
+  "year": 2021,
+  "state_id": "lakshadweep",
+  "disease": "malaria",
+  "true": 1.0,
+  "model": 4.446312413620613,
+  "persistence": 6.0
+ },
+ {
+  "year": 2021,
+  "state_id": "madhya_pradesh",
+  "disease": "dengue",
+  "true": 15592.0,
+  "model": 1953.0509500999487,
+  "persistence": 806.0
+ },
+ {
+  "year": 2021,
+  "state_id": "madhya_pradesh",
+  "disease": "malaria",
+  "true": 3181.0,
+  "model": 5481.757977455208,
+  "persistence": 6760.0
+ },
+ {
+  "year": 2021,
+  "state_id": "madhya_pradesh",
+  "disease": "chikungunya",
+  "true": 3822.0,
+  "model": 3698.6992452693535,
+  "persistence": 1871.0
+ },
+ {
+  "year": 2021,
+  "state_id": "maharashtra",
+  "disease": "dengue",
+  "true": 203.0,
+  "model": 6643.059999040589,
+  "persistence": 3356.0
+ },
+ {
+  "year": 2021,
+  "state_id": "maharashtra",
+  "disease": "malaria",
+  "true": 19303.0,
+  "model": 11802.808354441591,
+  "persistence": 15215.0
+ },
+ {
+  "year": 2021,
+  "state_id": "manipur",
+  "disease": "dengue",
+  "true": 129.0,
+  "model": 75.38335708384493,
+  "persistence": 37.0
+ },
+ {
+  "year": 2021,
+  "state_id": "manipur",
+  "disease": "malaria",
+  "true": 19.0,
+  "model": 33.16458411619616,
+  "persistence": 36.0
+ },
+ {
+  "year": 2021,
+  "state_id": "meghalaya",
+  "disease": "dengue",
+  "true": 12720.0,
+  "model": 7.88428765520533,
+  "persistence": 4.0
+ },
+ {
+  "year": 2021,
+  "state_id": "meghalaya",
+  "disease": "malaria",
+  "true": 491.0,
+  "model": 1834.915346826782,
+  "persistence": 2018.0
+ },
+ {
+  "year": 2021,
+  "state_id": "meghalaya",
+  "disease": "chikungunya",
+  "true": 21680.0,
+  "model": 5.798319069087301,
+  "persistence": 3.0
+ },
+ {
+  "year": 2021,
+  "state_id": "mizoram",
+  "disease": "dengue",
+  "true": 83.0,
+  "model": 115.5195972927088,
+  "persistence": 67.0
+ },
+ {
+  "year": 2021,
+  "state_id": "mizoram",
+  "disease": "malaria",
+  "true": 8018.0,
+  "model": 7516.196991338717,
+  "persistence": 7781.0
+ },
+ {
+  "year": 2021,
+  "state_id": "nagaland",
+  "disease": "dengue",
+  "true": 24.0,
+  "model": 4.404679470296141,
+  "persistence": 1.0
+ },
+ {
+  "year": 2021,
+  "state_id": "nagaland",
+  "disease": "malaria",
+  "true": 8.0,
+  "model": 11.326126338922837,
+  "persistence": 12.0
+ },
+ {
+  "year": 2021,
+  "state_id": "nagaland",
+  "disease": "chikungunya",
+  "true": 0.0,
+  "model": 0.0,
+  "persistence": 0.0
+ },
+ {
+  "year": 2021,
+  "state_id": "odisha",
+  "disease": "dengue",
+  "true": 7548.0,
+  "model": 1841.7803447824429,
+  "persistence": 496.0
+ },
+ {
+  "year": 2021,
+  "state_id": "odisha",
+  "disease": "malaria",
+  "true": 25503.0,
+  "model": 34872.71331670307,
+  "persistence": 41739.0
+ },
+ {
+  "year": 2021,
+  "state_id": "puducherry",
+  "disease": "dengue",
+  "true": 1625.0,
+  "model": 1477.7670275837338,
+  "persistence": 633.0
+ },
+ {
+  "year": 2021,
+  "state_id": "puducherry",
+  "disease": "malaria",
+  "true": 5.0,
+  "model": 13.224515552142782,
+  "persistence": 15.0
+ },
+ {
+  "year": 2021,
+  "state_id": "puducherry",
+  "disease": "chikungunya",
+  "true": 7284.0,
+  "model": 6596.112942561597,
+  "persistence": 3980.0
+ },
+ {
+  "year": 2021,
+  "state_id": "punjab",
+  "disease": "dengue",
+  "true": 23389.0,
+  "model": 15398.00000000001,
+  "persistence": 8435.0
+ },
+ {
+  "year": 2021,
+  "state_id": "punjab",
+  "disease": "malaria",
+  "true": 71.0,
+  "model": 89.33864633123103,
+  "persistence": 109.0
+ },
+ {
+  "year": 2021,
+  "state_id": "punjab",
+  "disease": "chikungunya",
+  "true": 644.0,
+  "model": 55.972570017774274,
+  "persistence": 25.0
+ },
+ {
+  "year": 2021,
+  "state_id": "rajasthan",
+  "disease": "dengue",
+  "true": 20749.0,
+  "model": 4374.360264264252,
+  "persistence": 2023.0
+ },
+ {
+  "year": 2021,
+  "state_id": "rajasthan",
+  "disease": "malaria",
+  "true": 925.0,
+  "model": 944.117037618698,
+  "persistence": 1276.0
+ },
+ {
+  "year": 2021,
+  "state_id": "rajasthan",
+  "disease": "chikungunya",
+  "true": 1157.0,
+  "model": 1832.107608862003,
+  "persistence": 1015.0
+ },
+ {
+  "year": 2021,
+  "state_id": "sikkim",
+  "disease": "dengue",
+  "true": 243.0,
+  "model": 23.54417907039749,
+  "persistence": 11.0
+ },
+ {
+  "year": 2021,
+  "state_id": "sikkim",
+  "disease": "malaria",
+  "true": 4.0,
+  "model": 3.0895841222848115,
+  "persistence": 4.0
+ },
+ {
+  "year": 2021,
+  "state_id": "sikkim",
+  "disease": "chikungunya",
+  "true": 457.0,
+  "model": 354.0677141840185,
+  "persistence": 253.0
+ },
+ {
+  "year": 2021,
+  "state_id": "tamil_nadu",
+  "disease": "dengue",
+  "true": 6039.0,
+  "model": 4590.23903666523,
+  "persistence": 2410.0
+ },
+ {
+  "year": 2021,
+  "state_id": "tamil_nadu",
+  "disease": "malaria",
+  "true": 772.0,
+  "model": 701.3990030123405,
+  "persistence": 891.0
+ },
+ {
+  "year": 2021,
+  "state_id": "tamil_nadu",
+  "disease": "chikungunya",
+  "true": 3654.0,
+  "model": 2885.367725606724,
+  "persistence": 1461.0
+ },
+ {
+  "year": 2021,
+  "state_id": "telangana",
+  "disease": "dengue",
+  "true": 349.0,
+  "model": 6505.081067883276,
+  "persistence": 2173.0
+ },
+ {
+  "year": 2021,
+  "state_id": "telangana",
+  "disease": "malaria",
+  "true": 874.0,
+  "model": 682.3970968499376,
+  "persistence": 870.0
+ },
+ {
+  "year": 2021,
+  "state_id": "telangana",
+  "disease": "chikungunya",
+  "true": 220.0,
+  "model": 871.8288578020896,
+  "persistence": 364.0
+ },
+ {
+  "year": 2021,
+  "state_id": "tripura",
+  "disease": "dengue",
+  "true": 7135.0,
+  "model": 40.72051281549608,
+  "persistence": 24.0
+ },
+ {
+  "year": 2021,
+  "state_id": "tripura",
+  "disease": "malaria",
+  "true": 10136.0,
+  "model": 3209.257011360058,
+  "persistence": 3395.0
+ },
+ {
+  "year": 2021,
+  "state_id": "tripura",
+  "disease": "chikungunya",
+  "true": 948.0,
+  "model": 646.0201137670789,
+  "persistence": 454.0
+ },
+ {
+  "year": 2021,
+  "state_id": "uttar_pradesh",
+  "disease": "dengue",
+  "true": 29750.0,
+  "model": 9073.52156921163,
+  "persistence": 3715.0
+ },
+ {
+  "year": 2021,
+  "state_id": "uttar_pradesh",
+  "disease": "malaria",
+  "true": 13.0,
+  "model": 25422.799904666823,
+  "persistence": 28668.0
+ },
+ {
+  "year": 2021,
+  "state_id": "uttar_pradesh",
+  "disease": "chikungunya",
+  "true": 70.0,
+  "model": 100.97966115824735,
+  "persistence": 53.0
+ },
+ {
+  "year": 2021,
+  "state_id": "uttarakhand",
+  "disease": "dengue",
+  "true": 738.0,
+  "model": 155.50113012900235,
+  "persistence": 76.0
+ },
+ {
+  "year": 2021,
+  "state_id": "uttarakhand",
+  "disease": "malaria",
+  "true": 10792.0,
+  "model": 12.75274195376309,
+  "persistence": 15.0
+ },
+ {
+  "year": 2021,
+  "state_id": "west_bengal",
+  "disease": "dengue",
+  "true": 8264.0,
+  "model": 13540.380152321552,
+  "persistence": 5166.0
+ },
+ {
+  "year": 2021,
+  "state_id": "west_bengal",
+  "disease": "malaria",
+  "true": 28987.0,
+  "model": 11106.707925698438,
+  "persistence": 14049.0
+ },
+ {
+  "year": 2021,
+  "state_id": "west_bengal",
+  "disease": "chikungunya",
+  "true": 154.0,
+  "model": 845.0750358096033,
+  "persistence": 391.0
+ },
+ {
+  "year": 2022,
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "dengue",
+  "true": 1080.0,
+  "model": 157.69159117549148,
+  "persistence": 175.0
+ },
+ {
+  "year": 2022,
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "malaria",
+  "true": 46.0,
+  "model": 15.273477767849236,
+  "persistence": 27.0
+ },
+ {
+  "year": 2022,
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "chikungunya",
+  "true": 65.0,
+  "model": 220.5155372654826,
+  "persistence": 187.0
+ },
+ {
+  "year": 2022,
+  "state_id": "andhra_pradesh",
+  "disease": "dengue",
+  "true": 6391.0,
+  "model": 5285.999999999999,
+  "persistence": 4760.0
+ },
+ {
+  "year": 2022,
+  "state_id": "andhra_pradesh",
+  "disease": "malaria",
+  "true": 2019.0,
+  "model": 885.7374598004925,
+  "persistence": 1315.0
+ },
+ {
+  "year": 2022,
+  "state_id": "andhra_pradesh",
+  "disease": "chikungunya",
+  "true": 1611.0,
+  "model": 1368.5649148643215,
+  "persistence": 753.0
+ },
+ {
+  "year": 2022,
+  "state_id": "arunachal_pradesh",
+  "disease": "dengue",
+  "true": 102.0,
+  "model": 17.844438739692396,
+  "persistence": 7.0
+ },
+ {
+  "year": 2022,
+  "state_id": "arunachal_pradesh",
+  "disease": "malaria",
+  "true": 17.0,
+  "model": 5.058420106246532,
+  "persistence": 8.0
+ },
+ {
+  "year": 2022,
+  "state_id": "assam",
+  "disease": "dengue",
+  "true": 1826.0,
+  "model": 133.83422057541404,
+  "persistence": 103.0
+ },
+ {
+  "year": 2022,
+  "state_id": "assam",
+  "disease": "malaria",
+  "true": 280.0,
+  "model": 71.20341739901293,
+  "persistence": 162.0
+ },
+ {
+  "year": 2022,
+  "state_id": "bihar",
+  "disease": "dengue",
+  "true": 13281.0,
+  "model": 731.2420527492981,
+  "persistence": 633.0
+ },
+ {
+  "year": 2022,
+  "state_id": "bihar",
+  "disease": "malaria",
+  "true": 539.0,
+  "model": 511.68138952312216,
+  "persistence": 647.0
+ },
+ {
+  "year": 2022,
+  "state_id": "bihar",
+  "disease": "chikungunya",
+  "true": 63.0,
+  "model": 56.112194970767945,
+  "persistence": 40.0
+ },
+ {
+  "year": 2022,
+  "state_id": "chandigarh",
+  "disease": "dengue",
+  "true": 910.0,
+  "model": 891.5338304384608,
+  "persistence": 1596.0
+ },
+ {
+  "year": 2022,
+  "state_id": "chandigarh",
+  "disease": "malaria",
+  "true": 1.0,
+  "model": 3.0453902867287552,
+  "persistence": 6.0
+ },
+ {
+  "year": 2022,
+  "state_id": "chandigarh",
+  "disease": "chikungunya",
+  "true": 153.0,
+  "model": 256.77923661638164,
+  "persistence": 397.0
+ },
+ {
+  "year": 2022,
+  "state_id": "chhattisgarh",
+  "disease": "dengue",
+  "true": 2633.0,
+  "model": 1582.1249973765052,
+  "persistence": 1086.0
+ },
+ {
+  "year": 2022,
+  "state_id": "chhattisgarh",
+  "disease": "malaria",
+  "true": 30028.0,
+  "model": 22988.76686454764,
+  "persistence": 29733.0
+ },
+ {
+  "year": 2022,
+  "state_id": "chhattisgarh",
+  "disease": "chikungunya",
+  "true": 39.0,
+  "model": 0.0,
+  "persistence": 0.0
+ },
+ {
+  "year": 2022,
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "dengue",
+  "true": 913.0,
+  "model": 1034.542884484293,
+  "persistence": 826.0
+ },
+ {
+  "year": 2022,
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "malaria",
+  "true": 39.0,
+  "model": 32.0236595737396,
+  "persistence": 54.0
+ },
+ {
+  "year": 2022,
+  "state_id": "delhi",
+  "disease": "dengue",
+  "true": 10183.0,
+  "model": 7428.205067446041,
+  "persistence": 13089.0
+ },
+ {
+  "year": 2022,
+  "state_id": "delhi",
+  "disease": "malaria",
+  "true": 173.0,
+  "model": 104.25594505123878,
+  "persistence": 167.0
+ },
+ {
+  "year": 2022,
+  "state_id": "delhi",
+  "disease": "chikungunya",
+  "true": 61.0,
+  "model": 85.87693761047092,
+  "persistence": 112.0
+ },
+ {
+  "year": 2022,
+  "state_id": "goa",
+  "disease": "dengue",
+  "true": 443.0,
+  "model": 989.4645745458142,
+  "persistence": 649.0
+ },
+ {
+  "year": 2022,
+  "state_id": "goa",
+  "disease": "malaria",
+  "true": 2.0,
+  "model": 52.050032085987226,
+  "persistence": 90.0
+ },
+ {
+  "year": 2022,
+  "state_id": "goa",
+  "disease": "chikungunya",
+  "true": 868.0,
+  "model": 155.70397281912835,
+  "persistence": 114.0
+ },
+ {
+  "year": 2022,
+  "state_id": "gujarat",
+  "disease": "dengue",
+  "true": 6744.0,
+  "model": 9908.49145713546,
+  "persistence": 10983.0
+ },
+ {
+  "year": 2022,
+  "state_id": "gujarat",
+  "disease": "malaria",
+  "true": 4766.0,
+  "model": 3213.511288055572,
+  "persistence": 4921.0
+ },
+ {
+  "year": 2022,
+  "state_id": "gujarat",
+  "disease": "chikungunya",
+  "true": 20854.0,
+  "model": 34307.96983073149,
+  "persistence": 32372.0
+ },
+ {
+  "year": 2022,
+  "state_id": "haryana",
+  "disease": "dengue",
+  "true": 8996.0,
+  "model": 4302.176753404815,
+  "persistence": 11835.0
+ },
+ {
+  "year": 2022,
+  "state_id": "haryana",
+  "disease": "malaria",
+  "true": 50.0,
+  "model": 21.299053869460117,
+  "persistence": 54.0
+ },
+ {
+  "year": 2022,
+  "state_id": "haryana",
+  "disease": "chikungunya",
+  "true": 2425.0,
+  "model": 447.3835326141461,
+  "persistence": 765.0
+ },
+ {
+  "year": 2022,
+  "state_id": "himachal_pradesh",
+  "disease": "dengue",
+  "true": 3326.0,
+  "model": 158.56788168086985,
+  "persistence": 349.0
+ },
+ {
+  "year": 2022,
+  "state_id": "himachal_pradesh",
+  "disease": "malaria",
+  "true": 10.0,
+  "model": 10.602921135646136,
+  "persistence": 15.0
+ },
+ {
+  "year": 2022,
+  "state_id": "jammu_and_kashmir",
+  "disease": "dengue",
+  "true": 8269.0,
+  "model": 833.150584712443,
+  "persistence": 1709.0
+ },
+ {
+  "year": 2022,
+  "state_id": "jammu_and_kashmir",
+  "disease": "malaria",
+  "true": 37.0,
+  "model": 20.74146520867163,
+  "persistence": 31.0
+ },
+ {
+  "year": 2022,
+  "state_id": "jammu_and_kashmir",
+  "disease": "chikungunya",
+  "true": 37.0,
+  "model": 6.017635234321602,
+  "persistence": 7.0
+ },
+ {
+  "year": 2022,
+  "state_id": "jharkhand",
+  "disease": "dengue",
+  "true": 290.0,
+  "model": 243.8692115586333,
+  "persistence": 220.0
+ },
+ {
+  "year": 2022,
+  "state_id": "jharkhand",
+  "disease": "malaria",
+  "true": 19129.0,
+  "model": 10115.599642296364,
+  "persistence": 14198.0
+ },
+ {
+  "year": 2022,
+  "state_id": "jharkhand",
+  "disease": "chikungunya",
+  "true": 2113.0,
+  "model": 1645.5460693021698,
+  "persistence": 1064.0
+ },
+ {
+  "year": 2022,
+  "state_id": "karnataka",
+  "disease": "dengue",
+  "true": 9620.0,
+  "model": 9860.513481272175,
+  "persistence": 7393.0
+ },
+ {
+  "year": 2022,
+  "state_id": "karnataka",
+  "disease": "malaria",
+  "true": 279.0,
+  "model": 480.44373265044914,
+  "persistence": 913.0
+ },
+ {
+  "year": 2022,
+  "state_id": "karnataka",
+  "disease": "chikungunya",
+  "true": 63549.0,
+  "model": 57270.88490103278,
+  "persistence": 40134.0
+ },
+ {
+  "year": 2022,
+  "state_id": "kerala",
+  "disease": "dengue",
+  "true": 4432.0,
+  "model": 1818.690873156992,
+  "persistence": 3251.0
+ },
+ {
+  "year": 2022,
+  "state_id": "kerala",
+  "disease": "malaria",
+  "true": 439.0,
+  "model": 222.2037987753924,
+  "persistence": 309.0
+ },
+ {
+  "year": 2022,
+  "state_id": "kerala",
+  "disease": "chikungunya",
+  "true": 1511.0,
+  "model": 2075.2910909305924,
+  "persistence": 3030.0
+ },
+ {
+  "year": 2022,
+  "state_id": "ladakh",
+  "disease": "dengue",
+  "true": 0.0,
+  "model": 0.0,
+  "persistence": 0.0
+ },
+ {
+  "year": 2022,
+  "state_id": "ladakh",
+  "disease": "malaria",
+  "true": 0.0,
+  "model": 0.0,
+  "persistence": 0.0
+ },
+ {
+  "year": 2022,
+  "state_id": "ladakh",
+  "disease": "chikungunya",
+  "true": 0.0,
+  "model": 0.0,
+  "persistence": 0.0
+ },
+ {
+  "year": 2022,
+  "state_id": "lakshadweep",
+  "disease": "dengue",
+  "true": 70.0,
+  "model": 0.7793469392573776,
+  "persistence": 1.0
+ },
+ {
+  "year": 2022,
+  "state_id": "lakshadweep",
+  "disease": "malaria",
+  "true": 0.0,
+  "model": 0.286631276478591,
+  "persistence": 1.0
+ },
+ {
+  "year": 2022,
+  "state_id": "madhya_pradesh",
+  "disease": "dengue",
+  "true": 3205.0,
+  "model": 10350.676333060854,
+  "persistence": 15592.0
+ },
+ {
+  "year": 2022,
+  "state_id": "madhya_pradesh",
+  "disease": "malaria",
+  "true": 3719.0,
+  "model": 2012.4935680276203,
+  "persistence": 3181.0
+ },
+ {
+  "year": 2022,
+  "state_id": "madhya_pradesh",
+  "disease": "chikungunya",
+  "true": 4292.0,
+  "model": 4183.482943603486,
+  "persistence": 3822.0
+ },
+ {
+  "year": 2022,
+  "state_id": "maharashtra",
+  "disease": "dengue",
+  "true": 8560.0,
+  "model": 377.5337808581177,
+  "persistence": 203.0
+ },
+ {
+  "year": 2022,
+  "state_id": "maharashtra",
+  "disease": "malaria",
+  "true": 15437.0,
+  "model": 13941.018911216388,
+  "persistence": 19303.0
+ },
+ {
+  "year": 2022,
+  "state_id": "manipur",
+  "disease": "dengue",
+  "true": 503.0,
+  "model": 183.82677661792172,
+  "persistence": 129.0
+ },
+ {
+  "year": 2022,
+  "state_id": "manipur",
+  "disease": "malaria",
+  "true": 14.0,
+  "model": 11.034200387493533,
+  "persistence": 19.0
+ },
+ {
+  "year": 2022,
+  "state_id": "meghalaya",
+  "disease": "dengue",
+  "true": 26.0,
+  "model": 4441.106572827109,
+  "persistence": 12720.0
+ },
+ {
+  "year": 2022,
+  "state_id": "meghalaya",
+  "disease": "malaria",
+  "true": 463.0,
+  "model": 283.1097141825446,
+  "persistence": 491.0
+ },
+ {
+  "year": 2022,
+  "state_id": "meghalaya",
+  "disease": "chikungunya",
+  "true": 14569.0,
+  "model": 13005.88693563242,
+  "persistence": 21680.0
+ },
+ {
+  "year": 2022,
+  "state_id": "mizoram",
+  "disease": "dengue",
+  "true": 1868.0,
+  "model": 63.34245971584838,
+  "persistence": 83.0
+ },
+ {
+  "year": 2022,
+  "state_id": "mizoram",
+  "disease": "malaria",
+  "true": 10222.0,
+  "model": 6679.996054959923,
+  "persistence": 8018.0
+ },
+ {
+  "year": 2022,
+  "state_id": "nagaland",
+  "disease": "dengue",
+  "true": 154.0,
+  "model": 59.81374420409245,
+  "persistence": 24.0
+ },
+ {
+  "year": 2022,
+  "state_id": "nagaland",
+  "disease": "malaria",
+  "true": 8.0,
+  "model": 5.567352340057522,
+  "persistence": 8.0
+ },
+ {
+  "year": 2022,
+  "state_id": "nagaland",
+  "disease": "chikungunya",
+  "true": 0.0,
+  "model": 0.0,
+  "persistence": 0.0
+ },
+ {
+  "year": 2022,
+  "state_id": "odisha",
+  "disease": "dengue",
+  "true": 7063.0,
+  "model": 6896.038227990753,
+  "persistence": 7548.0
+ },
+ {
+  "year": 2022,
+  "state_id": "odisha",
+  "disease": "malaria",
+  "true": 23770.0,
+  "model": 16999.622452330277,
+  "persistence": 25503.0
+ },
+ {
+  "year": 2022,
+  "state_id": "puducherry",
+  "disease": "dengue",
+  "true": 1673.0,
+  "model": 972.4989458721926,
+  "persistence": 1625.0
+ },
+ {
+  "year": 2022,
+  "state_id": "puducherry",
+  "disease": "chikungunya",
+  "true": 11440.0,
+  "model": 6337.506804245241,
+  "persistence": 7284.0
+ },
+ {
+  "year": 2022,
+  "state_id": "punjab",
+  "disease": "dengue",
+  "true": 11038.0,
+  "model": 9630.81905786685,
+  "persistence": 23389.0
+ },
+ {
+  "year": 2022,
+  "state_id": "punjab",
+  "disease": "malaria",
+  "true": 109.0,
+  "model": 42.5436615099774,
+  "persistence": 71.0
+ },
+ {
+  "year": 2022,
+  "state_id": "punjab",
+  "disease": "chikungunya",
+  "true": 1043.0,
+  "model": 354.62468435787565,
+  "persistence": 644.0
+ },
+ {
+  "year": 2022,
+  "state_id": "rajasthan",
+  "disease": "dengue",
+  "true": 13491.0,
+  "model": 10224.782164259328,
+  "persistence": 20749.0
+ },
+ {
+  "year": 2022,
+  "state_id": "rajasthan",
+  "disease": "malaria",
+  "true": 1026.0,
+  "model": 472.7392592806064,
+  "persistence": 925.0
+ },
+ {
+  "year": 2022,
+  "state_id": "rajasthan",
+  "disease": "chikungunya",
+  "true": 212.0,
+  "model": 840.7309889057788,
+  "persistence": 1157.0
+ },
+ {
+  "year": 2022,
+  "state_id": "sikkim",
+  "disease": "dengue",
+  "true": 260.0,
+  "model": 118.29313100795224,
+  "persistence": 243.0
+ },
+ {
+  "year": 2022,
+  "state_id": "sikkim",
+  "disease": "malaria",
+  "true": 6.0,
+  "model": 2.156237677023733,
+  "persistence": 4.0
+ },
+ {
+  "year": 2022,
+  "state_id": "sikkim",
+  "disease": "chikungunya",
+  "true": 1883.0,
+  "model": 412.8607191769044,
+  "persistence": 457.0
+ },
+ {
+  "year": 2022,
+  "state_id": "tamil_nadu",
+  "disease": "dengue",
+  "true": 6430.0,
+  "model": 4665.358579247285,
+  "persistence": 6039.0
+ },
+ {
+  "year": 2022,
+  "state_id": "tamil_nadu",
+  "disease": "malaria",
+  "true": 344.0,
+  "model": 445.6747874293824,
+  "persistence": 772.0
+ },
+ {
+  "year": 2022,
+  "state_id": "tamil_nadu",
+  "disease": "chikungunya",
+  "true": 181.0,
+  "model": 3793.602809745247,
+  "persistence": 3654.0
+ },
+ {
+  "year": 2022,
+  "state_id": "telangana",
+  "disease": "dengue",
+  "true": 8972.0,
+  "model": 877.3625129290249,
+  "persistence": 349.0
+ },
+ {
+  "year": 2022,
+  "state_id": "telangana",
+  "disease": "malaria",
+  "true": 611.0,
+  "model": 591.3164982562811,
+  "persistence": 874.0
+ },
+ {
+  "year": 2022,
+  "state_id": "telangana",
+  "disease": "chikungunya",
+  "true": 6608.0,
+  "model": 475.4038220041218,
+  "persistence": 220.0
+ },
+ {
+  "year": 2022,
+  "state_id": "tripura",
+  "disease": "dengue",
+  "true": 55.0,
+  "model": 3055.051416438685,
+  "persistence": 7135.0
+ },
+ {
+  "year": 2022,
+  "state_id": "tripura",
+  "disease": "malaria",
+  "true": 12771.0,
+  "model": 7820.687228029837,
+  "persistence": 10136.0
+ },
+ {
+  "year": 2022,
+  "state_id": "tripura",
+  "disease": "chikungunya",
+  "true": 919.0,
+  "model": 826.9893996369619,
+  "persistence": 948.0
+ },
+ {
+  "year": 2022,
+  "state_id": "uttar_pradesh",
+  "disease": "dengue",
+  "true": 19821.0,
+  "model": 17024.647310911194,
+  "persistence": 29750.0
+ },
+ {
+  "year": 2022,
+  "state_id": "uttar_pradesh",
+  "disease": "malaria",
+  "true": 7039.0,
+  "model": 4.69569489625306,
+  "persistence": 13.0
+ },
+ {
+  "year": 2022,
+  "state_id": "uttar_pradesh",
+  "disease": "chikungunya",
+  "true": 200.0,
+  "model": 68.74466726016901,
+  "persistence": 70.0
+ },
+ {
+  "year": 2022,
+  "state_id": "uttarakhand",
+  "disease": "dengue",
+  "true": 2337.0,
+  "model": 401.3087450039311,
+  "persistence": 738.0
+ },
+ {
+  "year": 2022,
+  "state_id": "uttarakhand",
+  "disease": "malaria",
+  "true": 19.0,
+  "model": 6538.523969343649,
+  "persistence": 10792.0
+ },
+ {
+  "year": 2022,
+  "state_id": "uttarakhand",
+  "disease": "chikungunya",
+  "true": 2000.0,
+  "model": 2.632819062980023,
+  "persistence": 3.0
+ },
+ {
+  "year": 2022,
+  "state_id": "west_bengal",
+  "disease": "dengue",
+  "true": 1753.0,
+  "model": 4483.566067993456,
+  "persistence": 8264.0
+ },
+ {
+  "year": 2022,
+  "state_id": "west_bengal",
+  "disease": "malaria",
+  "true": 40563.0,
+  "model": 18751.48579451181,
+  "persistence": 28987.0
+ },
+ {
+  "year": 2022,
+  "state_id": "west_bengal",
+  "disease": "chikungunya",
+  "true": 1230.0,
+  "model": 176.23050323384427,
+  "persistence": 154.0
+ }
+]

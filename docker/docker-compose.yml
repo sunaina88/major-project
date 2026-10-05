@@ -1,0 +1,19 @@
+# Run from repo root: docker compose -f docker/docker-compose.yml up
+# db and api sit in profile "full" until Person 5 delivers: docker compose --profile full up
+services:
+  db:
+    image: postgres:16
+    profiles: ["full"]
+    environment:
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-change_me}
+  api:
+    profiles: ["full"]
+    build: {context: .., dockerfile: docker/Dockerfile.api}
+    depends_on: [db]
+    ports: ["8000:8000"]
+  frontend:
+    build: {context: .., dockerfile: docker/Dockerfile.frontend}
+    environment:
+      USE_MOCKS: ${USE_MOCKS:-true}
+      API_URL: http://api:8000
+    ports: ["8501:8501"]
