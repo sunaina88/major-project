@@ -1,0 +1,10298 @@
+[
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "dengue",
+  "year": 2010,
+  "cases": 25.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "dengue",
+  "year": 2011,
+  "cases": 6.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "dengue",
+  "year": 2012,
+  "cases": 24.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "dengue",
+  "year": 2013,
+  "cases": 67.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "dengue",
+  "year": 2017,
+  "cases": 18.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "dengue",
+  "year": 2018,
+  "cases": 49.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "dengue",
+  "year": 2019,
+  "cases": 168.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "dengue",
+  "year": 2020,
+  "cases": 98.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "dengue",
+  "year": 2021,
+  "cases": 175.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "dengue",
+  "year": 2022,
+  "cases": 1080.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "malaria",
+  "year": 2001,
+  "cases": 925.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "malaria",
+  "year": 2002,
+  "cases": 865.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "malaria",
+  "year": 2003,
+  "cases": 753.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "malaria",
+  "year": 2004,
+  "cases": 745.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "malaria",
+  "year": 2005,
+  "cases": 3954.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "malaria",
+  "year": 2006,
+  "cases": 2993.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "malaria",
+  "year": 2007,
+  "cases": 3973.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "malaria",
+  "year": 2008,
+  "cases": 4688.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "malaria",
+  "year": 2009,
+  "cases": 5760.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "malaria",
+  "year": 2010,
+  "cases": 2484.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "malaria",
+  "year": 2011,
+  "cases": 1918.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "malaria",
+  "year": 2012,
+  "cases": 1539.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "malaria",
+  "year": 2013,
+  "cases": 1005.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "malaria",
+  "year": 2014,
+  "cases": 557.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "malaria",
+  "year": 2015,
+  "cases": 409.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "malaria",
+  "year": 2016,
+  "cases": 485.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "malaria",
+  "year": 2017,
+  "cases": 505.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "malaria",
+  "year": 2018,
+  "cases": 259.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "malaria",
+  "year": 2019,
+  "cases": 202.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "malaria",
+  "year": 2020,
+  "cases": 85.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "malaria",
+  "year": 2021,
+  "cases": 27.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "malaria",
+  "year": 2022,
+  "cases": 46.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "chikungunya",
+  "year": 2006,
+  "cases": 1549.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "chikungunya",
+  "year": 2010,
+  "cases": 59.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "chikungunya",
+  "year": 2011,
+  "cases": 96.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "chikungunya",
+  "year": 2012,
+  "cases": 256.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "chikungunya",
+  "year": 2013,
+  "cases": 202.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "chikungunya",
+  "year": 2014,
+  "cases": 161.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "chikungunya",
+  "year": 2015,
+  "cases": 68.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "chikungunya",
+  "year": 2016,
+  "cases": 18.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "chikungunya",
+  "year": 2017,
+  "cases": 93.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "chikungunya",
+  "year": 2018,
+  "cases": 205.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "chikungunya",
+  "year": 2019,
+  "cases": 702.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "chikungunya",
+  "year": 2020,
+  "cases": 610.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "chikungunya",
+  "year": 2021,
+  "cases": 187.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "chikungunya",
+  "year": 2022,
+  "cases": 65.0
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "dengue",
+  "year": 2000,
+  "cases": 2.930754762397134
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "dengue",
+  "year": 2001,
+  "cases": 0.5861509524794264
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "dengue",
+  "year": 2002,
+  "cases": 35.75520810124504
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "dengue",
+  "year": 2003,
+  "cases": 55.68434048554556
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "dengue",
+  "year": 2004,
+  "cases": 134.81471907026815
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "dengue",
+  "year": 2005,
+  "cases": 58.028944295463255
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "dengue",
+  "year": 2006,
+  "cases": 115.47173763844708
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "dengue",
+  "year": 2007,
+  "cases": 344.0706091054236
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "dengue",
+  "year": 2008,
+  "cases": 183.4652481260606
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "dengue",
+  "year": 2009,
+  "cases": 697.519633450518
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "dengue",
+  "year": 2010,
+  "cases": 776.0
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "dengue",
+  "year": 2011,
+  "cases": 1209.0
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "dengue",
+  "year": 2012,
+  "cases": 2299.0
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "dengue",
+  "year": 2013,
+  "cases": 910.0
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "dengue",
+  "year": 2017,
+  "cases": 4925.0
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "dengue",
+  "year": 2018,
+  "cases": 4011.0
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "dengue",
+  "year": 2019,
+  "cases": 5286.0
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "dengue",
+  "year": 2020,
+  "cases": 925.0
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "dengue",
+  "year": 2021,
+  "cases": 4760.0
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "dengue",
+  "year": 2022,
+  "cases": 6391.0
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "malaria",
+  "year": 2001,
+  "cases": 33841.42524139971
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "malaria",
+  "year": 2002,
+  "cases": 22304.80219469963
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "malaria",
+  "year": 2003,
+  "cases": 21098.50353449697
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "malaria",
+  "year": 2004,
+  "cases": 20765.569793488652
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "malaria",
+  "year": 2005,
+  "cases": 22917.916090993112
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "malaria",
+  "year": 2006,
+  "cases": 19976.610611451342
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "malaria",
+  "year": 2007,
+  "cases": 16296.754931785505
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "malaria",
+  "year": 2008,
+  "cases": 15488.452768316376
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "malaria",
+  "year": 2009,
+  "cases": 14742.868756762544
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "malaria",
+  "year": 2010,
+  "cases": 19573.3387561455
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "malaria",
+  "year": 2011,
+  "cases": 34949.0
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "malaria",
+  "year": 2012,
+  "cases": 24699.0
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "malaria",
+  "year": 2013,
+  "cases": 19787.0
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "malaria",
+  "year": 2014,
+  "cases": 21077.0
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "malaria",
+  "year": 2015,
+  "cases": 25042.0
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "malaria",
+  "year": 2016,
+  "cases": 23613.0
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "malaria",
+  "year": 2017,
+  "cases": 16972.0
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "malaria",
+  "year": 2018,
+  "cases": 6040.0
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "malaria",
+  "year": 2019,
+  "cases": 3104.0
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "malaria",
+  "year": 2020,
+  "cases": 2027.0
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "malaria",
+  "year": 2021,
+  "cases": 1315.0
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "malaria",
+  "year": 2022,
+  "cases": 2019.0
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "chikungunya",
+  "year": 2006,
+  "cases": 45447.21410049236
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "chikungunya",
+  "year": 2007,
+  "cases": 22.85988714669765
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "chikungunya",
+  "year": 2008,
+  "cases": 2.930754762397134
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "chikungunya",
+  "year": 2009,
+  "cases": 346.4152129153413
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "chikungunya",
+  "year": 2010,
+  "cases": 116.0
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "chikungunya",
+  "year": 2011,
+  "cases": 99.0
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "chikungunya",
+  "year": 2012,
+  "cases": 2827.0
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "chikungunya",
+  "year": 2013,
+  "cases": 4827.0
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "chikungunya",
+  "year": 2014,
+  "cases": 1359.0
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "chikungunya",
+  "year": 2015,
+  "cases": 817.0
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "chikungunya",
+  "year": 2016,
+  "cases": 960.0
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "chikungunya",
+  "year": 2017,
+  "cases": 1162.0
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "chikungunya",
+  "year": 2018,
+  "cases": 622.0
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "chikungunya",
+  "year": 2019,
+  "cases": 832.0
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "chikungunya",
+  "year": 2020,
+  "cases": 318.0
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "chikungunya",
+  "year": 2021,
+  "cases": 753.0
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "chikungunya",
+  "year": 2022,
+  "cases": 1611.0
+ },
+ {
+  "state_id": "arunachal_pradesh",
+  "disease": "dengue",
+  "year": 2012,
+  "cases": 346.0
+ },
+ {
+  "state_id": "arunachal_pradesh",
+  "disease": "dengue",
+  "year": 2017,
+  "cases": 18.0
+ },
+ {
+  "state_id": "arunachal_pradesh",
+  "disease": "dengue",
+  "year": 2018,
+  "cases": 1.0
+ },
+ {
+  "state_id": "arunachal_pradesh",
+  "disease": "dengue",
+  "year": 2019,
+  "cases": 123.0
+ },
+ {
+  "state_id": "arunachal_pradesh",
+  "disease": "dengue",
+  "year": 2020,
+  "cases": 1.0
+ },
+ {
+  "state_id": "arunachal_pradesh",
+  "disease": "dengue",
+  "year": 2021,
+  "cases": 7.0
+ },
+ {
+  "state_id": "arunachal_pradesh",
+  "disease": "dengue",
+  "year": 2022,
+  "cases": 102.0
+ },
+ {
+  "state_id": "arunachal_pradesh",
+  "disease": "malaria",
+  "year": 2001,
+  "cases": 56030.0
+ },
+ {
+  "state_id": "arunachal_pradesh",
+  "disease": "malaria",
+  "year": 2002,
+  "cases": 46431.0
+ },
+ {
+  "state_id": "arunachal_pradesh",
+  "disease": "malaria",
+  "year": 2003,
+  "cases": 34810.0
+ },
+ {
+  "state_id": "arunachal_pradesh",
+  "disease": "malaria",
+  "year": 2004,
+  "cases": 29849.0
+ },
+ {
+  "state_id": "arunachal_pradesh",
+  "disease": "malaria",
+  "year": 2005,
+  "cases": 31215.0
+ },
+ {
+  "state_id": "arunachal_pradesh",
+  "disease": "malaria",
+  "year": 2006,
+  "cases": 39182.0
+ },
+ {
+  "state_id": "arunachal_pradesh",
+  "disease": "malaria",
+  "year": 2007,
+  "cases": 32072.0
+ },
+ {
+  "state_id": "arunachal_pradesh",
+  "disease": "malaria",
+  "year": 2008,
+  "cases": 29146.0
+ },
+ {
+  "state_id": "arunachal_pradesh",
+  "disease": "malaria",
+  "year": 2009,
+  "cases": 22066.0
+ },
+ {
+  "state_id": "arunachal_pradesh",
+  "disease": "malaria",
+  "year": 2010,
+  "cases": 17944.0
+ },
+ {
+  "state_id": "arunachal_pradesh",
+  "disease": "malaria",
+  "year": 2011,
+  "cases": 13950.0
+ },
+ {
+  "state_id": "arunachal_pradesh",
+  "disease": "malaria",
+  "year": 2012,
+  "cases": 8368.0
+ },
+ {
+  "state_id": "arunachal_pradesh",
+  "disease": "malaria",
+  "year": 2013,
+  "cases": 6398.0
+ },
+ {
+  "state_id": "arunachal_pradesh",
+  "disease": "malaria",
+  "year": 2014,
+  "cases": 6082.0
+ },
+ {
+  "state_id": "arunachal_pradesh",
+  "disease": "malaria",
+  "year": 2015,
+  "cases": 5088.0
+ },
+ {
+  "state_id": "arunachal_pradesh",
+  "disease": "malaria",
+  "year": 2016,
+  "cases": 3128.0
+ },
+ {
+  "state_id": "arunachal_pradesh",
+  "disease": "malaria",
+  "year": 2017,
+  "cases": 1546.0
+ },
+ {
+  "state_id": "arunachal_pradesh",
+  "disease": "malaria",
+  "year": 2018,
+  "cases": 625.0
+ },
+ {
+  "state_id": "arunachal_pradesh",
+  "disease": "malaria",
+  "year": 2019,
+  "cases": 139.0
+ },
+ {
+  "state_id": "arunachal_pradesh",
+  "disease": "malaria",
+  "year": 2020,
+  "cases": 33.0
+ },
+ {
+  "state_id": "arunachal_pradesh",
+  "disease": "malaria",
+  "year": 2021,
+  "cases": 8.0
+ },
+ {
+  "state_id": "arunachal_pradesh",
+  "disease": "malaria",
+  "year": 2022,
+  "cases": 17.0
+ },
+ {
+  "state_id": "arunachal_pradesh",
+  "disease": "chikungunya",
+  "year": 2015,
+  "cases": 35.0
+ },
+ {
+  "state_id": "arunachal_pradesh",
+  "disease": "chikungunya",
+  "year": 2016,
+  "cases": 239.0
+ },
+ {
+  "state_id": "arunachal_pradesh",
+  "disease": "chikungunya",
+  "year": 2017,
+  "cases": 133.0
+ },
+ {
+  "state_id": "arunachal_pradesh",
+  "disease": "chikungunya",
+  "year": 2018,
+  "cases": 507.0
+ },
+ {
+  "state_id": "arunachal_pradesh",
+  "disease": "chikungunya",
+  "year": 2019,
+  "cases": 332.0
+ },
+ {
+  "state_id": "assam",
+  "disease": "dengue",
+  "year": 2010,
+  "cases": 237.0
+ },
+ {
+  "state_id": "assam",
+  "disease": "dengue",
+  "year": 2012,
+  "cases": 1058.0
+ },
+ {
+  "state_id": "assam",
+  "disease": "dengue",
+  "year": 2013,
+  "cases": 4526.0
+ },
+ {
+  "state_id": "assam",
+  "disease": "dengue",
+  "year": 2017,
+  "cases": 5024.0
+ },
+ {
+  "state_id": "assam",
+  "disease": "dengue",
+  "year": 2018,
+  "cases": 166.0
+ },
+ {
+  "state_id": "assam",
+  "disease": "dengue",
+  "year": 2019,
+  "cases": 196.0
+ },
+ {
+  "state_id": "assam",
+  "disease": "dengue",
+  "year": 2020,
+  "cases": 33.0
+ },
+ {
+  "state_id": "assam",
+  "disease": "dengue",
+  "year": 2021,
+  "cases": 103.0
+ },
+ {
+  "state_id": "assam",
+  "disease": "dengue",
+  "year": 2022,
+  "cases": 1826.0
+ },
+ {
+  "state_id": "assam",
+  "disease": "malaria",
+  "year": 2001,
+  "cases": 95142.0
+ },
+ {
+  "state_id": "assam",
+  "disease": "malaria",
+  "year": 2002,
+  "cases": 89601.0
+ },
+ {
+  "state_id": "assam",
+  "disease": "malaria",
+  "year": 2003,
+  "cases": 76570.0
+ },
+ {
+  "state_id": "assam",
+  "disease": "malaria",
+  "year": 2004,
+  "cases": 58134.0
+ },
+ {
+  "state_id": "assam",
+  "disease": "malaria",
+  "year": 2005,
+  "cases": 67885.0
+ },
+ {
+  "state_id": "assam",
+  "disease": "malaria",
+  "year": 2006,
+  "cases": 126178.0
+ },
+ {
+  "state_id": "assam",
+  "disease": "malaria",
+  "year": 2007,
+  "cases": 94853.0
+ },
+ {
+  "state_id": "assam",
+  "disease": "malaria",
+  "year": 2008,
+  "cases": 83939.0
+ },
+ {
+  "state_id": "assam",
+  "disease": "malaria",
+  "year": 2009,
+  "cases": 91413.0
+ },
+ {
+  "state_id": "assam",
+  "disease": "malaria",
+  "year": 2010,
+  "cases": 68353.0
+ },
+ {
+  "state_id": "assam",
+  "disease": "malaria",
+  "year": 2011,
+  "cases": 47397.0
+ },
+ {
+  "state_id": "assam",
+  "disease": "malaria",
+  "year": 2012,
+  "cases": 29999.0
+ },
+ {
+  "state_id": "assam",
+  "disease": "malaria",
+  "year": 2013,
+  "cases": 19542.0
+ },
+ {
+  "state_id": "assam",
+  "disease": "malaria",
+  "year": 2014,
+  "cases": 14540.0
+ },
+ {
+  "state_id": "assam",
+  "disease": "malaria",
+  "year": 2015,
+  "cases": 15557.0
+ },
+ {
+  "state_id": "assam",
+  "disease": "malaria",
+  "year": 2016,
+  "cases": 7826.0
+ },
+ {
+  "state_id": "assam",
+  "disease": "malaria",
+  "year": 2017,
+  "cases": 5281.0
+ },
+ {
+  "state_id": "assam",
+  "disease": "malaria",
+  "year": 2018,
+  "cases": 3816.0
+ },
+ {
+  "state_id": "assam",
+  "disease": "malaria",
+  "year": 2019,
+  "cases": 1459.0
+ },
+ {
+  "state_id": "assam",
+  "disease": "malaria",
+  "year": 2020,
+  "cases": 484.0
+ },
+ {
+  "state_id": "assam",
+  "disease": "malaria",
+  "year": 2021,
+  "cases": 162.0
+ },
+ {
+  "state_id": "assam",
+  "disease": "malaria",
+  "year": 2022,
+  "cases": 280.0
+ },
+ {
+  "state_id": "assam",
+  "disease": "chikungunya",
+  "year": 2013,
+  "cases": 742.0
+ },
+ {
+  "state_id": "assam",
+  "disease": "chikungunya",
+  "year": 2016,
+  "cases": 40.0
+ },
+ {
+  "state_id": "assam",
+  "disease": "chikungunya",
+  "year": 2017,
+  "cases": 41.0
+ },
+ {
+  "state_id": "assam",
+  "disease": "chikungunya",
+  "year": 2018,
+  "cases": 3.0
+ },
+ {
+  "state_id": "assam",
+  "disease": "chikungunya",
+  "year": 2021,
+  "cases": 2.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "dengue",
+  "year": 2002,
+  "cases": 1.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "dengue",
+  "year": 2006,
+  "cases": 4.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "dengue",
+  "year": 2008,
+  "cases": 1.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "dengue",
+  "year": 2009,
+  "cases": 1.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "dengue",
+  "year": 2010,
+  "cases": 510.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "dengue",
+  "year": 2011,
+  "cases": 21.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "dengue",
+  "year": 2012,
+  "cases": 872.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "dengue",
+  "year": 2013,
+  "cases": 1246.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "dengue",
+  "year": 2017,
+  "cases": 1854.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "dengue",
+  "year": 2018,
+  "cases": 2142.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "dengue",
+  "year": 2019,
+  "cases": 6712.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "dengue",
+  "year": 2020,
+  "cases": 493.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "dengue",
+  "year": 2021,
+  "cases": 633.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "dengue",
+  "year": 2022,
+  "cases": 13281.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "malaria",
+  "year": 2001,
+  "cases": 4108.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "malaria",
+  "year": 2002,
+  "cases": 3683.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "malaria",
+  "year": 2003,
+  "cases": 2652.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "malaria",
+  "year": 2004,
+  "cases": 1872.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "malaria",
+  "year": 2005,
+  "cases": 2733.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "malaria",
+  "year": 2006,
+  "cases": 2744.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "malaria",
+  "year": 2007,
+  "cases": 1595.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "malaria",
+  "year": 2008,
+  "cases": 2541.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "malaria",
+  "year": 2009,
+  "cases": 3255.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "malaria",
+  "year": 2010,
+  "cases": 1908.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "malaria",
+  "year": 2011,
+  "cases": 2643.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "malaria",
+  "year": 2012,
+  "cases": 2605.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "malaria",
+  "year": 2013,
+  "cases": 2693.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "malaria",
+  "year": 2014,
+  "cases": 2043.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "malaria",
+  "year": 2015,
+  "cases": 4006.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "malaria",
+  "year": 2016,
+  "cases": 5189.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "malaria",
+  "year": 2017,
+  "cases": 4020.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "malaria",
+  "year": 2018,
+  "cases": 1536.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "malaria",
+  "year": 2019,
+  "cases": 1608.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "malaria",
+  "year": 2020,
+  "cases": 518.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "malaria",
+  "year": 2021,
+  "cases": 647.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "malaria",
+  "year": 2022,
+  "cases": 539.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "chikungunya",
+  "year": 2011,
+  "cases": 91.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "chikungunya",
+  "year": 2012,
+  "cases": 34.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "chikungunya",
+  "year": 2015,
+  "cases": 3.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "chikungunya",
+  "year": 2016,
+  "cases": 566.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "chikungunya",
+  "year": 2017,
+  "cases": 1251.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "chikungunya",
+  "year": 2018,
+  "cases": 156.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "chikungunya",
+  "year": 2019,
+  "cases": 594.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "chikungunya",
+  "year": 2020,
+  "cases": 38.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "chikungunya",
+  "year": 2021,
+  "cases": 40.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "chikungunya",
+  "year": 2022,
+  "cases": 63.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "dengue",
+  "year": 2002,
+  "cases": 15.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "dengue",
+  "year": 2005,
+  "cases": 2.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "dengue",
+  "year": 2006,
+  "cases": 182.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "dengue",
+  "year": 2007,
+  "cases": 99.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "dengue",
+  "year": 2008,
+  "cases": 167.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "dengue",
+  "year": 2009,
+  "cases": 25.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "dengue",
+  "year": 2010,
+  "cases": 221.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "dengue",
+  "year": 2011,
+  "cases": 73.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "dengue",
+  "year": 2012,
+  "cases": 351.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "dengue",
+  "year": 2013,
+  "cases": 107.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "dengue",
+  "year": 2017,
+  "cases": 1125.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "dengue",
+  "year": 2018,
+  "cases": 301.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "dengue",
+  "year": 2019,
+  "cases": 286.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "dengue",
+  "year": 2020,
+  "cases": 265.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "dengue",
+  "year": 2021,
+  "cases": 1596.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "dengue",
+  "year": 2022,
+  "cases": 910.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "malaria",
+  "year": 2001,
+  "cases": 298.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "malaria",
+  "year": 2002,
+  "cases": 157.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "malaria",
+  "year": 2003,
+  "cases": 84.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "malaria",
+  "year": 2004,
+  "cases": 199.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "malaria",
+  "year": 2005,
+  "cases": 432.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "malaria",
+  "year": 2006,
+  "cases": 449.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "malaria",
+  "year": 2007,
+  "cases": 340.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "malaria",
+  "year": 2008,
+  "cases": 347.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "malaria",
+  "year": 2009,
+  "cases": 430.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "malaria",
+  "year": 2010,
+  "cases": 351.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "malaria",
+  "year": 2011,
+  "cases": 582.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "malaria",
+  "year": 2012,
+  "cases": 201.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "malaria",
+  "year": 2013,
+  "cases": 150.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "malaria",
+  "year": 2014,
+  "cases": 114.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "malaria",
+  "year": 2015,
+  "cases": 152.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "malaria",
+  "year": 2016,
+  "cases": 157.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "malaria",
+  "year": 2017,
+  "cases": 114.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "malaria",
+  "year": 2018,
+  "cases": 44.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "malaria",
+  "year": 2019,
+  "cases": 22.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "malaria",
+  "year": 2020,
+  "cases": 7.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "malaria",
+  "year": 2021,
+  "cases": 6.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "malaria",
+  "year": 2022,
+  "cases": 1.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "chikungunya",
+  "year": 2011,
+  "cases": 1.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "chikungunya",
+  "year": 2012,
+  "cases": 1.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "chikungunya",
+  "year": 2013,
+  "cases": 1.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "chikungunya",
+  "year": 2015,
+  "cases": 1.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "chikungunya",
+  "year": 2016,
+  "cases": 2857.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "chikungunya",
+  "year": 2017,
+  "cases": 1810.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "chikungunya",
+  "year": 2018,
+  "cases": 357.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "chikungunya",
+  "year": 2019,
+  "cases": 82.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "chikungunya",
+  "year": 2021,
+  "cases": 397.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "chikungunya",
+  "year": 2022,
+  "cases": 153.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "dengue",
+  "year": 2009,
+  "cases": 26.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "dengue",
+  "year": 2010,
+  "cases": 4.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "dengue",
+  "year": 2011,
+  "cases": 313.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "dengue",
+  "year": 2012,
+  "cases": 45.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "dengue",
+  "year": 2013,
+  "cases": 83.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "dengue",
+  "year": 2017,
+  "cases": 444.00000000000006
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "dengue",
+  "year": 2018,
+  "cases": 2674.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "dengue",
+  "year": 2019,
+  "cases": 722.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "dengue",
+  "year": 2020,
+  "cases": 57.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "dengue",
+  "year": 2021,
+  "cases": 1086.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "dengue",
+  "year": 2022,
+  "cases": 2633.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "malaria",
+  "year": 2001,
+  "cases": 290666.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "malaria",
+  "year": 2002,
+  "cases": 235434.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "malaria",
+  "year": 2003,
+  "cases": 194419.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "malaria",
+  "year": 2004,
+  "cases": 194256.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "malaria",
+  "year": 2005,
+  "cases": 187950.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "malaria",
+  "year": 2006,
+  "cases": 190590.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "malaria",
+  "year": 2007,
+  "cases": 147525.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "malaria",
+  "year": 2008,
+  "cases": 123495.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "malaria",
+  "year": 2009,
+  "cases": 129397.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "malaria",
+  "year": 2010,
+  "cases": 152209.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "malaria",
+  "year": 2011,
+  "cases": 136899.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "malaria",
+  "year": 2012,
+  "cases": 124006.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "malaria",
+  "year": 2013,
+  "cases": 110145.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "malaria",
+  "year": 2014,
+  "cases": 128993.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "malaria",
+  "year": 2015,
+  "cases": 144886.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "malaria",
+  "year": 2016,
+  "cases": 148220.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "malaria",
+  "year": 2017,
+  "cases": 140727.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "malaria",
+  "year": 2018,
+  "cases": 78717.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "malaria",
+  "year": 2019,
+  "cases": 60458.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "malaria",
+  "year": 2020,
+  "cases": 36667.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "malaria",
+  "year": 2021,
+  "cases": 29733.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "malaria",
+  "year": 2022,
+  "cases": 30028.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "chikungunya",
+  "year": 2008,
+  "cases": 0.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "chikungunya",
+  "year": 2009,
+  "cases": 0.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "chikungunya",
+  "year": 2010,
+  "cases": 0.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "chikungunya",
+  "year": 2011,
+  "cases": 0.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "chikungunya",
+  "year": 2012,
+  "cases": 0.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "chikungunya",
+  "year": 2013,
+  "cases": 0.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "chikungunya",
+  "year": 2015,
+  "cases": 0.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "chikungunya",
+  "year": 2016,
+  "cases": 0.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "chikungunya",
+  "year": 2017,
+  "cases": 0.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "chikungunya",
+  "year": 2018,
+  "cases": 0.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "chikungunya",
+  "year": 2019,
+  "cases": 0.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "chikungunya",
+  "year": 2020,
+  "cases": 0.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "chikungunya",
+  "year": 2021,
+  "cases": 0.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "chikungunya",
+  "year": 2022,
+  "cases": 39.0
+ },
+ {
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "dengue",
+  "year": 2004,
+  "cases": 1.0
+ },
+ {
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "dengue",
+  "year": 2010,
+  "cases": 46.0
+ },
+ {
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "dengue",
+  "year": 2011,
+  "cases": 68.0
+ },
+ {
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "dengue",
+  "year": 2012,
+  "cases": 252.0
+ },
+ {
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "dengue",
+  "year": 2013,
+  "cases": 251.0
+ },
+ {
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "dengue",
+  "year": 2017,
+  "cases": 2123.0
+ },
+ {
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "dengue",
+  "year": 2018,
+  "cases": 656.0
+ },
+ {
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "dengue",
+  "year": 2019,
+  "cases": 2116.0
+ },
+ {
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "dengue",
+  "year": 2020,
+  "cases": 319.0
+ },
+ {
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "dengue",
+  "year": 2021,
+  "cases": 826.0
+ },
+ {
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "dengue",
+  "year": 2022,
+  "cases": 913.0
+ },
+ {
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "malaria",
+  "year": 2001,
+  "cases": 935.0
+ },
+ {
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "malaria",
+  "year": 2002,
+  "cases": 666.0
+ },
+ {
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "malaria",
+  "year": 2003,
+  "cases": 609.0
+ },
+ {
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "malaria",
+  "year": 2004,
+  "cases": 905.0
+ },
+ {
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "malaria",
+  "year": 2005,
+  "cases": 1270.0
+ },
+ {
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "malaria",
+  "year": 2006,
+  "cases": 3926.0
+ },
+ {
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "malaria",
+  "year": 2007,
+  "cases": 3879.0
+ },
+ {
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "malaria",
+  "year": 2008,
+  "cases": 3152.0
+ },
+ {
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "malaria",
+  "year": 2009,
+  "cases": 3505.0
+ },
+ {
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "malaria",
+  "year": 2010,
+  "cases": 5907.0
+ },
+ {
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "malaria",
+  "year": 2011,
+  "cases": 5412.0
+ },
+ {
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "malaria",
+  "year": 2012,
+  "cases": 5126.0
+ },
+ {
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "malaria",
+  "year": 2013,
+  "cases": 1869.0
+ },
+ {
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "malaria",
+  "year": 2014,
+  "cases": 725.0
+ },
+ {
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "malaria",
+  "year": 2015,
+  "cases": 502.0
+ },
+ {
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "malaria",
+  "year": 2016,
+  "cases": 423.0
+ },
+ {
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "malaria",
+  "year": 2017,
+  "cases": 328.0
+ },
+ {
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "malaria",
+  "year": 2018,
+  "cases": 245.0
+ },
+ {
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "malaria",
+  "year": 2019,
+  "cases": 81.0
+ },
+ {
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "malaria",
+  "year": 2020,
+  "cases": 40.0
+ },
+ {
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "malaria",
+  "year": 2021,
+  "cases": 54.0
+ },
+ {
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "malaria",
+  "year": 2022,
+  "cases": 39.0
+ },
+ {
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "chikungunya",
+  "year": 2012,
+  "cases": 101.0
+ },
+ {
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "chikungunya",
+  "year": 2013,
+  "cases": 2.0
+ },
+ {
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "chikungunya",
+  "year": 2015,
+  "cases": 64.0
+ },
+ {
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "chikungunya",
+  "year": 2022,
+  "cases": 1.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "dengue",
+  "year": 1999,
+  "cases": 168.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "dengue",
+  "year": 2000,
+  "cases": 180.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "dengue",
+  "year": 2001,
+  "cases": 322.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "dengue",
+  "year": 2002,
+  "cases": 45.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "dengue",
+  "year": 2003,
+  "cases": 2882.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "dengue",
+  "year": 2004,
+  "cases": 606.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "dengue",
+  "year": 2005,
+  "cases": 1023.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "dengue",
+  "year": 2006,
+  "cases": 3366.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "dengue",
+  "year": 2007,
+  "cases": 548.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "dengue",
+  "year": 2008,
+  "cases": 1312.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "dengue",
+  "year": 2009,
+  "cases": 1153.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "dengue",
+  "year": 2010,
+  "cases": 6259.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "dengue",
+  "year": 2011,
+  "cases": 1131.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "dengue",
+  "year": 2012,
+  "cases": 2093.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "dengue",
+  "year": 2013,
+  "cases": 5574.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "dengue",
+  "year": 2017,
+  "cases": 9271.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "dengue",
+  "year": 2018,
+  "cases": 7136.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "dengue",
+  "year": 2019,
+  "cases": 5077.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "dengue",
+  "year": 2020,
+  "cases": 1269.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "dengue",
+  "year": 2021,
+  "cases": 13089.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "dengue",
+  "year": 2022,
+  "cases": 10183.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "malaria",
+  "year": 2001,
+  "cases": 1484.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "malaria",
+  "year": 2002,
+  "cases": 1484.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "malaria",
+  "year": 2003,
+  "cases": 839.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "malaria",
+  "year": 2004,
+  "cases": 1316.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "malaria",
+  "year": 2005,
+  "cases": 1133.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "malaria",
+  "year": 2006,
+  "cases": 928.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "malaria",
+  "year": 2007,
+  "cases": 182.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "malaria",
+  "year": 2008,
+  "cases": 253.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "malaria",
+  "year": 2009,
+  "cases": 169.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "malaria",
+  "year": 2010,
+  "cases": 251.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "malaria",
+  "year": 2011,
+  "cases": 413.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "malaria",
+  "year": 2012,
+  "cases": 382.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "malaria",
+  "year": 2013,
+  "cases": 353.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "malaria",
+  "year": 2014,
+  "cases": 98.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "malaria",
+  "year": 2015,
+  "cases": 54.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "malaria",
+  "year": 2016,
+  "cases": 31.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "malaria",
+  "year": 2017,
+  "cases": 577.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "malaria",
+  "year": 2018,
+  "cases": 473.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "malaria",
+  "year": 2019,
+  "cases": 713.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "malaria",
+  "year": 2020,
+  "cases": 135.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "malaria",
+  "year": 2021,
+  "cases": 167.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "malaria",
+  "year": 2022,
+  "cases": 173.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "chikungunya",
+  "year": 2006,
+  "cases": 560.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "chikungunya",
+  "year": 2007,
+  "cases": 452.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "chikungunya",
+  "year": 2008,
+  "cases": 14.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "chikungunya",
+  "year": 2009,
+  "cases": 18.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "chikungunya",
+  "year": 2010,
+  "cases": 120.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "chikungunya",
+  "year": 2011,
+  "cases": 110.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "chikungunya",
+  "year": 2012,
+  "cases": 6.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "chikungunya",
+  "year": 2013,
+  "cases": 18.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "chikungunya",
+  "year": 2014,
+  "cases": 8.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "chikungunya",
+  "year": 2016,
+  "cases": 12279.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "chikungunya",
+  "year": 2017,
+  "cases": 940.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "chikungunya",
+  "year": 2018,
+  "cases": 407.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "chikungunya",
+  "year": 2019,
+  "cases": 520.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "chikungunya",
+  "year": 2020,
+  "cases": 126.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "chikungunya",
+  "year": 2021,
+  "cases": 112.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "chikungunya",
+  "year": 2022,
+  "cases": 61.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "dengue",
+  "year": 2001,
+  "cases": 1.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "dengue",
+  "year": 2003,
+  "cases": 12.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "dengue",
+  "year": 2004,
+  "cases": 3.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "dengue",
+  "year": 2005,
+  "cases": 1.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "dengue",
+  "year": 2006,
+  "cases": 1.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "dengue",
+  "year": 2007,
+  "cases": 36.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "dengue",
+  "year": 2008,
+  "cases": 43.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "dengue",
+  "year": 2009,
+  "cases": 277.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "dengue",
+  "year": 2010,
+  "cases": 242.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "dengue",
+  "year": 2011,
+  "cases": 26.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "dengue",
+  "year": 2012,
+  "cases": 39.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "dengue",
+  "year": 2013,
+  "cases": 198.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "dengue",
+  "year": 2017,
+  "cases": 235.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "dengue",
+  "year": 2018,
+  "cases": 335.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "dengue",
+  "year": 2019,
+  "cases": 992.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "dengue",
+  "year": 2020,
+  "cases": 376.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "dengue",
+  "year": 2021,
+  "cases": 649.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "dengue",
+  "year": 2022,
+  "cases": 443.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "malaria",
+  "year": 2001,
+  "cases": 12331.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "malaria",
+  "year": 2002,
+  "cases": 16818.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "malaria",
+  "year": 2003,
+  "cases": 11370.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "malaria",
+  "year": 2004,
+  "cases": 7839.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "malaria",
+  "year": 2005,
+  "cases": 3747.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "malaria",
+  "year": 2006,
+  "cases": 5010.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "malaria",
+  "year": 2007,
+  "cases": 9755.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "malaria",
+  "year": 2008,
+  "cases": 9822.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "malaria",
+  "year": 2009,
+  "cases": 5056.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "malaria",
+  "year": 2010,
+  "cases": 2368.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "malaria",
+  "year": 2011,
+  "cases": 1187.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "malaria",
+  "year": 2012,
+  "cases": 1714.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "malaria",
+  "year": 2013,
+  "cases": 1530.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "malaria",
+  "year": 2014,
+  "cases": 824.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "malaria",
+  "year": 2015,
+  "cases": 651.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "malaria",
+  "year": 2016,
+  "cases": 742.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "malaria",
+  "year": 2017,
+  "cases": 653.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "malaria",
+  "year": 2018,
+  "cases": 377.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "malaria",
+  "year": 2019,
+  "cases": 272.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "malaria",
+  "year": 2020,
+  "cases": 102.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "malaria",
+  "year": 2021,
+  "cases": 90.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "malaria",
+  "year": 2022,
+  "cases": 2.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "chikungunya",
+  "year": 2006,
+  "cases": 287.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "chikungunya",
+  "year": 2007,
+  "cases": 78.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "chikungunya",
+  "year": 2008,
+  "cases": 52.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "chikungunya",
+  "year": 2009,
+  "cases": 1839.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "chikungunya",
+  "year": 2010,
+  "cases": 1429.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "chikungunya",
+  "year": 2011,
+  "cases": 664.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "chikungunya",
+  "year": 2012,
+  "cases": 571.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "chikungunya",
+  "year": 2013,
+  "cases": 1049.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "chikungunya",
+  "year": 2014,
+  "cases": 1205.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "chikungunya",
+  "year": 2015,
+  "cases": 561.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "chikungunya",
+  "year": 2016,
+  "cases": 337.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "chikungunya",
+  "year": 2017,
+  "cases": 509.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "chikungunya",
+  "year": 2018,
+  "cases": 455.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "chikungunya",
+  "year": 2019,
+  "cases": 867.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "chikungunya",
+  "year": 2020,
+  "cases": 64.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "chikungunya",
+  "year": 2021,
+  "cases": 114.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "chikungunya",
+  "year": 2022,
+  "cases": 868.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "dengue",
+  "year": 1999,
+  "cases": 92.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "dengue",
+  "year": 2000,
+  "cases": 29.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "dengue",
+  "year": 2001,
+  "cases": 69.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "dengue",
+  "year": 2002,
+  "cases": 40.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "dengue",
+  "year": 2003,
+  "cases": 249.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "dengue",
+  "year": 2004,
+  "cases": 117.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "dengue",
+  "year": 2005,
+  "cases": 454.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "dengue",
+  "year": 2006,
+  "cases": 545.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "dengue",
+  "year": 2007,
+  "cases": 570.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "dengue",
+  "year": 2008,
+  "cases": 1065.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "dengue",
+  "year": 2009,
+  "cases": 2461.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "dengue",
+  "year": 2010,
+  "cases": 2568.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "dengue",
+  "year": 2011,
+  "cases": 1693.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "dengue",
+  "year": 2012,
+  "cases": 3067.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "dengue",
+  "year": 2013,
+  "cases": 6272.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "dengue",
+  "year": 2017,
+  "cases": 4753.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "dengue",
+  "year": 2018,
+  "cases": 7579.000000000001
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "dengue",
+  "year": 2019,
+  "cases": 18219.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "dengue",
+  "year": 2020,
+  "cases": 1564.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "dengue",
+  "year": 2021,
+  "cases": 10983.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "dengue",
+  "year": 2022,
+  "cases": 6744.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "malaria",
+  "year": 2001,
+  "cases": 81347.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "malaria",
+  "year": 2002,
+  "cases": 82966.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "malaria",
+  "year": 2003,
+  "cases": 130744.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "malaria",
+  "year": 2004,
+  "cases": 222759.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "malaria",
+  "year": 2005,
+  "cases": 179023.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "malaria",
+  "year": 2006,
+  "cases": 89835.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "malaria",
+  "year": 2007,
+  "cases": 71121.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "malaria",
+  "year": 2008,
+  "cases": 51161.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "malaria",
+  "year": 2009,
+  "cases": 45902.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "malaria",
+  "year": 2010,
+  "cases": 66501.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "malaria",
+  "year": 2011,
+  "cases": 89764.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "malaria",
+  "year": 2012,
+  "cases": 76246.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "malaria",
+  "year": 2013,
+  "cases": 58513.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "malaria",
+  "year": 2014,
+  "cases": 41608.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "malaria",
+  "year": 2015,
+  "cases": 41566.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "malaria",
+  "year": 2016,
+  "cases": 44783.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "malaria",
+  "year": 2017,
+  "cases": 38588.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "malaria",
+  "year": 2018,
+  "cases": 22114.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "malaria",
+  "year": 2019,
+  "cases": 13883.000000000002
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "malaria",
+  "year": 2020,
+  "cases": 4771.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "malaria",
+  "year": 2021,
+  "cases": 4921.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "malaria",
+  "year": 2022,
+  "cases": 4766.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "chikungunya",
+  "year": 2006,
+  "cases": 75419.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "chikungunya",
+  "year": 2007,
+  "cases": 3223.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "chikungunya",
+  "year": 2008,
+  "cases": 303.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "chikungunya",
+  "year": 2009,
+  "cases": 1740.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "chikungunya",
+  "year": 2010,
+  "cases": 1709.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "chikungunya",
+  "year": 2011,
+  "cases": 1042.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "chikungunya",
+  "year": 2012,
+  "cases": 1317.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "chikungunya",
+  "year": 2013,
+  "cases": 2890.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "chikungunya",
+  "year": 2014,
+  "cases": 574.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "chikungunya",
+  "year": 2015,
+  "cases": 406.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "chikungunya",
+  "year": 2016,
+  "cases": 3285.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "chikungunya",
+  "year": 2017,
+  "cases": 7953.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "chikungunya",
+  "year": 2018,
+  "cases": 10601.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "chikungunya",
+  "year": 2019,
+  "cases": 8084.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "chikungunya",
+  "year": 2020,
+  "cases": 8120.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "chikungunya",
+  "year": 2021,
+  "cases": 32372.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "chikungunya",
+  "year": 2022,
+  "cases": 20854.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "dengue",
+  "year": 1999,
+  "cases": 3.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "dengue",
+  "year": 2000,
+  "cases": 2.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "dengue",
+  "year": 2001,
+  "cases": 260.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "dengue",
+  "year": 2002,
+  "cases": 3.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "dengue",
+  "year": 2003,
+  "cases": 95.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "dengue",
+  "year": 2004,
+  "cases": 25.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "dengue",
+  "year": 2005,
+  "cases": 183.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "dengue",
+  "year": 2006,
+  "cases": 838.0000000000001
+ },
+ {
+  "state_id": "haryana",
+  "disease": "dengue",
+  "year": 2007,
+  "cases": 365.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "dengue",
+  "year": 2008,
+  "cases": 1137.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "dengue",
+  "year": 2009,
+  "cases": 125.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "dengue",
+  "year": 2010,
+  "cases": 866.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "dengue",
+  "year": 2011,
+  "cases": 267.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "dengue",
+  "year": 2012,
+  "cases": 768.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "dengue",
+  "year": 2013,
+  "cases": 1784.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "dengue",
+  "year": 2017,
+  "cases": 4550.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "dengue",
+  "year": 2018,
+  "cases": 1898.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "dengue",
+  "year": 2019,
+  "cases": 1207.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "dengue",
+  "year": 2020,
+  "cases": 1377.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "dengue",
+  "year": 2021,
+  "cases": 11835.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "dengue",
+  "year": 2022,
+  "cases": 8996.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "malaria",
+  "year": 2001,
+  "cases": 1202.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "malaria",
+  "year": 2002,
+  "cases": 936.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "malaria",
+  "year": 2003,
+  "cases": 4374.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "malaria",
+  "year": 2004,
+  "cases": 10064.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "malaria",
+  "year": 2005,
+  "cases": 33262.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "malaria",
+  "year": 2006,
+  "cases": 47142.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "malaria",
+  "year": 2007,
+  "cases": 30895.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "malaria",
+  "year": 2008,
+  "cases": 35683.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "malaria",
+  "year": 2009,
+  "cases": 30168.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "malaria",
+  "year": 2010,
+  "cases": 18921.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "malaria",
+  "year": 2011,
+  "cases": 33401.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "malaria",
+  "year": 2012,
+  "cases": 26819.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "malaria",
+  "year": 2013,
+  "cases": 14471.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "malaria",
+  "year": 2014,
+  "cases": 4485.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "malaria",
+  "year": 2015,
+  "cases": 9308.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "malaria",
+  "year": 2016,
+  "cases": 7866.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "malaria",
+  "year": 2017,
+  "cases": 5696.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "malaria",
+  "year": 2018,
+  "cases": 3149.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "malaria",
+  "year": 2019,
+  "cases": 1497.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "malaria",
+  "year": 2020,
+  "cases": 111.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "malaria",
+  "year": 2021,
+  "cases": 54.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "malaria",
+  "year": 2022,
+  "cases": 50.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "chikungunya",
+  "year": 2007,
+  "cases": 13.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "chikungunya",
+  "year": 2008,
+  "cases": 35.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "chikungunya",
+  "year": 2009,
+  "cases": 2.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "chikungunya",
+  "year": 2010,
+  "cases": 26.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "chikungunya",
+  "year": 2011,
+  "cases": 215.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "chikungunya",
+  "year": 2012,
+  "cases": 8.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "chikungunya",
+  "year": 2013,
+  "cases": 1.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "chikungunya",
+  "year": 2014,
+  "cases": 3.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "chikungunya",
+  "year": 2015,
+  "cases": 1.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "chikungunya",
+  "year": 2016,
+  "cases": 5394.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "chikungunya",
+  "year": 2017,
+  "cases": 220.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "chikungunya",
+  "year": 2018,
+  "cases": 62.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "chikungunya",
+  "year": 2020,
+  "cases": 930.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "chikungunya",
+  "year": 2021,
+  "cases": 765.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "chikungunya",
+  "year": 2022,
+  "cases": 2425.0
+ },
+ {
+  "state_id": "himachal_pradesh",
+  "disease": "dengue",
+  "year": 2010,
+  "cases": 3.0
+ },
+ {
+  "state_id": "himachal_pradesh",
+  "disease": "dengue",
+  "year": 2012,
+  "cases": 73.0
+ },
+ {
+  "state_id": "himachal_pradesh",
+  "disease": "dengue",
+  "year": 2013,
+  "cases": 89.0
+ },
+ {
+  "state_id": "himachal_pradesh",
+  "disease": "dengue",
+  "year": 2017,
+  "cases": 452.0
+ },
+ {
+  "state_id": "himachal_pradesh",
+  "disease": "dengue",
+  "year": 2018,
+  "cases": 4672.0
+ },
+ {
+  "state_id": "himachal_pradesh",
+  "disease": "dengue",
+  "year": 2019,
+  "cases": 344.0
+ },
+ {
+  "state_id": "himachal_pradesh",
+  "disease": "dengue",
+  "year": 2020,
+  "cases": 21.0
+ },
+ {
+  "state_id": "himachal_pradesh",
+  "disease": "dengue",
+  "year": 2021,
+  "cases": 349.0
+ },
+ {
+  "state_id": "himachal_pradesh",
+  "disease": "dengue",
+  "year": 2022,
+  "cases": 3326.0
+ },
+ {
+  "state_id": "himachal_pradesh",
+  "disease": "malaria",
+  "year": 2001,
+  "cases": 349.0
+ },
+ {
+  "state_id": "himachal_pradesh",
+  "disease": "malaria",
+  "year": 2002,
+  "cases": 176.0
+ },
+ {
+  "state_id": "himachal_pradesh",
+  "disease": "malaria",
+  "year": 2003,
+  "cases": 133.0
+ },
+ {
+  "state_id": "himachal_pradesh",
+  "disease": "malaria",
+  "year": 2004,
+  "cases": 126.0
+ },
+ {
+  "state_id": "himachal_pradesh",
+  "disease": "malaria",
+  "year": 2005,
+  "cases": 129.0
+ },
+ {
+  "state_id": "himachal_pradesh",
+  "disease": "malaria",
+  "year": 2006,
+  "cases": 114.0
+ },
+ {
+  "state_id": "himachal_pradesh",
+  "disease": "malaria",
+  "year": 2007,
+  "cases": 104.0
+ },
+ {
+  "state_id": "himachal_pradesh",
+  "disease": "malaria",
+  "year": 2008,
+  "cases": 146.0
+ },
+ {
+  "state_id": "himachal_pradesh",
+  "disease": "malaria",
+  "year": 2009,
+  "cases": 192.0
+ },
+ {
+  "state_id": "himachal_pradesh",
+  "disease": "malaria",
+  "year": 2010,
+  "cases": 210.0
+ },
+ {
+  "state_id": "himachal_pradesh",
+  "disease": "malaria",
+  "year": 2011,
+  "cases": 247.0
+ },
+ {
+  "state_id": "himachal_pradesh",
+  "disease": "malaria",
+  "year": 2012,
+  "cases": 216.0
+ },
+ {
+  "state_id": "himachal_pradesh",
+  "disease": "malaria",
+  "year": 2013,
+  "cases": 141.0
+ },
+ {
+  "state_id": "himachal_pradesh",
+  "disease": "malaria",
+  "year": 2014,
+  "cases": 102.0
+ },
+ {
+  "state_id": "himachal_pradesh",
+  "disease": "malaria",
+  "year": 2015,
+  "cases": 60.0
+ },
+ {
+  "state_id": "himachal_pradesh",
+  "disease": "malaria",
+  "year": 2016,
+  "cases": 106.0
+ },
+ {
+  "state_id": "himachal_pradesh",
+  "disease": "malaria",
+  "year": 2017,
+  "cases": 96.0
+ },
+ {
+  "state_id": "himachal_pradesh",
+  "disease": "malaria",
+  "year": 2018,
+  "cases": 98.0
+ },
+ {
+  "state_id": "himachal_pradesh",
+  "disease": "malaria",
+  "year": 2019,
+  "cases": 109.0
+ },
+ {
+  "state_id": "himachal_pradesh",
+  "disease": "malaria",
+  "year": 2020,
+  "cases": 34.0
+ },
+ {
+  "state_id": "himachal_pradesh",
+  "disease": "malaria",
+  "year": 2021,
+  "cases": 15.0
+ },
+ {
+  "state_id": "himachal_pradesh",
+  "disease": "malaria",
+  "year": 2022,
+  "cases": 10.0
+ },
+ {
+  "state_id": "himachal_pradesh",
+  "disease": "chikungunya",
+  "year": 2022,
+  "cases": 253.0
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "dengue",
+  "year": 2006,
+  "cases": 23.475044641176805
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "dengue",
+  "year": 2009,
+  "cases": 1.9562537200980665
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "dengue",
+  "year": 2011,
+  "cases": 2.9343805801471006
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "dengue",
+  "year": 2012,
+  "cases": 16.62815662083357
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "dengue",
+  "year": 2013,
+  "cases": 1796.8190419100745
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "dengue",
+  "year": 2017,
+  "cases": 488.0
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "dengue",
+  "year": 2018,
+  "cases": 214.0
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "dengue",
+  "year": 2019,
+  "cases": 439.0
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "dengue",
+  "year": 2020,
+  "cases": 53.0
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "dengue",
+  "year": 2021,
+  "cases": 1709.0
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "dengue",
+  "year": 2022,
+  "cases": 8269.0
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "malaria",
+  "year": 2001,
+  "cases": 892.0516963647185
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "malaria",
+  "year": 2002,
+  "cases": 445.04772132231034
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "malaria",
+  "year": 2003,
+  "cases": 313.00059521569074
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "malaria",
+  "year": 2004,
+  "cases": 244.5317150122584
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "malaria",
+  "year": 2005,
+  "cases": 262.13799849314097
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "malaria",
+  "year": 2006,
+  "cases": 160.4128050480415
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "malaria",
+  "year": 2007,
+  "cases": 234.75044641176805
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "malaria",
+  "year": 2008,
+  "cases": 212.25352863064032
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "malaria",
+  "year": 2009,
+  "cases": 338.4318935769656
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "malaria",
+  "year": 2010,
+  "cases": 784.4577417593248
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "malaria",
+  "year": 2011,
+  "cases": 1067.1364043134956
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "malaria",
+  "year": 2012,
+  "cases": 845.1016070823649
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "malaria",
+  "year": 2013,
+  "cases": 682.7325483142254
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "malaria",
+  "year": 2014,
+  "cases": 284.63491627426873
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "malaria",
+  "year": 2015,
+  "cases": 216.0
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "malaria",
+  "year": 2016,
+  "cases": 242.0
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "malaria",
+  "year": 2017,
+  "cases": 226.0
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "malaria",
+  "year": 2018,
+  "cases": 168.0
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "malaria",
+  "year": 2019,
+  "cases": 105.0
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "malaria",
+  "year": 2020,
+  "cases": 37.0
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "malaria",
+  "year": 2021,
+  "cases": 31.0
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "malaria",
+  "year": 2022,
+  "cases": 37.0
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "chikungunya",
+  "year": 2008,
+  "cases": 0.0
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "chikungunya",
+  "year": 2009,
+  "cases": 0.0
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "chikungunya",
+  "year": 2010,
+  "cases": 0.0
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "chikungunya",
+  "year": 2011,
+  "cases": 0.0
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "chikungunya",
+  "year": 2013,
+  "cases": 0.0
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "chikungunya",
+  "year": 2015,
+  "cases": 0.0
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "chikungunya",
+  "year": 2016,
+  "cases": 0.978126860049033
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "chikungunya",
+  "year": 2017,
+  "cases": 0.0
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "chikungunya",
+  "year": 2018,
+  "cases": 1.0
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "chikungunya",
+  "year": 2019,
+  "cases": 0.0
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "chikungunya",
+  "year": 2020,
+  "cases": 1.0
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "chikungunya",
+  "year": 2021,
+  "cases": 7.0
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "chikungunya",
+  "year": 2022,
+  "cases": 37.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "dengue",
+  "year": 2010,
+  "cases": 27.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "dengue",
+  "year": 2011,
+  "cases": 36.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "dengue",
+  "year": 2012,
+  "cases": 42.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "dengue",
+  "year": 2013,
+  "cases": 161.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "dengue",
+  "year": 2017,
+  "cases": 710.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "dengue",
+  "year": 2018,
+  "cases": 463.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "dengue",
+  "year": 2019,
+  "cases": 825.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "dengue",
+  "year": 2020,
+  "cases": 79.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "dengue",
+  "year": 2021,
+  "cases": 220.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "dengue",
+  "year": 2022,
+  "cases": 290.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "malaria",
+  "year": 2001,
+  "cases": 130784.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "malaria",
+  "year": 2002,
+  "cases": 126589.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "malaria",
+  "year": 2003,
+  "cases": 118902.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "malaria",
+  "year": 2004,
+  "cases": 73893.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "malaria",
+  "year": 2005,
+  "cases": 193144.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "malaria",
+  "year": 2006,
+  "cases": 193888.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "malaria",
+  "year": 2007,
+  "cases": 184878.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "malaria",
+  "year": 2008,
+  "cases": 214299.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "malaria",
+  "year": 2009,
+  "cases": 230683.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "malaria",
+  "year": 2010,
+  "cases": 199842.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "malaria",
+  "year": 2011,
+  "cases": 160653.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "malaria",
+  "year": 2012,
+  "cases": 131476.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "malaria",
+  "year": 2013,
+  "cases": 97786.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "malaria",
+  "year": 2014,
+  "cases": 103735.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "malaria",
+  "year": 2015,
+  "cases": 104800.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "malaria",
+  "year": 2016,
+  "cases": 141414.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "malaria",
+  "year": 2017,
+  "cases": 94114.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "malaria",
+  "year": 2018,
+  "cases": 57095.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "malaria",
+  "year": 2019,
+  "cases": 37133.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "malaria",
+  "year": 2020,
+  "cases": 16653.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "malaria",
+  "year": 2021,
+  "cases": 14198.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "malaria",
+  "year": 2022,
+  "cases": 19129.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "chikungunya",
+  "year": 2011,
+  "cases": 816.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "chikungunya",
+  "year": 2012,
+  "cases": 86.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "chikungunya",
+  "year": 2013,
+  "cases": 61.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "chikungunya",
+  "year": 2014,
+  "cases": 11.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "chikungunya",
+  "year": 2015,
+  "cases": 21.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "chikungunya",
+  "year": 2016,
+  "cases": 47.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "chikungunya",
+  "year": 2017,
+  "cases": 269.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "chikungunya",
+  "year": 2018,
+  "cases": 3405.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "chikungunya",
+  "year": 2019,
+  "cases": 1691.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "chikungunya",
+  "year": 2020,
+  "cases": 627.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "chikungunya",
+  "year": 2021,
+  "cases": 1064.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "chikungunya",
+  "year": 2022,
+  "cases": 2113.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "dengue",
+  "year": 1999,
+  "cases": 39.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "dengue",
+  "year": 2000,
+  "cases": 196.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "dengue",
+  "year": 2001,
+  "cases": 220.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "dengue",
+  "year": 2002,
+  "cases": 428.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "dengue",
+  "year": 2003,
+  "cases": 1226.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "dengue",
+  "year": 2004,
+  "cases": 291.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "dengue",
+  "year": 2005,
+  "cases": 587.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "dengue",
+  "year": 2006,
+  "cases": 109.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "dengue",
+  "year": 2007,
+  "cases": 230.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "dengue",
+  "year": 2008,
+  "cases": 339.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "dengue",
+  "year": 2009,
+  "cases": 1764.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "dengue",
+  "year": 2010,
+  "cases": 2285.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "dengue",
+  "year": 2011,
+  "cases": 405.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "dengue",
+  "year": 2012,
+  "cases": 3924.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "dengue",
+  "year": 2013,
+  "cases": 6408.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "dengue",
+  "year": 2017,
+  "cases": 17844.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "dengue",
+  "year": 2018,
+  "cases": 4427.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "dengue",
+  "year": 2019,
+  "cases": 16986.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "dengue",
+  "year": 2020,
+  "cases": 3823.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "dengue",
+  "year": 2021,
+  "cases": 7393.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "dengue",
+  "year": 2022,
+  "cases": 9620.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "malaria",
+  "year": 2001,
+  "cases": 197625.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "malaria",
+  "year": 2002,
+  "cases": 132584.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "malaria",
+  "year": 2003,
+  "cases": 100220.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "malaria",
+  "year": 2004,
+  "cases": 80961.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "malaria",
+  "year": 2005,
+  "cases": 83181.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "malaria",
+  "year": 2006,
+  "cases": 62842.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "malaria",
+  "year": 2007,
+  "cases": 49355.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "malaria",
+  "year": 2008,
+  "cases": 47344.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "malaria",
+  "year": 2009,
+  "cases": 36859.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "malaria",
+  "year": 2010,
+  "cases": 44319.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "malaria",
+  "year": 2011,
+  "cases": 24237.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "malaria",
+  "year": 2012,
+  "cases": 16466.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "malaria",
+  "year": 2013,
+  "cases": 13302.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "malaria",
+  "year": 2014,
+  "cases": 14794.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "malaria",
+  "year": 2015,
+  "cases": 12445.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "malaria",
+  "year": 2016,
+  "cases": 11078.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "malaria",
+  "year": 2017,
+  "cases": 7381.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "malaria",
+  "year": 2018,
+  "cases": 5721.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "malaria",
+  "year": 2019,
+  "cases": 3499.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "malaria",
+  "year": 2020,
+  "cases": 1701.0000000000002
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "malaria",
+  "year": 2021,
+  "cases": 913.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "malaria",
+  "year": 2022,
+  "cases": 279.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "chikungunya",
+  "year": 2006,
+  "cases": 762026.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "chikungunya",
+  "year": 2007,
+  "cases": 1705.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "chikungunya",
+  "year": 2008,
+  "cases": 46510.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "chikungunya",
+  "year": 2009,
+  "cases": 41230.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "chikungunya",
+  "year": 2010,
+  "cases": 8740.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "chikungunya",
+  "year": 2011,
+  "cases": 1941.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "chikungunya",
+  "year": 2012,
+  "cases": 2382.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "chikungunya",
+  "year": 2013,
+  "cases": 5295.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "chikungunya",
+  "year": 2014,
+  "cases": 6962.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "chikungunya",
+  "year": 2015,
+  "cases": 20763.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "chikungunya",
+  "year": 2016,
+  "cases": 15666.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "chikungunya",
+  "year": 2017,
+  "cases": 32831.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "chikungunya",
+  "year": 2018,
+  "cases": 20411.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "chikungunya",
+  "year": 2019,
+  "cases": 43698.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "chikungunya",
+  "year": 2020,
+  "cases": 16111.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "chikungunya",
+  "year": 2021,
+  "cases": 40134.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "chikungunya",
+  "year": 2022,
+  "cases": 63549.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "dengue",
+  "year": 2001,
+  "cases": 41.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "dengue",
+  "year": 2002,
+  "cases": 219.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "dengue",
+  "year": 2003,
+  "cases": 3546.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "dengue",
+  "year": 2004,
+  "cases": 686.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "dengue",
+  "year": 2005,
+  "cases": 1028.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "dengue",
+  "year": 2006,
+  "cases": 981.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "dengue",
+  "year": 2007,
+  "cases": 603.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "dengue",
+  "year": 2008,
+  "cases": 733.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "dengue",
+  "year": 2009,
+  "cases": 1425.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "dengue",
+  "year": 2010,
+  "cases": 2597.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "dengue",
+  "year": 2011,
+  "cases": 1304.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "dengue",
+  "year": 2012,
+  "cases": 4172.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "dengue",
+  "year": 2013,
+  "cases": 7938.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "dengue",
+  "year": 2017,
+  "cases": 19994.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "dengue",
+  "year": 2018,
+  "cases": 4083.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "dengue",
+  "year": 2019,
+  "cases": 4652.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "dengue",
+  "year": 2020,
+  "cases": 4399.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "dengue",
+  "year": 2021,
+  "cases": 3251.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "dengue",
+  "year": 2022,
+  "cases": 4432.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "malaria",
+  "year": 2001,
+  "cases": 2289.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "malaria",
+  "year": 2002,
+  "cases": 3360.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "malaria",
+  "year": 2003,
+  "cases": 2575.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "malaria",
+  "year": 2004,
+  "cases": 2790.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "malaria",
+  "year": 2005,
+  "cases": 2554.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "malaria",
+  "year": 2006,
+  "cases": 2131.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "malaria",
+  "year": 2007,
+  "cases": 1927.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "malaria",
+  "year": 2008,
+  "cases": 1804.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "malaria",
+  "year": 2009,
+  "cases": 2046.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "malaria",
+  "year": 2010,
+  "cases": 2299.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "malaria",
+  "year": 2011,
+  "cases": 1993.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "malaria",
+  "year": 2012,
+  "cases": 2036.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "malaria",
+  "year": 2013,
+  "cases": 1634.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "malaria",
+  "year": 2014,
+  "cases": 1751.0000000000002
+ },
+ {
+  "state_id": "kerala",
+  "disease": "malaria",
+  "year": 2015,
+  "cases": 1549.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "malaria",
+  "year": 2016,
+  "cases": 1547.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "malaria",
+  "year": 2017,
+  "cases": 1192.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "malaria",
+  "year": 2018,
+  "cases": 908.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "malaria",
+  "year": 2019,
+  "cases": 656.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "malaria",
+  "year": 2020,
+  "cases": 268.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "malaria",
+  "year": 2021,
+  "cases": 309.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "malaria",
+  "year": 2022,
+  "cases": 439.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "chikungunya",
+  "year": 2006,
+  "cases": 70731.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "chikungunya",
+  "year": 2007,
+  "cases": 24052.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "chikungunya",
+  "year": 2008,
+  "cases": 24685.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "chikungunya",
+  "year": 2009,
+  "cases": 13349.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "chikungunya",
+  "year": 2010,
+  "cases": 1708.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "chikungunya",
+  "year": 2011,
+  "cases": 183.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "chikungunya",
+  "year": 2012,
+  "cases": 66.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "chikungunya",
+  "year": 2013,
+  "cases": 273.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "chikungunya",
+  "year": 2014,
+  "cases": 272.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "chikungunya",
+  "year": 2015,
+  "cases": 175.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "chikungunya",
+  "year": 2016,
+  "cases": 129.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "chikungunya",
+  "year": 2017,
+  "cases": 78.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "chikungunya",
+  "year": 2018,
+  "cases": 77.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "chikungunya",
+  "year": 2019,
+  "cases": 109.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "chikungunya",
+  "year": 2020,
+  "cases": 2302.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "chikungunya",
+  "year": 2021,
+  "cases": 3030.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "chikungunya",
+  "year": 2022,
+  "cases": 1511.0
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "dengue",
+  "year": 2005,
+  "cases": 0.0
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "dengue",
+  "year": 2006,
+  "cases": 0.5249553588231949
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "dengue",
+  "year": 2007,
+  "cases": 0.0
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "dengue",
+  "year": 2008,
+  "cases": 0.0
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "dengue",
+  "year": 2009,
+  "cases": 0.0437462799019323
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "dengue",
+  "year": 2010,
+  "cases": 0.0
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "dengue",
+  "year": 2011,
+  "cases": 0.0656194198528985
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "dengue",
+  "year": 2012,
+  "cases": 0.37184337916643
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "dengue",
+  "year": 2013,
+  "cases": 40.18095808992542
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "dengue",
+  "year": 2017,
+  "cases": 0.0
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "dengue",
+  "year": 2018,
+  "cases": 0.0
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "dengue",
+  "year": 2019,
+  "cases": 0.0
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "dengue",
+  "year": 2020,
+  "cases": 0.0
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "dengue",
+  "year": 2021,
+  "cases": 0.0
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "dengue",
+  "year": 2022,
+  "cases": 0.0
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "malaria",
+  "year": 2001,
+  "cases": 19.948303635281423
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "malaria",
+  "year": 2002,
+  "cases": 9.952278677689746
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "malaria",
+  "year": 2003,
+  "cases": 6.999404784309272
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "malaria",
+  "year": 2004,
+  "cases": 5.468284987741618
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "malaria",
+  "year": 2005,
+  "cases": 5.862001506859016
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "malaria",
+  "year": 2006,
+  "cases": 3.5871949519585016
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "malaria",
+  "year": 2007,
+  "cases": 5.249553588231953
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "malaria",
+  "year": 2008,
+  "cases": 4.746471369359725
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "malaria",
+  "year": 2009,
+  "cases": 7.5681064230344
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "malaria",
+  "year": 2010,
+  "cases": 17.54225824067511
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "malaria",
+  "year": 2011,
+  "cases": 23.863595686504425
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "malaria",
+  "year": 2012,
+  "cases": 18.898392917635036
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "malaria",
+  "year": 2013,
+  "cases": 15.267451685774601
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "malaria",
+  "year": 2014,
+  "cases": 6.365083725731244
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "malaria",
+  "year": 2015,
+  "cases": 0.0
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "malaria",
+  "year": 2016,
+  "cases": 0.0
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "malaria",
+  "year": 2017,
+  "cases": 0.0
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "malaria",
+  "year": 2018,
+  "cases": 0.0
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "malaria",
+  "year": 2019,
+  "cases": 0.0
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "malaria",
+  "year": 2020,
+  "cases": 0.0
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "malaria",
+  "year": 2021,
+  "cases": 0.0
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "malaria",
+  "year": 2022,
+  "cases": 0.0
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "chikungunya",
+  "year": 2008,
+  "cases": 0.0
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "chikungunya",
+  "year": 2009,
+  "cases": 0.0
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "chikungunya",
+  "year": 2010,
+  "cases": 0.0
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "chikungunya",
+  "year": 2011,
+  "cases": 0.0
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "chikungunya",
+  "year": 2013,
+  "cases": 0.0
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "chikungunya",
+  "year": 2015,
+  "cases": 0.0
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "chikungunya",
+  "year": 2016,
+  "cases": 0.0218731399509659
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "chikungunya",
+  "year": 2017,
+  "cases": 0.0
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "chikungunya",
+  "year": 2018,
+  "cases": 0.0
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "chikungunya",
+  "year": 2019,
+  "cases": 0.0
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "chikungunya",
+  "year": 2020,
+  "cases": 0.0
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "chikungunya",
+  "year": 2021,
+  "cases": 0.0
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "chikungunya",
+  "year": 2022,
+  "cases": 0.0
+ },
+ {
+  "state_id": "lakshadweep",
+  "disease": "dengue",
+  "year": 2008,
+  "cases": 0.0
+ },
+ {
+  "state_id": "lakshadweep",
+  "disease": "dengue",
+  "year": 2009,
+  "cases": 0.0
+ },
+ {
+  "state_id": "lakshadweep",
+  "disease": "dengue",
+  "year": 2010,
+  "cases": 0.0
+ },
+ {
+  "state_id": "lakshadweep",
+  "disease": "dengue",
+  "year": 2013,
+  "cases": 0.0
+ },
+ {
+  "state_id": "lakshadweep",
+  "disease": "dengue",
+  "year": 2017,
+  "cases": 0.0
+ },
+ {
+  "state_id": "lakshadweep",
+  "disease": "dengue",
+  "year": 2018,
+  "cases": 0.0
+ },
+ {
+  "state_id": "lakshadweep",
+  "disease": "dengue",
+  "year": 2019,
+  "cases": 0.0
+ },
+ {
+  "state_id": "lakshadweep",
+  "disease": "dengue",
+  "year": 2020,
+  "cases": 0.0
+ },
+ {
+  "state_id": "lakshadweep",
+  "disease": "dengue",
+  "year": 2021,
+  "cases": 1.0
+ },
+ {
+  "state_id": "lakshadweep",
+  "disease": "dengue",
+  "year": 2022,
+  "cases": 70.0
+ },
+ {
+  "state_id": "lakshadweep",
+  "disease": "malaria",
+  "year": 2001,
+  "cases": 0.0
+ },
+ {
+  "state_id": "lakshadweep",
+  "disease": "malaria",
+  "year": 2002,
+  "cases": 8.0
+ },
+ {
+  "state_id": "lakshadweep",
+  "disease": "malaria",
+  "year": 2003,
+  "cases": 6.0
+ },
+ {
+  "state_id": "lakshadweep",
+  "disease": "malaria",
+  "year": 2004,
+  "cases": 2.0
+ },
+ {
+  "state_id": "lakshadweep",
+  "disease": "malaria",
+  "year": 2005,
+  "cases": 0.0
+ },
+ {
+  "state_id": "lakshadweep",
+  "disease": "malaria",
+  "year": 2006,
+  "cases": 0.0
+ },
+ {
+  "state_id": "lakshadweep",
+  "disease": "malaria",
+  "year": 2007,
+  "cases": 0.0
+ },
+ {
+  "state_id": "lakshadweep",
+  "disease": "malaria",
+  "year": 2008,
+  "cases": 0.0
+ },
+ {
+  "state_id": "lakshadweep",
+  "disease": "malaria",
+  "year": 2009,
+  "cases": 8.0
+ },
+ {
+  "state_id": "lakshadweep",
+  "disease": "malaria",
+  "year": 2010,
+  "cases": 6.0
+ },
+ {
+  "state_id": "lakshadweep",
+  "disease": "malaria",
+  "year": 2011,
+  "cases": 8.0
+ },
+ {
+  "state_id": "lakshadweep",
+  "disease": "malaria",
+  "year": 2012,
+  "cases": 9.0
+ },
+ {
+  "state_id": "lakshadweep",
+  "disease": "malaria",
+  "year": 2013,
+  "cases": 8.0
+ },
+ {
+  "state_id": "lakshadweep",
+  "disease": "malaria",
+  "year": 2014,
+  "cases": 0.0
+ },
+ {
+  "state_id": "lakshadweep",
+  "disease": "malaria",
+  "year": 2015,
+  "cases": 4.0
+ },
+ {
+  "state_id": "lakshadweep",
+  "disease": "malaria",
+  "year": 2016,
+  "cases": 2.0
+ },
+ {
+  "state_id": "lakshadweep",
+  "disease": "malaria",
+  "year": 2017,
+  "cases": 1.0
+ },
+ {
+  "state_id": "lakshadweep",
+  "disease": "malaria",
+  "year": 2018,
+  "cases": 5.0
+ },
+ {
+  "state_id": "lakshadweep",
+  "disease": "malaria",
+  "year": 2019,
+  "cases": 11.0
+ },
+ {
+  "state_id": "lakshadweep",
+  "disease": "malaria",
+  "year": 2020,
+  "cases": 6.0
+ },
+ {
+  "state_id": "lakshadweep",
+  "disease": "malaria",
+  "year": 2021,
+  "cases": 1.0
+ },
+ {
+  "state_id": "lakshadweep",
+  "disease": "malaria",
+  "year": 2022,
+  "cases": 0.0
+ },
+ {
+  "state_id": "lakshadweep",
+  "disease": "chikungunya",
+  "year": 2006,
+  "cases": 35.0
+ },
+ {
+  "state_id": "lakshadweep",
+  "disease": "chikungunya",
+  "year": 2007,
+  "cases": 5184.0
+ },
+ {
+  "state_id": "lakshadweep",
+  "disease": "chikungunya",
+  "year": 2022,
+  "cases": 107.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "dengue",
+  "year": 2006,
+  "cases": 16.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "dengue",
+  "year": 2007,
+  "cases": 51.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "dengue",
+  "year": 2008,
+  "cases": 3.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "dengue",
+  "year": 2009,
+  "cases": 1467.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "dengue",
+  "year": 2010,
+  "cases": 175.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "dengue",
+  "year": 2011,
+  "cases": 50.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "dengue",
+  "year": 2012,
+  "cases": 239.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "dengue",
+  "year": 2013,
+  "cases": 1255.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "dengue",
+  "year": 2017,
+  "cases": 2666.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "dengue",
+  "year": 2018,
+  "cases": 4506.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "dengue",
+  "year": 2019,
+  "cases": 4189.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "dengue",
+  "year": 2020,
+  "cases": 806.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "dengue",
+  "year": 2021,
+  "cases": 15592.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "dengue",
+  "year": 2022,
+  "cases": 3205.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "malaria",
+  "year": 2001,
+  "cases": 183118.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "malaria",
+  "year": 2002,
+  "cases": 108818.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "malaria",
+  "year": 2003,
+  "cases": 99708.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "malaria",
+  "year": 2004,
+  "cases": 132094.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "malaria",
+  "year": 2005,
+  "cases": 104317.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "malaria",
+  "year": 2006,
+  "cases": 96160.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "malaria",
+  "year": 2007,
+  "cases": 90829.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "malaria",
+  "year": 2008,
+  "cases": 105312.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "malaria",
+  "year": 2009,
+  "cases": 87628.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "malaria",
+  "year": 2010,
+  "cases": 87165.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "malaria",
+  "year": 2011,
+  "cases": 91851.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "malaria",
+  "year": 2012,
+  "cases": 76538.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "malaria",
+  "year": 2013,
+  "cases": 78260.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "malaria",
+  "year": 2014,
+  "cases": 96879.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "malaria",
+  "year": 2015,
+  "cases": 100597.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "malaria",
+  "year": 2016,
+  "cases": 69106.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "malaria",
+  "year": 2017,
+  "cases": 47541.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "malaria",
+  "year": 2018,
+  "cases": 22279.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "malaria",
+  "year": 2019,
+  "cases": 14147.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "malaria",
+  "year": 2020,
+  "cases": 6760.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "malaria",
+  "year": 2021,
+  "cases": 3181.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "malaria",
+  "year": 2022,
+  "cases": 3719.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "chikungunya",
+  "year": 2006,
+  "cases": 60132.00000000001
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "chikungunya",
+  "year": 2009,
+  "cases": 30.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "chikungunya",
+  "year": 2010,
+  "cases": 113.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "chikungunya",
+  "year": 2011,
+  "cases": 280.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "chikungunya",
+  "year": 2012,
+  "cases": 20.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "chikungunya",
+  "year": 2013,
+  "cases": 139.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "chikungunya",
+  "year": 2014,
+  "cases": 161.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "chikungunya",
+  "year": 2015,
+  "cases": 67.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "chikungunya",
+  "year": 2016,
+  "cases": 2280.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "chikungunya",
+  "year": 2017,
+  "cases": 2477.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "chikungunya",
+  "year": 2018,
+  "cases": 3211.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "chikungunya",
+  "year": 2019,
+  "cases": 2749.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "chikungunya",
+  "year": 2020,
+  "cases": 1871.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "chikungunya",
+  "year": 2021,
+  "cases": 3822.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "chikungunya",
+  "year": 2022,
+  "cases": 4292.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "dengue",
+  "year": 1999,
+  "cases": 59.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "dengue",
+  "year": 2000,
+  "cases": 66.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "dengue",
+  "year": 2001,
+  "cases": 54.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "dengue",
+  "year": 2002,
+  "cases": 370.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "dengue",
+  "year": 2003,
+  "cases": 772.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "dengue",
+  "year": 2004,
+  "cases": 856.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "dengue",
+  "year": 2005,
+  "cases": 349.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "dengue",
+  "year": 2006,
+  "cases": 736.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "dengue",
+  "year": 2007,
+  "cases": 614.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "dengue",
+  "year": 2008,
+  "cases": 743.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "dengue",
+  "year": 2009,
+  "cases": 2255.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "dengue",
+  "year": 2010,
+  "cases": 1489.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "dengue",
+  "year": 2011,
+  "cases": 1138.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "dengue",
+  "year": 2012,
+  "cases": 2931.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "dengue",
+  "year": 2013,
+  "cases": 5610.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "dengue",
+  "year": 2017,
+  "cases": 7829.000000000001
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "dengue",
+  "year": 2018,
+  "cases": 11011.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "dengue",
+  "year": 2019,
+  "cases": 14907.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "dengue",
+  "year": 2020,
+  "cases": 3356.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "dengue",
+  "year": 2021,
+  "cases": 203.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "dengue",
+  "year": 2022,
+  "cases": 8560.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "malaria",
+  "year": 2001,
+  "cases": 56043.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "malaria",
+  "year": 2002,
+  "cases": 45568.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "malaria",
+  "year": 2003,
+  "cases": 62947.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "malaria",
+  "year": 2004,
+  "cases": 68988.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "malaria",
+  "year": 2005,
+  "cases": 47608.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "malaria",
+  "year": 2006,
+  "cases": 54420.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "malaria",
+  "year": 2007,
+  "cases": 67850.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "malaria",
+  "year": 2008,
+  "cases": 67333.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "malaria",
+  "year": 2009,
+  "cases": 93818.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "malaria",
+  "year": 2010,
+  "cases": 139198.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "malaria",
+  "year": 2011,
+  "cases": 96577.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "malaria",
+  "year": 2012,
+  "cases": 58517.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "malaria",
+  "year": 2013,
+  "cases": 43677.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "malaria",
+  "year": 2014,
+  "cases": 53385.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "malaria",
+  "year": 2015,
+  "cases": 56603.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "malaria",
+  "year": 2016,
+  "cases": 23983.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "malaria",
+  "year": 2017,
+  "cases": 17710.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "malaria",
+  "year": 2018,
+  "cases": 10757.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "malaria",
+  "year": 2019,
+  "cases": 8866.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "malaria",
+  "year": 2020,
+  "cases": 15215.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "malaria",
+  "year": 2021,
+  "cases": 19303.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "malaria",
+  "year": 2022,
+  "cases": 15437.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "chikungunya",
+  "year": 2006,
+  "cases": 270116.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "chikungunya",
+  "year": 2007,
+  "cases": 1752.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "chikungunya",
+  "year": 2008,
+  "cases": 853.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "chikungunya",
+  "year": 2009,
+  "cases": 1594.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "chikungunya",
+  "year": 2010,
+  "cases": 7431.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "chikungunya",
+  "year": 2011,
+  "cases": 5113.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "chikungunya",
+  "year": 2012,
+  "cases": 1544.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "chikungunya",
+  "year": 2013,
+  "cases": 1578.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "chikungunya",
+  "year": 2014,
+  "cases": 1572.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "chikungunya",
+  "year": 2015,
+  "cases": 78.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "chikungunya",
+  "year": 2016,
+  "cases": 7570.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "chikungunya",
+  "year": 2017,
+  "cases": 8110.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "chikungunya",
+  "year": 2018,
+  "cases": 9884.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "chikungunya",
+  "year": 2019,
+  "cases": 5158.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "chikungunya",
+  "year": 2020,
+  "cases": 4258.0
+ },
+ {
+  "state_id": "manipur",
+  "disease": "dengue",
+  "year": 2007,
+  "cases": 51.0
+ },
+ {
+  "state_id": "manipur",
+  "disease": "dengue",
+  "year": 2010,
+  "cases": 7.0
+ },
+ {
+  "state_id": "manipur",
+  "disease": "dengue",
+  "year": 2011,
+  "cases": 220.0
+ },
+ {
+  "state_id": "manipur",
+  "disease": "dengue",
+  "year": 2012,
+  "cases": 6.0
+ },
+ {
+  "state_id": "manipur",
+  "disease": "dengue",
+  "year": 2013,
+  "cases": 9.0
+ },
+ {
+  "state_id": "manipur",
+  "disease": "dengue",
+  "year": 2017,
+  "cases": 193.0
+ },
+ {
+  "state_id": "manipur",
+  "disease": "dengue",
+  "year": 2018,
+  "cases": 14.0
+ },
+ {
+  "state_id": "manipur",
+  "disease": "dengue",
+  "year": 2019,
+  "cases": 359.0
+ },
+ {
+  "state_id": "manipur",
+  "disease": "dengue",
+  "year": 2020,
+  "cases": 37.0
+ },
+ {
+  "state_id": "manipur",
+  "disease": "dengue",
+  "year": 2021,
+  "cases": 129.0
+ },
+ {
+  "state_id": "manipur",
+  "disease": "dengue",
+  "year": 2022,
+  "cases": 503.0
+ },
+ {
+  "state_id": "manipur",
+  "disease": "malaria",
+  "year": 2001,
+  "cases": 943.0
+ },
+ {
+  "state_id": "manipur",
+  "disease": "malaria",
+  "year": 2002,
+  "cases": 1268.0
+ },
+ {
+  "state_id": "manipur",
+  "disease": "malaria",
+  "year": 2003,
+  "cases": 2589.0
+ },
+ {
+  "state_id": "manipur",
+  "disease": "malaria",
+  "year": 2004,
+  "cases": 2736.0
+ },
+ {
+  "state_id": "manipur",
+  "disease": "malaria",
+  "year": 2005,
+  "cases": 2071.0
+ },
+ {
+  "state_id": "manipur",
+  "disease": "malaria",
+  "year": 2006,
+  "cases": 2709.0
+ },
+ {
+  "state_id": "manipur",
+  "disease": "malaria",
+  "year": 2007,
+  "cases": 1194.0
+ },
+ {
+  "state_id": "manipur",
+  "disease": "malaria",
+  "year": 2008,
+  "cases": 708.0
+ },
+ {
+  "state_id": "manipur",
+  "disease": "malaria",
+  "year": 2009,
+  "cases": 1069.0
+ },
+ {
+  "state_id": "manipur",
+  "disease": "malaria",
+  "year": 2010,
+  "cases": 947.0
+ },
+ {
+  "state_id": "manipur",
+  "disease": "malaria",
+  "year": 2011,
+  "cases": 714.0
+ },
+ {
+  "state_id": "manipur",
+  "disease": "malaria",
+  "year": 2012,
+  "cases": 255.0
+ },
+ {
+  "state_id": "manipur",
+  "disease": "malaria",
+  "year": 2013,
+  "cases": 120.0
+ },
+ {
+  "state_id": "manipur",
+  "disease": "malaria",
+  "year": 2014,
+  "cases": 145.0
+ },
+ {
+  "state_id": "manipur",
+  "disease": "malaria",
+  "year": 2015,
+  "cases": 216.0
+ },
+ {
+  "state_id": "manipur",
+  "disease": "malaria",
+  "year": 2016,
+  "cases": 122.0
+ },
+ {
+  "state_id": "manipur",
+  "disease": "malaria",
+  "year": 2017,
+  "cases": 80.0
+ },
+ {
+  "state_id": "manipur",
+  "disease": "malaria",
+  "year": 2018,
+  "cases": 12.0
+ },
+ {
+  "state_id": "manipur",
+  "disease": "malaria",
+  "year": 2019,
+  "cases": 16.0
+ },
+ {
+  "state_id": "manipur",
+  "disease": "malaria",
+  "year": 2020,
+  "cases": 36.0
+ },
+ {
+  "state_id": "manipur",
+  "disease": "malaria",
+  "year": 2021,
+  "cases": 19.0
+ },
+ {
+  "state_id": "manipur",
+  "disease": "malaria",
+  "year": 2022,
+  "cases": 14.0
+ },
+ {
+  "state_id": "manipur",
+  "disease": "chikungunya",
+  "year": 2015,
+  "cases": 391.0
+ },
+ {
+  "state_id": "manipur",
+  "disease": "chikungunya",
+  "year": 2018,
+  "cases": 2.0
+ },
+ {
+  "state_id": "manipur",
+  "disease": "chikungunya",
+  "year": 2019,
+  "cases": 40.0
+ },
+ {
+  "state_id": "meghalaya",
+  "disease": "dengue",
+  "year": 2010,
+  "cases": 1.0
+ },
+ {
+  "state_id": "meghalaya",
+  "disease": "dengue",
+  "year": 2012,
+  "cases": 27.0
+ },
+ {
+  "state_id": "meghalaya",
+  "disease": "dengue",
+  "year": 2013,
+  "cases": 43.0
+ },
+ {
+  "state_id": "meghalaya",
+  "disease": "dengue",
+  "year": 2017,
+  "cases": 52.0
+ },
+ {
+  "state_id": "meghalaya",
+  "disease": "dengue",
+  "year": 2018,
+  "cases": 44.0
+ },
+ {
+  "state_id": "meghalaya",
+  "disease": "dengue",
+  "year": 2019,
+  "cases": 82.0
+ },
+ {
+  "state_id": "meghalaya",
+  "disease": "dengue",
+  "year": 2020,
+  "cases": 4.0
+ },
+ {
+  "state_id": "meghalaya",
+  "disease": "dengue",
+  "year": 2021,
+  "cases": 12720.0
+ },
+ {
+  "state_id": "meghalaya",
+  "disease": "dengue",
+  "year": 2022,
+  "cases": 26.0
+ },
+ {
+  "state_id": "meghalaya",
+  "disease": "malaria",
+  "year": 2001,
+  "cases": 20630.0
+ },
+ {
+  "state_id": "meghalaya",
+  "disease": "malaria",
+  "year": 2002,
+  "cases": 17918.0
+ },
+ {
+  "state_id": "meghalaya",
+  "disease": "malaria",
+  "year": 2003,
+  "cases": 18366.0
+ },
+ {
+  "state_id": "meghalaya",
+  "disease": "malaria",
+  "year": 2004,
+  "cases": 18080.0
+ },
+ {
+  "state_id": "meghalaya",
+  "disease": "malaria",
+  "year": 2005,
+  "cases": 16816.0
+ },
+ {
+  "state_id": "meghalaya",
+  "disease": "malaria",
+  "year": 2006,
+  "cases": 29924.0
+ },
+ {
+  "state_id": "meghalaya",
+  "disease": "malaria",
+  "year": 2007,
+  "cases": 36337.0
+ },
+ {
+  "state_id": "meghalaya",
+  "disease": "malaria",
+  "year": 2008,
+  "cases": 39616.0
+ },
+ {
+  "state_id": "meghalaya",
+  "disease": "malaria",
+  "year": 2009,
+  "cases": 76759.0
+ },
+ {
+  "state_id": "meghalaya",
+  "disease": "malaria",
+  "year": 2010,
+  "cases": 41642.0
+ },
+ {
+  "state_id": "meghalaya",
+  "disease": "malaria",
+  "year": 2011,
+  "cases": 25143.0
+ },
+ {
+  "state_id": "meghalaya",
+  "disease": "malaria",
+  "year": 2012,
+  "cases": 20834.0
+ },
+ {
+  "state_id": "meghalaya",
+  "disease": "malaria",
+  "year": 2013,
+  "cases": 24727.0
+ },
+ {
+  "state_id": "meghalaya",
+  "disease": "malaria",
+  "year": 2014,
+  "cases": 39168.0
+ },
+ {
+  "state_id": "meghalaya",
+  "disease": "malaria",
+  "year": 2015,
+  "cases": 48603.0
+ },
+ {
+  "state_id": "meghalaya",
+  "disease": "malaria",
+  "year": 2016,
+  "cases": 35147.0
+ },
+ {
+  "state_id": "meghalaya",
+  "disease": "malaria",
+  "year": 2017,
+  "cases": 16454.0
+ },
+ {
+  "state_id": "meghalaya",
+  "disease": "malaria",
+  "year": 2018,
+  "cases": 6394.0
+ },
+ {
+  "state_id": "meghalaya",
+  "disease": "malaria",
+  "year": 2019,
+  "cases": 2615.0
+ },
+ {
+  "state_id": "meghalaya",
+  "disease": "malaria",
+  "year": 2020,
+  "cases": 2018.0
+ },
+ {
+  "state_id": "meghalaya",
+  "disease": "malaria",
+  "year": 2021,
+  "cases": 491.0
+ },
+ {
+  "state_id": "meghalaya",
+  "disease": "malaria",
+  "year": 2022,
+  "cases": 463.0
+ },
+ {
+  "state_id": "meghalaya",
+  "disease": "chikungunya",
+  "year": 2010,
+  "cases": 16.0
+ },
+ {
+  "state_id": "meghalaya",
+  "disease": "chikungunya",
+  "year": 2011,
+  "cases": 168.0
+ },
+ {
+  "state_id": "meghalaya",
+  "disease": "chikungunya",
+  "year": 2016,
+  "cases": 360.0
+ },
+ {
+  "state_id": "meghalaya",
+  "disease": "chikungunya",
+  "year": 2017,
+  "cases": 236.0
+ },
+ {
+  "state_id": "meghalaya",
+  "disease": "chikungunya",
+  "year": 2018,
+  "cases": 44.0
+ },
+ {
+  "state_id": "meghalaya",
+  "disease": "chikungunya",
+  "year": 2019,
+  "cases": 114.0
+ },
+ {
+  "state_id": "meghalaya",
+  "disease": "chikungunya",
+  "year": 2020,
+  "cases": 3.0
+ },
+ {
+  "state_id": "meghalaya",
+  "disease": "chikungunya",
+  "year": 2021,
+  "cases": 21680.0
+ },
+ {
+  "state_id": "meghalaya",
+  "disease": "chikungunya",
+  "year": 2022,
+  "cases": 14569.0
+ },
+ {
+  "state_id": "mizoram",
+  "disease": "dengue",
+  "year": 2012,
+  "cases": 6.0
+ },
+ {
+  "state_id": "mizoram",
+  "disease": "dengue",
+  "year": 2013,
+  "cases": 7.0
+ },
+ {
+  "state_id": "mizoram",
+  "disease": "dengue",
+  "year": 2017,
+  "cases": 136.0
+ },
+ {
+  "state_id": "mizoram",
+  "disease": "dengue",
+  "year": 2018,
+  "cases": 68.0
+ },
+ {
+  "state_id": "mizoram",
+  "disease": "dengue",
+  "year": 2019,
+  "cases": 42.0
+ },
+ {
+  "state_id": "mizoram",
+  "disease": "dengue",
+  "year": 2020,
+  "cases": 67.0
+ },
+ {
+  "state_id": "mizoram",
+  "disease": "dengue",
+  "year": 2021,
+  "cases": 83.0
+ },
+ {
+  "state_id": "mizoram",
+  "disease": "dengue",
+  "year": 2022,
+  "cases": 1868.0
+ },
+ {
+  "state_id": "mizoram",
+  "disease": "malaria",
+  "year": 2001,
+  "cases": 10929.0
+ },
+ {
+  "state_id": "mizoram",
+  "disease": "malaria",
+  "year": 2002,
+  "cases": 7859.0
+ },
+ {
+  "state_id": "mizoram",
+  "disease": "malaria",
+  "year": 2003,
+  "cases": 7293.0
+ },
+ {
+  "state_id": "mizoram",
+  "disease": "malaria",
+  "year": 2004,
+  "cases": 7830.0
+ },
+ {
+  "state_id": "mizoram",
+  "disease": "malaria",
+  "year": 2005,
+  "cases": 10741.0
+ },
+ {
+  "state_id": "mizoram",
+  "disease": "malaria",
+  "year": 2006,
+  "cases": 10668.0
+ },
+ {
+  "state_id": "mizoram",
+  "disease": "malaria",
+  "year": 2007,
+  "cases": 6081.0
+ },
+ {
+  "state_id": "mizoram",
+  "disease": "malaria",
+  "year": 2008,
+  "cases": 7361.0
+ },
+ {
+  "state_id": "mizoram",
+  "disease": "malaria",
+  "year": 2009,
+  "cases": 9399.0
+ },
+ {
+  "state_id": "mizoram",
+  "disease": "malaria",
+  "year": 2010,
+  "cases": 15594.0
+ },
+ {
+  "state_id": "mizoram",
+  "disease": "malaria",
+  "year": 2011,
+  "cases": 8861.0
+ },
+ {
+  "state_id": "mizoram",
+  "disease": "malaria",
+  "year": 2012,
+  "cases": 9883.0
+ },
+ {
+  "state_id": "mizoram",
+  "disease": "malaria",
+  "year": 2013,
+  "cases": 11747.0
+ },
+ {
+  "state_id": "mizoram",
+  "disease": "malaria",
+  "year": 2014,
+  "cases": 23145.0
+ },
+ {
+  "state_id": "mizoram",
+  "disease": "malaria",
+  "year": 2015,
+  "cases": 28593.0
+ },
+ {
+  "state_id": "mizoram",
+  "disease": "malaria",
+  "year": 2016,
+  "cases": 7583.0
+ },
+ {
+  "state_id": "mizoram",
+  "disease": "malaria",
+  "year": 2017,
+  "cases": 5715.0
+ },
+ {
+  "state_id": "mizoram",
+  "disease": "malaria",
+  "year": 2018,
+  "cases": 4296.0
+ },
+ {
+  "state_id": "mizoram",
+  "disease": "malaria",
+  "year": 2019,
+  "cases": 8543.0
+ },
+ {
+  "state_id": "mizoram",
+  "disease": "malaria",
+  "year": 2020,
+  "cases": 7781.0
+ },
+ {
+  "state_id": "mizoram",
+  "disease": "malaria",
+  "year": 2021,
+  "cases": 8018.0
+ },
+ {
+  "state_id": "mizoram",
+  "disease": "malaria",
+  "year": 2022,
+  "cases": 10222.0
+ },
+ {
+  "state_id": "mizoram",
+  "disease": "chikungunya",
+  "year": 2018,
+  "cases": 93.0
+ },
+ {
+  "state_id": "mizoram",
+  "disease": "chikungunya",
+  "year": 2020,
+  "cases": 34.0
+ },
+ {
+  "state_id": "mizoram",
+  "disease": "chikungunya",
+  "year": 2022,
+  "cases": 195.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "dengue",
+  "year": 2009,
+  "cases": 25.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "dengue",
+  "year": 2011,
+  "cases": 3.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "dengue",
+  "year": 2017,
+  "cases": 357.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "dengue",
+  "year": 2018,
+  "cases": 369.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "dengue",
+  "year": 2019,
+  "cases": 8.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "dengue",
+  "year": 2020,
+  "cases": 1.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "dengue",
+  "year": 2021,
+  "cases": 24.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "dengue",
+  "year": 2022,
+  "cases": 154.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "malaria",
+  "year": 2001,
+  "cases": 4318.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "malaria",
+  "year": 2002,
+  "cases": 3945.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "malaria",
+  "year": 2003,
+  "cases": 3370.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "malaria",
+  "year": 2004,
+  "cases": 2486.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "malaria",
+  "year": 2005,
+  "cases": 2987.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "malaria",
+  "year": 2006,
+  "cases": 3361.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "malaria",
+  "year": 2007,
+  "cases": 4976.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "malaria",
+  "year": 2008,
+  "cases": 5078.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "malaria",
+  "year": 2009,
+  "cases": 8489.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "malaria",
+  "year": 2010,
+  "cases": 4959.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "malaria",
+  "year": 2011,
+  "cases": 3363.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "malaria",
+  "year": 2012,
+  "cases": 2891.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "malaria",
+  "year": 2013,
+  "cases": 2285.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "malaria",
+  "year": 2014,
+  "cases": 1936.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "malaria",
+  "year": 2015,
+  "cases": 1527.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "malaria",
+  "year": 2016,
+  "cases": 828.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "malaria",
+  "year": 2017,
+  "cases": 394.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "malaria",
+  "year": 2018,
+  "cases": 113.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "malaria",
+  "year": 2019,
+  "cases": 20.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "malaria",
+  "year": 2020,
+  "cases": 12.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "malaria",
+  "year": 2021,
+  "cases": 8.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "malaria",
+  "year": 2022,
+  "cases": 8.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "chikungunya",
+  "year": 2008,
+  "cases": 0.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "chikungunya",
+  "year": 2009,
+  "cases": 0.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "chikungunya",
+  "year": 2010,
+  "cases": 0.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "chikungunya",
+  "year": 2011,
+  "cases": 0.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "chikungunya",
+  "year": 2013,
+  "cases": 0.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "chikungunya",
+  "year": 2015,
+  "cases": 0.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "chikungunya",
+  "year": 2016,
+  "cases": 0.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "chikungunya",
+  "year": 2017,
+  "cases": 0.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "chikungunya",
+  "year": 2018,
+  "cases": 0.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "chikungunya",
+  "year": 2019,
+  "cases": 0.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "chikungunya",
+  "year": 2020,
+  "cases": 0.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "chikungunya",
+  "year": 2021,
+  "cases": 0.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "chikungunya",
+  "year": 2022,
+  "cases": 0.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "dengue",
+  "year": 2006,
+  "cases": 1.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "dengue",
+  "year": 2007,
+  "cases": 4.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "dengue",
+  "year": 2010,
+  "cases": 29.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "dengue",
+  "year": 2011,
+  "cases": 1816.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "dengue",
+  "year": 2012,
+  "cases": 2255.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "dengue",
+  "year": 2013,
+  "cases": 7132.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "dengue",
+  "year": 2017,
+  "cases": 4158.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "dengue",
+  "year": 2018,
+  "cases": 5198.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "dengue",
+  "year": 2019,
+  "cases": 3758.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "dengue",
+  "year": 2020,
+  "cases": 496.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "dengue",
+  "year": 2021,
+  "cases": 7548.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "dengue",
+  "year": 2022,
+  "cases": 7063.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "malaria",
+  "year": 2001,
+  "cases": 454541.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "malaria",
+  "year": 2002,
+  "cases": 473223.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "malaria",
+  "year": 2003,
+  "cases": 421323.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "malaria",
+  "year": 2004,
+  "cases": 416732.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "malaria",
+  "year": 2005,
+  "cases": 396573.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "malaria",
+  "year": 2006,
+  "cases": 380216.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "malaria",
+  "year": 2007,
+  "cases": 371879.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "malaria",
+  "year": 2008,
+  "cases": 375430.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "malaria",
+  "year": 2009,
+  "cases": 380904.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "malaria",
+  "year": 2010,
+  "cases": 395651.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "malaria",
+  "year": 2011,
+  "cases": 308968.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "malaria",
+  "year": 2012,
+  "cases": 262842.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "malaria",
+  "year": 2013,
+  "cases": 228858.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "malaria",
+  "year": 2014,
+  "cases": 395035.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "malaria",
+  "year": 2015,
+  "cases": 436850.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "malaria",
+  "year": 2016,
+  "cases": 444843.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "malaria",
+  "year": 2017,
+  "cases": 347860.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "malaria",
+  "year": 2018,
+  "cases": 66311.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "malaria",
+  "year": 2019,
+  "cases": 39556.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "malaria",
+  "year": 2020,
+  "cases": 41739.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "malaria",
+  "year": 2021,
+  "cases": 25503.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "malaria",
+  "year": 2022,
+  "cases": 23770.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "chikungunya",
+  "year": 2006,
+  "cases": 6461.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "chikungunya",
+  "year": 2007,
+  "cases": 670.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "chikungunya",
+  "year": 2008,
+  "cases": 4676.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "chikungunya",
+  "year": 2009,
+  "cases": 2306.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "chikungunya",
+  "year": 2010,
+  "cases": 544.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "chikungunya",
+  "year": 2011,
+  "cases": 236.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "chikungunya",
+  "year": 2012,
+  "cases": 129.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "chikungunya",
+  "year": 2013,
+  "cases": 35.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "chikungunya",
+  "year": 2014,
+  "cases": 10.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "chikungunya",
+  "year": 2015,
+  "cases": 81.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "chikungunya",
+  "year": 2016,
+  "cases": 51.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "chikungunya",
+  "year": 2019,
+  "cases": 242.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "chikungunya",
+  "year": 2020,
+  "cases": 15.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "dengue",
+  "year": 2003,
+  "cases": 6.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "dengue",
+  "year": 2007,
+  "cases": 274.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "dengue",
+  "year": 2008,
+  "cases": 35.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "dengue",
+  "year": 2009,
+  "cases": 66.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "dengue",
+  "year": 2010,
+  "cases": 96.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "dengue",
+  "year": 2011,
+  "cases": 463.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "dengue",
+  "year": 2012,
+  "cases": 3506.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "dengue",
+  "year": 2013,
+  "cases": 2215.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "dengue",
+  "year": 2017,
+  "cases": 4568.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "dengue",
+  "year": 2018,
+  "cases": 592.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "dengue",
+  "year": 2019,
+  "cases": 2030.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "dengue",
+  "year": 2020,
+  "cases": 633.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "dengue",
+  "year": 2021,
+  "cases": 1625.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "dengue",
+  "year": 2022,
+  "cases": 1673.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "malaria",
+  "year": 2001,
+  "cases": 106.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "malaria",
+  "year": 2002,
+  "cases": 103.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "malaria",
+  "year": 2003,
+  "cases": 63.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "malaria",
+  "year": 2004,
+  "cases": 43.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "malaria",
+  "year": 2005,
+  "cases": 44.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "malaria",
+  "year": 2006,
+  "cases": 50.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "malaria",
+  "year": 2007,
+  "cases": 68.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "malaria",
+  "year": 2008,
+  "cases": 72.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "malaria",
+  "year": 2009,
+  "cases": 65.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "malaria",
+  "year": 2010,
+  "cases": 175.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "malaria",
+  "year": 2011,
+  "cases": 196.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "malaria",
+  "year": 2012,
+  "cases": 143.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "malaria",
+  "year": 2013,
+  "cases": 127.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "malaria",
+  "year": 2014,
+  "cases": 79.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "malaria",
+  "year": 2015,
+  "cases": 54.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "malaria",
+  "year": 2016,
+  "cases": 76.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "malaria",
+  "year": 2017,
+  "cases": 60.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "malaria",
+  "year": 2018,
+  "cases": 54.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "malaria",
+  "year": 2019,
+  "cases": 21.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "malaria",
+  "year": 2020,
+  "cases": 15.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "malaria",
+  "year": 2021,
+  "cases": 5.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "chikungunya",
+  "year": 2006,
+  "cases": 542.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "chikungunya",
+  "year": 2010,
+  "cases": 11.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "chikungunya",
+  "year": 2011,
+  "cases": 42.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "chikungunya",
+  "year": 2012,
+  "cases": 45.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "chikungunya",
+  "year": 2013,
+  "cases": 146.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "chikungunya",
+  "year": 2014,
+  "cases": 399.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "chikungunya",
+  "year": 2015,
+  "cases": 245.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "chikungunya",
+  "year": 2016,
+  "cases": 463.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "chikungunya",
+  "year": 2017,
+  "cases": 475.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "chikungunya",
+  "year": 2018,
+  "cases": 2876.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "chikungunya",
+  "year": 2019,
+  "cases": 7084.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "chikungunya",
+  "year": 2020,
+  "cases": 3980.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "chikungunya",
+  "year": 2021,
+  "cases": 7284.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "chikungunya",
+  "year": 2022,
+  "cases": 11440.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "dengue",
+  "year": 1999,
+  "cases": 419.00000000000006
+ },
+ {
+  "state_id": "punjab",
+  "disease": "dengue",
+  "year": 2000,
+  "cases": 91.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "dengue",
+  "year": 2001,
+  "cases": 49.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "dengue",
+  "year": 2002,
+  "cases": 27.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "dengue",
+  "year": 2003,
+  "cases": 848.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "dengue",
+  "year": 2004,
+  "cases": 52.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "dengue",
+  "year": 2005,
+  "cases": 251.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "dengue",
+  "year": 2006,
+  "cases": 1166.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "dengue",
+  "year": 2007,
+  "cases": 28.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "dengue",
+  "year": 2008,
+  "cases": 4349.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "dengue",
+  "year": 2009,
+  "cases": 245.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "dengue",
+  "year": 2010,
+  "cases": 4012.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "dengue",
+  "year": 2011,
+  "cases": 3921.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "dengue",
+  "year": 2012,
+  "cases": 770.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "dengue",
+  "year": 2013,
+  "cases": 4117.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "dengue",
+  "year": 2017,
+  "cases": 15398.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "dengue",
+  "year": 2018,
+  "cases": 14980.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "dengue",
+  "year": 2019,
+  "cases": 10289.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "dengue",
+  "year": 2020,
+  "cases": 8435.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "dengue",
+  "year": 2021,
+  "cases": 23389.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "dengue",
+  "year": 2022,
+  "cases": 11038.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "malaria",
+  "year": 2001,
+  "cases": 604.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "malaria",
+  "year": 2002,
+  "cases": 250.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "malaria",
+  "year": 2003,
+  "cases": 379.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "malaria",
+  "year": 2004,
+  "cases": 1643.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "malaria",
+  "year": 2005,
+  "cases": 1883.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "malaria",
+  "year": 2006,
+  "cases": 1888.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "malaria",
+  "year": 2007,
+  "cases": 2017.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "malaria",
+  "year": 2008,
+  "cases": 2494.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "malaria",
+  "year": 2009,
+  "cases": 2955.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "malaria",
+  "year": 2010,
+  "cases": 3477.0000000000005
+ },
+ {
+  "state_id": "punjab",
+  "disease": "malaria",
+  "year": 2011,
+  "cases": 2693.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "malaria",
+  "year": 2012,
+  "cases": 1689.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "malaria",
+  "year": 2013,
+  "cases": 1760.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "malaria",
+  "year": 2014,
+  "cases": 1036.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "malaria",
+  "year": 2015,
+  "cases": 596.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "malaria",
+  "year": 2016,
+  "cases": 693.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "malaria",
+  "year": 2017,
+  "cases": 805.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "malaria",
+  "year": 2018,
+  "cases": 624.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "malaria",
+  "year": 2019,
+  "cases": 1139.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "malaria",
+  "year": 2020,
+  "cases": 109.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "malaria",
+  "year": 2021,
+  "cases": 71.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "malaria",
+  "year": 2022,
+  "cases": 109.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "chikungunya",
+  "year": 2010,
+  "cases": 1.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "chikungunya",
+  "year": 2012,
+  "cases": 1.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "chikungunya",
+  "year": 2014,
+  "cases": 2.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "chikungunya",
+  "year": 2015,
+  "cases": 180.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "chikungunya",
+  "year": 2016,
+  "cases": 4407.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "chikungunya",
+  "year": 2017,
+  "cases": 3251.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "chikungunya",
+  "year": 2018,
+  "cases": 736.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "chikungunya",
+  "year": 2019,
+  "cases": 372.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "chikungunya",
+  "year": 2020,
+  "cases": 25.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "chikungunya",
+  "year": 2021,
+  "cases": 644.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "chikungunya",
+  "year": 2022,
+  "cases": 1043.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "dengue",
+  "year": 1999,
+  "cases": 1.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "dengue",
+  "year": 2001,
+  "cases": 1452.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "dengue",
+  "year": 2002,
+  "cases": 325.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "dengue",
+  "year": 2003,
+  "cases": 685.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "dengue",
+  "year": 2004,
+  "cases": 207.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "dengue",
+  "year": 2005,
+  "cases": 370.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "dengue",
+  "year": 2006,
+  "cases": 1805.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "dengue",
+  "year": 2007,
+  "cases": 540.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "dengue",
+  "year": 2008,
+  "cases": 682.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "dengue",
+  "year": 2009,
+  "cases": 1389.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "dengue",
+  "year": 2010,
+  "cases": 1823.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "dengue",
+  "year": 2011,
+  "cases": 1072.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "dengue",
+  "year": 2012,
+  "cases": 1295.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "dengue",
+  "year": 2013,
+  "cases": 4413.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "dengue",
+  "year": 2017,
+  "cases": 8427.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "dengue",
+  "year": 2018,
+  "cases": 9587.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "dengue",
+  "year": 2019,
+  "cases": 13706.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "dengue",
+  "year": 2020,
+  "cases": 2023.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "dengue",
+  "year": 2021,
+  "cases": 20749.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "dengue",
+  "year": 2022,
+  "cases": 13491.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "malaria",
+  "year": 2001,
+  "cases": 129233.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "malaria",
+  "year": 2002,
+  "cases": 68627.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "malaria",
+  "year": 2003,
+  "cases": 142738.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "malaria",
+  "year": 2004,
+  "cases": 105022.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "malaria",
+  "year": 2005,
+  "cases": 52286.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "malaria",
+  "year": 2006,
+  "cases": 99529.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "malaria",
+  "year": 2007,
+  "cases": 55043.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "malaria",
+  "year": 2008,
+  "cases": 57482.00000000001
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "malaria",
+  "year": 2009,
+  "cases": 32709.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "malaria",
+  "year": 2010,
+  "cases": 50963.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "malaria",
+  "year": 2011,
+  "cases": 54294.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "malaria",
+  "year": 2012,
+  "cases": 45809.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "malaria",
+  "year": 2013,
+  "cases": 33139.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "malaria",
+  "year": 2014,
+  "cases": 15118.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "malaria",
+  "year": 2015,
+  "cases": 11796.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "malaria",
+  "year": 2016,
+  "cases": 12741.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "malaria",
+  "year": 2017,
+  "cases": 10607.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "malaria",
+  "year": 2018,
+  "cases": 5728.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "malaria",
+  "year": 2019,
+  "cases": 3421.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "malaria",
+  "year": 2020,
+  "cases": 1276.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "malaria",
+  "year": 2021,
+  "cases": 925.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "malaria",
+  "year": 2022,
+  "cases": 1026.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "chikungunya",
+  "year": 2006,
+  "cases": 102.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "chikungunya",
+  "year": 2007,
+  "cases": 1.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "chikungunya",
+  "year": 2008,
+  "cases": 3.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "chikungunya",
+  "year": 2009,
+  "cases": 256.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "chikungunya",
+  "year": 2010,
+  "cases": 1326.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "chikungunya",
+  "year": 2011,
+  "cases": 608.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "chikungunya",
+  "year": 2012,
+  "cases": 172.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "chikungunya",
+  "year": 2013,
+  "cases": 76.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "chikungunya",
+  "year": 2014,
+  "cases": 50.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "chikungunya",
+  "year": 2015,
+  "cases": 7.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "chikungunya",
+  "year": 2016,
+  "cases": 2506.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "chikungunya",
+  "year": 2017,
+  "cases": 1612.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "chikungunya",
+  "year": 2018,
+  "cases": 254.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "chikungunya",
+  "year": 2019,
+  "cases": 365.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "chikungunya",
+  "year": 2020,
+  "cases": 1015.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "chikungunya",
+  "year": 2021,
+  "cases": 1157.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "chikungunya",
+  "year": 2022,
+  "cases": 212.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "dengue",
+  "year": 2004,
+  "cases": 12.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "dengue",
+  "year": 2011,
+  "cases": 2.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "dengue",
+  "year": 2012,
+  "cases": 2.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "dengue",
+  "year": 2013,
+  "cases": 38.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "dengue",
+  "year": 2017,
+  "cases": 312.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "dengue",
+  "year": 2018,
+  "cases": 320.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "dengue",
+  "year": 2019,
+  "cases": 444.00000000000006
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "dengue",
+  "year": 2020,
+  "cases": 11.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "dengue",
+  "year": 2021,
+  "cases": 243.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "dengue",
+  "year": 2022,
+  "cases": 260.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "malaria",
+  "year": 2001,
+  "cases": 31.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "malaria",
+  "year": 2002,
+  "cases": 53.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "malaria",
+  "year": 2003,
+  "cases": 278.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "malaria",
+  "year": 2004,
+  "cases": 160.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "malaria",
+  "year": 2005,
+  "cases": 69.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "malaria",
+  "year": 2006,
+  "cases": 93.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "malaria",
+  "year": 2007,
+  "cases": 48.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "malaria",
+  "year": 2008,
+  "cases": 38.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "malaria",
+  "year": 2009,
+  "cases": 42.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "malaria",
+  "year": 2010,
+  "cases": 49.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "malaria",
+  "year": 2011,
+  "cases": 51.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "malaria",
+  "year": 2012,
+  "cases": 77.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "malaria",
+  "year": 2013,
+  "cases": 39.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "malaria",
+  "year": 2014,
+  "cases": 35.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "malaria",
+  "year": 2015,
+  "cases": 27.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "malaria",
+  "year": 2016,
+  "cases": 15.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "malaria",
+  "year": 2017,
+  "cases": 14.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "malaria",
+  "year": 2018,
+  "cases": 6.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "malaria",
+  "year": 2019,
+  "cases": 7.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "malaria",
+  "year": 2020,
+  "cases": 4.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "malaria",
+  "year": 2021,
+  "cases": 4.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "malaria",
+  "year": 2022,
+  "cases": 6.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "chikungunya",
+  "year": 2016,
+  "cases": 30.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "chikungunya",
+  "year": 2017,
+  "cases": 130.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "chikungunya",
+  "year": 2018,
+  "cases": 384.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "chikungunya",
+  "year": 2019,
+  "cases": 1126.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "chikungunya",
+  "year": 2020,
+  "cases": 253.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "chikungunya",
+  "year": 2021,
+  "cases": 457.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "chikungunya",
+  "year": 2022,
+  "cases": 1883.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "dengue",
+  "year": 1999,
+  "cases": 135.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "dengue",
+  "year": 2000,
+  "cases": 81.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "dengue",
+  "year": 2001,
+  "cases": 816.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "dengue",
+  "year": 2002,
+  "cases": 392.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "dengue",
+  "year": 2003,
+  "cases": 1600.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "dengue",
+  "year": 2004,
+  "cases": 1027.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "dengue",
+  "year": 2005,
+  "cases": 1142.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "dengue",
+  "year": 2006,
+  "cases": 477.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "dengue",
+  "year": 2007,
+  "cases": 707.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "dengue",
+  "year": 2008,
+  "cases": 530.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "dengue",
+  "year": 2009,
+  "cases": 1072.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "dengue",
+  "year": 2010,
+  "cases": 2051.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "dengue",
+  "year": 2011,
+  "cases": 2501.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "dengue",
+  "year": 2012,
+  "cases": 12826.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "dengue",
+  "year": 2013,
+  "cases": 6122.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "dengue",
+  "year": 2017,
+  "cases": 23294.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "dengue",
+  "year": 2018,
+  "cases": 4486.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "dengue",
+  "year": 2019,
+  "cases": 8527.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "dengue",
+  "year": 2020,
+  "cases": 2410.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "dengue",
+  "year": 2021,
+  "cases": 6039.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "dengue",
+  "year": 2022,
+  "cases": 6430.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "malaria",
+  "year": 2001,
+  "cases": 31551.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "malaria",
+  "year": 2002,
+  "cases": 34523.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "malaria",
+  "year": 2003,
+  "cases": 43604.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "malaria",
+  "year": 2004,
+  "cases": 41732.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "malaria",
+  "year": 2005,
+  "cases": 39678.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "malaria",
+  "year": 2006,
+  "cases": 28219.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "malaria",
+  "year": 2007,
+  "cases": 22389.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "malaria",
+  "year": 2008,
+  "cases": 21046.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "malaria",
+  "year": 2009,
+  "cases": 14988.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "malaria",
+  "year": 2010,
+  "cases": 17086.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "malaria",
+  "year": 2011,
+  "cases": 22171.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "malaria",
+  "year": 2012,
+  "cases": 18869.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "malaria",
+  "year": 2013,
+  "cases": 15081.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "malaria",
+  "year": 2014,
+  "cases": 8729.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "malaria",
+  "year": 2015,
+  "cases": 5587.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "malaria",
+  "year": 2016,
+  "cases": 4341.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "malaria",
+  "year": 2017,
+  "cases": 5444.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "malaria",
+  "year": 2018,
+  "cases": 3758.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "malaria",
+  "year": 2019,
+  "cases": 2088.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "malaria",
+  "year": 2020,
+  "cases": 891.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "malaria",
+  "year": 2021,
+  "cases": 772.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "malaria",
+  "year": 2022,
+  "cases": 344.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "chikungunya",
+  "year": 2006,
+  "cases": 64802.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "chikungunya",
+  "year": 2007,
+  "cases": 45.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "chikungunya",
+  "year": 2008,
+  "cases": 46.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "chikungunya",
+  "year": 2009,
+  "cases": 5063.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "chikungunya",
+  "year": 2010,
+  "cases": 4319.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "chikungunya",
+  "year": 2011,
+  "cases": 4194.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "chikungunya",
+  "year": 2012,
+  "cases": 5018.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "chikungunya",
+  "year": 2013,
+  "cases": 859.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "chikungunya",
+  "year": 2014,
+  "cases": 543.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "chikungunya",
+  "year": 2015,
+  "cases": 329.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "chikungunya",
+  "year": 2016,
+  "cases": 86.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "chikungunya",
+  "year": 2017,
+  "cases": 131.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "chikungunya",
+  "year": 2018,
+  "cases": 284.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "chikungunya",
+  "year": 2019,
+  "cases": 623.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "chikungunya",
+  "year": 2020,
+  "cases": 1461.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "chikungunya",
+  "year": 2021,
+  "cases": 3654.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "chikungunya",
+  "year": 2022,
+  "cases": 181.0
+ },
+ {
+  "state_id": "telangana",
+  "disease": "dengue",
+  "year": 2000,
+  "cases": 2.069245237602865
+ },
+ {
+  "state_id": "telangana",
+  "disease": "dengue",
+  "year": 2001,
+  "cases": 0.4138490475205724
+ },
+ {
+  "state_id": "telangana",
+  "disease": "dengue",
+  "year": 2002,
+  "cases": 25.24479189875496
+ },
+ {
+  "state_id": "telangana",
+  "disease": "dengue",
+  "year": 2003,
+  "cases": 39.315659514454445
+ },
+ {
+  "state_id": "telangana",
+  "disease": "dengue",
+  "year": 2004,
+  "cases": 95.18528092973182
+ },
+ {
+  "state_id": "telangana",
+  "disease": "dengue",
+  "year": 2005,
+  "cases": 40.97105570453674
+ },
+ {
+  "state_id": "telangana",
+  "disease": "dengue",
+  "year": 2006,
+  "cases": 81.52826236155292
+ },
+ {
+  "state_id": "telangana",
+  "disease": "dengue",
+  "year": 2007,
+  "cases": 242.92939089457644
+ },
+ {
+  "state_id": "telangana",
+  "disease": "dengue",
+  "year": 2008,
+  "cases": 129.5347518739394
+ },
+ {
+  "state_id": "telangana",
+  "disease": "dengue",
+  "year": 2009,
+  "cases": 492.4803665494821
+ },
+ {
+  "state_id": "telangana",
+  "disease": "dengue",
+  "year": 2017,
+  "cases": 5369.0
+ },
+ {
+  "state_id": "telangana",
+  "disease": "dengue",
+  "year": 2018,
+  "cases": 4592.0
+ },
+ {
+  "state_id": "telangana",
+  "disease": "dengue",
+  "year": 2019,
+  "cases": 13331.0
+ },
+ {
+  "state_id": "telangana",
+  "disease": "dengue",
+  "year": 2020,
+  "cases": 2173.0
+ },
+ {
+  "state_id": "telangana",
+  "disease": "dengue",
+  "year": 2021,
+  "cases": 349.0
+ },
+ {
+  "state_id": "telangana",
+  "disease": "dengue",
+  "year": 2022,
+  "cases": 8972.0
+ },
+ {
+  "state_id": "telangana",
+  "disease": "malaria",
+  "year": 2001,
+  "cases": 23893.574758600287
+ },
+ {
+  "state_id": "telangana",
+  "disease": "malaria",
+  "year": 2002,
+  "cases": 15748.197805300368
+ },
+ {
+  "state_id": "telangana",
+  "disease": "malaria",
+  "year": 2003,
+  "cases": 14896.49646550303
+ },
+ {
+  "state_id": "telangana",
+  "disease": "malaria",
+  "year": 2004,
+  "cases": 14661.430206511344
+ },
+ {
+  "state_id": "telangana",
+  "disease": "malaria",
+  "year": 2005,
+  "cases": 16181.08390900689
+ },
+ {
+  "state_id": "telangana",
+  "disease": "malaria",
+  "year": 2006,
+  "cases": 14104.389388548652
+ },
+ {
+  "state_id": "telangana",
+  "disease": "malaria",
+  "year": 2007,
+  "cases": 11506.245068214495
+ },
+ {
+  "state_id": "telangana",
+  "disease": "malaria",
+  "year": 2008,
+  "cases": 10935.547231683624
+ },
+ {
+  "state_id": "telangana",
+  "disease": "malaria",
+  "year": 2009,
+  "cases": 10409.131243237456
+ },
+ {
+  "state_id": "telangana",
+  "disease": "malaria",
+  "year": 2010,
+  "cases": 13819.661243854498
+ },
+ {
+  "state_id": "telangana",
+  "disease": "malaria",
+  "year": 2014,
+  "cases": 5189.0
+ },
+ {
+  "state_id": "telangana",
+  "disease": "malaria",
+  "year": 2015,
+  "cases": 10951.0
+ },
+ {
+  "state_id": "telangana",
+  "disease": "malaria",
+  "year": 2016,
+  "cases": 3512.0
+ },
+ {
+  "state_id": "telangana",
+  "disease": "malaria",
+  "year": 2017,
+  "cases": 2688.0
+ },
+ {
+  "state_id": "telangana",
+  "disease": "malaria",
+  "year": 2018,
+  "cases": 1792.0
+ },
+ {
+  "state_id": "telangana",
+  "disease": "malaria",
+  "year": 2019,
+  "cases": 1711.0
+ },
+ {
+  "state_id": "telangana",
+  "disease": "malaria",
+  "year": 2020,
+  "cases": 870.0
+ },
+ {
+  "state_id": "telangana",
+  "disease": "malaria",
+  "year": 2021,
+  "cases": 874.0
+ },
+ {
+  "state_id": "telangana",
+  "disease": "malaria",
+  "year": 2022,
+  "cases": 611.0
+ },
+ {
+  "state_id": "telangana",
+  "disease": "chikungunya",
+  "year": 2006,
+  "cases": 32087.78589950764
+ },
+ {
+  "state_id": "telangana",
+  "disease": "chikungunya",
+  "year": 2007,
+  "cases": 16.14011285330235
+ },
+ {
+  "state_id": "telangana",
+  "disease": "chikungunya",
+  "year": 2008,
+  "cases": 2.069245237602865
+ },
+ {
+  "state_id": "telangana",
+  "disease": "chikungunya",
+  "year": 2009,
+  "cases": 244.58478708465873
+ },
+ {
+  "state_id": "telangana",
+  "disease": "chikungunya",
+  "year": 2014,
+  "cases": 1687.0
+ },
+ {
+  "state_id": "telangana",
+  "disease": "chikungunya",
+  "year": 2015,
+  "cases": 2067.0
+ },
+ {
+  "state_id": "telangana",
+  "disease": "chikungunya",
+  "year": 2016,
+  "cases": 611.0
+ },
+ {
+  "state_id": "telangana",
+  "disease": "chikungunya",
+  "year": 2017,
+  "cases": 1277.0
+ },
+ {
+  "state_id": "telangana",
+  "disease": "chikungunya",
+  "year": 2018,
+  "cases": 1954.0
+ },
+ {
+  "state_id": "telangana",
+  "disease": "chikungunya",
+  "year": 2019,
+  "cases": 5352.0
+ },
+ {
+  "state_id": "telangana",
+  "disease": "chikungunya",
+  "year": 2020,
+  "cases": 364.0
+ },
+ {
+  "state_id": "telangana",
+  "disease": "chikungunya",
+  "year": 2021,
+  "cases": 220.0
+ },
+ {
+  "state_id": "telangana",
+  "disease": "chikungunya",
+  "year": 2022,
+  "cases": 6608.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "dengue",
+  "year": 2012,
+  "cases": 9.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "dengue",
+  "year": 2013,
+  "cases": 8.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "dengue",
+  "year": 2017,
+  "cases": 127.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "dengue",
+  "year": 2018,
+  "cases": 100.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "dengue",
+  "year": 2019,
+  "cases": 114.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "dengue",
+  "year": 2020,
+  "cases": 24.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "dengue",
+  "year": 2021,
+  "cases": 7135.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "dengue",
+  "year": 2022,
+  "cases": 55.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "malaria",
+  "year": 2001,
+  "cases": 18502.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "malaria",
+  "year": 2002,
+  "cases": 13319.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "malaria",
+  "year": 2003,
+  "cases": 13807.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "malaria",
+  "year": 2004,
+  "cases": 17453.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "malaria",
+  "year": 2005,
+  "cases": 18008.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "malaria",
+  "year": 2006,
+  "cases": 23375.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "malaria",
+  "year": 2007,
+  "cases": 18474.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "malaria",
+  "year": 2008,
+  "cases": 25894.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "malaria",
+  "year": 2009,
+  "cases": 24430.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "malaria",
+  "year": 2010,
+  "cases": 23939.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "malaria",
+  "year": 2011,
+  "cases": 14417.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "malaria",
+  "year": 2012,
+  "cases": 11565.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "malaria",
+  "year": 2013,
+  "cases": 7396.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "malaria",
+  "year": 2014,
+  "cases": 51240.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "malaria",
+  "year": 2015,
+  "cases": 32525.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "malaria",
+  "year": 2016,
+  "cases": 10546.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "malaria",
+  "year": 2017,
+  "cases": 7051.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "malaria",
+  "year": 2018,
+  "cases": 13079.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "malaria",
+  "year": 2019,
+  "cases": 12437.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "malaria",
+  "year": 2020,
+  "cases": 3395.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "malaria",
+  "year": 2021,
+  "cases": 10136.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "malaria",
+  "year": 2022,
+  "cases": 12771.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "chikungunya",
+  "year": 2014,
+  "cases": 34.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "chikungunya",
+  "year": 2015,
+  "cases": 180.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "chikungunya",
+  "year": 2016,
+  "cases": 311.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "chikungunya",
+  "year": 2017,
+  "cases": 574.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "chikungunya",
+  "year": 2018,
+  "cases": 683.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "chikungunya",
+  "year": 2019,
+  "cases": 1105.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "chikungunya",
+  "year": 2020,
+  "cases": 454.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "chikungunya",
+  "year": 2021,
+  "cases": 948.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "chikungunya",
+  "year": 2022,
+  "cases": 919.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "dengue",
+  "year": 1999,
+  "cases": 28.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "dengue",
+  "year": 2001,
+  "cases": 21.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "dengue",
+  "year": 2003,
+  "cases": 738.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "dengue",
+  "year": 2004,
+  "cases": 8.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "dengue",
+  "year": 2005,
+  "cases": 121.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "dengue",
+  "year": 2006,
+  "cases": 639.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "dengue",
+  "year": 2007,
+  "cases": 132.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "dengue",
+  "year": 2008,
+  "cases": 51.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "dengue",
+  "year": 2009,
+  "cases": 168.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "dengue",
+  "year": 2010,
+  "cases": 960.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "dengue",
+  "year": 2011,
+  "cases": 155.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "dengue",
+  "year": 2012,
+  "cases": 342.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "dengue",
+  "year": 2013,
+  "cases": 1414.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "dengue",
+  "year": 2017,
+  "cases": 3092.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "dengue",
+  "year": 2018,
+  "cases": 3829.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "dengue",
+  "year": 2019,
+  "cases": 10557.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "dengue",
+  "year": 2020,
+  "cases": 3715.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "dengue",
+  "year": 2021,
+  "cases": 29750.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "dengue",
+  "year": 2022,
+  "cases": 19821.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "malaria",
+  "year": 2001,
+  "cases": 94524.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "malaria",
+  "year": 2002,
+  "cases": 90199.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "malaria",
+  "year": 2003,
+  "cases": 101411.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "malaria",
+  "year": 2004,
+  "cases": 85868.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "malaria",
+  "year": 2005,
+  "cases": 105303.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "malaria",
+  "year": 2006,
+  "cases": 91566.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "malaria",
+  "year": 2007,
+  "cases": 82538.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "malaria",
+  "year": 2008,
+  "cases": 93383.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "malaria",
+  "year": 2009,
+  "cases": 55437.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "malaria",
+  "year": 2010,
+  "cases": 64606.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "malaria",
+  "year": 2011,
+  "cases": 56968.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "malaria",
+  "year": 2012,
+  "cases": 47400.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "malaria",
+  "year": 2013,
+  "cases": 48346.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "malaria",
+  "year": 2014,
+  "cases": 41612.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "malaria",
+  "year": 2015,
+  "cases": 42767.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "malaria",
+  "year": 2016,
+  "cases": 40700.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "malaria",
+  "year": 2017,
+  "cases": 32345.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "malaria",
+  "year": 2018,
+  "cases": 86486.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "malaria",
+  "year": 2019,
+  "cases": 92732.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "malaria",
+  "year": 2020,
+  "cases": 28668.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "malaria",
+  "year": 2021,
+  "cases": 13.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "malaria",
+  "year": 2022,
+  "cases": 7039.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "chikungunya",
+  "year": 2006,
+  "cases": 4.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "chikungunya",
+  "year": 2007,
+  "cases": 3.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "chikungunya",
+  "year": 2008,
+  "cases": 11.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "chikungunya",
+  "year": 2010,
+  "cases": 5.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "chikungunya",
+  "year": 2011,
+  "cases": 3.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "chikungunya",
+  "year": 2012,
+  "cases": 13.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "chikungunya",
+  "year": 2014,
+  "cases": 4.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "chikungunya",
+  "year": 2016,
+  "cases": 2458.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "chikungunya",
+  "year": 2017,
+  "cases": 103.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "chikungunya",
+  "year": 2018,
+  "cases": 58.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "chikungunya",
+  "year": 2019,
+  "cases": 72.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "chikungunya",
+  "year": 2020,
+  "cases": 53.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "chikungunya",
+  "year": 2021,
+  "cases": 70.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "chikungunya",
+  "year": 2022,
+  "cases": 200.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "dengue",
+  "year": 2008,
+  "cases": 20.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "dengue",
+  "year": 2010,
+  "cases": 178.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "dengue",
+  "year": 2011,
+  "cases": 454.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "dengue",
+  "year": 2012,
+  "cases": 110.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "dengue",
+  "year": 2013,
+  "cases": 54.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "dengue",
+  "year": 2017,
+  "cases": 849.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "dengue",
+  "year": 2018,
+  "cases": 689.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "dengue",
+  "year": 2019,
+  "cases": 10622.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "dengue",
+  "year": 2020,
+  "cases": 76.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "dengue",
+  "year": 2021,
+  "cases": 738.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "dengue",
+  "year": 2022,
+  "cases": 2337.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "malaria",
+  "year": 2001,
+  "cases": 1196.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "malaria",
+  "year": 2002,
+  "cases": 1659.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "malaria",
+  "year": 2003,
+  "cases": 2350.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "malaria",
+  "year": 2004,
+  "cases": 1255.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "malaria",
+  "year": 2005,
+  "cases": 1242.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "malaria",
+  "year": 2006,
+  "cases": 1108.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "malaria",
+  "year": 2007,
+  "cases": 953.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "malaria",
+  "year": 2008,
+  "cases": 1059.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "malaria",
+  "year": 2009,
+  "cases": 1264.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "malaria",
+  "year": 2010,
+  "cases": 1672.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "malaria",
+  "year": 2011,
+  "cases": 1277.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "malaria",
+  "year": 2012,
+  "cases": 1948.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "malaria",
+  "year": 2013,
+  "cases": 1426.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "malaria",
+  "year": 2014,
+  "cases": 1171.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "malaria",
+  "year": 2015,
+  "cases": 1466.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "malaria",
+  "year": 2016,
+  "cases": 961.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "malaria",
+  "year": 2017,
+  "cases": 508.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "malaria",
+  "year": 2018,
+  "cases": 409.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "malaria",
+  "year": 2019,
+  "cases": 296.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "malaria",
+  "year": 2020,
+  "cases": 15.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "malaria",
+  "year": 2021,
+  "cases": 10792.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "malaria",
+  "year": 2022,
+  "cases": 19.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "chikungunya",
+  "year": 2011,
+  "cases": 18.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "chikungunya",
+  "year": 2016,
+  "cases": 35.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "chikungunya",
+  "year": 2018,
+  "cases": 29.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "chikungunya",
+  "year": 2019,
+  "cases": 1.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "chikungunya",
+  "year": 2021,
+  "cases": 3.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "chikungunya",
+  "year": 2022,
+  "cases": 2000.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "dengue",
+  "year": 2004,
+  "cases": 32.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "dengue",
+  "year": 2005,
+  "cases": 6375.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "dengue",
+  "year": 2006,
+  "cases": 1230.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "dengue",
+  "year": 2007,
+  "cases": 95.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "dengue",
+  "year": 2008,
+  "cases": 1038.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "dengue",
+  "year": 2009,
+  "cases": 399.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "dengue",
+  "year": 2010,
+  "cases": 805.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "dengue",
+  "year": 2011,
+  "cases": 510.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "dengue",
+  "year": 2012,
+  "cases": 6456.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "dengue",
+  "year": 2013,
+  "cases": 5920.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "dengue",
+  "year": 2017,
+  "cases": 37746.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "dengue",
+  "year": 2018,
+  "cases": 23301.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "dengue",
+  "year": 2019,
+  "cases": 47928.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "dengue",
+  "year": 2020,
+  "cases": 5166.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "dengue",
+  "year": 2021,
+  "cases": 8264.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "dengue",
+  "year": 2022,
+  "cases": 1753.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "malaria",
+  "year": 2001,
+  "cases": 145053.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "malaria",
+  "year": 2002,
+  "cases": 194421.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "malaria",
+  "year": 2003,
+  "cases": 233802.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "malaria",
+  "year": 2004,
+  "cases": 220904.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "malaria",
+  "year": 2005,
+  "cases": 185964.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "malaria",
+  "year": 2006,
+  "cases": 159646.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "malaria",
+  "year": 2007,
+  "cases": 87754.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "malaria",
+  "year": 2008,
+  "cases": 89443.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "malaria",
+  "year": 2009,
+  "cases": 141211.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "malaria",
+  "year": 2010,
+  "cases": 134795.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "malaria",
+  "year": 2011,
+  "cases": 66368.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "malaria",
+  "year": 2012,
+  "cases": 55793.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "malaria",
+  "year": 2013,
+  "cases": 34717.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "malaria",
+  "year": 2014,
+  "cases": 26484.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "malaria",
+  "year": 2015,
+  "cases": 24208.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "malaria",
+  "year": 2016,
+  "cases": 35236.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "malaria",
+  "year": 2017,
+  "cases": 31265.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "malaria",
+  "year": 2018,
+  "cases": 26440.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "malaria",
+  "year": 2019,
+  "cases": 25928.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "malaria",
+  "year": 2020,
+  "cases": 14049.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "malaria",
+  "year": 2021,
+  "cases": 28987.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "malaria",
+  "year": 2022,
+  "cases": 40563.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "chikungunya",
+  "year": 2006,
+  "cases": 21.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "chikungunya",
+  "year": 2007,
+  "cases": 19138.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "chikungunya",
+  "year": 2008,
+  "cases": 17898.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "chikungunya",
+  "year": 2009,
+  "cases": 5270.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "chikungunya",
+  "year": 2010,
+  "cases": 20503.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "chikungunya",
+  "year": 2011,
+  "cases": 4482.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "chikungunya",
+  "year": 2012,
+  "cases": 1381.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "chikungunya",
+  "year": 2013,
+  "cases": 646.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "chikungunya",
+  "year": 2014,
+  "cases": 1032.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "chikungunya",
+  "year": 2015,
+  "cases": 1013.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "chikungunya",
+  "year": 2016,
+  "cases": 1071.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "chikungunya",
+  "year": 2017,
+  "cases": 2103.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "chikungunya",
+  "year": 2018,
+  "cases": 52.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "chikungunya",
+  "year": 2020,
+  "cases": 391.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "chikungunya",
+  "year": 2021,
+  "cases": 154.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "chikungunya",
+  "year": 2022,
+  "cases": 1230.0
+ }
+]

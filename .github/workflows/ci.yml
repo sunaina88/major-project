@@ -1,0 +1,16 @@
+name: ci
+on: {pull_request: {}, push: {branches: [main]}}
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - run: pip install -r requirements-stgnn.txt -r requirements-frontend.txt
+      - run: ruff check frontend src/monitoring scripts
+      - run: pytest tests
+      - name: Model reproduces training-time forecast
+        run: python models/stgnn/predict.py | tee predict.log && grep "matches the CSV written at training time: True" predict.log
+      - name: Frontend image builds
+        run: docker build -f docker/Dockerfile.frontend -t vw-frontend .

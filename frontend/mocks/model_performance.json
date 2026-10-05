@@ -1,0 +1,85 @@
+[
+ {
+  "variant": "Persistence",
+  "log_mae": 0.846,
+  "diff": null,
+  "ci": null
+ },
+ {
+  "variant": "GCN, land-border graph, real weather",
+  "log_mae": 0.828,
+  "diff": -0.018,
+  "ci": [
+   -0.06,
+   0.026
+  ]
+ },
+ {
+  "variant": "Without weather",
+  "log_mae": 0.852,
+  "diff": 0.006,
+  "ci": [
+   -0.014,
+   0.029
+  ]
+ },
+ {
+  "variant": "No graph",
+  "log_mae": 0.836,
+  "diff": -0.009,
+  "ci": [
+   -0.036,
+   0.014
+  ]
+ },
+ {
+  "variant": "kNN graph",
+  "log_mae": 0.827,
+  "diff": null,
+  "ci": "includes 0"
+ },
+ {
+  "variant": "Distance graph",
+  "log_mae": 0.824,
+  "diff": null,
+  "ci": "includes 0"
+ },
+ {
+  "variant": "Hybrid graph",
+  "log_mae": 0.828,
+  "diff": null,
+  "ci": "includes 0"
+ },
+ {
+  "variant": "GAT",
+  "log_mae": 0.859,
+  "diff": 0.031,
+  "ci": [
+   0.006,
+   0.058
+  ],
+  "note": "worse than GCN"
+ },
+ {
+  "variant": "Separate model per disease",
+  "log_mae": 0.891,
+  "diff": 0.063,
+  "ci": [
+   0.0,
+   0.131
+  ],
+  "note": "worse than shared"
+ },
+ {
+  "variant": "Horizon 2 (persistence 1.093)",
+  "log_mae": 1.127,
+  "diff": null,
+  "ci": null
+ },
+ {
+  "variant": "Horizon 3 (persistence 1.240)",
+  "log_mae": 1.259,
+  "diff": null,
+  "ci": null
+ }
+]
