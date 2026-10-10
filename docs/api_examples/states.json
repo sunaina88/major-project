@@ -1,0 +1,146 @@
+[
+  {
+    "state_id": "andaman_and_nicobar_islands",
+    "state_name": "Andaman and Nicobar Islands"
+  },
+  {
+    "state_id": "andhra_pradesh",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "state_id": "arunachal_pradesh",
+    "state_name": "Arunachal Pradesh"
+  },
+  {
+    "state_id": "assam",
+    "state_name": "Assam"
+  },
+  {
+    "state_id": "bihar",
+    "state_name": "Bihar"
+  },
+  {
+    "state_id": "chandigarh",
+    "state_name": "Chandigarh"
+  },
+  {
+    "state_id": "chhattisgarh",
+    "state_name": "Chhattisgarh"
+  },
+  {
+    "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+    "state_name": "Dadra and Nagar Haveli and Daman and Diu"
+  },
+  {
+    "state_id": "delhi",
+    "state_name": "Delhi"
+  },
+  {
+    "state_id": "goa",
+    "state_name": "Goa"
+  },
+  {
+    "state_id": "gujarat",
+    "state_name": "Gujarat"
+  },
+  {
+    "state_id": "haryana",
+    "state_name": "Haryana"
+  },
+  {
+    "state_id": "himachal_pradesh",
+    "state_name": "Himachal Pradesh"
+  },
+  {
+    "state_id": "jammu_and_kashmir",
+    "state_name": "Jammu and Kashmir"
+  },
+  {
+    "state_id": "jharkhand",
+    "state_name": "Jharkhand"
+  },
+  {
+    "state_id": "karnataka",
+    "state_name": "Karnataka"
+  },
+  {
+    "state_id": "kerala",
+    "state_name": "Kerala"
+  },
+  {
+    "state_id": "ladakh",
+    "state_name": "Ladakh"
+  },
+  {
+    "state_id": "lakshadweep",
+    "state_name": "Lakshadweep"
+  },
+  {
+    "state_id": "madhya_pradesh",
+    "state_name": "Madhya Pradesh"
+  },
+  {
+    "state_id": "maharashtra",
+    "state_name": "Maharashtra"
+  },
+  {
+    "state_id": "manipur",
+    "state_name": "Manipur"
+  },
+  {
+    "state_id": "meghalaya",
+    "state_name": "Meghalaya"
+  },
+  {
+    "state_id": "mizoram",
+    "state_name": "Mizoram"
+  },
+  {
+    "state_id": "nagaland",
+    "state_name": "Nagaland"
+  },
+  {
+    "state_id": "odisha",
+    "state_name": "Odisha"
+  },
+  {
+    "state_id": "puducherry",
+    "state_name": "Puducherry"
+  },
+  {
+    "state_id": "punjab",
+    "state_name": "Punjab"
+  },
+  {
+    "state_id": "rajasthan",
+    "state_name": "Rajasthan"
+  },
+  {
+    "state_id": "sikkim",
+    "state_name": "Sikkim"
+  },
+  {
+    "state_id": "tamil_nadu",
+    "state_name": "Tamil Nadu"
+  },
+  {
+    "state_id": "telangana",
+    "state_name": "Telangana"
+  },
+  {
+    "state_id": "tripura",
+    "state_name": "Tripura"
+  },
+  {
+    "state_id": "uttar_pradesh",
+    "state_name": "Uttar Pradesh"
+  },
+  {
+    "state_id": "uttarakhand",
+    "state_name": "Uttarakhand"
+  },
+  {
+    "state_id": "west_bengal",
+    "state_name": "West Bengal"
+  }
+]

@@ -1,0 +1,116 @@
+{
+  "state_id": "andhra_pradesh",
+  "disease": "dengue",
+  "history": [
+    {
+      "year": 2000,
+      "cases": 2.930754762397134
+    },
+    {
+      "year": 2001,
+      "cases": 0.5861509524794264
+    },
+    {
+      "year": 2002,
+      "cases": 35.75520810124504
+    },
+    {
+      "year": 2003,
+      "cases": 55.68434048554556
+    },
+    {
+      "year": 2004,
+      "cases": 134.81471907026815
+    },
+    {
+      "year": 2005,
+      "cases": 58.028944295463255
+    },
+    {
+      "year": 2006,
+      "cases": 115.47173763844708
+    },
+    {
+      "year": 2007,
+      "cases": 344.0706091054236
+    },
+    {
+      "year": 2008,
+      "cases": 183.4652481260606
+    },
+    {
+      "year": 2009,
+      "cases": 697.519633450518
+    },
+    {
+      "year": 2010,
+      "cases": 776.0
+    },
+    {
+      "year": 2011,
+      "cases": 1209.0
+    },
+    {
+      "year": 2012,
+      "cases": 2299.0
+    },
+    {
+      "year": 2013,
+      "cases": 910.0
+    },
+    {
+      "year": 2017,
+      "cases": 4925.0
+    },
+    {
+      "year": 2018,
+      "cases": 4011.0
+    },
+    {
+      "year": 2019,
+      "cases": 5286.0
+    },
+    {
+      "year": 2020,
+      "cases": 925.0
+    },
+    {
+      "year": 2021,
+      "cases": 4760.0
+    },
+    {
+      "year": 2022,
+      "cases": 6391.0
+    }
+  ],
+  "forecasts": [
+    {
+      "year": 2023,
+      "horizon": 1,
+      "forecast": 5626,
+      "persistence": 6391.0,
+      "interval_80": [
+        1484,
+        20194
+      ],
+      "confidence": "low",
+      "notes": [
+        "capped_at_historical_max"
+      ],
+      "risk_level": "Insufficient evidence",
+      "percentile": null,
+      "growth_vs_persistence_pct": -11.969957753090283,
+      "risk_reason": [
+        "low_confidence",
+        "capped_at_historical_max"
+      ],
+      "experimental": false
+    }
+  ],
+  "model": {
+    "name": "annual_final",
+    "version": "1.0.0",
+    "summary": "Annual forecasts are statistically tied with persistence (last year's value). No evidence that the graph or weather helps. Not an outbreak or early-warning model."
+  },
+  "disclaimer": "Annual forecasts are statistically tied with last year's value (persistence). A risk level is a rank of the forecast against the state's own history, not a prediction of an outbreak."
+}

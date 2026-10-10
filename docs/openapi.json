@@ -1,0 +1,918 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "VectorWatch India API",
+    "description": "Annual dengue, malaria and chikungunya forecasts for 36 states/UTs, always shown next to persistence. Data is annual, latest year 2022. Horizons 2 and 3 are experimental.",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/health": {
+      "get": {
+        "tags": [
+          "status"
+        ],
+        "summary": "Health",
+        "operationId": "health_health_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Health"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/states": {
+      "get": {
+        "tags": [
+          "data"
+        ],
+        "summary": "States",
+        "operationId": "states_states_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/State"
+                  },
+                  "type": "array",
+                  "title": "Response States States Get"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/historical/{state_id}": {
+      "get": {
+        "tags": [
+          "data"
+        ],
+        "summary": "Historical",
+        "operationId": "historical_historical__state_id__get",
+        "parameters": [
+          {
+            "name": "state_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "State Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Historical"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/forecast/{state_id}/{disease}": {
+      "get": {
+        "tags": [
+          "forecast"
+        ],
+        "summary": "Forecast",
+        "operationId": "forecast_forecast__state_id___disease__get",
+        "parameters": [
+          {
+            "name": "state_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "State Id"
+            }
+          },
+          {
+            "name": "disease",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "$ref": "#/components/schemas/Disease"
+            }
+          },
+          {
+            "name": "include_experimental",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "boolean",
+              "description": "Also return horizons 2 and 3.",
+              "default": false,
+              "title": "Include Experimental"
+            },
+            "description": "Also return horizons 2 and 3."
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ForecastResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/risk-map": {
+      "get": {
+        "tags": [
+          "risk"
+        ],
+        "summary": "Risk Map",
+        "operationId": "risk_map_risk_map_get",
+        "parameters": [
+          {
+            "name": "disease",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "$ref": "#/components/schemas/Disease"
+            }
+          },
+          {
+            "name": "year",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "Forecast year. Default: next year (horizon 1).",
+              "title": "Year"
+            },
+            "description": "Forecast year. Default: next year (horizon 1)."
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RiskMap"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/model-performance": {
+      "get": {
+        "tags": [
+          "model"
+        ],
+        "summary": "Model Performance",
+        "operationId": "model_performance_model_performance_get",
+        "parameters": [
+          {
+            "name": "tag",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "description": "Run whose per-fold rows to return.",
+              "default": "geo_w",
+              "title": "Tag"
+            },
+            "description": "Run whose per-fold rows to return."
+          },
+          {
+            "name": "horizon",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "default": 1,
+              "title": "Horizon"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/explanation/{state_id}/{disease}": {
+      "get": {
+        "tags": [
+          "explanation"
+        ],
+        "summary": "Explanation",
+        "operationId": "explanation_explanation__state_id___disease__get",
+        "parameters": [
+          {
+            "name": "state_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "State Id"
+            }
+          },
+          {
+            "name": "disease",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "$ref": "#/components/schemas/Disease"
+            }
+          },
+          {
+            "name": "horizon",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "maximum": 3,
+              "minimum": 1,
+              "default": 1,
+              "title": "Horizon"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Explanation"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Disease": {
+        "type": "string",
+        "enum": [
+          "dengue",
+          "malaria",
+          "chikungunya"
+        ],
+        "title": "Disease"
+      },
+      "Explanation": {
+        "properties": {
+          "state_id": {
+            "type": "string",
+            "title": "State Id"
+          },
+          "disease": {
+            "type": "string",
+            "title": "Disease"
+          },
+          "year": {
+            "type": "integer",
+            "title": "Year"
+          },
+          "horizon": {
+            "type": "integer",
+            "title": "Horizon"
+          },
+          "base_forecast": {
+            "type": "number",
+            "title": "Base Forecast"
+          },
+          "persistence": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Persistence"
+          },
+          "label": {
+            "type": "string",
+            "title": "Label"
+          },
+          "method": {
+            "type": "string",
+            "title": "Method"
+          },
+          "groups": {
+            "items": {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            "type": "array",
+            "title": "Groups"
+          },
+          "summary": {
+            "type": "string",
+            "title": "Summary"
+          },
+          "notes": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Notes"
+          }
+        },
+        "type": "object",
+        "required": [
+          "state_id",
+          "disease",
+          "year",
+          "horizon",
+          "base_forecast",
+          "label",
+          "method",
+          "groups",
+          "summary",
+          "notes"
+        ],
+        "title": "Explanation"
+      },
+      "ForecastItem": {
+        "properties": {
+          "year": {
+            "type": "integer",
+            "title": "Year"
+          },
+          "horizon": {
+            "type": "integer",
+            "title": "Horizon"
+          },
+          "forecast": {
+            "type": "integer",
+            "title": "Forecast"
+          },
+          "persistence": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Persistence"
+          },
+          "interval_80": {
+            "anyOf": [
+              {
+                "items": {
+                  "type": "integer"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Interval 80"
+          },
+          "confidence": {
+            "type": "string",
+            "title": "Confidence"
+          },
+          "notes": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Notes"
+          },
+          "risk_level": {
+            "type": "string",
+            "title": "Risk Level"
+          },
+          "percentile": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Percentile"
+          },
+          "growth_vs_persistence_pct": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Growth Vs Persistence Pct"
+          },
+          "risk_reason": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Risk Reason"
+          },
+          "experimental": {
+            "type": "boolean",
+            "title": "Experimental"
+          }
+        },
+        "type": "object",
+        "required": [
+          "year",
+          "horizon",
+          "forecast",
+          "confidence",
+          "notes",
+          "risk_level",
+          "risk_reason",
+          "experimental"
+        ],
+        "title": "ForecastItem"
+      },
+      "ForecastResponse": {
+        "properties": {
+          "state_id": {
+            "type": "string",
+            "title": "State Id"
+          },
+          "disease": {
+            "type": "string",
+            "title": "Disease"
+          },
+          "history": {
+            "items": {
+              "$ref": "#/components/schemas/YearCases"
+            },
+            "type": "array",
+            "title": "History"
+          },
+          "forecasts": {
+            "items": {
+              "$ref": "#/components/schemas/ForecastItem"
+            },
+            "type": "array",
+            "title": "Forecasts"
+          },
+          "model": {
+            "$ref": "#/components/schemas/ModelInfo"
+          },
+          "disclaimer": {
+            "type": "string",
+            "title": "Disclaimer"
+          }
+        },
+        "type": "object",
+        "required": [
+          "state_id",
+          "disease",
+          "history",
+          "forecasts",
+          "model",
+          "disclaimer"
+        ],
+        "title": "ForecastResponse"
+      },
+      "HTTPValidationError": {
+        "properties": {
+          "detail": {
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            },
+            "type": "array",
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "title": "HTTPValidationError"
+      },
+      "Health": {
+        "properties": {
+          "status": {
+            "type": "string",
+            "title": "Status"
+          },
+          "data_version": {
+            "type": "string",
+            "title": "Data Version"
+          },
+          "latest_observed_year": {
+            "type": "integer",
+            "title": "Latest Observed Year"
+          },
+          "data_granularity": {
+            "type": "string",
+            "title": "Data Granularity"
+          },
+          "model": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Model"
+          },
+          "data_note": {
+            "type": "string",
+            "title": "Data Note"
+          }
+        },
+        "type": "object",
+        "required": [
+          "status",
+          "data_version",
+          "latest_observed_year",
+          "data_granularity",
+          "data_note"
+        ],
+        "title": "Health"
+      },
+      "Historical": {
+        "properties": {
+          "state_id": {
+            "type": "string",
+            "title": "State Id"
+          },
+          "state_name": {
+            "type": "string",
+            "title": "State Name"
+          },
+          "data_granularity": {
+            "type": "string",
+            "title": "Data Granularity"
+          },
+          "latest_observed_year": {
+            "type": "integer",
+            "title": "Latest Observed Year"
+          },
+          "history": {
+            "additionalProperties": {
+              "items": {
+                "$ref": "#/components/schemas/YearCases"
+              },
+              "type": "array"
+            },
+            "type": "object",
+            "title": "History"
+          }
+        },
+        "type": "object",
+        "required": [
+          "state_id",
+          "state_name",
+          "data_granularity",
+          "latest_observed_year",
+          "history"
+        ],
+        "title": "Historical"
+      },
+      "ModelInfo": {
+        "properties": {
+          "name": {
+            "type": "string",
+            "title": "Name"
+          },
+          "version": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Version"
+          },
+          "summary": {
+            "type": "string",
+            "title": "Summary"
+          }
+        },
+        "type": "object",
+        "required": [
+          "name",
+          "summary"
+        ],
+        "title": "ModelInfo"
+      },
+      "RiskMap": {
+        "properties": {
+          "disease": {
+            "type": "string",
+            "title": "Disease"
+          },
+          "year": {
+            "type": "integer",
+            "title": "Year"
+          },
+          "horizon": {
+            "type": "integer",
+            "title": "Horizon"
+          },
+          "experimental": {
+            "type": "boolean",
+            "title": "Experimental"
+          },
+          "method": {
+            "type": "string",
+            "title": "Method"
+          },
+          "cutoffs": {
+            "additionalProperties": {
+              "type": "number"
+            },
+            "type": "object",
+            "title": "Cutoffs"
+          },
+          "disclaimer": {
+            "type": "string",
+            "title": "Disclaimer"
+          },
+          "states": {
+            "items": {
+              "$ref": "#/components/schemas/RiskState"
+            },
+            "type": "array",
+            "title": "States"
+          }
+        },
+        "type": "object",
+        "required": [
+          "disease",
+          "year",
+          "horizon",
+          "experimental",
+          "method",
+          "cutoffs",
+          "disclaimer",
+          "states"
+        ],
+        "title": "RiskMap"
+      },
+      "RiskState": {
+        "properties": {
+          "state_id": {
+            "type": "string",
+            "title": "State Id"
+          },
+          "state_name": {
+            "type": "string",
+            "title": "State Name"
+          },
+          "risk_level": {
+            "type": "string",
+            "title": "Risk Level"
+          },
+          "percentile": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Percentile"
+          },
+          "growth_vs_persistence_pct": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Growth Vs Persistence Pct"
+          },
+          "forecast": {
+            "type": "integer",
+            "title": "Forecast"
+          },
+          "persistence": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Persistence"
+          },
+          "interval_80": {
+            "anyOf": [
+              {
+                "items": {
+                  "type": "integer"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Interval 80"
+          },
+          "confidence": {
+            "type": "string",
+            "title": "Confidence"
+          },
+          "notes": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Notes"
+          },
+          "risk_reason": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Risk Reason"
+          }
+        },
+        "type": "object",
+        "required": [
+          "state_id",
+          "state_name",
+          "risk_level",
+          "forecast",
+          "confidence",
+          "notes",
+          "risk_reason"
+        ],
+        "title": "RiskState"
+      },
+      "State": {
+        "properties": {
+          "state_id": {
+            "type": "string",
+            "title": "State Id"
+          },
+          "state_name": {
+            "type": "string",
+            "title": "State Name"
+          }
+        },
+        "type": "object",
+        "required": [
+          "state_id",
+          "state_name"
+        ],
+        "title": "State"
+      },
+      "ValidationError": {
+        "properties": {
+          "loc": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "type": "array",
+            "title": "Location"
+          },
+          "msg": {
+            "type": "string",
+            "title": "Message"
+          },
+          "type": {
+            "type": "string",
+            "title": "Error Type"
+          },
+          "input": {
+            "title": "Input"
+          },
+          "ctx": {
+            "type": "object",
+            "title": "Context"
+          }
+        },
+        "type": "object",
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "title": "ValidationError"
+      },
+      "YearCases": {
+        "properties": {
+          "year": {
+            "type": "integer",
+            "title": "Year"
+          },
+          "cases": {
+            "type": "number",
+            "title": "Cases"
+          }
+        },
+        "type": "object",
+        "required": [
+          "year",
+          "cases"
+        ],
+        "title": "YearCases"
+      }
+    }
+  }
+}

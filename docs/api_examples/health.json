@@ -1,0 +1,8 @@
+{
+  "status": "ok",
+  "data_version": "0b95d426d430",
+  "latest_observed_year": 2022,
+  "data_granularity": "annual",
+  "model": "annual_final",
+  "data_note": "Latest available data: annual, 2022"
+}

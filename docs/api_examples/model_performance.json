@@ -1,0 +1,403 @@
+{
+  "metric": "log-MAE (mean |log1p(pred) - log1p(true)|), lower is better",
+  "reference": "persistence = last year's value",
+  "evaluation": "Rolling origin, test years 2010-2022, trained on earlier years only; 95% bootstrap interval over folds (10,000 resamples). Interval includes 0 = tie.",
+  "variants_run": 11,
+  "multiple_comparisons_note": "11 variants were compared; with that many, one can look better by chance.",
+  "headline": {
+    "tag": "geo_w",
+    "horizon": 1,
+    "variant": "GCN, land-border graph, real weather",
+    "n_folds": 13,
+    "log_mae_model": 0.828,
+    "log_mae_persistence": 0.846,
+    "diff_vs_persistence": -0.018,
+    "ci_95": [
+      -0.061,
+      0.026
+    ],
+    "tie": true,
+    "folds_better_than_persistence": 9
+  },
+  "summary": [
+    {
+      "tag": "K2",
+      "horizon": 1,
+      "variant": "Input window of 2 years",
+      "n_folds": 13,
+      "log_mae_model": 0.831,
+      "log_mae_persistence": 0.846,
+      "diff_vs_persistence": -0.014,
+      "ci_95": [
+        -0.06,
+        0.03
+      ],
+      "tie": true,
+      "folds_better_than_persistence": 8
+    },
+    {
+      "tag": "K5",
+      "horizon": 1,
+      "variant": "Input window of 5 years",
+      "n_folds": 13,
+      "log_mae_model": 0.838,
+      "log_mae_persistence": 0.846,
+      "diff_vs_persistence": -0.007,
+      "ci_95": [
+        -0.035,
+        0.024
+      ],
+      "tie": true,
+      "folds_better_than_persistence": 8
+    },
+    {
+      "tag": "dist",
+      "horizon": 1,
+      "variant": "Distance graph",
+      "n_folds": 13,
+      "log_mae_model": 0.824,
+      "log_mae_persistence": 0.846,
+      "diff_vs_persistence": -0.022,
+      "ci_95": [
+        -0.068,
+        0.019
+      ],
+      "tie": true,
+      "folds_better_than_persistence": 10
+    },
+    {
+      "tag": "gat",
+      "horizon": 1,
+      "variant": "GAT",
+      "n_folds": 13,
+      "log_mae_model": 0.859,
+      "log_mae_persistence": 0.846,
+      "diff_vs_persistence": 0.013,
+      "ci_95": [
+        -0.028,
+        0.05
+      ],
+      "tie": true,
+      "folds_better_than_persistence": 6
+    },
+    {
+      "tag": "geo_now",
+      "horizon": 1,
+      "variant": "Without weather",
+      "n_folds": 13,
+      "log_mae_model": 0.852,
+      "log_mae_persistence": 0.846,
+      "diff_vs_persistence": 0.006,
+      "ci_95": [
+        -0.014,
+        0.029
+      ],
+      "tie": true,
+      "folds_better_than_persistence": 9
+    },
+    {
+      "tag": "geo_w",
+      "horizon": 1,
+      "variant": "GCN, land-border graph, real weather",
+      "n_folds": 13,
+      "log_mae_model": 0.828,
+      "log_mae_persistence": 0.846,
+      "diff_vs_persistence": -0.018,
+      "ci_95": [
+        -0.061,
+        0.026
+      ],
+      "tie": true,
+      "folds_better_than_persistence": 9
+    },
+    {
+      "tag": "horizons",
+      "horizon": 1,
+      "variant": "1 year(s) ahead",
+      "n_folds": 13,
+      "log_mae_model": 0.828,
+      "log_mae_persistence": 0.846,
+      "diff_vs_persistence": -0.018,
+      "ci_95": [
+        -0.061,
+        0.026
+      ],
+      "tie": true,
+      "folds_better_than_persistence": 9
+    },
+    {
+      "tag": "horizons",
+      "horizon": 2,
+      "variant": "2 year(s) ahead",
+      "n_folds": 13,
+      "log_mae_model": 1.127,
+      "log_mae_persistence": 1.093,
+      "diff_vs_persistence": 0.034,
+      "ci_95": [
+        -0.009,
+        0.09
+      ],
+      "tie": true,
+      "folds_better_than_persistence": 6
+    },
+    {
+      "tag": "horizons",
+      "horizon": 3,
+      "variant": "3 year(s) ahead",
+      "n_folds": 13,
+      "log_mae_model": 1.259,
+      "log_mae_persistence": 1.24,
+      "diff_vs_persistence": 0.018,
+      "ci_95": [
+        -0.017,
+        0.054
+      ],
+      "tie": true,
+      "folds_better_than_persistence": 6
+    },
+    {
+      "tag": "hybrid",
+      "horizon": 1,
+      "variant": "Hybrid graph",
+      "n_folds": 13,
+      "log_mae_model": 0.828,
+      "log_mae_persistence": 0.846,
+      "diff_vs_persistence": -0.018,
+      "ci_95": [
+        -0.067,
+        0.029
+      ],
+      "tie": true,
+      "folds_better_than_persistence": 8
+    },
+    {
+      "tag": "identity",
+      "horizon": 1,
+      "variant": "No graph",
+      "n_folds": 13,
+      "log_mae_model": 0.836,
+      "log_mae_persistence": 0.846,
+      "diff_vs_persistence": -0.009,
+      "ci_95": [
+        -0.036,
+        0.014
+      ],
+      "tie": true,
+      "folds_better_than_persistence": 6
+    },
+    {
+      "tag": "knn",
+      "horizon": 1,
+      "variant": "kNN graph",
+      "n_folds": 13,
+      "log_mae_model": 0.827,
+      "log_mae_persistence": 0.846,
+      "diff_vs_persistence": -0.018,
+      "ci_95": [
+        -0.065,
+        0.024
+      ],
+      "tie": true,
+      "folds_better_than_persistence": 10
+    },
+    {
+      "tag": "single",
+      "horizon": 1,
+      "variant": "Separate model per disease",
+      "n_folds": 13,
+      "log_mae_model": 0.891,
+      "log_mae_persistence": 0.846,
+      "diff_vs_persistence": 0.045,
+      "ci_95": [
+        -0.008,
+        0.107
+      ],
+      "tie": true,
+      "folds_better_than_persistence": 6
+    }
+  ],
+  "model_comparisons": [
+    {
+      "a": "GAT",
+      "b": "GCN, land-border graph, real weather",
+      "metric": "log-MAE",
+      "diff_a_minus_b": 0.031,
+      "ci_95": [
+        0.005,
+        0.057
+      ],
+      "tie": false
+    },
+    {
+      "a": "Separate model per disease",
+      "b": "GCN, land-border graph, real weather",
+      "metric": "log-MAE",
+      "diff_a_minus_b": 0.063,
+      "ci_95": [
+        -0.002,
+        0.132
+      ],
+      "tie": true
+    }
+  ],
+  "folds_tag": "geo_w",
+  "folds_horizon": 1,
+  "folds": [
+    {
+      "tag": "geo_w",
+      "horizon": 1,
+      "year": 2010,
+      "n": 73,
+      "mae_model": 4662.836340250151,
+      "mae_last": 5049.656703092394,
+      "mae_avg2": 5060.386334468363,
+      "log_model": 0.688444263659394,
+      "log_last": 0.7121260366775843,
+      "log_avg2": 0.6569175308234838
+    },
+    {
+      "tag": "geo_w",
+      "horizon": 1,
+      "year": 2011,
+      "n": 81,
+      "mae_model": 5037.199394463237,
+      "mae_last": 5650.515146460177,
+      "mae_avg2": 6025.652935550103,
+      "log_model": 0.7549079502554169,
+      "log_last": 0.7494478410590805,
+      "log_avg2": 0.809651857115127
+    },
+    {
+      "tag": "geo_w",
+      "horizon": 1,
+      "year": 2012,
+      "n": 82,
+      "mae_model": 3374.2490779026984,
+      "mae_last": 3639.439024390244,
+      "mae_avg2": 5444.270758387594,
+      "log_model": 0.8173813677577935,
+      "log_last": 0.8275252850984761,
+      "log_avg2": 0.8074080960884858
+    },
+    {
+      "tag": "geo_w",
+      "horizon": 1,
+      "year": 2013,
+      "n": 86,
+      "mae_model": 3156.401092461668,
+      "mae_last": 3050.5116279069766,
+      "mae_avg2": 4424.877906976744,
+      "log_model": 0.6900829896284986,
+      "log_last": 0.7221851560276783,
+      "log_avg2": 0.9029465415823628
+    },
+    {
+      "tag": "geo_w",
+      "horizon": 1,
+      "year": 2014,
+      "n": 51,
+      "mae_model": 7747.23610665022,
+      "mae_last": 7397.549019607844,
+      "mae_avg2": 7748.362745098039,
+      "log_model": 0.4834100242398955,
+      "log_last": 0.5528501230122959,
+      "log_avg2": 0.6802147402347124
+    },
+    {
+      "tag": "geo_w",
+      "horizon": 1,
+      "year": 2015,
+      "n": 54,
+      "mae_model": 2786.762708718178,
+      "mae_last": 2786.3703703703704,
+      "mae_avg2": 5270.416666666667,
+      "log_model": 0.7722334609099532,
+      "log_last": 0.612574223794889,
+      "log_avg2": 0.6926873673154065
+    },
+    {
+      "tag": "geo_w",
+      "horizon": 1,
+      "year": 2016,
+      "n": 61,
+      "mae_model": 5073.212468912182,
+      "mae_last": 4055.393442622951,
+      "mae_avg2": 4410.0,
+      "log_model": 1.0771638043481222,
+      "log_last": 1.0223406198526048,
+      "log_avg2": 0.9954150386607856
+    },
+    {
+      "tag": "geo_w",
+      "horizon": 1,
+      "year": 2017,
+      "n": 65,
+      "mae_model": 5157.416419399323,
+      "mae_last": 4532.015384615384,
+      "mae_avg2": 5184.761538461538,
+      "log_model": 0.5407289231648831,
+      "log_last": 0.5520152443041001,
+      "log_avg2": 0.6226959903437118
+    },
+    {
+      "tag": "geo_w",
+      "horizon": 1,
+      "year": 2018,
+      "n": 101,
+      "mae_model": 5918.809693421636,
+      "mae_last": 6624.376237623763,
+      "mae_avg2": 7759.945761120198,
+      "log_model": 0.7468766668550574,
+      "log_last": 0.793690154155042,
+      "log_avg2": 0.926420368706814
+    },
+    {
+      "tag": "geo_w",
+      "horizon": 1,
+      "year": 2019,
+      "n": 100,
+      "mae_model": 2325.786716914018,
+      "mae_last": 2712.21,
+      "mae_avg2": 5262.325,
+      "log_model": 0.6999715485419449,
+      "log_last": 0.7369548662951831,
+      "log_avg2": 0.8204430440609718
+    },
+    {
+      "tag": "geo_w",
+      "horizon": 1,
+      "year": 2020,
+      "n": 97,
+      "mae_model": 3969.902951142809,
+      "mae_last": 3885.979381443299,
+      "mae_avg2": 3782.644329896907,
+      "log_model": 1.2894061911609038,
+      "log_last": 1.2853881679254164,
+      "log_avg2": 1.337789759583852
+    },
+    {
+      "tag": "geo_w",
+      "horizon": 1,
+      "year": 2021,
+      "n": 97,
+      "mae_model": 3037.13897504766,
+      "mae_last": 3520.701030927835,
+      "mae_avg2": 4037.582474226804,
+      "log_model": 1.0528769096642678,
+      "log_last": 1.265464072048283,
+      "log_avg2": 1.1618537049456632
+    },
+    {
+      "tag": "geo_w",
+      "horizon": 1,
+      "year": 2022,
+      "n": 98,
+      "mae_model": 2155.6129731500077,
+      "mae_last": 2550.469387755102,
+      "mae_avg2": 2341.622448979592,
+      "log_model": 1.1496149953958206,
+      "log_last": 1.1597511736774426,
+      "log_avg2": 1.1574134131918592
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+# Needed by CI and docker/Dockerfile.api (Person 6 owns this file; added here by Person 5 because the
+# API cannot run without it). In Docker the CPU build of torch is installed before this file.
+torch
+numpy>=1.24
+pandas>=2.0
+pyyaml
+fastapi
+uvicorn
+httpx
+pytest
+ruff

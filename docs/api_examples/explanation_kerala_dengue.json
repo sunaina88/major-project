@@ -1,0 +1,46 @@
+{
+  "state_id": "kerala",
+  "disease": "dengue",
+  "year": 2023,
+  "horizon": 1,
+  "base_forecast": 2574.2,
+  "persistence": 4432.0,
+  "label": "Model attribution, not a causal effect",
+  "method": "Occlusion: one input group at a time is set to the training average (observed flag 0) and the forecast is recomputed.",
+  "groups": [
+    {
+      "group": "own_history",
+      "description": "The state's own history of this disease",
+      "forecast_without_group": 1445.5,
+      "change_cases": -1128.7,
+      "change_log": -0.5768,
+      "share_of_total_change": 0.353
+    },
+    {
+      "group": "other_diseases",
+      "description": "The state's history of the other two diseases",
+      "forecast_without_group": 2357.6,
+      "change_cases": -216.6,
+      "change_log": -0.0879,
+      "share_of_total_change": 0.054
+    },
+    {
+      "group": "neighbours",
+      "description": "Disease history of neighbouring states in the model graph",
+      "forecast_without_group": 5632.4,
+      "change_cases": 3058.2,
+      "change_log": 0.7828,
+      "share_of_total_change": 0.479
+    },
+    {
+      "group": "weather",
+      "description": "The state's own temperature and rainfall",
+      "forecast_without_group": 3101.0,
+      "change_cases": 526.9,
+      "change_log": 0.1861,
+      "share_of_total_change": 0.114
+    }
+  ],
+  "summary": "Largest change when removed: disease history of neighbouring states in the model graph (48% of the total change). Model attribution, not a causal effect.",
+  "notes": []
+}

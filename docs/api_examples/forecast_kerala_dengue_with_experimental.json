@@ -1,0 +1,135 @@
+{
+  "state_id": "kerala",
+  "disease": "dengue",
+  "history": [
+    {
+      "year": 2001,
+      "cases": 41.0
+    },
+    {
+      "year": 2002,
+      "cases": 219.0
+    },
+    {
+      "year": 2003,
+      "cases": 3546.0
+    },
+    {
+      "year": 2004,
+      "cases": 686.0
+    },
+    {
+      "year": 2005,
+      "cases": 1028.0
+    },
+    {
+      "year": 2006,
+      "cases": 981.0
+    },
+    {
+      "year": 2007,
+      "cases": 603.0
+    },
+    {
+      "year": 2008,
+      "cases": 733.0
+    },
+    {
+      "year": 2009,
+      "cases": 1425.0
+    },
+    {
+      "year": 2010,
+      "cases": 2597.0
+    },
+    {
+      "year": 2011,
+      "cases": 1304.0
+    },
+    {
+      "year": 2012,
+      "cases": 4172.0
+    },
+    {
+      "year": 2013,
+      "cases": 7938.0
+    },
+    {
+      "year": 2017,
+      "cases": 19994.0
+    },
+    {
+      "year": 2018,
+      "cases": 4083.0
+    },
+    {
+      "year": 2019,
+      "cases": 4652.0
+    },
+    {
+      "year": 2020,
+      "cases": 4399.0
+    },
+    {
+      "year": 2021,
+      "cases": 3251.0
+    },
+    {
+      "year": 2022,
+      "cases": 4432.0
+    }
+  ],
+  "forecasts": [
+    {
+      "year": 2023,
+      "horizon": 1,
+      "forecast": 2574,
+      "persistence": 4432.0,
+      "interval_80": [
+        678,
+        9241
+      ],
+      "confidence": "normal",
+      "notes": [],
+      "risk_level": "Low",
+      "percentile": 47.36842105263158,
+      "growth_vs_persistence_pct": -41.92238267148014,
+      "risk_reason": [],
+      "experimental": false
+    },
+    {
+      "year": 2024,
+      "horizon": 2,
+      "forecast": 3299,
+      "persistence": 4432.0,
+      "interval_80": null,
+      "confidence": "normal",
+      "notes": [],
+      "risk_level": "Moderate",
+      "percentile": 57.89473684210526,
+      "growth_vs_persistence_pct": -25.564079422382672,
+      "risk_reason": [],
+      "experimental": true
+    },
+    {
+      "year": 2025,
+      "horizon": 3,
+      "forecast": 4953,
+      "persistence": 4432.0,
+      "interval_80": null,
+      "confidence": "normal",
+      "notes": [],
+      "risk_level": "High",
+      "percentile": 89.47368421052632,
+      "growth_vs_persistence_pct": 11.755415162454874,
+      "risk_reason": [],
+      "experimental": true
+    }
+  ],
+  "model": {
+    "name": "annual_final",
+    "version": "1.0.0",
+    "summary": "Annual forecasts are statistically tied with persistence (last year's value). No evidence that the graph or weather helps. Not an outbreak or early-warning model."
+  },
+  "disclaimer": "Annual forecasts are statistically tied with last year's value (persistence). A risk level is a rank of the forecast against the state's own history, not a prediction of an outbreak."
+}
