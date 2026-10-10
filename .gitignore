@@ -1,3 +1,6 @@
 .venv/
 .venv/
 __pycache__/
+
+# Local API database (rebuilt by python -m src.api.ingest)
+data/*.db

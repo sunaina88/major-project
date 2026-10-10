@@ -1,0 +1,20 @@
+# Risk and uncertainty settings (Person 5).
+# These cut-offs are a CONFIGURATION CHOICE, not a finding. See docs/risk_method.md.
+
+risk:
+  # Level is decided by the percentile of the forecast among the SAME state's
+  # previous observed years (same disease). Percentile is on a 0-100 scale.
+  cutoffs:
+    moderate: 50     # percentile <  50  -> Low
+    high: 75         # 50 <= pct   <  75 -> Moderate
+    very_high: 90    # 75 <= pct   <  90 -> High ; pct >= 90 -> Very high
+  min_prior_years: 5          # fewer previous observed years -> Insufficient evidence
+  insufficient_label: "Insufficient evidence"
+
+uncertainty:
+  # Errors come from the rolling-origin per-pair predictions of this run.
+  tag: geo_w
+  horizon: 1
+  nominal: 0.80               # 80% interval = 10% and 90% quantiles of the log error
+  by_disease: false           # see docs/calibration_report.md for why
+  min_pairs: 100              # minimum earlier pairs before an interval is built (calibration)
