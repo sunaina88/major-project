@@ -1,13 +1,20 @@
 import pathlib, numpy as np, pandas as pd, plotly.graph_objects as go, streamlit as st
 import api_client as api
-from logic import build_display, COLOURS, SHORT, INSUFF
+from logic import build_display, COLOURS, SHORT, INSUFF, discrete_scale
 
 st.set_page_config(page_title="VectorWatch India", layout="wide")
 STATES = [s.strip() for s in open(pathlib.Path(__file__).parent.parent / "configs/states.txt") if s.strip()]
 DIS = ["dengue", "malaria", "chikungunya"]
 
 @st.cache_data
-def load(name): return api.get(name)
+def _load(name): return api.get(name)
+
+def load(name):
+    try:
+        return _load(name)
+    except api.NotAvailable as e:
+        st.warning(f"{e} Run with USE_MOCKS=true until it exists.")
+        st.stop()
 
 PAGES = ["Home", "State", "Disease explorer", "Model comparison", "Annual replay", "System status", "Limitations"]
 page = st.sidebar.radio("Page", PAGES)
@@ -30,10 +37,10 @@ if page == "Home":
         with tab:
             df = build_display(fc, 1); df = df[df.disease == dis].set_index("state_id").reindex(STATES).reset_index()
             df["risk"] = df["risk"].fillna(INSUFF); df["colour"] = df["colour"].fillna(COLOURS[INSUFF])
-            levels = list(COLOURS); z = np.array([levels.index(r) for r in df["risk"]]).reshape(6, 6)
+            levels = list(COLOURS); n = len(levels); z = np.array([levels.index(r) for r in df["risk"]]).reshape(6, 6)            
             text = np.array([f"{s[:10]}<br>{SHORT[r]}" for s, r in zip(df.state_id, df.risk)]).reshape(6, 6)
-            cs = [[i/4 + o, COLOURS[l]] for i, l in enumerate(levels) for o in (0, 0.25 - 1e-9)]
-            fig = go.Figure(go.Heatmap(z=z, text=text, texttemplate="%{text}", colorscale=cs, zmin=0, zmax=3,
+            cs = discrete_scale(levels)
+            fig = go.Figure(go.Heatmap(z=z, text=text, texttemplate="%{text}", colorscale=cs, zmin=-0.5, zmax=n - 0.5,
                                        showscale=False, xgap=3, ygap=3, hoverinfo="text"))
             fig.update_yaxes(autorange="reversed", visible=False); fig.update_xaxes(visible=False)
             fig.update_layout(height=520, margin=dict(l=0, r=0, t=10, b=0))
