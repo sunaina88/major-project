@@ -47,3 +47,10 @@ No weighted composite of trend, anomaly and environment. Person 3's `anomaly_ann
 ## Interval attached to each horizon-1 forecast
 
 An 80% interval from past forecast errors, see `docs/calibration_report.md`. Observed coverage in a walk-forward check is below 80%, so treat the intervals as slightly optimistic, and very wide.
+
+## Reading the risk map (added by Person 2)
+
+- **A risk level compares a state with its own past, not with other states.** It is the percentile of the forecast among that state's previous observed years. A state with a large burden can show Low, and a small one can show Very high.
+- **Trend can drive the level.** If reported cases have fallen over the years, forecasts near last year's value rank low; if they have risen, they rank high. In the current output almost all malaria forecasts are Low while many dengue forecasts are High or Very high. A trend effect is the likely reason, but this has not been verified.
+- **A level is not a prediction of an outbreak.** The model is statistically tied with last year's value.
+- **Andhra Pradesh history has a rescaling break.** Its values before the cutoff are whole numbers multiplied by 0.5861509524794264 (dengue through 2009, malaria through at least 2010 in the data seen; the cutoff differs by disease). The cause is not confirmed (probably an apportionment after the Telangana split); Person 1 has been asked. Treat Andhra's history, its percentiles and its early backtest folds with caution.
