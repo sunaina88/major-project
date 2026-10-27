@@ -13,7 +13,7 @@ from fastapi import Depends, FastAPI, HTTPException, Query
 from src.api import db, performance
 from src.api.config import db_path
 from src.api.schemas import (Disease, Explanation, ForecastResponse, Health, Historical,
-                             ModelInfo, RiskMap, State)
+                             ModelInfo, ReplayRow, RiskMap, State)
 
 DISCLAIMER = ("Annual forecasts are statistically tied with last year's value (persistence). "
               "A risk level is a rank of the forecast against the state's own history, "
@@ -198,6 +198,45 @@ def explanation(state_id: str, disease: Disease, horizon: int = Query(1, ge=1, l
     if row is not None and row["confidence"] == "low":
         result["notes"] = result["notes"] + ["low_confidence_forecast"] + split_notes(row["notes"])
     return result
+
+
+@app.get("/replay", response_model=list[ReplayRow], tags=["model"])
+def replay(tag: str = Query(performance.HEADLINE_TAG, description="Evaluation run."),
+           horizon: int = Query(1, ge=1, le=3),
+           year: Optional[int] = Query(None, description="Only this backtest year."),
+           disease: Optional[Disease] = None,
+           state_id: Optional[str] = None,
+           conn: sqlite3.Connection = Depends(get_db)):
+    """Backtest: what the model predicted, the true value and persistence, per state, disease and test year."""
+    sql = ('SELECT year, state_id, disease, "true" AS true_value, model, persistence '
+           "FROM pair_predictions WHERE tag=? AND horizon=?")
+    args = [tag, horizon]
+    if year is not None:
+        sql += " AND year=?"
+        args.append(year)
+    if disease is not None:
+        sql += " AND disease=?"
+        args.append(disease.value)
+    if state_id is not None:
+        check_state(conn, state_id)
+        sql += " AND state_id=?"
+        args.append(state_id)
+    rows = conn.execute(sql + " ORDER BY year, state_id, disease", args).fetchall()
+    if not rows:
+        raise HTTPException(404, f"No backtest rows for tag '{tag}', horizon {horizon} with these filters.")
+    return [{"year": r["year"], "state_id": r["state_id"], "disease": r["disease"],
+             "true": r["true_value"], "model": r["model"], "persistence": r["persistence"]} for r in rows]
+
+
+@app.get("/status", tags=["status"])
+def status():
+    """Data drift report written by src/monitoring/drift.py (path: VW_DRIFT_REPORT)."""
+    path = os.environ.get("VW_DRIFT_REPORT", "data/processed/drift_report.json")
+    if not os.path.exists(path):
+        raise HTTPException(503, "Drift report not found. Run: "
+                                 "python src/monitoring/drift.py --out data/processed/drift_report.json")
+    with open(path, encoding="utf-8") as f:
+        return json.load(f)
 
 
 @app.get("/", include_in_schema=False)

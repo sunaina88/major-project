@@ -71,3 +71,10 @@ SQLite file with the tables `meta`, `states`, `disease_observations`, `forecasts
 ## Docker note for Person 6
 
 The container needs these files in addition to what `docker/Dockerfile.api` copies now: `data/processed/*.csv` (ingest reads them), `models/registry.json`, and `models/stgnn/annual_final.pt`. Run `python -m src.api.ingest` before `uvicorn` (for example `CMD python -m src.api.ingest && uvicorn ...`). The compose `db` service is not used yet because the API runs on SQLite.
+
+## Additional endpoints (added by Person 2)
+
+| Endpoint | Returns |
+|---|---|
+| `GET /replay?tag=&horizon=&year=&disease=&state_id=` | Backtest rows `{year, state_id, disease, true, model, persistence}` from `pair_predictions`. Defaults: tag `geo_w`, horizon 1. 404 if no rows match. Backtest years are 2010 to 2022; every row is a forecast made from earlier years only |
+| `GET /status` | The data-drift report written by `python src/monitoring/drift.py --out data/processed/drift_report.json`. Path set by `VW_DRIFT_REPORT`. 503 if the file is missing |

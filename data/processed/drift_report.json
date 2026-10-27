@@ -1,0 +1,30 @@
+{
+ "newest_year": 2022,
+ "diseases": {
+  "dengue": {
+   "missing_ref": 0.42391304347826086,
+   "missing_new": 0.0,
+   "log_median_shift_sd": 0.7578770556533094
+  },
+  "malaria": {
+   "missing_ref": 0.09057971014492754,
+   "missing_new": 0.027777777777777776,
+   "log_median_shift_sd": -0.8770516505356543
+  },
+  "chikungunya": {
+   "missing_ref": 0.5362318840579711,
+   "missing_new": 0.1388888888888889,
+   "log_median_shift_sd": 0.41909875972875793
+  }
+ },
+ "weather": {
+  "temperature": {
+   "median_shift_sd": -0.030581643830339462
+  },
+  "rainfall": {
+   "median_shift_sd": 0.2512066132664391
+  }
+ },
+ "flags": [],
+ "flagged": false
+}

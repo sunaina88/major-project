@@ -105,3 +105,12 @@ class Explanation(BaseModel):
     groups: list[dict]
     summary: str
     notes: list[str]
+
+
+class ReplayRow(BaseModel):
+    year: int
+    state_id: str
+    disease: str
+    true: float
+    model: float
+    persistence: float
