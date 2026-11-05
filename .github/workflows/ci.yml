@@ -8,11 +8,15 @@ jobs:
       - uses: actions/setup-python@v5
         with: {python-version: "3.11"}
       - run: pip install -r requirements-stgnn.txt -r requirements-frontend.txt
-      - run: ruff check frontend src/monitoring scripts
+      - name: Lint (Person 6 files)
+        run: ruff check --select E9,F frontend src/monitoring scripts/make_mocks.py tests/test_frontend_rules.py tests/test_frontend_pages.py
+      - run: python -m src.api.ingest
       - run: pytest tests
       - name: Model reproduces training-time forecast
         run: |
           python models/stgnn/predict.py | tee predict.log
           grep "matches the CSV written at training time: True" predict.log
-      - name: Frontend image builds
-        run: docker build -f docker/Dockerfile.frontend -t vw-frontend .
+      - name: Images build
+        run: |
+          docker build -f docker/Dockerfile.api -t vw-api .
+          docker build -f docker/Dockerfile.frontend -t vw-frontend .
