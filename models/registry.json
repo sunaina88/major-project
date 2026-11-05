@@ -294,8 +294,8 @@
         "variants_run": 14
       },
       "summary": "Annual forecasts are statistically tied with persistence (last year's value). Not an outbreak or early-warning model.",
-      "git_commit": "2ea4f5895a691fe23c620ffdc1f94c3b6693a652",
-      "registered_at": "2026-10-31T07:38:58+00:00",
+      "git_commit": "ed57b53adb475af21e06aa75648c897a3e64a91c",
+      "registered_at": "2026-11-05T06:31:32+00:00",
       "not_registered": "models/stgnn/archive_monthly/ (monthly models are invalid)"
     }
   ]

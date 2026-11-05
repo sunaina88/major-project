@@ -6,23 +6,20 @@ h=1 2012 done
 h=1 2013 done
 h=1 2014 done
 h=1 2015 done
-h=1 2016 done
-h=1 2017 done
-h=1 2018 done
-h=1 2019 done
-h=1 2020 done
-h=1 2021 done
-h=1 2022 done
-h=1 2023 done
-h=1 2024 done
-h=1 2025 done
-
-=== horizon 1 year(s) ahead | MEAN over 16 folds ===
-mae_model    3985.248
-mae_last     4083.832
-mae_avg2     4831.433
-log_model       0.798
-log_last        0.809
-log_avg2        0.859
-mae_model minus persistence: mean -98.584 CI [-324.804, 148.507] folds better 12/16
-log_model minus persistence: mean -0.011 CI [-0.054, 0.026] folds better 10/16
+Traceback (most recent call last):
+  File "C:\Users\KIIT0001\major-project\models\stgnn\annual.py", line 114, in <module>
+    r = run(o, h)
+        ^^^^^^^^^
+  File "C:\Users\KIIT0001\major-project\models\stgnn\annual.py", line 80, in run
+    res = [fit(o, h, s, X, Yn, g) for s in range(a.seeds)]
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT0001\major-project\models\stgnn\annual.py", line 67, in fit
+    masked_huber(model(xtr[b]), ytr[b], mtr[b]).backward()
+  File "C:\Users\KIIT0001\major-project\.venv\Lib\site-packages\torch\_tensor.py", line 623, in backward
+    torch.autograd.backward(
+  File "C:\Users\KIIT0001\major-project\.venv\Lib\site-packages\torch\autograd\__init__.py", line 395, in backward
+    _engine_run_backward(
+  File "C:\Users\KIIT0001\major-project\.venv\Lib\site-packages\torch\autograd\graph.py", line 1072, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
