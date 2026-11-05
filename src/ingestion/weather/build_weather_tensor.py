@@ -52,7 +52,7 @@ STATE_CLIMATE_PROFILES = {
     "sikkim": (2700, 16.0, 1.2),
     "tamil_nadu": (950, 29.0, 1.0),
     "telangana": (900, 28.5, 1.0),
-    "the_dadra_and_nagar_haveli_and_daman_and_diu": (2000, 27.5, 1.1),
+    "dadra_and_nagar_haveli_and_daman_and_diu": (2000, 27.5, 1.1),
     "tripura": (2200, 24.5, 1.2),
     "uttar_pradesh": (950, 26.0, 1.0),
     "uttarakhand": (1500, 18.0, 1.1),

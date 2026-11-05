@@ -20,7 +20,7 @@ from src.api.config import DISEASES, REPO_ROOT, db_path, in_repo_root, state_nam
 from src.risk import engine, uncertainty
 
 PROC = REPO_ROOT / "data" / "processed"
-TENSOR = PROC / "pan_india_state_enriched_tensor_real.csv"
+TENSOR = PROC / "pan_india_state_enriched_tensor.csv"
 
 
 def clean(df, cols):

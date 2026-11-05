@@ -1,5 +1,7 @@
 # Person 2 handoff: ST-GNN (pan-India, 36 nodes)
 
+> Historical result snapshot: the scores and 2022 cutoff below describe the earlier real-weather run. The current source CSVs extend through 2025; rerun the pipeline with `scripts/rerun_disease_pipeline.ps1` and use the regenerated files under `data/processed/` for current results.
+
 ## Bottom line
 On annual state-level totals, no spatio-temporal variant is statistically distinguishable from "same as last year"
 (13 rolling-origin folds, 2010-2022, bootstrap CIs on log-error). We found no evidence that the graph helps,

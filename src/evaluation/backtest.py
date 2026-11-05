@@ -11,10 +11,12 @@ def scored_mask(Y, t):
     # (The handoff text says "last two years", but the code only requires the last year; avg2 uses nanmean.)
     return ~np.isnan(Y[t]) & ~np.isnan(Y[t - 1])
 
-def run_backtest(Y, years, states, predict_fn, test_years=range(2010, 2023)):
+def run_backtest(Y, years, states, predict_fn, test_years=None):
     """predict_fn(Y_train[t,S,D], years_train, target_year) -> array [S,D] in cases.
     Returns (per_fold_df, pairs_df) with the same columns as Person 2's files."""
     years = list(years)
+    if test_years is None:
+        test_years = range(2010, int(years[-1]) + 1)
     rows, pairs = [], []
     for yr in test_years:
         t = years.index(yr)

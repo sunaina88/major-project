@@ -16,7 +16,7 @@ Pipeline:
     5. Clean numeric Cases/Deaths columns (coerce non-numeric -> NaN).
     6. Disaggregate each annual total into 12 monthly rows using a fixed
        monsoon-weighted curve (peaking Jul-Sep), for every (state, year)
-       row present in the merged data, capped at year <= 2022.
+       row present in the merged data.
     7. Assemble the final standardized schema.
     8. Save to data/processed/pan_india_state_spatiotemporal_tensor.csv.
     9. Print a summary of the result.
@@ -39,9 +39,9 @@ Design notes / assumptions (flagged explicitly rather than buried)
   make the 12 months not sum back exactly to the annual total. Cases/Deaths
   columns in the final monthly tensor are float64. If integer months are
   required downstream, round explicitly at that stage.
-- COVERAGE OF "from their earliest available year through 2022": this
+- COVERAGE: this
   script disaggregates every (state, year) row that actually exists in the
-  merged annual data (capped at year <= 2022) -- it does not fabricate
+  merged annual data -- it does not fabricate
   additional years a state has zero source coverage for. That would be
   interpolation, not disaggregation, and is a materially different
   modeling choice best made explicitly by the forecasting team, not
@@ -75,8 +75,6 @@ RAW_FILES = {
 }
 # Which diseases have a deaths column at source at all.
 DISEASE_HAS_DEATHS = {"dengue": True, "malaria": True, "chikungunya": False}
-
-MAX_YEAR = 2022
 
 # Monthly monsoon-weighted disaggregation curve (Jan..Dec), sums to 1.0,
 # peaking Jul-Aug-Sep -- the core Indian monsoon vector-breeding season.
@@ -219,7 +217,7 @@ def merge_diseases(dengue: pd.DataFrame, malaria: pd.DataFrame, chikungunya: pd.
 # Step 6: Disaggregate annual totals into monthly rows via the monsoon curve
 # --------------------------------------------------------------------------
 def disaggregate_to_monthly(annual_df: pd.DataFrame) -> pd.DataFrame:
-    annual_df = annual_df[annual_df["Year"] <= MAX_YEAR].copy()
+    annual_df = annual_df.copy()
 
     value_cols = [
         "dengue_cases", "dengue_deaths",

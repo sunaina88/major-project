@@ -4,7 +4,7 @@ from annual_data import load_annual, load_graph, to_cases, forecast_table, DIS
 warnings.filterwarnings("ignore")
 
 p = argparse.ArgumentParser()
-p.add_argument("--data", default="data/processed/pan_india_state_enriched_tensor_real.csv")
+p.add_argument("--data", default="data/processed/pan_india_state_enriched_tensor.csv")
 p.add_argument("--kind", default="gcn", choices=["gcn", "gat"])
 p.add_argument("--graph", default="geo", choices=["geo", "identity", "knn", "dist", "hybrid"])
 p.add_argument("--weather", type=int, default=1)

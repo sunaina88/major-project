@@ -31,7 +31,7 @@ Other commands: `python -m src.risk.calibrate` (rewrites `docs/calibration_repor
 | `GET /states` | 36 states: `state_id`, `state_name` |
 | `GET /historical/{state_id}` | Annual cases per disease. 404 for an unknown state |
 | `GET /forecast/{state_id}/{disease}` | `history`, `forecasts[]` (forecast, persistence, `interval_80`, confidence, notes, risk fields), `model`, `disclaimer`. `disease` is `dengue`, `malaria` or `chikungunya` (else 422) |
-| `GET /risk-map?disease=&year=` | One row per state: `risk_level`, `percentile`, `growth_vs_persistence_pct`, forecast, persistence, interval, confidence, notes. `year` defaults to 2023; 404 outside 2023 to 2025 |
+| `GET /risk-map?disease=&year=` | One row per state: `risk_level`, `percentile`, `growth_vs_persistence_pct`, forecast, persistence, interval, confidence, notes. `year` defaults to the year after the latest observation (see `/health`); 404 outside the available forecast horizons |
 | `GET /model-performance?tag=&horizon=` | Summary of every variant against persistence with 95% intervals, model-vs-model comparisons, per-fold rows of `tag` (default `geo_w`, horizon 1), number of variants run |
 | `GET /explanation/{state_id}/{disease}?horizon=` | Occlusion attribution per input group. 503 if torch is not installed |
 
@@ -76,5 +76,5 @@ The container needs these files in addition to what `docker/Dockerfile.api` copi
 
 | Endpoint | Returns |
 |---|---|
-| `GET /replay?tag=&horizon=&year=&disease=&state_id=` | Backtest rows `{year, state_id, disease, true, model, persistence}` from `pair_predictions`. Defaults: tag `geo_w`, horizon 1. 404 if no rows match. Backtest years are 2010 to 2022; every row is a forecast made from earlier years only |
+| `GET /replay?tag=&horizon=&year=&disease=&state_id=` | Backtest rows `{year, state_id, disease, true, model, persistence}` from `pair_predictions`. Defaults: tag `geo_w`, horizon 1. 404 if no rows match. Available years depend on the regenerated evaluation files; every row is a forecast made from earlier years only |
 | `GET /status` | The data-drift report written by `python src/monitoring/drift.py --out data/processed/drift_report.json`. Path set by `VW_DRIFT_REPORT`. 503 if the file is missing |

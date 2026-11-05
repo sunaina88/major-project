@@ -97,7 +97,7 @@ def run_baselines():
             state_df["lag_12"] = state_df[disease].shift(12)  # Seasonal lag (1 year prior)
             state_df["month"] = state_df["start_date"].dt.month
 
-            # Train / Test split (train on < 2021, test on 2021-2022)
+            # Keep the original holdout start; test includes all newer years.
             train_mask = state_df["start_date"].dt.year < 2021
             test_mask = state_df["start_date"].dt.year >= 2021
 

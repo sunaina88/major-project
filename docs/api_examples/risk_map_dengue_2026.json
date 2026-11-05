@@ -1,0 +1,606 @@
+{
+  "disease": "dengue",
+  "year": 2026,
+  "horizon": 1,
+  "experimental": false,
+  "method": "Percentile of the forecast among the state's previous observed years (same disease).",
+  "cutoffs": {
+    "moderate": 50.0,
+    "high": 75.0,
+    "very_high": 90.0
+  },
+  "disclaimer": "Compare annual forecasts with last year's value (persistence). A risk level is a rank of the forecast against the state's own history, not a prediction of an outbreak.",
+  "states": [
+    {
+      "state_id": "andaman_and_nicobar_islands",
+      "state_name": "Andaman and Nicobar Islands",
+      "risk_level": "High",
+      "percentile": 84.61538461538461,
+      "growth_vs_persistence_pct": 66.48648648648648,
+      "forecast": 616,
+      "persistence": 370.0,
+      "interval_80": [
+        177,
+        2417
+      ],
+      "confidence": "normal",
+      "notes": [],
+      "risk_reason": []
+    },
+    {
+      "state_id": "andhra_pradesh",
+      "state_name": "Andhra Pradesh",
+      "risk_level": "Moderate",
+      "percentile": 60.869565217391305,
+      "growth_vs_persistence_pct": -42.88905435591958,
+      "forecast": 1534,
+      "persistence": 2686.0,
+      "interval_80": [
+        443,
+        6016
+      ],
+      "confidence": "normal",
+      "notes": [],
+      "risk_reason": []
+    },
+    {
+      "state_id": "arunachal_pradesh",
+      "state_name": "Arunachal Pradesh",
+      "risk_level": "Moderate",
+      "percentile": 50.0,
+      "growth_vs_persistence_pct": -47.64705882352941,
+      "forecast": 89,
+      "persistence": 170.0,
+      "interval_80": [
+        25,
+        352
+      ],
+      "confidence": "normal",
+      "notes": [],
+      "risk_reason": []
+    },
+    {
+      "state_id": "assam",
+      "state_name": "Assam",
+      "risk_level": "Low",
+      "percentile": 41.666666666666664,
+      "growth_vs_persistence_pct": -56.40648011782032,
+      "forecast": 296,
+      "persistence": 679.0,
+      "interval_80": [
+        85,
+        1163
+      ],
+      "confidence": "normal",
+      "notes": [],
+      "risk_reason": []
+    },
+    {
+      "state_id": "bihar",
+      "state_name": "Bihar",
+      "risk_level": "Moderate",
+      "percentile": 58.8235294117647,
+      "growth_vs_persistence_pct": -66.40184520758585,
+      "forecast": 1311,
+      "persistence": 3902.0,
+      "interval_80": [
+        378,
+        5142
+      ],
+      "confidence": "normal",
+      "notes": [],
+      "risk_reason": []
+    },
+    {
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "risk_level": "Low",
+      "percentile": 15.789473684210526,
+      "growth_vs_persistence_pct": -22.727272727272727,
+      "forecast": 51,
+      "persistence": 66.0,
+      "interval_80": [
+        14,
+        203
+      ],
+      "confidence": "normal",
+      "notes": [],
+      "risk_reason": []
+    },
+    {
+      "state_id": "chhattisgarh",
+      "state_name": "Chhattisgarh",
+      "risk_level": "Low",
+      "percentile": 42.857142857142854,
+      "growth_vs_persistence_pct": -32.16374269005848,
+      "forecast": 348,
+      "persistence": 513.0,
+      "interval_80": [
+        100,
+        1367
+      ],
+      "confidence": "normal",
+      "notes": [],
+      "risk_reason": []
+    },
+    {
+      "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+      "state_name": "Dadra and Nagar Haveli and Daman and Diu",
+      "risk_level": "Low",
+      "percentile": 35.714285714285715,
+      "growth_vs_persistence_pct": -17.441860465116278,
+      "forecast": 284,
+      "persistence": 344.0,
+      "interval_80": [
+        81,
+        1116
+      ],
+      "confidence": "normal",
+      "notes": [],
+      "risk_reason": []
+    },
+    {
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "risk_level": "Moderate",
+      "percentile": 50.0,
+      "growth_vs_persistence_pct": -44.69453376205788,
+      "forecast": 2580,
+      "persistence": 4665.0,
+      "interval_80": [
+        745,
+        10115
+      ],
+      "confidence": "normal",
+      "notes": [],
+      "risk_reason": []
+    },
+    {
+      "state_id": "goa",
+      "state_name": "Goa",
+      "risk_level": "Low",
+      "percentile": 47.61904761904762,
+      "growth_vs_persistence_pct": 39.04761904761905,
+      "forecast": 146,
+      "persistence": 105.0,
+      "interval_80": [
+        41,
+        575
+      ],
+      "confidence": "normal",
+      "notes": [],
+      "risk_reason": []
+    },
+    {
+      "state_id": "gujarat",
+      "state_name": "Gujarat",
+      "risk_level": "Moderate",
+      "percentile": 62.5,
+      "growth_vs_persistence_pct": -26.9785022442712,
+      "forecast": 3091,
+      "persistence": 4233.0,
+      "interval_80": [
+        893,
+        12118
+      ],
+      "confidence": "normal",
+      "notes": [],
+      "risk_reason": []
+    },
+    {
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "risk_level": "Moderate",
+      "percentile": 54.166666666666664,
+      "growth_vs_persistence_pct": -61.15765422696116,
+      "forecast": 1020,
+      "persistence": 2626.0,
+      "interval_80": [
+        294,
+        4001
+      ],
+      "confidence": "normal",
+      "notes": [],
+      "risk_reason": []
+    },
+    {
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "risk_level": "Low",
+      "percentile": 33.333333333333336,
+      "growth_vs_persistence_pct": -58.51528384279476,
+      "forecast": 95,
+      "persistence": 229.0,
+      "interval_80": [
+        27,
+        375
+      ],
+      "confidence": "normal",
+      "notes": [],
+      "risk_reason": []
+    },
+    {
+      "state_id": "jammu_and_kashmir",
+      "state_name": "Jammu and Kashmir",
+      "risk_level": "Moderate",
+      "percentile": 57.142857142857146,
+      "growth_vs_persistence_pct": -64.65542738834664,
+      "forecast": 1195,
+      "persistence": 3381.0,
+      "interval_80": [
+        345,
+        4687
+      ],
+      "confidence": "normal",
+      "notes": [],
+      "risk_reason": []
+    },
+    {
+      "state_id": "jharkhand",
+      "state_name": "Jharkhand",
+      "risk_level": "Low",
+      "percentile": 46.15384615384615,
+      "growth_vs_persistence_pct": -37.65586034912718,
+      "forecast": 250,
+      "persistence": 401.0,
+      "interval_80": [
+        72,
+        983
+      ],
+      "confidence": "normal",
+      "notes": [],
+      "risk_reason": []
+    },
+    {
+      "state_id": "karnataka",
+      "state_name": "Karnataka",
+      "risk_level": "Moderate",
+      "percentile": 70.83333333333333,
+      "growth_vs_persistence_pct": -1.0648464163822526,
+      "forecast": 7247,
+      "persistence": 7325.0,
+      "interval_80": [
+        2094,
+        28408
+      ],
+      "confidence": "normal",
+      "notes": [],
+      "risk_reason": []
+    },
+    {
+      "state_id": "kerala",
+      "state_name": "Kerala",
+      "risk_level": "High",
+      "percentile": 81.81818181818181,
+      "growth_vs_persistence_pct": -12.533186853428544,
+      "forecast": 9554,
+      "persistence": 10923.0,
+      "interval_80": [
+        2761,
+        37451
+      ],
+      "confidence": "normal",
+      "notes": [],
+      "risk_reason": []
+    },
+    {
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "risk_level": "Insufficient evidence",
+      "percentile": null,
+      "growth_vs_persistence_pct": null,
+      "forecast": 0,
+      "persistence": null,
+      "interval_80": [
+        0,
+        3
+      ],
+      "confidence": "low",
+      "notes": [
+        "no_last_year_value"
+      ],
+      "risk_reason": [
+        "low_confidence",
+        "no_last_year_value"
+      ]
+    },
+    {
+      "state_id": "lakshadweep",
+      "state_name": "Lakshadweep",
+      "risk_level": "Insufficient evidence",
+      "percentile": null,
+      "growth_vs_persistence_pct": 44.8,
+      "forecast": 181,
+      "persistence": 125.0,
+      "interval_80": [
+        52,
+        712
+      ],
+      "confidence": "low",
+      "notes": [
+        "short_history"
+      ],
+      "risk_reason": [
+        "low_confidence",
+        "short_history"
+      ]
+    },
+    {
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "risk_level": "Low",
+      "percentile": 41.1764705882353,
+      "growth_vs_persistence_pct": -35.394126738794434,
+      "forecast": 1254,
+      "persistence": 1941.0,
+      "interval_80": [
+        362,
+        4918
+      ],
+      "confidence": "normal",
+      "notes": [],
+      "risk_reason": []
+    },
+    {
+      "state_id": "maharashtra",
+      "state_name": "Maharashtra",
+      "risk_level": "High",
+      "percentile": 75.0,
+      "growth_vs_persistence_pct": -28.550254093732356,
+      "forecast": 10123,
+      "persistence": 14168.0,
+      "interval_80": [
+        2925,
+        39681
+      ],
+      "confidence": "normal",
+      "notes": [],
+      "risk_reason": []
+    },
+    {
+      "state_id": "manipur",
+      "state_name": "Manipur",
+      "risk_level": "High",
+      "percentile": 78.57142857142857,
+      "growth_vs_persistence_pct": -64.06957782206922,
+      "forecast": 1983,
+      "persistence": 5519.0,
+      "interval_80": [
+        573,
+        7775
+      ],
+      "confidence": "normal",
+      "notes": [],
+      "risk_reason": []
+    },
+    {
+      "state_id": "meghalaya",
+      "state_name": "Meghalaya",
+      "risk_level": "Moderate",
+      "percentile": 50.0,
+      "growth_vs_persistence_pct": -43.20987654320987,
+      "forecast": 46,
+      "persistence": 81.0,
+      "interval_80": [
+        13,
+        183
+      ],
+      "confidence": "normal",
+      "notes": [],
+      "risk_reason": []
+    },
+    {
+      "state_id": "mizoram",
+      "state_name": "Mizoram",
+      "risk_level": "Moderate",
+      "percentile": 63.63636363636363,
+      "growth_vs_persistence_pct": -61.67341430499325,
+      "forecast": 568,
+      "persistence": 1482.0,
+      "interval_80": [
+        163,
+        2229
+      ],
+      "confidence": "normal",
+      "notes": [],
+      "risk_reason": []
+    },
+    {
+      "state_id": "nagaland",
+      "state_name": "Nagaland",
+      "risk_level": "Low",
+      "percentile": 45.45454545454545,
+      "growth_vs_persistence_pct": -61.855670103092784,
+      "forecast": 37,
+      "persistence": 97.0,
+      "interval_80": [
+        10,
+        148
+      ],
+      "confidence": "normal",
+      "notes": [],
+      "risk_reason": []
+    },
+    {
+      "state_id": "odisha",
+      "state_name": "Odisha",
+      "risk_level": "Moderate",
+      "percentile": 60.0,
+      "growth_vs_persistence_pct": 58.70967741935484,
+      "forecast": 4182,
+      "persistence": 2635.0,
+      "interval_80": [
+        1208,
+        16395
+      ],
+      "confidence": "normal",
+      "notes": [],
+      "risk_reason": []
+    },
+    {
+      "state_id": "puducherry",
+      "state_name": "Puducherry",
+      "risk_level": "Low",
+      "percentile": 47.05882352941177,
+      "growth_vs_persistence_pct": -26.053215077605323,
+      "forecast": 667,
+      "persistence": 902.0,
+      "interval_80": [
+        192,
+        2617
+      ],
+      "confidence": "normal",
+      "notes": [],
+      "risk_reason": []
+    },
+    {
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "risk_level": "Low",
+      "percentile": 45.833333333333336,
+      "growth_vs_persistence_pct": -52.88094760088336,
+      "forecast": 2347,
+      "persistence": 4981.0,
+      "interval_80": [
+        678,
+        9202
+      ],
+      "confidence": "normal",
+      "notes": [],
+      "risk_reason": []
+    },
+    {
+      "state_id": "rajasthan",
+      "state_name": "Rajasthan",
+      "risk_level": "Moderate",
+      "percentile": 60.869565217391305,
+      "growth_vs_persistence_pct": -39.53541858325667,
+      "forecast": 2629,
+      "persistence": 4348.0,
+      "interval_80": [
+        759,
+        10308
+      ],
+      "confidence": "normal",
+      "notes": [],
+      "risk_reason": []
+    },
+    {
+      "state_id": "sikkim",
+      "state_name": "Sikkim",
+      "risk_level": "Moderate",
+      "percentile": 61.53846153846154,
+      "growth_vs_persistence_pct": 64.49704142011835,
+      "forecast": 278,
+      "persistence": 169.0,
+      "interval_80": [
+        80,
+        1093
+      ],
+      "confidence": "normal",
+      "notes": [],
+      "risk_reason": []
+    },
+    {
+      "state_id": "tamil_nadu",
+      "state_name": "Tamil Nadu",
+      "risk_level": "High",
+      "percentile": 87.5,
+      "growth_vs_persistence_pct": -24.14662280514376,
+      "forecast": 17755,
+      "persistence": 23407.0,
+      "interval_80": [
+        5132,
+        69595
+      ],
+      "confidence": "normal",
+      "notes": [],
+      "risk_reason": []
+    },
+    {
+      "state_id": "telangana",
+      "state_name": "Telangana",
+      "risk_level": "Moderate",
+      "percentile": 68.42105263157895,
+      "growth_vs_persistence_pct": -22.84831193533048,
+      "forecast": 6490,
+      "persistence": 8412.0,
+      "interval_80": [
+        1875,
+        25441
+      ],
+      "confidence": "normal",
+      "notes": [],
+      "risk_reason": []
+    },
+    {
+      "state_id": "tripura",
+      "state_name": "Tripura",
+      "risk_level": "Moderate",
+      "percentile": 63.63636363636363,
+      "growth_vs_persistence_pct": -55.87044534412956,
+      "forecast": 327,
+      "persistence": 741.0,
+      "interval_80": [
+        94,
+        1285
+      ],
+      "confidence": "normal",
+      "notes": [],
+      "risk_reason": []
+    },
+    {
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "risk_level": "Moderate",
+      "percentile": 63.63636363636363,
+      "growth_vs_persistence_pct": -65.10971105800564,
+      "forecast": 3212,
+      "persistence": 9206.0,
+      "interval_80": [
+        928,
+        12593
+      ],
+      "confidence": "normal",
+      "notes": [],
+      "risk_reason": []
+    },
+    {
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "risk_level": "Moderate",
+      "percentile": 50.0,
+      "growth_vs_persistence_pct": -46.16935483870968,
+      "forecast": 534,
+      "persistence": 992.0,
+      "interval_80": [
+        154,
+        2096
+      ],
+      "confidence": "normal",
+      "notes": [],
+      "risk_reason": []
+    },
+    {
+      "state_id": "west_bengal",
+      "state_name": "West Bengal",
+      "risk_level": "Insufficient evidence",
+      "percentile": null,
+      "growth_vs_persistence_pct": null,
+      "forecast": 3187,
+      "persistence": null,
+      "interval_80": [
+        921,
+        12495
+      ],
+      "confidence": "low",
+      "notes": [
+        "no_last_year_value"
+      ],
+      "risk_reason": [
+        "low_confidence",
+        "no_last_year_value"
+      ]
+    }
+  ]
+}
