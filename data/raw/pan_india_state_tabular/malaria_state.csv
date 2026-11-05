@@ -1,76 +1,184 @@
 Country,State,Year,Additional Info,"Number Of Cases Due To Malaria (UOM:Number), Scaling Factor:1","Number Of Deaths Due To Malaria (UOM:Number), Scaling Factor:1"
-India,Andaman And Nicobar Islands,"Calendar Year (Jan - Dec), 2022","Provisional,till December",46,0
-India,Andhra Pradesh,"Calendar Year (Jan - Dec), 2022","Provisional,till December",2019,0
-India,Arunachal Pradesh,"Calendar Year (Jan - Dec), 2022","Provisional,till December",17,0
-India,Assam,"Calendar Year (Jan - Dec), 2022","Provisional,till December",280,0
-India,Bihar,"Calendar Year (Jan - Dec), 2022","Provisional,till December",539,0
-India,Chandigarh,"Calendar Year (Jan - Dec), 2022","Provisional,till December",1,0
-India,Chhattisgarh,"Calendar Year (Jan - Dec), 2022","Provisional,till December",30028,11
-India,Delhi,"Calendar Year (Jan - Dec), 2022","Provisional,till December",173,0
-India,Goa,"Calendar Year (Jan - Dec), 2022","Provisional,till December",2,0
-India,Gujarat,"Calendar Year (Jan - Dec), 2022","Provisional,till December",4766,0
-India,Haryana,"Calendar Year (Jan - Dec), 2022","Provisional,till December",50,0
-India,Himachal Pradesh,"Calendar Year (Jan - Dec), 2022","Provisional,till December",10,0
-India,Jammu And Kashmir,"Calendar Year (Jan - Dec), 2022","Provisional,till December",37,0
-India,Jharkhand,"Calendar Year (Jan - Dec), 2022","Provisional,till December",19129,4
-India,Karnataka,"Calendar Year (Jan - Dec), 2022","Provisional,till December",279,0
-India,Kerala,"Calendar Year (Jan - Dec), 2022","Provisional,till December",439,0
-India,Ladakh,"Calendar Year (Jan - Dec), 2022","Provisional,till December",0,0
-India,Lakshadweep,"Calendar Year (Jan - Dec), 2022","Provisional,till December",0,0
-India,Madhya Pradesh,"Calendar Year (Jan - Dec), 2022","Provisional,till December",3719,0
-India,Maharashtra,"Calendar Year (Jan - Dec), 2022","Provisional,till December",15437,25
-India,Manipur,"Calendar Year (Jan - Dec), 2022","Provisional,till December",14,0
-India,Meghalaya,"Calendar Year (Jan - Dec), 2022","Provisional,till December",463,6
-India,Mizoram,"Calendar Year (Jan - Dec), 2022","Provisional,till December",10222,8
-India,Nagaland,"Calendar Year (Jan - Dec), 2022","Provisional,till December",8,0
-India,Odisha,"Calendar Year (Jan - Dec), 2022","Provisional,till December",23770,5
-India,Puducherry,"Calendar Year (Jan - Dec), 2022","Provisional,till December",0,0
-India,Punjab,"Calendar Year (Jan - Dec), 2022","Provisional,till December",109,0
-India,Rajasthan,"Calendar Year (Jan - Dec), 2022","Provisional,till December",1026,0
-India,Sikkim,"Calendar Year (Jan - Dec), 2022","Provisional,till December",6,0
-India,Tamil Nadu,"Calendar Year (Jan - Dec), 2022","Provisional,till December",344,0
-India,Telangana,"Calendar Year (Jan - Dec), 2022","Provisional,till December",611,0
-India,The Dadra And Nagar Haveli And Daman And Diu,"Calendar Year (Jan - Dec), 2022","Provisional,till December",39.00000000000000000000,0.00000000000000000000
-India,Tripura,"Calendar Year (Jan - Dec), 2022","Provisional,till December",12771,2
-India,Uttar Pradesh,"Calendar Year (Jan - Dec), 2022","Provisional,till December",7039,0
-India,Uttarakhand,"Calendar Year (Jan - Dec), 2022","Provisional,till December",19,0
-India,West Bengal,"Calendar Year (Jan - Dec), 2022","Provisional,till December",40563,3
-India,Andaman And Nicobar Islands,"Calendar Year (Jan - Dec), 2021",,27,0
-India,Andhra Pradesh,"Calendar Year (Jan - Dec), 2021",,1315,0
-India,Arunachal Pradesh,"Calendar Year (Jan - Dec), 2021",,8,0
-India,Assam,"Calendar Year (Jan - Dec), 2021",,162,0
-India,Bihar,"Calendar Year (Jan - Dec), 2021",,647,0
-India,Chandigarh,"Calendar Year (Jan - Dec), 2021",,6,0
-India,Chhattisgarh,"Calendar Year (Jan - Dec), 2021",,29733,38
-India,Delhi,"Calendar Year (Jan - Dec), 2021",,167,0
-India,Goa,"Calendar Year (Jan - Dec), 2021",,90,0
-India,Gujarat,"Calendar Year (Jan - Dec), 2021",,4921,0
-India,Haryana,"Calendar Year (Jan - Dec), 2021",,54,0
-India,Himachal Pradesh,"Calendar Year (Jan - Dec), 2021",,15,0
-India,Jammu And Kashmir,"Calendar Year (Jan - Dec), 2021",,31,0
-India,Jharkhand,"Calendar Year (Jan - Dec), 2021",,14198,0
-India,Karnataka,"Calendar Year (Jan - Dec), 2021",,913,2
-India,Kerala,"Calendar Year (Jan - Dec), 2021",,309,1
-India,Ladakh,"Calendar Year (Jan - Dec), 2021",,0,0
-India,Lakshadweep,"Calendar Year (Jan - Dec), 2021",,1,0
-India,Madhya Pradesh,"Calendar Year (Jan - Dec), 2021",,3181,2
-India,Maharashtra,"Calendar Year (Jan - Dec), 2021",,19303,14
-India,Manipur,"Calendar Year (Jan - Dec), 2021",,19,0
-India,Meghalaya,"Calendar Year (Jan - Dec), 2021",,491,3
-India,Mizoram,"Calendar Year (Jan - Dec), 2021",,8018,10
-India,Nagaland,"Calendar Year (Jan - Dec), 2021",,8,0
-India,Odisha,"Calendar Year (Jan - Dec), 2021",,25503,13
-India,Puducherry,"Calendar Year (Jan - Dec), 2021",,5,0
-India,Punjab,"Calendar Year (Jan - Dec), 2021",,71,0
-India,Rajasthan,"Calendar Year (Jan - Dec), 2021",,925,0
-India,Sikkim,"Calendar Year (Jan - Dec), 2021",,4,0
-India,Tamil Nadu,"Calendar Year (Jan - Dec), 2021",,772,0
-India,Telangana,"Calendar Year (Jan - Dec), 2021",,874,0
-India,The Dadra And Nagar Haveli And Daman And Diu,"Calendar Year (Jan - Dec), 2021",,54.00000000000000000000,0.00000000000000000000
-India,Tripura,"Calendar Year (Jan - Dec), 2021",,10136,4
-India,Uttar Pradesh,"Calendar Year (Jan - Dec), 2021",,13,0
-India,Uttarakhand,"Calendar Year (Jan - Dec), 2021",,10792,0
-India,West Bengal,"Calendar Year (Jan - Dec), 2021",,28987,3
+India,Andaman And Nicobar Islands,"Calendar Year (Jan - Dec), 2025",NCVBDC,48,0
+India,Andhra Pradesh,"Calendar Year (Jan - Dec), 2025",NCVBDC,7878,8
+India,Arunachal Pradesh,"Calendar Year (Jan - Dec), 2025",NCVBDC,32,0
+India,Assam,"Calendar Year (Jan - Dec), 2025",NCVBDC,3995,3
+India,Bihar,"Calendar Year (Jan - Dec), 2025",NCVBDC,1041,0
+India,Chandigarh,"Calendar Year (Jan - Dec), 2025",NCVBDC,65,0
+India,Chhattisgarh,"Calendar Year (Jan - Dec), 2025",NCVBDC,28836,12
+India,Delhi,"Calendar Year (Jan - Dec), 2025",NCVBDC,941,0
+India,Goa,"Calendar Year (Jan - Dec), 2025",NCVBDC,448,0
+India,Gujarat,"Calendar Year (Jan - Dec), 2025",NCVBDC,3813,2
+India,Haryana,"Calendar Year (Jan - Dec), 2025",NCVBDC,515,0
+India,Himachal Pradesh,"Calendar Year (Jan - Dec), 2025",NCVBDC,28,0
+India,Jammu And Kashmir,"Calendar Year (Jan - Dec), 2025",NCVBDC,127,0
+India,Jharkhand,"Calendar Year (Jan - Dec), 2025",NCVBDC,42236,2
+India,Karnataka,"Calendar Year (Jan - Dec), 2025",NCVBDC,694,1
+India,Kerala,"Calendar Year (Jan - Dec), 2025",NCVBDC,1144,2
+India,Ladakh,"Calendar Year (Jan - Dec), 2025",NCVBDC,10,0
+India,Lakshadweep,"Calendar Year (Jan - Dec), 2025",NCVBDC,0,0
+India,Madhya Pradesh,"Calendar Year (Jan - Dec), 2025",NCVBDC,2347,0
+India,Maharashtra,"Calendar Year (Jan - Dec), 2025",NCVBDC,23821,28
+India,Manipur,"Calendar Year (Jan - Dec), 2025",NCVBDC,78,0
+India,Meghalaya,"Calendar Year (Jan - Dec), 2025",NCVBDC,418,2
+India,Mizoram,"Calendar Year (Jan - Dec), 2025",NCVBDC,9330,6
+India,Nagaland,"Calendar Year (Jan - Dec), 2025",NCVBDC,210,0
+India,Odisha,"Calendar Year (Jan - Dec), 2025",NCVBDC,62137,6
+India,Puducherry,"Calendar Year (Jan - Dec), 2025",NCVBDC,17,0
+India,Punjab,"Calendar Year (Jan - Dec), 2025",NCVBDC,420,0
+India,Rajasthan,"Calendar Year (Jan - Dec), 2025",NCVBDC,1756,0
+India,Sikkim,"Calendar Year (Jan - Dec), 2025",NCVBDC,14,0
+India,Tamil Nadu,"Calendar Year (Jan - Dec), 2025",NCVBDC,324,2
+India,Telangana,"Calendar Year (Jan - Dec), 2025",NCVBDC,259,0
+India,The Dadra And Nagar Haveli And Daman And Diu,"Calendar Year (Jan - Dec), 2025",NCVBDC,212,0
+India,Tripura,"Calendar Year (Jan - Dec), 2025",NCVBDC,6094,0
+India,Uttar Pradesh,"Calendar Year (Jan - Dec), 2025",NCVBDC,14593,0
+India,Uttarakhand,"Calendar Year (Jan - Dec), 2025",NCVBDC,196,0
+India,West Bengal,"Calendar Year (Jan - Dec), 2025",NCVBDC,19840,2
+India,Andaman And Nicobar Islands,"Calendar Year (Jan - Dec), 2024",NCVBDC,96,0
+India,Andhra Pradesh,"Calendar Year (Jan - Dec), 2024",NCVBDC,7866,3
+India,Arunachal Pradesh,"Calendar Year (Jan - Dec), 2024",NCVBDC,19,0
+India,Assam,"Calendar Year (Jan - Dec), 2024",NCVBDC,5036,7
+India,Bihar,"Calendar Year (Jan - Dec), 2024",NCVBDC,906,0
+India,Chandigarh,"Calendar Year (Jan - Dec), 2024",NCVBDC,2,0
+India,Chhattisgarh,"Calendar Year (Jan - Dec), 2024",NCVBDC,31373,18
+India,Delhi,"Calendar Year (Jan - Dec), 2024",NCVBDC,910,0
+India,Goa,"Calendar Year (Jan - Dec), 2024",NCVBDC,884,0
+India,Gujarat,"Calendar Year (Jan - Dec), 2024",NCVBDC,4365,1
+India,Haryana,"Calendar Year (Jan - Dec), 2024",NCVBDC,522,0
+India,Himachal Pradesh,"Calendar Year (Jan - Dec), 2024",NCVBDC,28,0
+India,Jammu And Kashmir,"Calendar Year (Jan - Dec), 2024",NCVBDC,108,0
+India,Jharkhand,"Calendar Year (Jan - Dec), 2024",NCVBDC,42352,0
+India,Karnataka,"Calendar Year (Jan - Dec), 2024",NCVBDC,740,3
+India,Kerala,"Calendar Year (Jan - Dec), 2024",NCVBDC,954,6
+India,Ladakh,"Calendar Year (Jan - Dec), 2024",NCVBDC,9,0
+India,Lakshadweep,"Calendar Year (Jan - Dec), 2024",NCVBDC,1,0
+India,Madhya Pradesh,"Calendar Year (Jan - Dec), 2024",NCVBDC,3247,0
+India,Maharashtra,"Calendar Year (Jan - Dec), 2024",NCVBDC,21078,26
+India,Manipur,"Calendar Year (Jan - Dec), 2024",NCVBDC,43,0
+India,Meghalaya,"Calendar Year (Jan - Dec), 2024",NCVBDC,673,4
+India,Mizoram,"Calendar Year (Jan - Dec), 2024",NCVBDC,16899,7
+India,Nagaland,"Calendar Year (Jan - Dec), 2024",NCVBDC,12,0
+India,Odisha,"Calendar Year (Jan - Dec), 2024",NCVBDC,68693,8
+India,Puducherry,"Calendar Year (Jan - Dec), 2024",NCVBDC,4,0
+India,Punjab,"Calendar Year (Jan - Dec), 2024",NCVBDC,379,0
+India,Rajasthan,"Calendar Year (Jan - Dec), 2024",NCVBDC,2213,1
+India,Sikkim,"Calendar Year (Jan - Dec), 2024",NCVBDC,7,0
+India,Tamil Nadu,"Calendar Year (Jan - Dec), 2024",NCVBDC,347,0
+India,Telangana,"Calendar Year (Jan - Dec), 2024",NCVBDC,269,0
+India,The Dadra And Nagar Haveli And Daman And Diu,"Calendar Year (Jan - Dec), 2024",NCVBDC,207,0
+India,Tripura,"Calendar Year (Jan - Dec), 2024",NCVBDC,9738,0
+India,Uttar Pradesh,"Calendar Year (Jan - Dec), 2024",NCVBDC,13477,0
+India,Uttarakhand,"Calendar Year (Jan - Dec), 2024",NCVBDC,241,0
+India,West Bengal,"Calendar Year (Jan - Dec), 2024",NCVBDC,21802,2
+India,Andaman And Nicobar Islands,"Calendar Year (Jan - Dec), 2023",NCVBDC,42,0
+India,Andhra Pradesh,"Calendar Year (Jan - Dec), 2023",NCVBDC,5268,0
+India,Arunachal Pradesh,"Calendar Year (Jan - Dec), 2023",NCVBDC,11,0
+India,Assam,"Calendar Year (Jan - Dec), 2023",NCVBDC,567,0
+India,Bihar,"Calendar Year (Jan - Dec), 2023",NCVBDC,1257,0
+India,Chandigarh,"Calendar Year (Jan - Dec), 2023",NCVBDC,2,0
+India,Chhattisgarh,"Calendar Year (Jan - Dec), 2023",NCVBDC,31706,15
+India,Delhi,"Calendar Year (Jan - Dec), 2023",NCVBDC,344,1
+India,Goa,"Calendar Year (Jan - Dec), 2023",NCVBDC,1346,0
+India,Gujarat,"Calendar Year (Jan - Dec), 2023",NCVBDC,4311,1
+India,Haryana,"Calendar Year (Jan - Dec), 2023",NCVBDC,85,0
+India,Himachal Pradesh,"Calendar Year (Jan - Dec), 2023",NCVBDC,23,0
+India,Jammu And Kashmir,"Calendar Year (Jan - Dec), 2023",NCVBDC,44,0
+India,Jharkhand,"Calendar Year (Jan - Dec), 2023",NCVBDC,34087,2
+India,Karnataka,"Calendar Year (Jan - Dec), 2023",NCVBDC,275,2
+India,Kerala,"Calendar Year (Jan - Dec), 2023",NCVBDC,569,7
+India,Ladakh,"Calendar Year (Jan - Dec), 2023",NCVBDC,10,1
+India,Lakshadweep,"Calendar Year (Jan - Dec), 2023",NCVBDC,0,0
+India,Madhya Pradesh,"Calendar Year (Jan - Dec), 2023",NCVBDC,3794,0
+India,Maharashtra,"Calendar Year (Jan - Dec), 2023",NCVBDC,16159,19
+India,Manipur,"Calendar Year (Jan - Dec), 2023",NCVBDC,34,0
+India,Meghalaya,"Calendar Year (Jan - Dec), 2023",NCVBDC,1755,14
+India,Mizoram,"Calendar Year (Jan - Dec), 2023",NCVBDC,18077,13
+India,Nagaland,"Calendar Year (Jan - Dec), 2023",NCVBDC,10,0
+India,Odisha,"Calendar Year (Jan - Dec), 2023",NCVBDC,41973,4
+India,Puducherry,"Calendar Year (Jan - Dec), 2023",NCVBDC,6,0
+India,Punjab,"Calendar Year (Jan - Dec), 2023",NCVBDC,75,0
+India,Rajasthan,"Calendar Year (Jan - Dec), 2023",NCVBDC,2263,0
+India,Sikkim,"Calendar Year (Jan - Dec), 2023",NCVBDC,6,0
+India,Tamil Nadu,"Calendar Year (Jan - Dec), 2023",NCVBDC,385,0
+India,Telangana,"Calendar Year (Jan - Dec), 2023",NCVBDC,420,0
+India,The Dadra And Nagar Haveli And Daman And Diu,"Calendar Year (Jan - Dec), 2023",NCVBDC,128,1
+India,Tripura,"Calendar Year (Jan - Dec), 2023",NCVBDC,22412,1
+India,Uttar Pradesh,"Calendar Year (Jan - Dec), 2023",NCVBDC,13603,0
+India,Uttarakhand,"Calendar Year (Jan - Dec), 2023",NCVBDC,24,0
+India,West Bengal,"Calendar Year (Jan - Dec), 2023",NCVBDC,26493,2
+India,Andaman And Nicobar Islands,"Calendar Year (Jan - Dec), 2022",NCVBDC,50,0
+India,Andhra Pradesh,"Calendar Year (Jan - Dec), 2022",NCVBDC,2022,0
+India,Arunachal Pradesh,"Calendar Year (Jan - Dec), 2022",NCVBDC,18,0
+India,Assam,"Calendar Year (Jan - Dec), 2022",NCVBDC,280,0
+India,Bihar,"Calendar Year (Jan - Dec), 2022",NCVBDC,578,0
+India,Chandigarh,"Calendar Year (Jan - Dec), 2022",NCVBDC,2,0
+India,Chhattisgarh,"Calendar Year (Jan - Dec), 2022",NCVBDC,30029,20
+India,Delhi,"Calendar Year (Jan - Dec), 2022",NCVBDC,263,1
+India,Goa,"Calendar Year (Jan - Dec), 2022",NCVBDC,587,0
+India,Gujarat,"Calendar Year (Jan - Dec), 2022",NCVBDC,4785,0
+India,Haryana,"Calendar Year (Jan - Dec), 2022",NCVBDC,52,0
+India,Himachal Pradesh,"Calendar Year (Jan - Dec), 2022",NCVBDC,12,0
+India,Jammu And Kashmir,"Calendar Year (Jan - Dec), 2022",NCVBDC,35,0
+India,Jharkhand,"Calendar Year (Jan - Dec), 2022",NCVBDC,19167,4
+India,Karnataka,"Calendar Year (Jan - Dec), 2022",NCVBDC,289,0
+India,Kerala,"Calendar Year (Jan - Dec), 2022",NCVBDC,439,0
+India,Ladakh,"Calendar Year (Jan - Dec), 2022",NCVBDC,2,0
+India,Lakshadweep,"Calendar Year (Jan - Dec), 2022",NCVBDC,0,0
+India,Madhya Pradesh,"Calendar Year (Jan - Dec), 2022",NCVBDC,3826,0
+India,Maharashtra,"Calendar Year (Jan - Dec), 2022",NCVBDC,15451,26
+India,Manipur,"Calendar Year (Jan - Dec), 2022",NCVBDC,30,0
+India,Meghalaya,"Calendar Year (Jan - Dec), 2022",NCVBDC,479,8
+India,Mizoram,"Calendar Year (Jan - Dec), 2022",NCVBDC,11156,10
+India,Nagaland,"Calendar Year (Jan - Dec), 2022",NCVBDC,9,0
+India,Odisha,"Calendar Year (Jan - Dec), 2022",NCVBDC,23770,5
+India,Puducherry,"Calendar Year (Jan - Dec), 2022",NCVBDC,0,0
+India,Punjab,"Calendar Year (Jan - Dec), 2022",NCVBDC,119,2
+India,Rajasthan,"Calendar Year (Jan - Dec), 2022",NCVBDC,1565,1
+India,Sikkim,"Calendar Year (Jan - Dec), 2022",NCVBDC,8,0
+India,Tamil Nadu,"Calendar Year (Jan - Dec), 2022",NCVBDC,354,0
+India,Telangana,"Calendar Year (Jan - Dec), 2022",NCVBDC,611,0
+India,The Dadra And Nagar Haveli And Daman And Diu,"Calendar Year (Jan - Dec), 2022",NCVBDC,111,0
+India,Tripura,"Calendar Year (Jan - Dec), 2022",NCVBDC,12771,3
+India,Uttar Pradesh,"Calendar Year (Jan - Dec), 2022",NCVBDC,7039,0
+India,Uttarakhand,"Calendar Year (Jan - Dec), 2022",NCVBDC,19,0
+India,West Bengal,"Calendar Year (Jan - Dec), 2022",NCVBDC,40594,3
+India,Andaman And Nicobar Islands,"Calendar Year (Jan - Dec), 2021",NCVBDC,27,0
+India,Andhra Pradesh,"Calendar Year (Jan - Dec), 2021",NCVBDC,1315,0
+India,Arunachal Pradesh,"Calendar Year (Jan - Dec), 2021",NCVBDC,8,0
+India,Assam,"Calendar Year (Jan - Dec), 2021",NCVBDC,162,0
+India,Bihar,"Calendar Year (Jan - Dec), 2021",NCVBDC,647,0
+India,Chandigarh,"Calendar Year (Jan - Dec), 2021",NCVBDC,6,0
+India,Chhattisgarh,"Calendar Year (Jan - Dec), 2021",NCVBDC,29733,38
+India,Delhi,"Calendar Year (Jan - Dec), 2021",NCVBDC,167,0
+India,Goa,"Calendar Year (Jan - Dec), 2021",NCVBDC,90,0
+India,Gujarat,"Calendar Year (Jan - Dec), 2021",NCVBDC,4921,0
+India,Haryana,"Calendar Year (Jan - Dec), 2021",NCVBDC,54,0
+India,Himachal Pradesh,"Calendar Year (Jan - Dec), 2021",NCVBDC,15,0
+India,Jammu And Kashmir,"Calendar Year (Jan - Dec), 2021",NCVBDC,31,0
+India,Jharkhand,"Calendar Year (Jan - Dec), 2021",NCVBDC,14198,0
+India,Karnataka,"Calendar Year (Jan - Dec), 2021",NCVBDC,913,2
+India,Kerala,"Calendar Year (Jan - Dec), 2021",NCVBDC,309,1
+India,Ladakh,"Calendar Year (Jan - Dec), 2021",NCVBDC,0,0
+India,Lakshadweep,"Calendar Year (Jan - Dec), 2021",NCVBDC,1,0
+India,Madhya Pradesh,"Calendar Year (Jan - Dec), 2021",NCVBDC,3181,2
+India,Maharashtra,"Calendar Year (Jan - Dec), 2021",NCVBDC,19303,14
+India,Manipur,"Calendar Year (Jan - Dec), 2021",NCVBDC,19,0
+India,Meghalaya,"Calendar Year (Jan - Dec), 2021",NCVBDC,491,3
+India,Mizoram,"Calendar Year (Jan - Dec), 2021",NCVBDC,8018,10
+India,Nagaland,"Calendar Year (Jan - Dec), 2021",NCVBDC,8,0
+India,Odisha,"Calendar Year (Jan - Dec), 2021",NCVBDC,25503,13
+India,Puducherry,"Calendar Year (Jan - Dec), 2021",NCVBDC,5,0
+India,Punjab,"Calendar Year (Jan - Dec), 2021",NCVBDC,71,0
+India,Rajasthan,"Calendar Year (Jan - Dec), 2021",NCVBDC,925,0
+India,Sikkim,"Calendar Year (Jan - Dec), 2021",NCVBDC,4,0
+India,Tamil Nadu,"Calendar Year (Jan - Dec), 2021",NCVBDC,772,0
+India,Telangana,"Calendar Year (Jan - Dec), 2021",NCVBDC,874,0
+India,The Dadra And Nagar Haveli And Daman And Diu,"Calendar Year (Jan - Dec), 2021",NCVBDC,54,0
+India,Tripura,"Calendar Year (Jan - Dec), 2021",NCVBDC,10136,4
+India,Uttar Pradesh,"Calendar Year (Jan - Dec), 2021",NCVBDC,10792,0
+India,Uttarakhand,"Calendar Year (Jan - Dec), 2021",NCVBDC,13,0
+India,West Bengal,"Calendar Year (Jan - Dec), 2021",NCVBDC,28987,3
 India,Andaman And Nicobar Islands,"Calendar Year (Jan - Dec), 2020",,85,2
 India,Andhra Pradesh,"Calendar Year (Jan - Dec), 2020",,2027,0
 India,Arunachal Pradesh,"Calendar Year (Jan - Dec), 2020",,33,0

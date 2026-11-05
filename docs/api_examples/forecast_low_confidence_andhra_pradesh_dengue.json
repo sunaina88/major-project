@@ -81,36 +81,43 @@
     {
       "year": 2022,
       "cases": 6391.0
+    },
+    {
+      "year": 2023,
+      "cases": 6453.0
+    },
+    {
+      "year": 2024,
+      "cases": 5555.0
+    },
+    {
+      "year": 2025,
+      "cases": 2686.0
     }
   ],
   "forecasts": [
     {
-      "year": 2023,
+      "year": 2026,
       "horizon": 1,
-      "forecast": 5626,
-      "persistence": 6391.0,
+      "forecast": 1534,
+      "persistence": 2686.0,
       "interval_80": [
-        1484,
-        20194
+        443,
+        6016
       ],
-      "confidence": "low",
-      "notes": [
-        "capped_at_historical_max"
-      ],
-      "risk_level": "Insufficient evidence",
-      "percentile": null,
-      "growth_vs_persistence_pct": -11.969957753090283,
-      "risk_reason": [
-        "low_confidence",
-        "capped_at_historical_max"
-      ],
+      "confidence": "normal",
+      "notes": [],
+      "risk_level": "Moderate",
+      "percentile": 60.869565217391305,
+      "growth_vs_persistence_pct": -42.88905435591958,
+      "risk_reason": [],
       "experimental": false
     }
   ],
   "model": {
     "name": "annual_final",
     "version": "1.0.0",
-    "summary": "Annual forecasts are statistically tied with persistence (last year's value). No evidence that the graph or weather helps. Not an outbreak or early-warning model."
+    "summary": "Annual forecasts are statistically tied with persistence (last year's value). Not an outbreak or early-warning model."
   },
-  "disclaimer": "Annual forecasts are statistically tied with last year's value (persistence). A risk level is a rank of the forecast against the state's own history, not a prediction of an outbreak."
+  "disclaimer": "Compare annual forecasts with last year's value (persistence). A risk level is a rank of the forecast against the state's own history, not a prediction of an outbreak."
 }

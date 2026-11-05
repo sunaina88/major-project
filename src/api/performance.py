@@ -9,7 +9,7 @@ from src.evaluation.metrics import summarize_vs_reference
 HEADLINE_TAG = "geo_w"
 
 VARIANTS = {
-    "geo_w": "GCN, land-border graph, real weather",
+    "geo_w": "GCN, land-border graph, synthetic weather",
     "geo_now": "Without weather",
     "identity": "No graph",
     "knn": "kNN graph",

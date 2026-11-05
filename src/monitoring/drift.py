@@ -29,7 +29,7 @@ def main(data, out, cfg):
 
 if __name__ == "__main__":
     a = argparse.ArgumentParser()
-    a.add_argument("--data", default="data/processed/pan_india_state_enriched_tensor_real.csv")
+    a.add_argument("--data", default="data/processed/pan_india_state_enriched_tensor.csv")
     a.add_argument("--out", default="frontend/mocks/drift_report.json")
     a.add_argument("--config", default="config/drift_thresholds.json")
     x = a.parse_args(); main(x.data, x.out, x.config)

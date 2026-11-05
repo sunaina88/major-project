@@ -1,76 +1,179 @@
 Country,State,Year,Additional Info,"Number Of Cases (UOM:Number), Scaling Factor:1"
-India,Andaman And Nicobar Islands,"Calendar Year (Jan - Dec), 2022","Provisional,till December",65
-India,Andhra Pradesh,"Calendar Year (Jan - Dec), 2022","Provisional,till December",1611
-India,Arunachal Pradesh,"Calendar Year (Jan - Dec), 2022","Provisional,till December",0
-India,Assam,"Calendar Year (Jan - Dec), 2022","Provisional,till December",0
-India,Bihar,"Calendar Year (Jan - Dec), 2022","Provisional,till December",63
-India,Chandigarh,"Calendar Year (Jan - Dec), 2022","Provisional,till December",153
-India,Chhattisgarh,"Calendar Year (Jan - Dec), 2022","Provisional,till December",39
-India,Delhi,"Calendar Year (Jan - Dec), 2022","Provisional,till December",61
-India,Goa,"Calendar Year (Jan - Dec), 2022","Provisional,till December",868
-India,Gujarat,"Calendar Year (Jan - Dec), 2022","Provisional,till December",20854
-India,Haryana,"Calendar Year (Jan - Dec), 2022","Provisional,till December",2425
-India,Himachal Pradesh,"Calendar Year (Jan - Dec), 2022","Provisional,till December",253
-India,Jammu And Kashmir,"Calendar Year (Jan - Dec), 2022","Provisional,till December",37
-India,Jharkhand,"Calendar Year (Jan - Dec), 2022","Provisional,till December",2113
-India,Karnataka,"Calendar Year (Jan - Dec), 2022","Provisional,till December",63549
-India,Kerala,"Calendar Year (Jan - Dec), 2022","Provisional,till December",1511
-India,Ladakh,"Calendar Year (Jan - Dec), 2022","Provisional,till December",0
-India,Lakshadweep,"Calendar Year (Jan - Dec), 2022","Provisional,till December",107
-India,Madhya Pradesh,"Calendar Year (Jan - Dec), 2022","Provisional,till December",4292
-India,Maharashtra,"Calendar Year (Jan - Dec), 2022","Provisional,till December",0
-India,Manipur,"Calendar Year (Jan - Dec), 2022","Provisional,till December",0
-India,Meghalaya,"Calendar Year (Jan - Dec), 2022","Provisional,till December",14569
-India,Mizoram,"Calendar Year (Jan - Dec), 2022","Provisional,till December",195
-India,Nagaland,"Calendar Year (Jan - Dec), 2022","Provisional,till December",0
-India,Odisha,"Calendar Year (Jan - Dec), 2022","Provisional,till December",0
-India,Puducherry,"Calendar Year (Jan - Dec), 2022","Provisional,till December",11440
-India,Punjab,"Calendar Year (Jan - Dec), 2022","Provisional,till December",1043
-India,Rajasthan,"Calendar Year (Jan - Dec), 2022","Provisional,till December",212
-India,Sikkim,"Calendar Year (Jan - Dec), 2022","Provisional,till December",1883
-India,Tamil Nadu,"Calendar Year (Jan - Dec), 2022","Provisional,till December",181
-India,Telangana,"Calendar Year (Jan - Dec), 2022","Provisional,till December",6608
-India,The Dadra And Nagar Haveli And Daman And Diu,"Calendar Year (Jan - Dec), 2022","Provisional,till December",1.00000000000000000000
-India,Tripura,"Calendar Year (Jan - Dec), 2022","Provisional,till December",919
-India,Uttar Pradesh,"Calendar Year (Jan - Dec), 2022","Provisional,till December",200
-India,Uttarakhand,"Calendar Year (Jan - Dec), 2022","Provisional,till December",2000
-India,West Bengal,"Calendar Year (Jan - Dec), 2022","Provisional,till December",1230
-India,Andaman And Nicobar Islands,"Calendar Year (Jan - Dec), 2021",,187
-India,Andhra Pradesh,"Calendar Year (Jan - Dec), 2021",,753
-India,Arunachal Pradesh,"Calendar Year (Jan - Dec), 2021",,0
-India,Assam,"Calendar Year (Jan - Dec), 2021",,2
-India,Bihar,"Calendar Year (Jan - Dec), 2021",,40
-India,Chandigarh,"Calendar Year (Jan - Dec), 2021",,397
-India,Chhattisgarh,"Calendar Year (Jan - Dec), 2021",,0
-India,Delhi,"Calendar Year (Jan - Dec), 2021",,112
-India,Goa,"Calendar Year (Jan - Dec), 2021",,114
-India,Gujarat,"Calendar Year (Jan - Dec), 2021",,32372
-India,Haryana,"Calendar Year (Jan - Dec), 2021",,765
-India,Himachal Pradesh,"Calendar Year (Jan - Dec), 2021",,0
-India,Jammu And Kashmir,"Calendar Year (Jan - Dec), 2021",,7
-India,Jharkhand,"Calendar Year (Jan - Dec), 2021",,1064
-India,Karnataka,"Calendar Year (Jan - Dec), 2021",,40134
-India,Kerala,"Calendar Year (Jan - Dec), 2021",,3030
-India,Ladakh,"Calendar Year (Jan - Dec), 2021",,0
-India,Lakshadweep,"Calendar Year (Jan - Dec), 2021",,0
-India,Madhya Pradesh,"Calendar Year (Jan - Dec), 2021",,3822
-India,Maharashtra,"Calendar Year (Jan - Dec), 2021",,0
-India,Manipur,"Calendar Year (Jan - Dec), 2021",,0
-India,Meghalaya,"Calendar Year (Jan - Dec), 2021",,21680
-India,Mizoram,"Calendar Year (Jan - Dec), 2021",,0
-India,Nagaland,"Calendar Year (Jan - Dec), 2021",,0
-India,Odisha,"Calendar Year (Jan - Dec), 2021",,0
-India,Puducherry,"Calendar Year (Jan - Dec), 2021",,7284
-India,Punjab,"Calendar Year (Jan - Dec), 2021",,644
-India,Rajasthan,"Calendar Year (Jan - Dec), 2021",,1157
-India,Sikkim,"Calendar Year (Jan - Dec), 2021",,457
-India,Tamil Nadu,"Calendar Year (Jan - Dec), 2021",,3654
-India,Telangana,"Calendar Year (Jan - Dec), 2021",,220
-India,The Dadra And Nagar Haveli And Daman And Diu,"Calendar Year (Jan - Dec), 2021",,0.00000000000000000000
-India,Tripura,"Calendar Year (Jan - Dec), 2021",,948
-India,Uttar Pradesh,"Calendar Year (Jan - Dec), 2021",,70
-India,Uttarakhand,"Calendar Year (Jan - Dec), 2021",,3
-India,West Bengal,"Calendar Year (Jan - Dec), 2021",,154
+India,Andaman And Nicobar Islands,"Calendar Year (Jan - Dec), 2025",NCVBDC suspected,34
+India,Andhra Pradesh,"Calendar Year (Jan - Dec), 2025",NCVBDC suspected,5210
+India,Arunachal Pradesh,"Calendar Year (Jan - Dec), 2025",NCVBDC suspected,9
+India,Assam,"Calendar Year (Jan - Dec), 2025",NCVBDC suspected,180
+India,Bihar,"Calendar Year (Jan - Dec), 2025",NCVBDC suspected,813
+India,Chandigarh,"Calendar Year (Jan - Dec), 2025",NCVBDC suspected,171
+India,Chhattisgarh,"Calendar Year (Jan - Dec), 2025",NCVBDC suspected,2135
+India,Delhi,"Calendar Year (Jan - Dec), 2025",NCVBDC suspected,5056
+India,Goa,"Calendar Year (Jan - Dec), 2025",NCVBDC suspected,118
+India,Gujarat,"Calendar Year (Jan - Dec), 2025",NCVBDC suspected,23759
+India,Haryana,"Calendar Year (Jan - Dec), 2025",NCVBDC suspected,1521
+India,Himachal Pradesh,"Calendar Year (Jan - Dec), 2025",NCVBDC suspected,243
+India,Jammu And Kashmir,"Calendar Year (Jan - Dec), 2025",NCVBDC suspected,773
+India,Jharkhand,"Calendar Year (Jan - Dec), 2025",NCVBDC suspected,4620
+India,Karnataka,"Calendar Year (Jan - Dec), 2025",NCVBDC suspected,49044
+India,Kerala,"Calendar Year (Jan - Dec), 2025",NCVBDC suspected,448
+India,Lakshadweep,"Calendar Year (Jan - Dec), 2025",NCVBDC suspected,774
+India,Madhya Pradesh,"Calendar Year (Jan - Dec), 2025",NCVBDC suspected,8022
+India,Maharashtra,"Calendar Year (Jan - Dec), 2025",NCVBDC suspected,47921
+India,Manipur,"Calendar Year (Jan - Dec), 2025",NCVBDC suspected,0
+India,Meghalaya,"Calendar Year (Jan - Dec), 2025",NCVBDC suspected,197
+India,Mizoram,"Calendar Year (Jan - Dec), 2025",NCVBDC suspected,117
+India,Nagaland,"Calendar Year (Jan - Dec), 2025",NCVBDC suspected,0
+India,Odisha,"Calendar Year (Jan - Dec), 2025",NCVBDC suspected,149
+India,Puducherry,"Calendar Year (Jan - Dec), 2025",NCVBDC suspected,8588
+India,Punjab,"Calendar Year (Jan - Dec), 2025",NCVBDC suspected,11336
+India,Rajasthan,"Calendar Year (Jan - Dec), 2025",NCVBDC suspected,4175
+India,Sikkim,"Calendar Year (Jan - Dec), 2025",NCVBDC suspected,92
+India,Tamil Nadu,"Calendar Year (Jan - Dec), 2025",NCVBDC suspected,3493
+India,Telangana,"Calendar Year (Jan - Dec), 2025",NCVBDC suspected,9871
+India,The Dadra And Nagar Haveli And Daman And Diu,"Calendar Year (Jan - Dec), 2025",NCVBDC suspected,0
+India,Tripura,"Calendar Year (Jan - Dec), 2025",NCVBDC suspected,1523
+India,Uttar Pradesh,"Calendar Year (Jan - Dec), 2025",NCVBDC suspected,22416
+India,Uttarakhand,"Calendar Year (Jan - Dec), 2025",NCVBDC suspected,208
+India,West Bengal,"Calendar Year (Jan - Dec), 2025",NCVBDC suspected,
+India,Andaman And Nicobar Islands,"Calendar Year (Jan - Dec), 2024",NCVBDC suspected,0
+India,Andhra Pradesh,"Calendar Year (Jan - Dec), 2024",NCVBDC suspected,4213
+India,Arunachal Pradesh,"Calendar Year (Jan - Dec), 2024",NCVBDC suspected,16
+India,Assam,"Calendar Year (Jan - Dec), 2024",NCVBDC suspected,69
+India,Bihar,"Calendar Year (Jan - Dec), 2024",NCVBDC suspected,520
+India,Chandigarh,"Calendar Year (Jan - Dec), 2024",NCVBDC suspected,537
+India,Chhattisgarh,"Calendar Year (Jan - Dec), 2024",NCVBDC suspected,751
+India,Delhi,"Calendar Year (Jan - Dec), 2024",NCVBDC suspected,7447
+India,Goa,"Calendar Year (Jan - Dec), 2024",NCVBDC suspected,353
+India,Gujarat,"Calendar Year (Jan - Dec), 2024",NCVBDC suspected,29143
+India,Haryana,"Calendar Year (Jan - Dec), 2024",NCVBDC suspected,2766
+India,Himachal Pradesh,"Calendar Year (Jan - Dec), 2024",NCVBDC suspected,61
+India,Jammu And Kashmir,"Calendar Year (Jan - Dec), 2024",NCVBDC suspected,1606
+India,Jharkhand,"Calendar Year (Jan - Dec), 2024",NCVBDC suspected,4780
+India,Karnataka,"Calendar Year (Jan - Dec), 2024",NCVBDC suspected,78217
+India,Kerala,"Calendar Year (Jan - Dec), 2024",NCVBDC suspected,889
+India,Lakshadweep,"Calendar Year (Jan - Dec), 2024",NCVBDC suspected,525
+India,Madhya Pradesh,"Calendar Year (Jan - Dec), 2024",NCVBDC suspected,13677
+India,Maharashtra,"Calendar Year (Jan - Dec), 2024",NCVBDC suspected,57509
+India,Manipur,"Calendar Year (Jan - Dec), 2024",NCVBDC suspected,0
+India,Meghalaya,"Calendar Year (Jan - Dec), 2024",NCVBDC suspected,169
+India,Mizoram,"Calendar Year (Jan - Dec), 2024",NCVBDC suspected,194
+India,Nagaland,"Calendar Year (Jan - Dec), 2024",NCVBDC suspected,6
+India,Odisha,"Calendar Year (Jan - Dec), 2024",NCVBDC suspected,107
+India,Puducherry,"Calendar Year (Jan - Dec), 2024",NCVBDC suspected,8904
+India,Punjab,"Calendar Year (Jan - Dec), 2024",NCVBDC suspected,2258
+India,Rajasthan,"Calendar Year (Jan - Dec), 2024",NCVBDC suspected,1268
+India,Sikkim,"Calendar Year (Jan - Dec), 2024",NCVBDC suspected,673
+India,Tamil Nadu,"Calendar Year (Jan - Dec), 2024",NCVBDC suspected,3091
+India,Telangana,"Calendar Year (Jan - Dec), 2024",NCVBDC suspected,13592
+India,The Dadra And Nagar Haveli And Daman And Diu,"Calendar Year (Jan - Dec), 2024",NCVBDC suspected,0
+India,Tripura,"Calendar Year (Jan - Dec), 2024",NCVBDC suspected,2864
+India,Uttar Pradesh,"Calendar Year (Jan - Dec), 2024",NCVBDC suspected,1077
+India,Uttarakhand,"Calendar Year (Jan - Dec), 2024",NCVBDC suspected,1164
+India,West Bengal,"Calendar Year (Jan - Dec), 2024",NCVBDC suspected,1734
+India,Andaman And Nicobar Islands,"Calendar Year (Jan - Dec), 2023",NCVBDC suspected,654
+India,Andhra Pradesh,"Calendar Year (Jan - Dec), 2023",NCVBDC suspected,441
+India,Arunachal Pradesh,"Calendar Year (Jan - Dec), 2023",NCVBDC suspected,9
+India,Assam,"Calendar Year (Jan - Dec), 2023",NCVBDC suspected,100
+India,Bihar,"Calendar Year (Jan - Dec), 2023",NCVBDC suspected,23
+India,Chandigarh,"Calendar Year (Jan - Dec), 2023",NCVBDC suspected,415
+India,Chhattisgarh,"Calendar Year (Jan - Dec), 2023",NCVBDC suspected,66
+India,Delhi,"Calendar Year (Jan - Dec), 2023",NCVBDC suspected,153
+India,Goa,"Calendar Year (Jan - Dec), 2023",NCVBDC suspected,861
+India,Gujarat,"Calendar Year (Jan - Dec), 2023",NCVBDC suspected,24124
+India,Haryana,"Calendar Year (Jan - Dec), 2023",NCVBDC suspected,9472
+India,Himachal Pradesh,"Calendar Year (Jan - Dec), 2023",NCVBDC suspected,696
+India,Jammu And Kashmir,"Calendar Year (Jan - Dec), 2023",NCVBDC suspected,4042
+India,Jharkhand,"Calendar Year (Jan - Dec), 2023",NCVBDC suspected,7154
+India,Karnataka,"Calendar Year (Jan - Dec), 2023",NCVBDC suspected,72662
+India,Kerala,"Calendar Year (Jan - Dec), 2023",NCVBDC suspected,1099
+India,Lakshadweep,"Calendar Year (Jan - Dec), 2023",NCVBDC suspected,127
+India,Madhya Pradesh,"Calendar Year (Jan - Dec), 2023",NCVBDC suspected,8947
+India,Maharashtra,"Calendar Year (Jan - Dec), 2023",NCVBDC suspected,31181
+India,Manipur,"Calendar Year (Jan - Dec), 2023",NCVBDC suspected,0
+India,Meghalaya,"Calendar Year (Jan - Dec), 2023",NCVBDC suspected,128
+India,Mizoram,"Calendar Year (Jan - Dec), 2023",NCVBDC suspected,511
+India,Nagaland,"Calendar Year (Jan - Dec), 2023",NCVBDC suspected,72
+India,Odisha,"Calendar Year (Jan - Dec), 2023",NCVBDC suspected,0
+India,Puducherry,"Calendar Year (Jan - Dec), 2023",NCVBDC suspected,10363
+India,Punjab,"Calendar Year (Jan - Dec), 2023",NCVBDC suspected,6574
+India,Rajasthan,"Calendar Year (Jan - Dec), 2023",NCVBDC suspected,305
+India,Sikkim,"Calendar Year (Jan - Dec), 2023",NCVBDC suspected,1116
+India,Tamil Nadu,"Calendar Year (Jan - Dec), 2023",NCVBDC suspected,4805
+India,Telangana,"Calendar Year (Jan - Dec), 2023",NCVBDC suspected,761
+India,The Dadra And Nagar Haveli And Daman And Diu,"Calendar Year (Jan - Dec), 2023",NCVBDC suspected,0
+India,Tripura,"Calendar Year (Jan - Dec), 2023",NCVBDC suspected,1557
+India,Uttar Pradesh,"Calendar Year (Jan - Dec), 2023",NCVBDC suspected,10615
+India,Uttarakhand,"Calendar Year (Jan - Dec), 2023",NCVBDC suspected,269
+India,West Bengal,"Calendar Year (Jan - Dec), 2023",NCVBDC suspected (till 13.9.2023),762
+India,Andaman And Nicobar Islands,"Calendar Year (Jan - Dec), 2022",NCVBDC suspected,65
+India,Andhra Pradesh,"Calendar Year (Jan - Dec), 2022",NCVBDC suspected,1611
+India,Arunachal Pradesh,"Calendar Year (Jan - Dec), 2022",NCVBDC suspected,0
+India,Assam,"Calendar Year (Jan - Dec), 2022",NCVBDC suspected,0
+India,Bihar,"Calendar Year (Jan - Dec), 2022",NCVBDC suspected,67
+India,Chandigarh,"Calendar Year (Jan - Dec), 2022",NCVBDC suspected,3600
+India,Chhattisgarh,"Calendar Year (Jan - Dec), 2022",NCVBDC suspected,252
+India,Delhi,"Calendar Year (Jan - Dec), 2022",NCVBDC suspected,61
+India,Goa,"Calendar Year (Jan - Dec), 2022",NCVBDC suspected,868
+India,Gujarat,"Calendar Year (Jan - Dec), 2022",NCVBDC suspected,20855
+India,Haryana,"Calendar Year (Jan - Dec), 2022",NCVBDC suspected,2425
+India,Himachal Pradesh,"Calendar Year (Jan - Dec), 2022",NCVBDC suspected,253
+India,Jammu And Kashmir,"Calendar Year (Jan - Dec), 2022",NCVBDC suspected,37
+India,Jharkhand,"Calendar Year (Jan - Dec), 2022",NCVBDC suspected,2113
+India,Karnataka,"Calendar Year (Jan - Dec), 2022",NCVBDC suspected,65340
+India,Kerala,"Calendar Year (Jan - Dec), 2022",NCVBDC suspected,1511
+India,Lakshadweep,"Calendar Year (Jan - Dec), 2022",NCVBDC suspected,103
+India,Madhya Pradesh,"Calendar Year (Jan - Dec), 2022",NCVBDC suspected,4252
+India,Maharashtra,"Calendar Year (Jan - Dec), 2022",NCVBDC suspected,14785
+India,Manipur,"Calendar Year (Jan - Dec), 2022",NCVBDC suspected,0
+India,Meghalaya,"Calendar Year (Jan - Dec), 2022",NCVBDC suspected,0
+India,Mizoram,"Calendar Year (Jan - Dec), 2022",NCVBDC suspected,195
+India,Nagaland,"Calendar Year (Jan - Dec), 2022",NCVBDC suspected,
+India,Odisha,"Calendar Year (Jan - Dec), 2022",NCVBDC suspected,0
+India,Puducherry,"Calendar Year (Jan - Dec), 2022",NCVBDC suspected,11440
+India,Punjab,"Calendar Year (Jan - Dec), 2022",NCVBDC suspected,1087
+India,Rajasthan,"Calendar Year (Jan - Dec), 2022",NCVBDC suspected,212
+India,Sikkim,"Calendar Year (Jan - Dec), 2022",NCVBDC suspected,1863
+India,Tamil Nadu,"Calendar Year (Jan - Dec), 2022",NCVBDC suspected,4365
+India,Telangana,"Calendar Year (Jan - Dec), 2022",NCVBDC suspected,6608
+India,The Dadra And Nagar Haveli And Daman And Diu,"Calendar Year (Jan - Dec), 2022",NCVBDC suspected,1
+India,Tripura,"Calendar Year (Jan - Dec), 2022",NCVBDC suspected,885
+India,Uttar Pradesh,"Calendar Year (Jan - Dec), 2022",NCVBDC suspected,200
+India,Uttarakhand,"Calendar Year (Jan - Dec), 2022",NCVBDC suspected,2000
+India,West Bengal,"Calendar Year (Jan - Dec), 2022",NCVBDC suspected,1533
+India,Andaman And Nicobar Islands,"Calendar Year (Jan - Dec), 2021",NCVBDC suspected,187
+India,Andhra Pradesh,"Calendar Year (Jan - Dec), 2021",NCVBDC suspected,753
+India,Arunachal Pradesh,"Calendar Year (Jan - Dec), 2021",NCVBDC suspected,0
+India,Assam,"Calendar Year (Jan - Dec), 2021",NCVBDC suspected,2
+India,Bihar,"Calendar Year (Jan - Dec), 2021",NCVBDC suspected,40
+India,Chandigarh,"Calendar Year (Jan - Dec), 2021",NCVBDC suspected,397
+India,Chhattisgarh,"Calendar Year (Jan - Dec), 2021",NCVBDC suspected,
+India,Delhi,"Calendar Year (Jan - Dec), 2021",NCVBDC suspected,112
+India,Goa,"Calendar Year (Jan - Dec), 2021",NCVBDC suspected,114
+India,Gujarat,"Calendar Year (Jan - Dec), 2021",NCVBDC suspected,32372
+India,Haryana,"Calendar Year (Jan - Dec), 2021",NCVBDC suspected,765
+India,Himachal Pradesh,"Calendar Year (Jan - Dec), 2021",NCVBDC suspected,
+India,Jammu And Kashmir,"Calendar Year (Jan - Dec), 2021",NCVBDC suspected,7
+India,Jharkhand,"Calendar Year (Jan - Dec), 2021",NCVBDC suspected,1064
+India,Karnataka,"Calendar Year (Jan - Dec), 2021",NCVBDC suspected,40134
+India,Kerala,"Calendar Year (Jan - Dec), 2021",NCVBDC suspected,3030
+India,Lakshadweep,"Calendar Year (Jan - Dec), 2021",NCVBDC suspected,
+India,Madhya Pradesh,"Calendar Year (Jan - Dec), 2021",NCVBDC suspected,3822
+India,Maharashtra,"Calendar Year (Jan - Dec), 2021",NCVBDC suspected,21680
+India,Manipur,"Calendar Year (Jan - Dec), 2021",NCVBDC suspected,0
+India,Meghalaya,"Calendar Year (Jan - Dec), 2021",NCVBDC suspected,0
+India,Mizoram,"Calendar Year (Jan - Dec), 2021",NCVBDC suspected,0
+India,Nagaland,"Calendar Year (Jan - Dec), 2021",NCVBDC suspected,
+India,Odisha,"Calendar Year (Jan - Dec), 2021",NCVBDC suspected,0
+India,Puducherry,"Calendar Year (Jan - Dec), 2021",NCVBDC suspected,7284
+India,Punjab,"Calendar Year (Jan - Dec), 2021",NCVBDC suspected,644
+India,Rajasthan,"Calendar Year (Jan - Dec), 2021",NCVBDC suspected,1157
+India,Sikkim,"Calendar Year (Jan - Dec), 2021",NCVBDC suspected,457
+India,Tamil Nadu,"Calendar Year (Jan - Dec), 2021",NCVBDC suspected,3654
+India,Telangana,"Calendar Year (Jan - Dec), 2021",NCVBDC suspected,220
+India,The Dadra And Nagar Haveli And Daman And Diu,"Calendar Year (Jan - Dec), 2021",NCVBDC suspected,0
+India,Tripura,"Calendar Year (Jan - Dec), 2021",NCVBDC suspected,948
+India,Uttar Pradesh,"Calendar Year (Jan - Dec), 2021",NCVBDC suspected,70
+India,Uttarakhand,"Calendar Year (Jan - Dec), 2021",NCVBDC suspected,3
+India,West Bengal,"Calendar Year (Jan - Dec), 2021",NCVBDC suspected,154
 India,Andaman And Nicobar Islands,"Calendar Year (Jan - Dec), 2020",,610
 India,Andhra Pradesh,"Calendar Year (Jan - Dec), 2020",,318
 India,Arunachal Pradesh,"Calendar Year (Jan - Dec), 2020",,0

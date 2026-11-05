@@ -15,14 +15,14 @@ from src.api.config import db_path
 from src.api.schemas import (Disease, Explanation, ForecastResponse, Health, Historical,
                              ModelInfo, ReplayRow, RiskMap, State)
 
-DISCLAIMER = ("Annual forecasts are statistically tied with last year's value (persistence). "
+DISCLAIMER = ("Compare annual forecasts with last year's value (persistence). "
               "A risk level is a rank of the forecast against the state's own history, "
               "not a prediction of an outbreak.")
 
 app = FastAPI(
     title="VectorWatch India API",
     description="Annual dengue, malaria and chikungunya forecasts for 36 states/UTs, always shown next to "
-                "persistence. Data is annual, latest year 2022. Horizons 2 and 3 are experimental.",
+                "persistence. The latest observed year is returned by /health. Horizons 2 and 3 are experimental.",
     version="1.0.0")
 
 
@@ -62,7 +62,7 @@ def interval(row):
 def model_info(conn):
     r = conn.execute("SELECT name, version, summary FROM model_registry ORDER BY name LIMIT 1").fetchone()
     if r is None:
-        return ModelInfo(name="annual_final", summary="statistically tied with persistence")
+        return ModelInfo(name="annual_final", summary="Compare forecasts with persistence.")
     return ModelInfo(name=r["name"], version=r["version"], summary=r["summary"])
 
 
@@ -171,8 +171,9 @@ def model_performance(tag: str = Query(performance.HEADLINE_TAG, description="Ru
     return {
         "metric": "log-MAE (mean |log1p(pred) - log1p(true)|), lower is better",
         "reference": "persistence = last year's value",
-        "evaluation": "Rolling origin, test years 2010-2022, trained on earlier years only; "
-                      "95% bootstrap interval over folds (10,000 resamples). Interval includes 0 = tie.",
+        "evaluation": (f"Rolling origin, test years {int(folds.year.min())}-{int(folds.year.max())}, "
+                       f"trained on earlier years only ({len(folds)} folds); "
+                       "95% bootstrap interval over folds (10,000 resamples). Interval includes 0 = tie."),
         "variants_run": n_variants,
         "multiple_comparisons_note": f"{n_variants} variants were compared; with that many, one can look "
                                      "better by chance.",
@@ -242,5 +243,3 @@ def status():
 @app.get("/", include_in_schema=False)
 def root():
     return {"name": "VectorWatch India API", "docs": "/docs", "health": "/health"}
-
-

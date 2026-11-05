@@ -77,51 +77,63 @@
     {
       "year": 2022,
       "cases": 4432.0
+    },
+    {
+      "year": 2023,
+      "cases": 17426.0
+    },
+    {
+      "year": 2024,
+      "cases": 20674.0
+    },
+    {
+      "year": 2025,
+      "cases": 10923.0
     }
   ],
   "forecasts": [
     {
-      "year": 2023,
+      "year": 2026,
       "horizon": 1,
-      "forecast": 2574,
-      "persistence": 4432.0,
+      "forecast": 9554,
+      "persistence": 10923.0,
       "interval_80": [
-        678,
-        9241
+        2761,
+        37451
       ],
       "confidence": "normal",
       "notes": [],
-      "risk_level": "Low",
-      "percentile": 47.36842105263158,
-      "growth_vs_persistence_pct": -41.92238267148014,
+      "risk_level": "High",
+      "percentile": 81.81818181818181,
+      "growth_vs_persistence_pct": -12.533186853428544,
       "risk_reason": [],
       "experimental": false
     },
     {
-      "year": 2024,
+      "year": 2027,
       "horizon": 2,
-      "forecast": 3299,
-      "persistence": 4432.0,
-      "interval_80": null,
-      "confidence": "normal",
-      "notes": [],
-      "risk_level": "Moderate",
-      "percentile": 57.89473684210526,
-      "growth_vs_persistence_pct": -25.564079422382672,
-      "risk_reason": [],
-      "experimental": true
-    },
-    {
-      "year": 2025,
-      "horizon": 3,
-      "forecast": 4953,
-      "persistence": 4432.0,
+      "forecast": 6509,
+      "persistence": 10923.0,
       "interval_80": null,
       "confidence": "normal",
       "notes": [],
       "risk_level": "High",
-      "percentile": 89.47368421052632,
-      "growth_vs_persistence_pct": 11.755415162454874,
+      "percentile": 77.27272727272727,
+      "growth_vs_persistence_pct": -40.41014373340657,
+      "risk_reason": [],
+      "experimental": true
+    },
+    {
+      "year": 2028,
+      "horizon": 3,
+      "forecast": 8114,
+      "persistence": 10923.0,
+      "interval_80": null,
+      "confidence": "normal",
+      "notes": [],
+      "risk_level": "High",
+      "percentile": 81.81818181818181,
+      "growth_vs_persistence_pct": -25.716378284354114,
       "risk_reason": [],
       "experimental": true
     }
@@ -129,7 +141,7 @@
   "model": {
     "name": "annual_final",
     "version": "1.0.0",
-    "summary": "Annual forecasts are statistically tied with persistence (last year's value). No evidence that the graph or weather helps. Not an outbreak or early-warning model."
+    "summary": "Annual forecasts are statistically tied with persistence (last year's value). Not an outbreak or early-warning model."
   },
-  "disclaimer": "Annual forecasts are statistically tied with last year's value (persistence). A risk level is a rank of the forecast against the state's own history, not a prediction of an outbreak."
+  "disclaimer": "Compare annual forecasts with last year's value (persistence). A risk level is a rank of the forecast against the state's own history, not a prediction of an outbreak."
 }

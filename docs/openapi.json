@@ -2,7 +2,7 @@
   "openapi": "3.1.0",
   "info": {
     "title": "VectorWatch India API",
-    "description": "Annual dengue, malaria and chikungunya forecasts for 36 states/UTs, always shown next to persistence. Data is annual, latest year 2022. Horizons 2 and 3 are experimental.",
+    "description": "Annual dengue, malaria and chikungunya forecasts for 36 states/UTs, always shown next to persistence. The latest observed year is returned by /health. Horizons 2 and 3 are experimental.",
     "version": "1.0.0"
   },
   "paths": {
@@ -324,6 +324,138 @@
                 "schema": {
                   "$ref": "#/components/schemas/HTTPValidationError"
                 }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/replay": {
+      "get": {
+        "tags": [
+          "model"
+        ],
+        "summary": "Replay",
+        "description": "Backtest: what the model predicted, the true value and persistence, per state, disease and test year.",
+        "operationId": "replay_replay_get",
+        "parameters": [
+          {
+            "name": "tag",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "description": "Evaluation run.",
+              "default": "geo_w",
+              "title": "Tag"
+            },
+            "description": "Evaluation run."
+          },
+          {
+            "name": "horizon",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "maximum": 3,
+              "minimum": 1,
+              "default": 1,
+              "title": "Horizon"
+            }
+          },
+          {
+            "name": "year",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "Only this backtest year.",
+              "title": "Year"
+            },
+            "description": "Only this backtest year."
+          },
+          {
+            "name": "disease",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "$ref": "#/components/schemas/Disease"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Disease"
+            }
+          },
+          {
+            "name": "state_id",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "State Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ReplayRow"
+                  },
+                  "title": "Response Replay Replay Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/status": {
+      "get": {
+        "tags": [
+          "status"
+        ],
+        "summary": "Status",
+        "description": "Data drift report written by src/monitoring/drift.py (path: VW_DRIFT_REPORT).",
+        "operationId": "status_status_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
               }
             }
           }
@@ -686,6 +818,44 @@
           "summary"
         ],
         "title": "ModelInfo"
+      },
+      "ReplayRow": {
+        "properties": {
+          "year": {
+            "type": "integer",
+            "title": "Year"
+          },
+          "state_id": {
+            "type": "string",
+            "title": "State Id"
+          },
+          "disease": {
+            "type": "string",
+            "title": "Disease"
+          },
+          "true": {
+            "type": "number",
+            "title": "True"
+          },
+          "model": {
+            "type": "number",
+            "title": "Model"
+          },
+          "persistence": {
+            "type": "number",
+            "title": "Persistence"
+          }
+        },
+        "type": "object",
+        "required": [
+          "year",
+          "state_id",
+          "disease",
+          "true",
+          "model",
+          "persistence"
+        ],
+        "title": "ReplayRow"
       },
       "RiskMap": {
         "properties": {

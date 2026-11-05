@@ -1,4 +1,4 @@
-[data] years 1999-2022 | zeros treated as missing: 263
+[data] years 1999-2025 | zeros treated as missing: 297
 [cfg] gcn graph=geo weather=1 single=0 K=3 horizons=[1, 2, 3] tag=horizons
 h=1 2010 done
 h=1 2011 done
@@ -13,16 +13,19 @@ h=1 2019 done
 h=1 2020 done
 h=1 2021 done
 h=1 2022 done
+h=1 2023 done
+h=1 2024 done
+h=1 2025 done
 
-=== horizon 1 year(s) ahead | MEAN over 13 folds ===
-mae_model    4184.813
-mae_last     4265.784
-mae_avg2     5134.835
-log_model       0.828
-log_last        0.846
-log_avg2        0.890
-mae_model minus persistence: mean -80.971 CI [-331.202, 195.767] folds better 7/13
-log_model minus persistence: mean -0.018 CI [-0.061, 0.025] folds better 9/13
+=== horizon 1 year(s) ahead | MEAN over 16 folds ===
+mae_model    3985.248
+mae_last     4083.832
+mae_avg2     4831.433
+log_model       0.798
+log_last        0.809
+log_avg2        0.859
+mae_model minus persistence: mean -98.584 CI [-324.804, 148.507] folds better 12/16
+log_model minus persistence: mean -0.011 CI [-0.054, 0.026] folds better 10/16
 h=2 2010 done
 h=2 2011 done
 h=2 2012 done
@@ -36,16 +39,19 @@ h=2 2019 done
 h=2 2020 done
 h=2 2021 done
 h=2 2022 done
+h=2 2023 done
+h=2 2024 done
+h=2 2025 done
 
-=== horizon 2 year(s) ahead | MEAN over 13 folds ===
-mae_model    7004.446
-mae_last     6849.143
-mae_avg2     7383.734
-log_model       1.127
-log_last        1.093
-log_avg2        1.089
-mae_model minus persistence: mean 155.302 CI [-413.714, 802.093] folds better 8/13
-log_model minus persistence: mean 0.034 CI [-0.009, 0.090] folds better 6/13
+=== horizon 2 year(s) ahead | MEAN over 16 folds ===
+mae_model    6534.271
+mae_last     6424.846
+mae_avg2     6830.029
+log_model       1.137
+log_last        1.088
+log_avg2        1.084
+mae_model minus persistence: mean 109.425 CI [-287.537, 560.478] folds better 9/16
+log_model minus persistence: mean 0.049 CI [0.006, 0.105] folds better 6/16
 h=3 2010 done
 h=3 2011 done
 h=3 2012 done
@@ -59,13 +65,16 @@ h=3 2019 done
 h=3 2020 done
 h=3 2021 done
 h=3 2022 done
+h=3 2023 done
+h=3 2024 done
+h=3 2025 done
 
-=== horizon 3 year(s) ahead | MEAN over 13 folds ===
-mae_model    9845.553
-mae_last     8813.140
-mae_avg2     9786.048
-log_model       1.259
-log_last        1.240
-log_avg2        1.271
-mae_model minus persistence: mean 1032.414 CI [300.329, 1775.205] folds better 4/13
-log_model minus persistence: mean 0.018 CI [-0.017, 0.055] folds better 6/13
+=== horizon 3 year(s) ahead | MEAN over 16 folds ===
+mae_model    8992.631
+mae_last     8129.298
+mae_avg2     8901.203
+log_model       1.294
+log_last        1.268
+log_avg2        1.270
+mae_model minus persistence: mean 863.334 CI [227.299, 1542.519] folds better 4/16
+log_model minus persistence: mean 0.026 CI [-0.001, 0.055] folds better 7/16

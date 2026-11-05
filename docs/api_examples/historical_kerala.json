@@ -2,7 +2,7 @@
   "state_id": "kerala",
   "state_name": "Kerala",
   "data_granularity": "annual",
-  "latest_observed_year": 2022,
+  "latest_observed_year": 2025,
   "history": {
     "dengue": [
       {
@@ -80,6 +80,18 @@
       {
         "year": 2022,
         "cases": 4432.0
+      },
+      {
+        "year": 2023,
+        "cases": 17426.0
+      },
+      {
+        "year": 2024,
+        "cases": 20674.0
+      },
+      {
+        "year": 2025,
+        "cases": 10923.0
       }
     ],
     "malaria": [
@@ -170,6 +182,18 @@
       {
         "year": 2022,
         "cases": 439.0
+      },
+      {
+        "year": 2023,
+        "cases": 569.0
+      },
+      {
+        "year": 2024,
+        "cases": 954.0
+      },
+      {
+        "year": 2025,
+        "cases": 1144.0
       }
     ],
     "chikungunya": [
@@ -240,6 +264,18 @@
       {
         "year": 2022,
         "cases": 1511.0
+      },
+      {
+        "year": 2023,
+        "cases": 1099.0
+      },
+      {
+        "year": 2024,
+        "cases": 889.0
+      },
+      {
+        "year": 2025,
+        "cases": 448.0
       }
     ]
   }

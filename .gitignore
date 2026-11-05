@@ -1,5 +1,4 @@
 .venv/
-.venv/
 __pycache__/
 
 # Local API database (rebuilt by python -m src.api.ingest)
@@ -8,7 +7,4 @@ data/*.db
 data/raw/nasa_power_area/
 data/raw/geography/source/
 data/processed/map_preview.html
-
-data/raw/nasa_power_area/
-data/raw/geography/source/
-data/processed/map_preview.html
+data/raw/mmis/*.pdf

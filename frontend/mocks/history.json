@@ -57,7 +57,25 @@
   "state_id": "andaman_and_nicobar_islands",
   "disease": "dengue",
   "year": 2022,
-  "cases": 1080.0
+  "cases": 1014.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "dengue",
+  "year": 2023,
+  "cases": 846.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "dengue",
+  "year": 2024,
+  "cases": 59.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "dengue",
+  "year": 2025,
+  "cases": 370.0
  },
  {
   "state_id": "andaman_and_nicobar_islands",
@@ -189,7 +207,25 @@
   "state_id": "andaman_and_nicobar_islands",
   "disease": "malaria",
   "year": 2022,
-  "cases": 46.0
+  "cases": 50.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "malaria",
+  "year": 2023,
+  "cases": 42.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "malaria",
+  "year": 2024,
+  "cases": 96.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "malaria",
+  "year": 2025,
+  "cases": 48.0
  },
  {
   "state_id": "andaman_and_nicobar_islands",
@@ -274,6 +310,18 @@
   "disease": "chikungunya",
   "year": 2022,
   "cases": 65.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "chikungunya",
+  "year": 2023,
+  "cases": 654.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "chikungunya",
+  "year": 2025,
+  "cases": 34.0
  },
  {
   "state_id": "andhra_pradesh",
@@ -394,6 +442,24 @@
   "disease": "dengue",
   "year": 2022,
   "cases": 6391.0
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "dengue",
+  "year": 2023,
+  "cases": 6453.0
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "dengue",
+  "year": 2024,
+  "cases": 5555.0
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "dengue",
+  "year": 2025,
+  "cases": 2686.0
  },
  {
   "state_id": "andhra_pradesh",
@@ -525,7 +591,25 @@
   "state_id": "andhra_pradesh",
   "disease": "malaria",
   "year": 2022,
-  "cases": 2019.0
+  "cases": 2022.0
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "malaria",
+  "year": 2023,
+  "cases": 5268.0
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "malaria",
+  "year": 2024,
+  "cases": 7866.0
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "malaria",
+  "year": 2025,
+  "cases": 7878.0
  },
  {
   "state_id": "andhra_pradesh",
@@ -630,6 +714,24 @@
   "cases": 1611.0
  },
  {
+  "state_id": "andhra_pradesh",
+  "disease": "chikungunya",
+  "year": 2023,
+  "cases": 441.0
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "chikungunya",
+  "year": 2024,
+  "cases": 4213.0
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "chikungunya",
+  "year": 2025,
+  "cases": 5210.0
+ },
+ {
   "state_id": "arunachal_pradesh",
   "disease": "dengue",
   "year": 2012,
@@ -669,7 +771,25 @@
   "state_id": "arunachal_pradesh",
   "disease": "dengue",
   "year": 2022,
-  "cases": 102.0
+  "cases": 114.0
+ },
+ {
+  "state_id": "arunachal_pradesh",
+  "disease": "dengue",
+  "year": 2023,
+  "cases": 130.0
+ },
+ {
+  "state_id": "arunachal_pradesh",
+  "disease": "dengue",
+  "year": 2024,
+  "cases": 20.0
+ },
+ {
+  "state_id": "arunachal_pradesh",
+  "disease": "dengue",
+  "year": 2025,
+  "cases": 170.0
  },
  {
   "state_id": "arunachal_pradesh",
@@ -801,7 +921,25 @@
   "state_id": "arunachal_pradesh",
   "disease": "malaria",
   "year": 2022,
-  "cases": 17.0
+  "cases": 18.0
+ },
+ {
+  "state_id": "arunachal_pradesh",
+  "disease": "malaria",
+  "year": 2023,
+  "cases": 11.0
+ },
+ {
+  "state_id": "arunachal_pradesh",
+  "disease": "malaria",
+  "year": 2024,
+  "cases": 19.0
+ },
+ {
+  "state_id": "arunachal_pradesh",
+  "disease": "malaria",
+  "year": 2025,
+  "cases": 32.0
  },
  {
   "state_id": "arunachal_pradesh",
@@ -832,6 +970,24 @@
   "disease": "chikungunya",
   "year": 2019,
   "cases": 332.0
+ },
+ {
+  "state_id": "arunachal_pradesh",
+  "disease": "chikungunya",
+  "year": 2023,
+  "cases": 9.0
+ },
+ {
+  "state_id": "arunachal_pradesh",
+  "disease": "chikungunya",
+  "year": 2024,
+  "cases": 16.0
+ },
+ {
+  "state_id": "arunachal_pradesh",
+  "disease": "chikungunya",
+  "year": 2025,
+  "cases": 9.0
  },
  {
   "state_id": "assam",
@@ -886,6 +1042,24 @@
   "disease": "dengue",
   "year": 2022,
   "cases": 1826.0
+ },
+ {
+  "state_id": "assam",
+  "disease": "dengue",
+  "year": 2023,
+  "cases": 8208.0
+ },
+ {
+  "state_id": "assam",
+  "disease": "dengue",
+  "year": 2024,
+  "cases": 2271.0
+ },
+ {
+  "state_id": "assam",
+  "disease": "dengue",
+  "year": 2025,
+  "cases": 679.0
  },
  {
   "state_id": "assam",
@@ -1021,6 +1195,24 @@
  },
  {
   "state_id": "assam",
+  "disease": "malaria",
+  "year": 2023,
+  "cases": 567.0
+ },
+ {
+  "state_id": "assam",
+  "disease": "malaria",
+  "year": 2024,
+  "cases": 5036.0
+ },
+ {
+  "state_id": "assam",
+  "disease": "malaria",
+  "year": 2025,
+  "cases": 3995.0
+ },
+ {
+  "state_id": "assam",
   "disease": "chikungunya",
   "year": 2013,
   "cases": 742.0
@@ -1048,6 +1240,24 @@
   "disease": "chikungunya",
   "year": 2021,
   "cases": 2.0
+ },
+ {
+  "state_id": "assam",
+  "disease": "chikungunya",
+  "year": 2023,
+  "cases": 100.0
+ },
+ {
+  "state_id": "assam",
+  "disease": "chikungunya",
+  "year": 2024,
+  "cases": 69.0
+ },
+ {
+  "state_id": "assam",
+  "disease": "chikungunya",
+  "year": 2025,
+  "cases": 180.0
  },
  {
   "state_id": "bihar",
@@ -1131,7 +1341,25 @@
   "state_id": "bihar",
   "disease": "dengue",
   "year": 2022,
-  "cases": 13281.0
+  "cases": 13972.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "dengue",
+  "year": 2023,
+  "cases": 20224.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "dengue",
+  "year": 2024,
+  "cases": 10157.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "dengue",
+  "year": 2025,
+  "cases": 3902.0
  },
  {
   "state_id": "bihar",
@@ -1263,7 +1491,25 @@
   "state_id": "bihar",
   "disease": "malaria",
   "year": 2022,
-  "cases": 539.0
+  "cases": 578.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "malaria",
+  "year": 2023,
+  "cases": 1257.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "malaria",
+  "year": 2024,
+  "cases": 906.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "malaria",
+  "year": 2025,
+  "cases": 1041.0
  },
  {
   "state_id": "bihar",
@@ -1323,7 +1569,25 @@
   "state_id": "bihar",
   "disease": "chikungunya",
   "year": 2022,
-  "cases": 63.0
+  "cases": 67.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "chikungunya",
+  "year": 2023,
+  "cases": 23.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "chikungunya",
+  "year": 2024,
+  "cases": 520.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "chikungunya",
+  "year": 2025,
+  "cases": 813.0000000000001
  },
  {
   "state_id": "chandigarh",
@@ -1420,6 +1684,24 @@
   "disease": "dengue",
   "year": 2022,
   "cases": 910.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "dengue",
+  "year": 2023,
+  "cases": 454.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "dengue",
+  "year": 2024,
+  "cases": 349.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "dengue",
+  "year": 2025,
+  "cases": 66.0
  },
  {
   "state_id": "chandigarh",
@@ -1551,7 +1833,25 @@
   "state_id": "chandigarh",
   "disease": "malaria",
   "year": 2022,
-  "cases": 1.0
+  "cases": 2.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "malaria",
+  "year": 2023,
+  "cases": 2.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "malaria",
+  "year": 2024,
+  "cases": 2.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "malaria",
+  "year": 2025,
+  "cases": 65.0
  },
  {
   "state_id": "chandigarh",
@@ -1611,7 +1911,25 @@
   "state_id": "chandigarh",
   "disease": "chikungunya",
   "year": 2022,
-  "cases": 153.0
+  "cases": 3600.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "chikungunya",
+  "year": 2023,
+  "cases": 415.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "chikungunya",
+  "year": 2024,
+  "cases": 537.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "chikungunya",
+  "year": 2025,
+  "cases": 171.0
  },
  {
   "state_id": "chhattisgarh",
@@ -1677,7 +1995,25 @@
   "state_id": "chhattisgarh",
   "disease": "dengue",
   "year": 2022,
-  "cases": 2633.0
+  "cases": 2679.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "dengue",
+  "year": 2023,
+  "cases": 2412.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "dengue",
+  "year": 2024,
+  "cases": 3523.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "dengue",
+  "year": 2025,
+  "cases": 513.0
  },
  {
   "state_id": "chhattisgarh",
@@ -1809,91 +2145,49 @@
   "state_id": "chhattisgarh",
   "disease": "malaria",
   "year": 2022,
-  "cases": 30028.0
+  "cases": 30029.0
  },
  {
   "state_id": "chhattisgarh",
-  "disease": "chikungunya",
-  "year": 2008,
-  "cases": 0.0
+  "disease": "malaria",
+  "year": 2023,
+  "cases": 31706.0
  },
  {
   "state_id": "chhattisgarh",
-  "disease": "chikungunya",
-  "year": 2009,
-  "cases": 0.0
+  "disease": "malaria",
+  "year": 2024,
+  "cases": 31373.0
  },
  {
   "state_id": "chhattisgarh",
-  "disease": "chikungunya",
-  "year": 2010,
-  "cases": 0.0
- },
- {
-  "state_id": "chhattisgarh",
-  "disease": "chikungunya",
-  "year": 2011,
-  "cases": 0.0
- },
- {
-  "state_id": "chhattisgarh",
-  "disease": "chikungunya",
-  "year": 2012,
-  "cases": 0.0
- },
- {
-  "state_id": "chhattisgarh",
-  "disease": "chikungunya",
-  "year": 2013,
-  "cases": 0.0
- },
- {
-  "state_id": "chhattisgarh",
-  "disease": "chikungunya",
-  "year": 2015,
-  "cases": 0.0
- },
- {
-  "state_id": "chhattisgarh",
-  "disease": "chikungunya",
-  "year": 2016,
-  "cases": 0.0
- },
- {
-  "state_id": "chhattisgarh",
-  "disease": "chikungunya",
-  "year": 2017,
-  "cases": 0.0
- },
- {
-  "state_id": "chhattisgarh",
-  "disease": "chikungunya",
-  "year": 2018,
-  "cases": 0.0
- },
- {
-  "state_id": "chhattisgarh",
-  "disease": "chikungunya",
-  "year": 2019,
-  "cases": 0.0
- },
- {
-  "state_id": "chhattisgarh",
-  "disease": "chikungunya",
-  "year": 2020,
-  "cases": 0.0
- },
- {
-  "state_id": "chhattisgarh",
-  "disease": "chikungunya",
-  "year": 2021,
-  "cases": 0.0
+  "disease": "malaria",
+  "year": 2025,
+  "cases": 28836.0
  },
  {
   "state_id": "chhattisgarh",
   "disease": "chikungunya",
   "year": 2022,
-  "cases": 39.0
+  "cases": 252.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "chikungunya",
+  "year": 2023,
+  "cases": 66.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "chikungunya",
+  "year": 2024,
+  "cases": 751.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "chikungunya",
+  "year": 2025,
+  "cases": 2135.0
  },
  {
   "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
@@ -1960,6 +2254,24 @@
   "disease": "dengue",
   "year": 2022,
   "cases": 913.0
+ },
+ {
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "dengue",
+  "year": 2023,
+  "cases": 1462.0
+ },
+ {
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "dengue",
+  "year": 2024,
+  "cases": 681.0
+ },
+ {
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "dengue",
+  "year": 2025,
+  "cases": 344.0
  },
  {
   "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
@@ -2091,7 +2403,25 @@
   "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
   "disease": "malaria",
   "year": 2022,
-  "cases": 39.0
+  "cases": 111.0
+ },
+ {
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "malaria",
+  "year": 2023,
+  "cases": 128.0
+ },
+ {
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "malaria",
+  "year": 2024,
+  "cases": 207.0
+ },
+ {
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "malaria",
+  "year": 2025,
+  "cases": 212.0
  },
  {
   "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
@@ -2245,6 +2575,24 @@
  },
  {
   "state_id": "delhi",
+  "disease": "dengue",
+  "year": 2023,
+  "cases": 16866.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "dengue",
+  "year": 2024,
+  "cases": 10585.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "dengue",
+  "year": 2025,
+  "cases": 4665.0
+ },
+ {
+  "state_id": "delhi",
   "disease": "malaria",
   "year": 2001,
   "cases": 1484.0
@@ -2373,7 +2721,25 @@
   "state_id": "delhi",
   "disease": "malaria",
   "year": 2022,
-  "cases": 173.0
+  "cases": 263.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "malaria",
+  "year": 2023,
+  "cases": 344.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "malaria",
+  "year": 2024,
+  "cases": 910.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "malaria",
+  "year": 2025,
+  "cases": 941.0
  },
  {
   "state_id": "delhi",
@@ -2470,6 +2836,24 @@
   "disease": "chikungunya",
   "year": 2022,
   "cases": 61.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "chikungunya",
+  "year": 2023,
+  "cases": 153.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "chikungunya",
+  "year": 2024,
+  "cases": 7447.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "chikungunya",
+  "year": 2025,
+  "cases": 5056.0
  },
  {
   "state_id": "goa",
@@ -2578,6 +2962,24 @@
   "disease": "dengue",
   "year": 2022,
   "cases": 443.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "dengue",
+  "year": 2023,
+  "cases": 512.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "dengue",
+  "year": 2024,
+  "cases": 567.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "dengue",
+  "year": 2025,
+  "cases": 105.0
  },
  {
   "state_id": "goa",
@@ -2709,7 +3111,25 @@
   "state_id": "goa",
   "disease": "malaria",
   "year": 2022,
-  "cases": 2.0
+  "cases": 587.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "malaria",
+  "year": 2023,
+  "cases": 1346.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "malaria",
+  "year": 2024,
+  "cases": 884.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "malaria",
+  "year": 2025,
+  "cases": 448.0
  },
  {
   "state_id": "goa",
@@ -2812,6 +3232,24 @@
   "disease": "chikungunya",
   "year": 2022,
   "cases": 868.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "chikungunya",
+  "year": 2023,
+  "cases": 861.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "chikungunya",
+  "year": 2024,
+  "cases": 353.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "chikungunya",
+  "year": 2025,
+  "cases": 118.0
  },
  {
   "state_id": "gujarat",
@@ -2937,7 +3375,25 @@
   "state_id": "gujarat",
   "disease": "dengue",
   "year": 2022,
-  "cases": 6744.0
+  "cases": 6682.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "dengue",
+  "year": 2023,
+  "cases": 7222.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "dengue",
+  "year": 2024,
+  "cases": 7891.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "dengue",
+  "year": 2025,
+  "cases": 4233.0
  },
  {
   "state_id": "gujarat",
@@ -3069,7 +3525,25 @@
   "state_id": "gujarat",
   "disease": "malaria",
   "year": 2022,
-  "cases": 4766.0
+  "cases": 4785.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "malaria",
+  "year": 2023,
+  "cases": 4311.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "malaria",
+  "year": 2024,
+  "cases": 4365.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "malaria",
+  "year": 2025,
+  "cases": 3813.0
  },
  {
   "state_id": "gujarat",
@@ -3171,7 +3645,25 @@
   "state_id": "gujarat",
   "disease": "chikungunya",
   "year": 2022,
-  "cases": 20854.0
+  "cases": 20855.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "chikungunya",
+  "year": 2023,
+  "cases": 24124.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "chikungunya",
+  "year": 2024,
+  "cases": 29143.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "chikungunya",
+  "year": 2025,
+  "cases": 23759.0
  },
  {
   "state_id": "haryana",
@@ -3298,6 +3790,24 @@
   "disease": "dengue",
   "year": 2022,
   "cases": 8996.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "dengue",
+  "year": 2023,
+  "cases": 8081.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "dengue",
+  "year": 2024,
+  "cases": 6469.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "dengue",
+  "year": 2025,
+  "cases": 2626.0
  },
  {
   "state_id": "haryana",
@@ -3429,7 +3939,25 @@
   "state_id": "haryana",
   "disease": "malaria",
   "year": 2022,
-  "cases": 50.0
+  "cases": 52.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "malaria",
+  "year": 2023,
+  "cases": 85.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "malaria",
+  "year": 2024,
+  "cases": 522.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "malaria",
+  "year": 2025,
+  "cases": 515.0
  },
  {
   "state_id": "haryana",
@@ -3522,6 +4050,24 @@
   "cases": 2425.0
  },
  {
+  "state_id": "haryana",
+  "disease": "chikungunya",
+  "year": 2023,
+  "cases": 9472.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "chikungunya",
+  "year": 2024,
+  "cases": 2766.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "chikungunya",
+  "year": 2025,
+  "cases": 1521.0
+ },
+ {
   "state_id": "himachal_pradesh",
   "disease": "dengue",
   "year": 2010,
@@ -3574,6 +4120,24 @@
   "disease": "dengue",
   "year": 2022,
   "cases": 3326.0
+ },
+ {
+  "state_id": "himachal_pradesh",
+  "disease": "dengue",
+  "year": 2023,
+  "cases": 1989.0
+ },
+ {
+  "state_id": "himachal_pradesh",
+  "disease": "dengue",
+  "year": 2024,
+  "cases": 3359.0
+ },
+ {
+  "state_id": "himachal_pradesh",
+  "disease": "dengue",
+  "year": 2025,
+  "cases": 229.0
  },
  {
   "state_id": "himachal_pradesh",
@@ -3705,13 +4269,49 @@
   "state_id": "himachal_pradesh",
   "disease": "malaria",
   "year": 2022,
-  "cases": 10.0
+  "cases": 12.0
+ },
+ {
+  "state_id": "himachal_pradesh",
+  "disease": "malaria",
+  "year": 2023,
+  "cases": 23.0
+ },
+ {
+  "state_id": "himachal_pradesh",
+  "disease": "malaria",
+  "year": 2024,
+  "cases": 28.0
+ },
+ {
+  "state_id": "himachal_pradesh",
+  "disease": "malaria",
+  "year": 2025,
+  "cases": 28.0
  },
  {
   "state_id": "himachal_pradesh",
   "disease": "chikungunya",
   "year": 2022,
   "cases": 253.0
+ },
+ {
+  "state_id": "himachal_pradesh",
+  "disease": "chikungunya",
+  "year": 2023,
+  "cases": 696.0
+ },
+ {
+  "state_id": "himachal_pradesh",
+  "disease": "chikungunya",
+  "year": 2024,
+  "cases": 61.0
+ },
+ {
+  "state_id": "himachal_pradesh",
+  "disease": "chikungunya",
+  "year": 2025,
+  "cases": 243.0
  },
  {
   "state_id": "jammu_and_kashmir",
@@ -3778,6 +4378,24 @@
   "disease": "dengue",
   "year": 2022,
   "cases": 8269.0
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "dengue",
+  "year": 2023,
+  "cases": 6403.0
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "dengue",
+  "year": 2024,
+  "cases": 6876.0
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "dengue",
+  "year": 2025,
+  "cases": 3381.0
  },
  {
   "state_id": "jammu_and_kashmir",
@@ -3909,43 +4527,25 @@
   "state_id": "jammu_and_kashmir",
   "disease": "malaria",
   "year": 2022,
-  "cases": 37.0
+  "cases": 35.0
  },
  {
   "state_id": "jammu_and_kashmir",
-  "disease": "chikungunya",
-  "year": 2008,
-  "cases": 0.0
+  "disease": "malaria",
+  "year": 2023,
+  "cases": 44.0
  },
  {
   "state_id": "jammu_and_kashmir",
-  "disease": "chikungunya",
-  "year": 2009,
-  "cases": 0.0
+  "disease": "malaria",
+  "year": 2024,
+  "cases": 108.0
  },
  {
   "state_id": "jammu_and_kashmir",
-  "disease": "chikungunya",
-  "year": 2010,
-  "cases": 0.0
- },
- {
-  "state_id": "jammu_and_kashmir",
-  "disease": "chikungunya",
-  "year": 2011,
-  "cases": 0.0
- },
- {
-  "state_id": "jammu_and_kashmir",
-  "disease": "chikungunya",
-  "year": 2013,
-  "cases": 0.0
- },
- {
-  "state_id": "jammu_and_kashmir",
-  "disease": "chikungunya",
-  "year": 2015,
-  "cases": 0.0
+  "disease": "malaria",
+  "year": 2025,
+  "cases": 127.0
  },
  {
   "state_id": "jammu_and_kashmir",
@@ -3956,20 +4556,8 @@
  {
   "state_id": "jammu_and_kashmir",
   "disease": "chikungunya",
-  "year": 2017,
-  "cases": 0.0
- },
- {
-  "state_id": "jammu_and_kashmir",
-  "disease": "chikungunya",
   "year": 2018,
   "cases": 1.0
- },
- {
-  "state_id": "jammu_and_kashmir",
-  "disease": "chikungunya",
-  "year": 2019,
-  "cases": 0.0
  },
  {
   "state_id": "jammu_and_kashmir",
@@ -3988,6 +4576,24 @@
   "disease": "chikungunya",
   "year": 2022,
   "cases": 37.0
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "chikungunya",
+  "year": 2023,
+  "cases": 4042.0
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "chikungunya",
+  "year": 2024,
+  "cases": 1606.0
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "chikungunya",
+  "year": 2025,
+  "cases": 773.0
  },
  {
   "state_id": "jharkhand",
@@ -4048,6 +4654,24 @@
   "disease": "dengue",
   "year": 2022,
   "cases": 290.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "dengue",
+  "year": 2023,
+  "cases": 2578.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "dengue",
+  "year": 2024,
+  "cases": 1528.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "dengue",
+  "year": 2025,
+  "cases": 401.0
  },
  {
   "state_id": "jharkhand",
@@ -4179,7 +4803,25 @@
   "state_id": "jharkhand",
   "disease": "malaria",
   "year": 2022,
-  "cases": 19129.0
+  "cases": 19167.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "malaria",
+  "year": 2023,
+  "cases": 34087.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "malaria",
+  "year": 2024,
+  "cases": 42352.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "malaria",
+  "year": 2025,
+  "cases": 42236.0
  },
  {
   "state_id": "jharkhand",
@@ -4252,6 +4894,24 @@
   "disease": "chikungunya",
   "year": 2022,
   "cases": 2113.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "chikungunya",
+  "year": 2023,
+  "cases": 7154.000000000001
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "chikungunya",
+  "year": 2024,
+  "cases": 4780.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "chikungunya",
+  "year": 2025,
+  "cases": 4620.0
  },
  {
   "state_id": "karnataka",
@@ -4377,7 +5037,25 @@
   "state_id": "karnataka",
   "disease": "dengue",
   "year": 2022,
-  "cases": 9620.0
+  "cases": 9889.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "dengue",
+  "year": 2023,
+  "cases": 19300.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "dengue",
+  "year": 2024,
+  "cases": 32886.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "dengue",
+  "year": 2025,
+  "cases": 7325.0
  },
  {
   "state_id": "karnataka",
@@ -4509,7 +5187,25 @@
   "state_id": "karnataka",
   "disease": "malaria",
   "year": 2022,
-  "cases": 279.0
+  "cases": 289.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "malaria",
+  "year": 2023,
+  "cases": 275.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "malaria",
+  "year": 2024,
+  "cases": 740.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "malaria",
+  "year": 2025,
+  "cases": 694.0
  },
  {
   "state_id": "karnataka",
@@ -4611,7 +5307,25 @@
   "state_id": "karnataka",
   "disease": "chikungunya",
   "year": 2022,
-  "cases": 63549.0
+  "cases": 65340.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "chikungunya",
+  "year": 2023,
+  "cases": 72662.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "chikungunya",
+  "year": 2024,
+  "cases": 78217.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "chikungunya",
+  "year": 2025,
+  "cases": 49044.0
  },
  {
   "state_id": "kerala",
@@ -4726,6 +5440,24 @@
   "disease": "dengue",
   "year": 2022,
   "cases": 4432.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "dengue",
+  "year": 2023,
+  "cases": 17426.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "dengue",
+  "year": 2024,
+  "cases": 20674.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "dengue",
+  "year": 2025,
+  "cases": 10923.0
  },
  {
   "state_id": "kerala",
@@ -4861,6 +5593,24 @@
  },
  {
   "state_id": "kerala",
+  "disease": "malaria",
+  "year": 2023,
+  "cases": 569.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "malaria",
+  "year": 2024,
+  "cases": 954.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "malaria",
+  "year": 2025,
+  "cases": 1144.0
+ },
+ {
+  "state_id": "kerala",
   "disease": "chikungunya",
   "year": 2006,
   "cases": 70731.0
@@ -4962,6 +5712,24 @@
   "cases": 1511.0
  },
  {
+  "state_id": "kerala",
+  "disease": "chikungunya",
+  "year": 2023,
+  "cases": 1099.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "chikungunya",
+  "year": 2024,
+  "cases": 889.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "chikungunya",
+  "year": 2025,
+  "cases": 448.0
+ },
+ {
   "state_id": "ladakh",
   "disease": "dengue",
   "year": 2005,
@@ -5037,18 +5805,6 @@
   "state_id": "ladakh",
   "disease": "dengue",
   "year": 2020,
-  "cases": 0.0
- },
- {
-  "state_id": "ladakh",
-  "disease": "dengue",
-  "year": 2021,
-  "cases": 0.0
- },
- {
-  "state_id": "ladakh",
-  "disease": "dengue",
-  "year": 2022,
   "cases": 0.0
  },
  {
@@ -5181,7 +5937,25 @@
   "state_id": "ladakh",
   "disease": "malaria",
   "year": 2022,
-  "cases": 0.0
+  "cases": 2.0
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "malaria",
+  "year": 2023,
+  "cases": 10.0
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "malaria",
+  "year": 2024,
+  "cases": 9.0
+ },
+ {
+  "state_id": "ladakh",
+  "disease": "malaria",
+  "year": 2025,
+  "cases": 10.0
  },
  {
   "state_id": "ladakh",
@@ -5250,66 +6024,6 @@
   "cases": 0.0
  },
  {
-  "state_id": "ladakh",
-  "disease": "chikungunya",
-  "year": 2021,
-  "cases": 0.0
- },
- {
-  "state_id": "ladakh",
-  "disease": "chikungunya",
-  "year": 2022,
-  "cases": 0.0
- },
- {
-  "state_id": "lakshadweep",
-  "disease": "dengue",
-  "year": 2008,
-  "cases": 0.0
- },
- {
-  "state_id": "lakshadweep",
-  "disease": "dengue",
-  "year": 2009,
-  "cases": 0.0
- },
- {
-  "state_id": "lakshadweep",
-  "disease": "dengue",
-  "year": 2010,
-  "cases": 0.0
- },
- {
-  "state_id": "lakshadweep",
-  "disease": "dengue",
-  "year": 2013,
-  "cases": 0.0
- },
- {
-  "state_id": "lakshadweep",
-  "disease": "dengue",
-  "year": 2017,
-  "cases": 0.0
- },
- {
-  "state_id": "lakshadweep",
-  "disease": "dengue",
-  "year": 2018,
-  "cases": 0.0
- },
- {
-  "state_id": "lakshadweep",
-  "disease": "dengue",
-  "year": 2019,
-  "cases": 0.0
- },
- {
-  "state_id": "lakshadweep",
-  "disease": "dengue",
-  "year": 2020,
-  "cases": 0.0
- },
- {
   "state_id": "lakshadweep",
   "disease": "dengue",
   "year": 2021,
@@ -5319,7 +6033,25 @@
   "state_id": "lakshadweep",
   "disease": "dengue",
   "year": 2022,
-  "cases": 70.0
+  "cases": 67.0
+ },
+ {
+  "state_id": "lakshadweep",
+  "disease": "dengue",
+  "year": 2023,
+  "cases": 445.0
+ },
+ {
+  "state_id": "lakshadweep",
+  "disease": "dengue",
+  "year": 2024,
+  "cases": 513.0
+ },
+ {
+  "state_id": "lakshadweep",
+  "disease": "dengue",
+  "year": 2025,
+  "cases": 125.0
  },
  {
   "state_id": "lakshadweep",
@@ -5455,6 +6187,24 @@
  },
  {
   "state_id": "lakshadweep",
+  "disease": "malaria",
+  "year": 2023,
+  "cases": 0.0
+ },
+ {
+  "state_id": "lakshadweep",
+  "disease": "malaria",
+  "year": 2024,
+  "cases": 1.0
+ },
+ {
+  "state_id": "lakshadweep",
+  "disease": "malaria",
+  "year": 2025,
+  "cases": 0.0
+ },
+ {
+  "state_id": "lakshadweep",
   "disease": "chikungunya",
   "year": 2006,
   "cases": 35.0
@@ -5469,7 +6219,25 @@
   "state_id": "lakshadweep",
   "disease": "chikungunya",
   "year": 2022,
-  "cases": 107.0
+  "cases": 103.0
+ },
+ {
+  "state_id": "lakshadweep",
+  "disease": "chikungunya",
+  "year": 2023,
+  "cases": 127.0
+ },
+ {
+  "state_id": "lakshadweep",
+  "disease": "chikungunya",
+  "year": 2024,
+  "cases": 525.0
+ },
+ {
+  "state_id": "lakshadweep",
+  "disease": "chikungunya",
+  "year": 2025,
+  "cases": 774.0
  },
  {
   "state_id": "madhya_pradesh",
@@ -5553,7 +6321,25 @@
   "state_id": "madhya_pradesh",
   "disease": "dengue",
   "year": 2022,
-  "cases": 3205.0
+  "cases": 3318.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "dengue",
+  "year": 2023,
+  "cases": 6979.000000000001
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "dengue",
+  "year": 2024,
+  "cases": 10224.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "dengue",
+  "year": 2025,
+  "cases": 1941.0
  },
  {
   "state_id": "madhya_pradesh",
@@ -5685,7 +6471,25 @@
   "state_id": "madhya_pradesh",
   "disease": "malaria",
   "year": 2022,
-  "cases": 3719.0
+  "cases": 3826.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "malaria",
+  "year": 2023,
+  "cases": 3794.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "malaria",
+  "year": 2024,
+  "cases": 3247.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "malaria",
+  "year": 2025,
+  "cases": 2347.0
  },
  {
   "state_id": "madhya_pradesh",
@@ -5775,7 +6579,25 @@
   "state_id": "madhya_pradesh",
   "disease": "chikungunya",
   "year": 2022,
-  "cases": 4292.0
+  "cases": 4252.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "chikungunya",
+  "year": 2023,
+  "cases": 8947.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "chikungunya",
+  "year": 2024,
+  "cases": 13677.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "chikungunya",
+  "year": 2025,
+  "cases": 8022.0
  },
  {
   "state_id": "maharashtra",
@@ -5895,13 +6717,31 @@
   "state_id": "maharashtra",
   "disease": "dengue",
   "year": 2021,
-  "cases": 203.0
+  "cases": 12720.0
  },
  {
   "state_id": "maharashtra",
   "disease": "dengue",
   "year": 2022,
-  "cases": 8560.0
+  "cases": 8578.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "dengue",
+  "year": 2023,
+  "cases": 19034.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "dengue",
+  "year": 2024,
+  "cases": 19385.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "dengue",
+  "year": 2025,
+  "cases": 14168.0
  },
  {
   "state_id": "maharashtra",
@@ -6033,7 +6873,25 @@
   "state_id": "maharashtra",
   "disease": "malaria",
   "year": 2022,
-  "cases": 15437.0
+  "cases": 15451.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "malaria",
+  "year": 2023,
+  "cases": 16159.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "malaria",
+  "year": 2024,
+  "cases": 21078.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "malaria",
+  "year": 2025,
+  "cases": 23821.0
  },
  {
   "state_id": "maharashtra",
@@ -6126,6 +6984,36 @@
   "cases": 4258.0
  },
  {
+  "state_id": "maharashtra",
+  "disease": "chikungunya",
+  "year": 2021,
+  "cases": 21680.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "chikungunya",
+  "year": 2022,
+  "cases": 14785.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "chikungunya",
+  "year": 2023,
+  "cases": 31181.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "chikungunya",
+  "year": 2024,
+  "cases": 57509.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "chikungunya",
+  "year": 2025,
+  "cases": 47921.0
+ },
+ {
   "state_id": "manipur",
   "disease": "dengue",
   "year": 2007,
@@ -6183,13 +7071,31 @@
   "state_id": "manipur",
   "disease": "dengue",
   "year": 2021,
-  "cases": 129.0
+  "cases": 203.0
  },
  {
   "state_id": "manipur",
   "disease": "dengue",
   "year": 2022,
   "cases": 503.0
+ },
+ {
+  "state_id": "manipur",
+  "disease": "dengue",
+  "year": 2023,
+  "cases": 2548.0
+ },
+ {
+  "state_id": "manipur",
+  "disease": "dengue",
+  "year": 2024,
+  "cases": 2463.0
+ },
+ {
+  "state_id": "manipur",
+  "disease": "dengue",
+  "year": 2025,
+  "cases": 5519.0
  },
  {
   "state_id": "manipur",
@@ -6321,7 +7227,25 @@
   "state_id": "manipur",
   "disease": "malaria",
   "year": 2022,
-  "cases": 14.0
+  "cases": 30.0
+ },
+ {
+  "state_id": "manipur",
+  "disease": "malaria",
+  "year": 2023,
+  "cases": 34.0
+ },
+ {
+  "state_id": "manipur",
+  "disease": "malaria",
+  "year": 2024,
+  "cases": 43.0
+ },
+ {
+  "state_id": "manipur",
+  "disease": "malaria",
+  "year": 2025,
+  "cases": 78.0
  },
  {
   "state_id": "manipur",
@@ -6387,13 +7311,31 @@
   "state_id": "meghalaya",
   "disease": "dengue",
   "year": 2021,
-  "cases": 12720.0
+  "cases": 129.0
  },
  {
   "state_id": "meghalaya",
   "disease": "dengue",
   "year": 2022,
   "cases": 26.0
+ },
+ {
+  "state_id": "meghalaya",
+  "disease": "dengue",
+  "year": 2023,
+  "cases": 114.0
+ },
+ {
+  "state_id": "meghalaya",
+  "disease": "dengue",
+  "year": 2024,
+  "cases": 74.0
+ },
+ {
+  "state_id": "meghalaya",
+  "disease": "dengue",
+  "year": 2025,
+  "cases": 81.0
  },
  {
   "state_id": "meghalaya",
@@ -6525,7 +7467,25 @@
   "state_id": "meghalaya",
   "disease": "malaria",
   "year": 2022,
-  "cases": 463.0
+  "cases": 479.0
+ },
+ {
+  "state_id": "meghalaya",
+  "disease": "malaria",
+  "year": 2023,
+  "cases": 1755.0
+ },
+ {
+  "state_id": "meghalaya",
+  "disease": "malaria",
+  "year": 2024,
+  "cases": 673.0
+ },
+ {
+  "state_id": "meghalaya",
+  "disease": "malaria",
+  "year": 2025,
+  "cases": 418.0
  },
  {
   "state_id": "meghalaya",
@@ -6572,14 +7532,20 @@
  {
   "state_id": "meghalaya",
   "disease": "chikungunya",
-  "year": 2021,
-  "cases": 21680.0
+  "year": 2023,
+  "cases": 128.0
  },
  {
   "state_id": "meghalaya",
   "disease": "chikungunya",
-  "year": 2022,
-  "cases": 14569.0
+  "year": 2024,
+  "cases": 169.0
+ },
+ {
+  "state_id": "meghalaya",
+  "disease": "chikungunya",
+  "year": 2025,
+  "cases": 197.0
  },
  {
   "state_id": "mizoram",
@@ -6628,6 +7594,24 @@
   "disease": "dengue",
   "year": 2022,
   "cases": 1868.0
+ },
+ {
+  "state_id": "mizoram",
+  "disease": "dengue",
+  "year": 2023,
+  "cases": 2060.0
+ },
+ {
+  "state_id": "mizoram",
+  "disease": "dengue",
+  "year": 2024,
+  "cases": 744.0
+ },
+ {
+  "state_id": "mizoram",
+  "disease": "dengue",
+  "year": 2025,
+  "cases": 1482.0
  },
  {
   "state_id": "mizoram",
@@ -6759,7 +7743,25 @@
   "state_id": "mizoram",
   "disease": "malaria",
   "year": 2022,
-  "cases": 10222.0
+  "cases": 11156.0
+ },
+ {
+  "state_id": "mizoram",
+  "disease": "malaria",
+  "year": 2023,
+  "cases": 18077.0
+ },
+ {
+  "state_id": "mizoram",
+  "disease": "malaria",
+  "year": 2024,
+  "cases": 16899.0
+ },
+ {
+  "state_id": "mizoram",
+  "disease": "malaria",
+  "year": 2025,
+  "cases": 9330.0
  },
  {
   "state_id": "mizoram",
@@ -6778,6 +7780,24 @@
   "disease": "chikungunya",
   "year": 2022,
   "cases": 195.0
+ },
+ {
+  "state_id": "mizoram",
+  "disease": "chikungunya",
+  "year": 2023,
+  "cases": 511.0
+ },
+ {
+  "state_id": "mizoram",
+  "disease": "chikungunya",
+  "year": 2024,
+  "cases": 194.0
+ },
+ {
+  "state_id": "mizoram",
+  "disease": "chikungunya",
+  "year": 2025,
+  "cases": 117.0
  },
  {
   "state_id": "nagaland",
@@ -6826,6 +7846,24 @@
   "disease": "dengue",
   "year": 2022,
   "cases": 154.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "dengue",
+  "year": 2023,
+  "cases": 4943.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "dengue",
+  "year": 2024,
+  "cases": 42.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "dengue",
+  "year": 2025,
+  "cases": 97.0
  },
  {
   "state_id": "nagaland",
@@ -6957,7 +7995,25 @@
   "state_id": "nagaland",
   "disease": "malaria",
   "year": 2022,
-  "cases": 8.0
+  "cases": 9.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "malaria",
+  "year": 2023,
+  "cases": 10.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "malaria",
+  "year": 2024,
+  "cases": 12.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "malaria",
+  "year": 2025,
+  "cases": 210.0
  },
  {
   "state_id": "nagaland",
@@ -7028,13 +8084,19 @@
  {
   "state_id": "nagaland",
   "disease": "chikungunya",
-  "year": 2021,
-  "cases": 0.0
+  "year": 2023,
+  "cases": 72.0
  },
  {
   "state_id": "nagaland",
   "disease": "chikungunya",
-  "year": 2022,
+  "year": 2024,
+  "cases": 6.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "chikungunya",
+  "year": 2025,
   "cases": 0.0
  },
  {
@@ -7108,6 +8170,24 @@
   "disease": "dengue",
   "year": 2022,
   "cases": 7063.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "dengue",
+  "year": 2023,
+  "cases": 12845.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "dengue",
+  "year": 2024,
+  "cases": 9892.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "dengue",
+  "year": 2025,
+  "cases": 2635.0
  },
  {
   "state_id": "odisha",
@@ -7243,6 +8323,24 @@
  },
  {
   "state_id": "odisha",
+  "disease": "malaria",
+  "year": 2023,
+  "cases": 41973.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "malaria",
+  "year": 2024,
+  "cases": 68693.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "malaria",
+  "year": 2025,
+  "cases": 62137.0
+ },
+ {
+  "state_id": "odisha",
   "disease": "chikungunya",
   "year": 2006,
   "cases": 6461.0
@@ -7318,6 +8416,18 @@
   "disease": "chikungunya",
   "year": 2020,
   "cases": 15.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "chikungunya",
+  "year": 2024,
+  "cases": 107.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "chikungunya",
+  "year": 2025,
+  "cases": 149.0
  },
  {
   "state_id": "puducherry",
@@ -7402,6 +8512,24 @@
   "disease": "dengue",
   "year": 2022,
   "cases": 1673.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "dengue",
+  "year": 2023,
+  "cases": 2790.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "dengue",
+  "year": 2024,
+  "cases": 2128.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "dengue",
+  "year": 2025,
+  "cases": 902.0
  },
  {
   "state_id": "puducherry",
@@ -7531,6 +8659,24 @@
  },
  {
   "state_id": "puducherry",
+  "disease": "malaria",
+  "year": 2023,
+  "cases": 6.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "malaria",
+  "year": 2024,
+  "cases": 4.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "malaria",
+  "year": 2025,
+  "cases": 17.0
+ },
+ {
+  "state_id": "puducherry",
   "disease": "chikungunya",
   "year": 2006,
   "cases": 542.0
@@ -7612,6 +8758,24 @@
   "disease": "chikungunya",
   "year": 2022,
   "cases": 11440.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "chikungunya",
+  "year": 2023,
+  "cases": 10363.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "chikungunya",
+  "year": 2024,
+  "cases": 8904.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "chikungunya",
+  "year": 2025,
+  "cases": 8588.0
  },
  {
   "state_id": "punjab",
@@ -7737,7 +8901,25 @@
   "state_id": "punjab",
   "disease": "dengue",
   "year": 2022,
-  "cases": 11038.0
+  "cases": 11030.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "dengue",
+  "year": 2023,
+  "cases": 13687.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "dengue",
+  "year": 2024,
+  "cases": 6260.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "dengue",
+  "year": 2025,
+  "cases": 4981.0
  },
  {
   "state_id": "punjab",
@@ -7869,7 +9051,25 @@
   "state_id": "punjab",
   "disease": "malaria",
   "year": 2022,
-  "cases": 109.0
+  "cases": 119.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "malaria",
+  "year": 2023,
+  "cases": 75.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "malaria",
+  "year": 2024,
+  "cases": 379.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "malaria",
+  "year": 2025,
+  "cases": 420.0
  },
  {
   "state_id": "punjab",
@@ -7935,7 +9135,25 @@
   "state_id": "punjab",
   "disease": "chikungunya",
   "year": 2022,
-  "cases": 1043.0
+  "cases": 1087.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "chikungunya",
+  "year": 2023,
+  "cases": 6574.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "chikungunya",
+  "year": 2024,
+  "cases": 2258.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "chikungunya",
+  "year": 2025,
+  "cases": 11336.0
  },
  {
   "state_id": "rajasthan",
@@ -8056,6 +9274,24 @@
   "disease": "dengue",
   "year": 2022,
   "cases": 13491.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "dengue",
+  "year": 2023,
+  "cases": 13924.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "dengue",
+  "year": 2024,
+  "cases": 12514.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "dengue",
+  "year": 2025,
+  "cases": 4348.0
  },
  {
   "state_id": "rajasthan",
@@ -8187,7 +9423,25 @@
   "state_id": "rajasthan",
   "disease": "malaria",
   "year": 2022,
-  "cases": 1026.0
+  "cases": 1565.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "malaria",
+  "year": 2023,
+  "cases": 2263.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "malaria",
+  "year": 2024,
+  "cases": 2213.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "malaria",
+  "year": 2025,
+  "cases": 1756.0
  },
  {
   "state_id": "rajasthan",
@@ -8292,6 +9546,24 @@
   "cases": 212.0
  },
  {
+  "state_id": "rajasthan",
+  "disease": "chikungunya",
+  "year": 2023,
+  "cases": 305.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "chikungunya",
+  "year": 2024,
+  "cases": 1268.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "chikungunya",
+  "year": 2025,
+  "cases": 4175.0
+ },
+ {
   "state_id": "sikkim",
   "disease": "dengue",
   "year": 2004,
@@ -8349,7 +9621,25 @@
   "state_id": "sikkim",
   "disease": "dengue",
   "year": 2022,
-  "cases": 260.0
+  "cases": 264.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "dengue",
+  "year": 2023,
+  "cases": 311.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "dengue",
+  "year": 2024,
+  "cases": 374.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "dengue",
+  "year": 2025,
+  "cases": 169.0
  },
  {
   "state_id": "sikkim",
@@ -8481,7 +9771,25 @@
   "state_id": "sikkim",
   "disease": "malaria",
   "year": 2022,
+  "cases": 8.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "malaria",
+  "year": 2023,
   "cases": 6.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "malaria",
+  "year": 2024,
+  "cases": 7.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "malaria",
+  "year": 2025,
+  "cases": 14.0
  },
  {
   "state_id": "sikkim",
@@ -8523,7 +9831,25 @@
   "state_id": "sikkim",
   "disease": "chikungunya",
   "year": 2022,
-  "cases": 1883.0
+  "cases": 1863.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "chikungunya",
+  "year": 2023,
+  "cases": 1116.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "chikungunya",
+  "year": 2024,
+  "cases": 673.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "chikungunya",
+  "year": 2025,
+  "cases": 92.0
  },
  {
   "state_id": "tamil_nadu",
@@ -8650,6 +9976,24 @@
   "disease": "dengue",
   "year": 2022,
   "cases": 6430.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "dengue",
+  "year": 2023,
+  "cases": 9121.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "dengue",
+  "year": 2024,
+  "cases": 27378.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "dengue",
+  "year": 2025,
+  "cases": 23407.0
  },
  {
   "state_id": "tamil_nadu",
@@ -8781,7 +10125,25 @@
   "state_id": "tamil_nadu",
   "disease": "malaria",
   "year": 2022,
-  "cases": 344.0
+  "cases": 354.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "malaria",
+  "year": 2023,
+  "cases": 385.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "malaria",
+  "year": 2024,
+  "cases": 347.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "malaria",
+  "year": 2025,
+  "cases": 324.0
  },
  {
   "state_id": "tamil_nadu",
@@ -8883,7 +10245,25 @@
   "state_id": "tamil_nadu",
   "disease": "chikungunya",
   "year": 2022,
-  "cases": 181.0
+  "cases": 4365.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "chikungunya",
+  "year": 2023,
+  "cases": 4805.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "chikungunya",
+  "year": 2024,
+  "cases": 3091.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "chikungunya",
+  "year": 2025,
+  "cases": 3493.0
  },
  {
   "state_id": "telangana",
@@ -8973,13 +10353,31 @@
   "state_id": "telangana",
   "disease": "dengue",
   "year": 2021,
-  "cases": 349.0
+  "cases": 7135.0
  },
  {
   "state_id": "telangana",
   "disease": "dengue",
   "year": 2022,
   "cases": 8972.0
+ },
+ {
+  "state_id": "telangana",
+  "disease": "dengue",
+  "year": 2023,
+  "cases": 8016.0
+ },
+ {
+  "state_id": "telangana",
+  "disease": "dengue",
+  "year": 2024,
+  "cases": 10077.0
+ },
+ {
+  "state_id": "telangana",
+  "disease": "dengue",
+  "year": 2025,
+  "cases": 8412.0
  },
  {
   "state_id": "telangana",
@@ -9097,6 +10495,24 @@
  },
  {
   "state_id": "telangana",
+  "disease": "malaria",
+  "year": 2023,
+  "cases": 420.0
+ },
+ {
+  "state_id": "telangana",
+  "disease": "malaria",
+  "year": 2024,
+  "cases": 269.0
+ },
+ {
+  "state_id": "telangana",
+  "disease": "malaria",
+  "year": 2025,
+  "cases": 259.0
+ },
+ {
+  "state_id": "telangana",
   "disease": "chikungunya",
   "year": 2006,
   "cases": 32087.78589950764
@@ -9174,6 +10590,24 @@
   "cases": 6608.0
  },
  {
+  "state_id": "telangana",
+  "disease": "chikungunya",
+  "year": 2023,
+  "cases": 761.0
+ },
+ {
+  "state_id": "telangana",
+  "disease": "chikungunya",
+  "year": 2024,
+  "cases": 13592.0
+ },
+ {
+  "state_id": "telangana",
+  "disease": "chikungunya",
+  "year": 2025,
+  "cases": 9871.0
+ },
+ {
   "state_id": "tripura",
   "disease": "dengue",
   "year": 2012,
@@ -9213,13 +10647,31 @@
   "state_id": "tripura",
   "disease": "dengue",
   "year": 2021,
-  "cases": 7135.0
+  "cases": 349.0
  },
  {
   "state_id": "tripura",
   "disease": "dengue",
   "year": 2022,
-  "cases": 55.0
+  "cases": 56.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "dengue",
+  "year": 2023,
+  "cases": 1447.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "dengue",
+  "year": 2024,
+  "cases": 1198.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "dengue",
+  "year": 2025,
+  "cases": 741.0
  },
  {
   "state_id": "tripura",
@@ -9355,6 +10807,24 @@
  },
  {
   "state_id": "tripura",
+  "disease": "malaria",
+  "year": 2023,
+  "cases": 22412.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "malaria",
+  "year": 2024,
+  "cases": 9738.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "malaria",
+  "year": 2025,
+  "cases": 6094.0
+ },
+ {
+  "state_id": "tripura",
   "disease": "chikungunya",
   "year": 2014,
   "cases": 34.0
@@ -9405,7 +10875,25 @@
   "state_id": "tripura",
   "disease": "chikungunya",
   "year": 2022,
-  "cases": 919.0
+  "cases": 885.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "chikungunya",
+  "year": 2023,
+  "cases": 1557.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "chikungunya",
+  "year": 2024,
+  "cases": 2864.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "chikungunya",
+  "year": 2025,
+  "cases": 1523.0
  },
  {
   "state_id": "uttar_pradesh",
@@ -9520,6 +11008,24 @@
   "disease": "dengue",
   "year": 2022,
   "cases": 19821.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "dengue",
+  "year": 2023,
+  "cases": 35402.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "dengue",
+  "year": 2024,
+  "cases": 15868.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "dengue",
+  "year": 2025,
+  "cases": 9206.0
  },
  {
   "state_id": "uttar_pradesh",
@@ -9645,13 +11151,31 @@
   "state_id": "uttar_pradesh",
   "disease": "malaria",
   "year": 2021,
-  "cases": 13.0
+  "cases": 10792.0
  },
  {
   "state_id": "uttar_pradesh",
   "disease": "malaria",
   "year": 2022,
   "cases": 7039.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "malaria",
+  "year": 2023,
+  "cases": 13603.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "malaria",
+  "year": 2024,
+  "cases": 13477.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "malaria",
+  "year": 2025,
+  "cases": 14593.0
  },
  {
   "state_id": "uttar_pradesh",
@@ -9738,6 +11262,24 @@
   "cases": 200.0
  },
  {
+  "state_id": "uttar_pradesh",
+  "disease": "chikungunya",
+  "year": 2023,
+  "cases": 10615.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "chikungunya",
+  "year": 2024,
+  "cases": 1077.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "chikungunya",
+  "year": 2025,
+  "cases": 22416.0
+ },
+ {
   "state_id": "uttarakhand",
   "disease": "dengue",
   "year": 2008,
@@ -9802,6 +11344,24 @@
   "disease": "dengue",
   "year": 2022,
   "cases": 2337.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "dengue",
+  "year": 2023,
+  "cases": 4320.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "dengue",
+  "year": 2024,
+  "cases": 494.00000000000006
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "dengue",
+  "year": 2025,
+  "cases": 992.0
  },
  {
   "state_id": "uttarakhand",
@@ -9927,13 +11487,31 @@
   "state_id": "uttarakhand",
   "disease": "malaria",
   "year": 2021,
-  "cases": 10792.0
+  "cases": 13.0
  },
  {
   "state_id": "uttarakhand",
   "disease": "malaria",
   "year": 2022,
   "cases": 19.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "malaria",
+  "year": 2023,
+  "cases": 24.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "malaria",
+  "year": 2024,
+  "cases": 241.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "malaria",
+  "year": 2025,
+  "cases": 196.0
  },
  {
   "state_id": "uttarakhand",
@@ -9970,6 +11548,24 @@
   "disease": "chikungunya",
   "year": 2022,
   "cases": 2000.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "chikungunya",
+  "year": 2023,
+  "cases": 269.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "chikungunya",
+  "year": 2024,
+  "cases": 1164.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "chikungunya",
+  "year": 2025,
+  "cases": 208.0
  },
  {
   "state_id": "west_bengal",
@@ -10065,7 +11661,19 @@
   "state_id": "west_bengal",
   "disease": "dengue",
   "year": 2022,
-  "cases": 1753.0
+  "cases": 67271.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "dengue",
+  "year": 2023,
+  "cases": 30683.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "dengue",
+  "year": 2024,
+  "cases": 441.0
  },
  {
   "state_id": "west_bengal",
@@ -10197,7 +11805,25 @@
   "state_id": "west_bengal",
   "disease": "malaria",
   "year": 2022,
-  "cases": 40563.0
+  "cases": 40594.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "malaria",
+  "year": 2023,
+  "cases": 26493.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "malaria",
+  "year": 2024,
+  "cases": 21802.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "malaria",
+  "year": 2025,
+  "cases": 19840.0
  },
  {
   "state_id": "west_bengal",
@@ -10293,6 +11919,18 @@
   "state_id": "west_bengal",
   "disease": "chikungunya",
   "year": 2022,
-  "cases": 1230.0
+  "cases": 1533.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "chikungunya",
+  "year": 2023,
+  "cases": 762.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "chikungunya",
+  "year": 2024,
+  "cases": 1734.0
  }
 ]
