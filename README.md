@@ -9,7 +9,7 @@
 
 ## 1. Project Overview
 
-**VectorWatch India** is a 6-person ML project building a **Pan-India Spatio-Temporal Graph Neural Network (ST-GNN)** to forecast three mosquito-borne diseases — **Dengue, Malaria, and Chikungunya** — at monthly resolution, across all **36 Indian States and Union Territories**, from **1999 to 2022**.
+**VectorWatch India** is a 6-person ML project building a **Pan-India Spatio-Temporal Graph Neural Network (ST-GNN)** to forecast three mosquito-borne diseases — **Dengue, Malaria, and Chikungunya** — across all **36 Indian States and Union Territories**, from the earliest available source year through the latest year present in the raw CSVs.
 
 The end goal is a graph model where each state is a node, edges encode spatial adjacency, and node features evolve over monthly time steps to forecast future disease burden.
 
@@ -37,9 +37,9 @@ vectorwatch-india/
 ├── data/
 │   ├── raw/
 │   │   └── pan_india_state_tabular/          # Source annual, state-wise NDAP exports
-│   │       ├── dengue_state.csv              #   1999–2022, has cases + deaths
-│   │       ├── malaria_state.csv             #   2001–2022, has cases + deaths
-│   │       └── chikungunya_state.csv         #   2006–2022, cases only (no deaths at source)
+│   │       ├── dengue_state.csv              #   Annual cases + deaths; latest year is source-dependent
+│   │       ├── malaria_state.csv              #   Annual cases + deaths; latest year is source-dependent
+│   │       └── chikungunya_state.csv         #   Annual cases only (no deaths at source)
 │   │
 │   ├── interim/                              # ⚠️ empty — reserved for future staging outputs, unused by this phase
 │   │
@@ -71,7 +71,7 @@ A West-Bengal-district-level PDF-ingestion script and two related empty scaffold
 
 ## 3. Pipeline Order (How to Reproduce)
 
-Scripts assume they are run **from the repository root** (`vectorwatch-india/`), since all paths are relative (e.g. `data/raw/...`, `data/processed/...`). Run in this exact order:
+Scripts assume they are run **from the repository root** (`vectorwatch-india/`), since all paths are relative (e.g. `data/raw/...`, `data/processed/...`). After replacing the three source CSVs, rerun these stages in order. The disease builder now keeps every parsed source year; the downstream annual loader and forecasts use the latest generated year.
 
 | # | Command | Reads | Writes |
 |---|---------|-------|--------|
@@ -79,8 +79,30 @@ Scripts assume they are run **from the repository root** (`vectorwatch-india/`),
 | 2 | `python src/ingestion/disease/build_macro_checksum.py` | `pan_india_state_spatiotemporal_tensor.csv` | *(nothing — prints a validation report to stdout)* |
 | 3 | `python src/ingestion/weather/build_weather_tensor.py` | `pan_india_state_spatiotemporal_tensor.csv` | `pan_india_state_enriched_tensor.csv` (created) |
 | 4 | `python src/ingestion/weather/build_lag_features.py` | `pan_india_state_enriched_tensor.csv` | `pan_india_state_enriched_tensor.csv` (**overwritten in place**) |
-| 5 | `python src/models/baselines/train_baselines.py` | `pan_india_state_enriched_tensor.csv` | `baseline_model_metrics.csv` |
-| 6 | `python src/models/baselines/visualize_baselines.py` | `baseline_model_metrics.csv` | `baseline_mae_comparison.png` |
+| 5 | `python src/ingestion/disease/audit_zeros.py` | `pan_india_state_enriched_tensor.csv` | Refreshed `zero_audit.csv` |
+| 6 | `python src/ingestion/disease/build_clean_tensor.py` | Enriched tensor and zero audit | Refreshed `pan_india_state_enriched_tensor_clean.csv` |
+| 7 | `python src/ingestion/disease/coverage_by_year.py` | Enriched tensor | *(prints coverage report)* |
+| 8 | `python src/models/baselines/train_baselines.py` | `pan_india_state_enriched_tensor.csv` | `baseline_model_metrics.csv` |
+| 9 | `python src/models/baselines/visualize_baselines.py` | `baseline_model_metrics.csv` | `baseline_mae_comparison.png` |
+| 10 | `bash models/stgnn/run_all.sh` | `pan_india_state_enriched_tensor.csv` | Annual ST-GNN folds, forecasts, and checkpoints |
+| 11 | `python scripts/make_registry.py` | ST-GNN checkpoint and folds | `models/registry.json` |
+| 12 | `python -m src.api.ingest` | Enriched tensor, forecasts, and fold files | Rebuilt `data/vectorwatch.db` |
+| 13 | `python -m src.api.export_examples` | Rebuilt API database | Refreshed `docs/api_examples/` and `docs/openapi.json` |
+| 14 | `python scripts/make_mocks.py` | ST-GNN outputs and enriched tensor | Updated frontend mock data |
+| 15 | `python src/monitoring/drift.py` | Enriched tensor | `frontend/mocks/drift_report.json` |
+
+`run_all.sh` runs the ST-GNN variants and forecasts for horizons 1–3. Install `requirements-stgnn.txt` before the ST-GNN/API steps if needed. The monthly `models/stgnn/build_dataset.py` path is intentionally not part of this rerun: the monthly disease values are synthetic splits of annual totals, not reported monthly observations.
+
+The zero-audit refresh preserves existing `verdict` and `evidence` values for matching state/disease/year rows. New zero rows remain unreviewed; the clean-tensor step only blanks rows explicitly marked `not_reported`.
+
+On Windows, run the complete pipeline from the repository root with:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/rerun_disease_pipeline.ps1
+```
+
+The script uses `.venv\Scripts\python.exe` if present (otherwise `python` from `PATH`), checks each command's exit code, and writes ST-GNN logs under `logs\`.
+It also runs the annual evaluation against `pan_india_state_enriched_tensor_clean.csv` under the `clean` tag.
 
 Step 2 is a **read-only QA gate** — it doesn't transform data, it just reports whether the monthly tensor looks structurally sound (year span, state count, annual aggregates, NaN counts) before you trust it downstream.
 
@@ -92,9 +114,9 @@ Step 2 is a **read-only QA gate** — it doesn't transform data, it just reports
 
 | File | Description |
 |---|---|
-| `pan_india_state_tabular/dengue_state.csv` | Raw annual NDAP-style export. Columns: `Country, State, Year, Additional Info`, a cases column, and a deaths column. Covers **1999–2022**, 650 rows. |
-| `pan_india_state_tabular/malaria_state.csv` | Same format. Covers **2001–2022**, 792 rows. |
-| `pan_india_state_tabular/chikungunya_state.csv` | Same format, but **has no deaths column at source** — only a cases column. Covers **2006–2022**, 576 rows. |
+| `pan_india_state_tabular/dengue_state.csv` | Raw annual NDAP-style export. Columns: `Country, State, Year, Additional Info`, a cases column, and a deaths column. Year coverage follows the current CSV. |
+| `pan_india_state_tabular/malaria_state.csv` | Same format; year coverage follows the current CSV. |
+| `pan_india_state_tabular/chikungunya_state.csv` | Same format, but **has no deaths column at source** — only a cases column. Year coverage follows the current CSV. |
 
 Each raw file has a different start year and irregular header text (e.g. inconsistent double-spacing in "...Due To Dengue  (UOM..."). The ingestion script handles this with keyword-based column detection rather than exact-string matching.
 
@@ -108,7 +130,7 @@ Builds the master monthly spatiotemporal tensor from the three raw disease CSVs.
 - **Outer-merges** all three diseases on `[State, Year]` — a state missing a report for one disease in a given year keeps `NaN` for that disease rather than being dropped from the row entirely.
 - Cleans numeric columns (strips commas, coerces unparseable values like `"NR"` to `NaN`).
 - **Disaggregates each annual total into 12 monthly rows** using a fixed monsoon-weighted curve (weights peak Jul–Sep, sum to 1.0 across the year). This is a **modeled estimate**, not a real monthly report — see caveats.
-- Caps output at year ≤ 2022.
+- Includes every valid year found in the source files; it does not truncate to a fixed year.
 - Writes `data/processed/pan_india_state_spatiotemporal_tensor.csv`.
 
 **Explicit design choices worth knowing:**
@@ -150,7 +172,7 @@ Sorts strictly by `[state_name, start_date]` before shifting/rolling so lags nev
 ### 4.4 Source Code — Baseline Modeling (`src/models/baselines/`)
 
 #### `train_baselines.py`
-Trains and evaluates **three** baseline forecasters, independently per state and per disease, using a strict time-series split (**train: years < 2021, test: years 2021–2022**), reading from the **enriched** tensor:
+Trains and evaluates **three** baseline forecasters, independently per state and per disease, using a strict time-series split (**train: years < 2021, test: years ≥ 2021**), reading from the **enriched** tensor:
 
 1. **Seasonal Naive** — predicts each month using the value from exactly 12 months prior.
 2. **Gradient Boosting** — `HistGradientBoostingRegressor` using only disease-lag features: `[lag_1, lag_2, lag_12, month]`.
@@ -162,15 +184,15 @@ Models #2 and #3 use the identical split, seed, and disease-lag features — the
 
 Outputs `baseline_model_metrics.csv` with columns `state_name, disease, model, mae, rmse` (one row per state × disease × model, 324 rows total).
 
-**Results, averaged across all 36 states and all 3 diseases:**
+**Latest results, averaged across all 36 states and all 3 diseases (train before 2021; test 2021–2025):**
 
 | Model | Mean MAE | Mean RMSE |
 |---|---|---|
-| Seasonal Naive | 230.22 | 327.77 |
-| Gradient Boosting (lag-only) | **185.80** | **277.75** |
-| Gradient Boosting (+ weather) | 212.96 | 323.08 |
+| Seasonal Naive | 232.60 | 368.14 |
+| Gradient Boosting (lag-only) | **227.59** | **375.64** |
+| Gradient Boosting (+ weather) | 242.95 | 399.47 |
 
-> **Honest finding:** across all diseases/states, adding the synthetic weather/lag features made the Gradient Boosting model *worse on average*, not better — it under-performs the lag-only variant and only modestly beats Seasonal Naive. On **Dengue specifically** the weather-enriched model is roughly on par with (very slightly better than) the lag-only model (239.1 vs. 244.9 mean MAE), but the effect is inconsistent across diseases — most notably it hurts on Malaria in several states. This is consistent with the weather features being seasonally-realistic but ultimately **synthetic/simulated** rather than real observed climate data: they add variance without adding genuine predictive signal, so the model has nothing real to learn from them and occasionally overfits to it. **Do not read this as "weather doesn't matter for vector-borne disease" — read it as "these particular synthetic weather features don't help, and this needs revisiting once real climate data replaces the placeholder."**
+> **Latest rerun finding:** across all diseases/states, adding the synthetic weather/lag features made the Gradient Boosting model worse on average. For Dengue, weather improved mean MAE (289.40 vs. 298.19 for lag-only; Seasonal Naive: 355.03), but the effect varies by disease. This is a pipeline benchmark, not evidence about real weather: these features are synthetic rather than observed climate data.
 
 #### `visualize_baselines.py`
 Reads `baseline_model_metrics.csv`, filters to **Dengue only** and 5 high-burden states (`Maharashtra, West Bengal, Delhi, Karnataka, Andhra Pradesh`), and renders a grouped bar chart (all 3 models' MAE side by side) to `baseline_mae_comparison.png`. This is the benchmark artifact — the error bar the ST-GNN is expected to beat.
@@ -178,7 +200,7 @@ Reads `baseline_model_metrics.csv`, filters to **Dengue only** and 5 high-burden
 ### 4.5 Data — Processed Outputs (`data/processed/`)
 
 #### `pan_india_state_spatiotemporal_tensor.csv`
-The intermediate monthly tensor, before weather enrichment. **9,985 rows × 9 columns.**
+The intermediate monthly tensor, before weather enrichment. It has 9 columns; its row count and date range follow the source CSVs.
 
 | Column | Type | Notes |
 |---|---|---|
@@ -191,7 +213,7 @@ The intermediate monthly tensor, before weather enrichment. **9,985 rows × 9 co
 | `chikungunya_deaths` | float | **Always `NaN`** — never reported at source |
 
 #### `pan_india_state_enriched_tensor.csv`  ★ Final Handoff Artifact
-The full feature-complete tensor. Same 9,985 rows as above, plus 7 additional columns (**16 columns total**):
+The full feature-complete tensor. Same rows as above, plus 7 additional columns (**16 columns total**):
 
 | Column | Type | Notes |
 |---|---|---|
@@ -202,7 +224,7 @@ The full feature-complete tensor. Same 9,985 rows as above, plus 7 additional co
 | `rainfall_lag_1`, `rainfall_lag_2` | float | 1- and 2-month lagged rainfall |
 | `rainfall_rolling_3m` | float | Trailing 3-month cumulative rainfall |
 
-Covers **1999-01-01 to 2022-12-01**, all **36** states/UTs.
+The date range and row count follow the source CSVs; the current rerun covers years through 2025 and includes all **36** states/UTs.
 
 #### `baseline_model_metrics.csv`
 324 rows: one row per (state × disease × model) combination that had enough train/test data, across 3 models. Columns: `state_name, disease, model, mae, rmse`.
@@ -220,21 +242,21 @@ Grouped bar chart, Dengue MAE, all 3 models, for the 5 high-burden states listed
 data/processed/pan_india_state_enriched_tensor.csv
 ```
 
-This is the final, feature-complete artifact from this phase — 9,985 rows, 16 columns, 36 states/UTs, monthly from Jan 1999 to Dec 2022.
+This is the final, feature-complete artifact from this phase — 36 states/UTs, with the monthly date range determined by the current source CSVs.
 
 - Use **`state_name`** or **`state_id`** as the node key to construct your spatial adjacency matrix (e.g. joining against a shapefile or a hand-built neighbor list). `state_id` is a lowercase, underscore-slugified version of `state_name` and is stable/unique per state — prefer it as your join key over `state_name`, since it avoids casing/whitespace mismatches. (A naming bug that would have broken this join for one UT was fixed prior to handoff — every `state_id` now slugifies cleanly, no special-casing needed.)
 - Each `(state_id, start_date)` row is a **node-timestep feature vector**: 6 disease target columns (`dengue_cases`, `dengue_deaths`, `malaria_cases`, `malaria_deaths`, `chikungunya_cases`, `chikungunya_deaths`) + 7 environmental/lag features (`temp_mean_c`, `rainfall_mm`, `temp_lag_1`, `temp_lag_2`, `rainfall_lag_1`, `rainfall_lag_2`, `rainfall_rolling_3m`), keyed by `start_date`.
 - **Missing values are real `NaN`s, not zeros** — decide your own imputation/masking strategy for the GNN's loss function rather than assuming complete coverage. Coverage differs by disease (dengue from 1999, malaria from 2001, chikungunya from 2006 for cases and never for deaths).
-- `baseline_model_metrics.csv` + `baseline_mae_comparison.png` give you the error bar your ST-GNN needs to beat per state/disease — worth reproducing the same train/test split (train < 2021, test 2021–2022) for an apples-to-apples comparison.
+- `baseline_model_metrics.csv` + `baseline_mae_comparison.png` give you the error bar your ST-GNN needs to beat per state/disease — worth reproducing the same train/test split (train < 2021, test ≥ 2021) for an apples-to-apples comparison.
 - **On the weather features specifically:** they're wired into the tensor and schema-ready for your GNN's node features, but the baseline benchmark shows they don't yet add real signal (see Section 4.4) because they're synthetic. You can still feed them into the GNN as-is (the ST-GNN may extract different signal than a gradient-boosted tree does), but don't be surprised if they're not immediately useful, and flag it if real climate data becomes available later in the project.
 
 ---
 
 ## 6. Known Gaps & Caveats
 
-1. **Weather data is synthetic, not observed.** `temp_mean_c` and `rainfall_mm` come from a deterministic climatology formula (seeded, reproducible), not real IMD/reanalysis records — a network restriction blocked live weather API access during this phase. They're seasonally realistic and fine for pipeline development, and the baseline results in Section 4.4 confirm they don't yet add real signal. Swap in real climate data before final results are reported as scientifically meaningful.
+1. **Weather data is synthetic, not observed.** `temp_mean_c` and `rainfall_mm` come from a deterministic climatology formula (seeded, reproducible), not real IMD/reanalysis records — a network restriction blocked live weather API access during this phase. They're seasonally realistic and fine for pipeline development, but not scientific evidence about weather's effect on disease. Swap in real climate data before final results are reported as scientifically meaningful.
 2. **Monthly disease counts are modeled, not reported.** Only annual totals are ever reported at source; the monthly split uses a fixed monsoon-weighted curve (peaking Jul–Sep) applied uniformly across all states and years. This is a reasonable prior for the Indian mosquito season but is the same curve for every state — it doesn't capture state-specific seasonal timing differences (e.g., northern vs. coastal monsoon onset).
-3. **Disease coverage windows differ:** Dengue (1999–2022), Malaria (2001–2022), Chikungunya cases (2006–2022), Chikungunya deaths (never reported, always `NaN`). Design your loss masking/training windows with this in mind rather than assuming uniform coverage across targets.
+3. **Disease coverage windows differ:** Dengue, Malaria, and Chikungunya start in different years; Chikungunya deaths are never reported and remain `NaN`. Check the current source CSVs for the latest coverage and design loss masking/training windows accordingly.
 4. **`build_macro_checksum.py`'s "PASSED" status is an internal-consistency check only**, not a cross-check against an independent NCVBDC source file (none exists in this repo). See Section 4.2 for detail.
 5. **`data/interim/` is empty and currently unused.** It's kept as a conventional staging location in case a future step needs one; nothing in this phase writes to it.
 
@@ -257,16 +279,10 @@ An internal review of this repo, done just before handoff, surfaced three issues
 pip install -r requirements.txt
 ```
 
-All ingestion/modeling scripts are run from the repository root, e.g.:
+From the repository root, run the full refresh on Windows with:
 
-```bash
-cd vectorwatch-india
-python src/ingestion/disease/build_pan_india_state_tensor.py
-python src/ingestion/disease/build_macro_checksum.py
-python src/ingestion/weather/build_weather_tensor.py
-python src/ingestion/weather/build_lag_features.py
-python src/models/baselines/train_baselines.py
-python src/models/baselines/visualize_baselines.py
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/rerun_disease_pipeline.ps1
 ```
 
 ---

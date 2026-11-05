@@ -28,7 +28,7 @@ def fetch(s):
         return json.load(open(f))
     lat, lon = PTS[s]
     q = dict(parameters="T2M,PRECTOTCORR", community="AG", latitude=lat, longitude=lon,
-             start=1999, end=2022, format="JSON")
+             start=1999, end=2025, format="JSON")
     for attempt in range(4):
         try:
             r = requests.get(URL, params=q, timeout=120)
@@ -46,7 +46,7 @@ for s in states:
     print("downloading", s, flush=True)
     par = fetch(s)["properties"]["parameter"]
     t2m, pr = par["T2M"], par["PRECTOTCORR"]
-    for yr in range(1999, 2023):
+    for yr in range(1999, 2026):
         for mo in range(1, 13):
             k = f"{yr}{mo:02d}"
             t = t2m.get(k, np.nan); p = pr.get(k, np.nan)

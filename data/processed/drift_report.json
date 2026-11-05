@@ -1,28 +1,28 @@
 {
- "newest_year": 2022,
+ "newest_year": 2025,
  "diseases": {
   "dengue": {
-   "missing_ref": 0.42391304347826086,
-   "missing_new": 0.0,
-   "log_median_shift_sd": 0.7578770556533094
+   "missing_ref": 0.38782051282051283,
+   "missing_new": 0.05555555555555555,
+   "log_median_shift_sd": 0.44681197138077816
   },
   "malaria": {
-   "missing_ref": 0.09057971014492754,
-   "missing_new": 0.027777777777777776,
-   "log_median_shift_sd": -0.8770516505356543
+   "missing_ref": 0.0811965811965812,
+   "missing_new": 0.0,
+   "log_median_shift_sd": -0.6179055051611709
   },
   "chikungunya": {
-   "missing_ref": 0.5362318840579711,
-   "missing_new": 0.1388888888888889,
-   "log_median_shift_sd": 0.41909875972875793
+   "missing_ref": 0.5149572649572649,
+   "missing_new": 0.1111111111111111,
+   "log_median_shift_sd": 0.3665038221209876
   }
  },
  "weather": {
   "temperature": {
-   "median_shift_sd": -0.030581643830339462
+   "median_shift_sd": -0.02217483999608107
   },
   "rainfall": {
-   "median_shift_sd": 0.2512066132664391
+   "median_shift_sd": -0.00448818059053643
   }
  },
  "flags": [],

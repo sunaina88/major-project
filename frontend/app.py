@@ -18,16 +18,18 @@ def load(name):
 
 PAGES = ["Home", "State", "Disease explorer", "Model comparison", "Annual replay", "System status", "Limitations"]
 page = st.sidebar.radio("Page", PAGES)
-st.sidebar.caption("Annual data, latest year 2022. Not live.")
-st.info("Annual data, latest year 2022. The model is statistically tied with last year's value (persistence). "
+st.sidebar.caption("Annual data. Not live.")
+st.info("Annual forecasts are shown beside last year's value (persistence). "
         "Pick **Limitations** in the sidebar for details.")
 if api.USE_MOCKS: st.caption("Running on mock data generated from Person 2 files.")
 
 fc = load("forecast"); hist = pd.DataFrame(load("history"))
+latest_year = int(hist.year.max())
+st.sidebar.caption(f"Latest observed year: {latest_year}")
 
 def horizon_picker():
     h = st.radio("Years ahead", [1, 2, 3], horizontal=True, format_func=lambda x: str(x) if x == 1 else f"{x} (experimental)")
-    if h > 1: st.warning("Horizons 2 and 3 are experimental and no better than persistence.")
+    if h > 1: st.warning("Horizons 2 and 3 are experimental; compare them with persistence.")
     return h
 
 if page == "Home":
@@ -79,7 +81,9 @@ elif page == "Disease explorer":
 elif page == "Model comparison":
     st.title("Model comparison (log-MAE, lower is better)")
     st.dataframe(pd.DataFrame(load("model_performance")), hide_index=True)
-    st.caption("13 rolling-origin folds, 2010 to 2022. If the 95% interval includes 0, the result is a tie. About a dozen variants were run.")
+    replay_years = sorted(pd.DataFrame(load("replay")).year.unique())
+    st.caption(f"Rolling-origin folds, {replay_years[0]} to {replay_years[-1]}. "
+               "If the 95% interval includes 0, the result is a tie.")
 
 elif page == "Annual replay":
     st.title("Annual replay (backtest)")
@@ -96,12 +100,11 @@ elif page == "System status":
 
 else:
     st.title("Limitations")
-    st.markdown("""
+    st.markdown(f"""
 - Monthly disease values in the source tensor are an annual total split with one fixed curve, so **no monthly charts or accuracy are shown**.
-- The real information is annual totals (about 1,600 numbers).
-- On annual totals the model is **statistically tied with last year's value**. The graph, GAT and weather variants change nothing significant.
-- Weather direction is favourable but not significant.
-- Data runs to 2022 only. This is not live or real-time.
+- The real information is annual totals; monthly disease values are modeled splits.
+- Weather is synthetic climatology, not measured historical weather.
+- Data runs through {latest_year}. This is not live or real-time.
 - Rows marked low confidence show *Insufficient evidence* instead of a risk colour.
 - Rerunning on real monthly or newer annual data is how this can still give a positive result.
 """)

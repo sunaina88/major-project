@@ -1,0 +1,2 @@
+wrote data/processed/stgnn_forecast_from_checkpoint.csv (324 rows)
+matches the CSV written at training time: True

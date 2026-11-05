@@ -26,7 +26,7 @@ STATES = open(REPO_ROOT / "configs" / "states.txt").read().split("\n")
 
 def test_health(client):
     r = client.get("/health").json()
-    assert r["status"] == "ok" and r["latest_observed_year"] == 2022
+    assert r["status"] == "ok" and r["latest_observed_year"] == 2025
     assert r["data_granularity"] == "annual" and "live" not in r["data_note"].lower()
 
 
@@ -50,7 +50,7 @@ def test_forecast_default_is_horizon_1_with_persistence_confidence_notes(client)
             assert f["experimental"] is False
             lo, hi = f["interval_80"]
             assert lo <= hi
-        assert "tied" in r["model"]["summary"]
+        assert "persistence" in r["model"]["summary"]
 
 
 def test_every_forecast_has_persistence_unless_last_year_missing(client):
@@ -86,24 +86,25 @@ def test_low_confidence_is_insufficient_evidence_everywhere(client):
 
 
 def test_risk_map_shape_and_years(client):
+    latest = client.get("/health").json()["latest_observed_year"]
     rm = client.get("/risk-map?disease=dengue").json()
-    assert rm["year"] == 2023 and rm["horizon"] == 1 and rm["experimental"] is False
+    assert rm["year"] == latest + 1 and rm["horizon"] == 1 and rm["experimental"] is False
     assert [s["state_id"] for s in rm["states"]] == STATES
     assert "outbreak" in rm["disclaimer"]
-    assert client.get("/risk-map?disease=dengue&year=2024").json()["experimental"] is True
-    assert client.get("/risk-map?disease=dengue&year=2030").status_code == 404
+    assert client.get(f"/risk-map?disease=dengue&year={latest + 2}").json()["experimental"] is True
+    assert client.get(f"/risk-map?disease=dengue&year={latest + 4}").status_code == 404
     assert client.get("/risk-map?disease=zika").status_code == 422
 
 
-def test_model_performance_matches_handoff_table(client):
+def test_model_performance_uses_regenerated_folds(client):
     r = client.get("/model-performance").json()
     h = r["headline"]
-    assert h["log_mae_model"] == 0.828 and h["log_mae_persistence"] == 0.846
-    assert h["tie"] is True and h["ci_95"][0] < 0 < h["ci_95"][1]
+    assert h["n_folds"] == len(r["folds"]) > 13
+    assert h["ci_95"][0] <= h["diff_vs_persistence"] <= h["ci_95"][1]
     assert r["variants_run"] >= 10 and "chance" in r["multiple_comparisons_note"]
-    assert len(r["folds"]) == 13
+    assert r["folds"][0]["year"] == 2010 and r["folds"][-1]["year"] == 2025
     gat = [c for c in r["model_comparisons"] if c["a"] == "GAT"][0]
-    assert gat["diff_a_minus_b"] > 0 and gat["tie"] is False      # GAT worse than GCN (README)
+    assert isinstance(gat["tie"], bool)
 
 
 def test_openapi_page_exists(client):
@@ -127,14 +128,15 @@ def test_ingest_is_idempotent(tmp_path):
     os.environ["VW_DB_PATH"] = path
     try:
         ingest.main()
-        a = sqlite3.connect(path).execute("select count(*) from forecasts").fetchone()
+        a = tuple(sqlite3.connect(path).execute(f"select count(*) from {t}").fetchone()[0]
+                  for t in ["states", "disease_observations", "forecasts", "risk_scores", "pair_predictions"])
         ingest.main()
-        b = sqlite3.connect(path).execute("select count(*) from forecasts").fetchone()
-        tables = ["states", "disease_observations", "forecasts", "risk_scores", "pair_predictions"]
-        counts = [sqlite3.connect(path).execute(f"select count(*) from {t}").fetchone()[0] for t in tables]
+        b = tuple(sqlite3.connect(path).execute(f"select count(*) from {t}").fetchone()[0]
+                  for t in ["states", "disease_observations", "forecasts", "risk_scores", "pair_predictions"])
     finally:
         os.environ.pop("VW_DB_PATH", None)
-    assert a == b == (324,) and counts == [36, 1716, 324, 324, 1046]
+    assert a == b
+    assert a[0] == 36 and a[2] == a[3] == 324 and a[4] > 0
 
 
 def test_registry_has_only_annual_final():

@@ -1,4 +1,4 @@
-[data] years 1999-2022 | zeros treated as missing: 263
+[data] years 1999-2025 | zeros treated as missing: 297
 [cfg] gcn graph=hybrid weather=1 single=0 K=3 horizons=[1] tag=hybrid
 h=1 2010 done
 h=1 2011 done
@@ -13,13 +13,16 @@ h=1 2019 done
 h=1 2020 done
 h=1 2021 done
 h=1 2022 done
+h=1 2023 done
+h=1 2024 done
+h=1 2025 done
 
-=== horizon 1 year(s) ahead | MEAN over 13 folds ===
-mae_model    4179.009
-mae_last     4265.784
-mae_avg2     5134.835
-log_model       0.828
-log_last        0.846
-log_avg2        0.890
-mae_model minus persistence: mean -86.774 CI [-368.383, 236.935] folds better 9/13
-log_model minus persistence: mean -0.018 CI [-0.067, 0.029] folds better 8/13
+=== horizon 1 year(s) ahead | MEAN over 16 folds ===
+mae_model    3839.793
+mae_last     4083.832
+mae_avg2     4831.433
+log_model       0.792
+log_last        0.809
+log_avg2        0.859
+mae_model minus persistence: mean -244.039 CI [-497.243, 4.061] folds better 10/16
+log_model minus persistence: mean -0.017 CI [-0.062, 0.024] folds better 11/16

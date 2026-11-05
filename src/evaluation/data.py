@@ -1,7 +1,7 @@
 import sys
 sys.path.insert(0, "models/stgnn")
 DISEASES = ["dengue", "malaria", "chikungunya"]
-DEFAULT_TENSOR = "data/processed/pan_india_state_enriched_tensor_real.csv"
+DEFAULT_TENSOR = "data/processed/pan_india_state_enriched_tensor.csv"
 
 def get_data(path=DEFAULT_TENSOR):
     from annual_data import load_annual
