@@ -11,6 +11,8 @@ jobs:
       - run: ruff check frontend src/monitoring scripts
       - run: pytest tests
       - name: Model reproduces training-time forecast
-        run: python models/stgnn/predict.py | tee predict.log && grep "matches the CSV written at training time: True" predict.log
+        run: |
+            python models/stgnn/predict.py | tee predict.log
+            grep "matches the CSV written at training time: True" predict.log
       - name: Frontend image builds
         run: docker build -f docker/Dockerfile.frontend -t vw-frontend .
