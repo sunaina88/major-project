@@ -1,19 +1,18 @@
-# Run from repo root: docker compose -f docker/docker-compose.yml up
-# db and api sit in profile "full" until Person 5 delivers: docker compose --profile full up
+# From the repo root: docker compose -f docker/docker-compose.yml up --build
+# Open http://localhost:8501. The API database is SQLite, kept in the volume "vwdb".
+# Offline demo without the API: USE_MOCKS=true docker compose -f docker/docker-compose.yml up --build frontend
 services:
-  db:
-    image: postgres:16
-    profiles: ["full"]
-    environment:
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-change_me}
   api:
-    profiles: ["full"]
     build: {context: .., dockerfile: docker/Dockerfile.api}
-    depends_on: [db]
+    volumes: ["vwdb:/db"]
     ports: ["8000:8000"]
   frontend:
     build: {context: .., dockerfile: docker/Dockerfile.frontend}
     environment:
-      USE_MOCKS: ${USE_MOCKS:-true}
+      USE_MOCKS: ${USE_MOCKS:-false}
       API_URL: http://api:8000
+    depends_on:
+      api: {condition: service_healthy}
     ports: ["8501:8501"]
+volumes:
+  vwdb:

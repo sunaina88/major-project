@@ -1,9 +1,20 @@
-import pathlib, numpy as np, pandas as pd, plotly.graph_objects as go, streamlit as st
+import json
+import os
+import pathlib
+
 import api_client as api
-from logic import build_display, COLOURS, SHORT, INSUFF, discrete_scale
+import numpy as np
+import pandas as pd
+import plotly.graph_objects as go
+import streamlit as st
+from logic import COLOURS, INSUFF, LEVELS, build_display, discrete_scale
 
 st.set_page_config(page_title="VectorWatch India", layout="wide")
-STATES = [s.strip() for s in open(pathlib.Path(__file__).parent.parent / "configs/states.txt") if s.strip()]
+ROOT = pathlib.Path(__file__).resolve().parent.parent
+STATES = [s.strip() for s in open(ROOT / "configs/states.txt") if s.strip()]
+GEOJSON = json.load(open(os.getenv("VW_GEOJSON", ROOT / "data/processed/india_states.geojson")))
+SMALL = ["lakshadweep", "andaman_and_nicobar_islands", "chandigarh", "delhi",
+         "dadra_and_nagar_haveli_and_daman_and_diu"]
 DIS = ["dengue", "malaria", "chikungunya"]
 
 @st.cache_data
@@ -19,7 +30,7 @@ def load(name):
 PAGES = ["Home", "State", "Disease explorer", "Model comparison", "Annual replay", "System status", "Limitations"]
 page = st.sidebar.radio("Page", PAGES)
 st.sidebar.caption("Annual data. Not live.")
-st.info("Annual forecasts are shown beside last year's value (persistence). "
+st.info("Annual forecasts are statistically tied with last year's value (persistence), so both are always shown. "
         "Pick **Limitations** in the sidebar for details.")
 if api.USE_MOCKS: st.caption("Running on mock data generated from Person 2 files.")
 
@@ -37,18 +48,24 @@ if page == "Home":
     d = st.tabs(DIS)
     for tab, dis in zip(d, DIS):
         with tab:
+            st.caption(f"Annual data, latest observed year {latest_year}. Forecast year: next year (horizon 1).")
             df = build_display(fc, 1); df = df[df.disease == dis].set_index("state_id").reindex(STATES).reset_index()
             df["risk"] = df["risk"].fillna(INSUFF); df["colour"] = df["colour"].fillna(COLOURS[INSUFF])
-            levels = list(COLOURS); n = len(levels); z = np.array([levels.index(r) for r in df["risk"]]).reshape(6, 6)            
-            text = np.array([f"{s[:10]}<br>{SHORT[r]}" for s, r in zip(df.state_id, df.risk)]).reshape(6, 6)
-            cs = discrete_scale(levels)
-            fig = go.Figure(go.Heatmap(z=z, text=text, texttemplate="%{text}", colorscale=cs, zmin=-0.5, zmax=n - 0.5,
-                                       showscale=False, xgap=3, ygap=3, hoverinfo="text"))
-            fig.update_yaxes(autorange="reversed", visible=False); fig.update_xaxes(visible=False)
-            fig.update_layout(height=520, margin=dict(l=0, r=0, t=10, b=0))
-            st.plotly_chart(fig, use_container_width=True)
-            st.caption("Placeholder tile map (one tile per state, alphabetical). Letters: L=Lower, M=Medium, H=Higher, "
-                       "?=Insufficient evidence. Replaced by india_states.geojson when Person 4 delivers.")
+            df["forecast_text"] = df["forecast_text"].fillna("n/a"); df["persistence_text"] = df["persistence_text"].fillna("n/a")
+            hover = [f"{n}<br>Risk: {r}<br>Forecast: {f}<br>Last year: {p}" for n, r, f, p in
+                     zip(df.state_id, df.risk, df.forecast_text.fillna("n/a"), df.persistence_text.fillna("n/a"))]
+            fig = go.Figure(go.Choropleth(
+                geojson=GEOJSON, locations=df.state_id, featureidkey="properties.state_id",
+                z=[LEVELS.index(r) for r in df.risk], colorscale=discrete_scale(LEVELS),
+                zmin=-0.5, zmax=len(LEVELS) - 0.5, showscale=False, text=hover, hoverinfo="text",
+                marker_line_width=0.5))
+            fig.update_geos(fitbounds="locations", visible=False)
+            fig.update_layout(height=560, margin=dict(l=0, r=0, t=10, b=0))
+            st.plotly_chart(fig, use_container_width=True, key=f"map_{dis}")
+            st.caption("Colour scale (text alternative): " + ", ".join(f"{l} ({COLOURS[l]})" for l in LEVELS)
+                       + ". Grey = insufficient evidence, no risk is shown. The table below repeats every value in text.")
+            st.markdown("**Small territories and islands** (hard to click on the map)")
+            st.dataframe(df[df.state_id.isin(SMALL)][["state_id", "risk", "forecast_text", "persistence_text"]], hide_index=True)
             st.dataframe(df[["state_id", "risk", "forecast_text", "persistence_text", "confidence"]], hide_index=True)
 
 elif page == "State":
@@ -64,8 +81,13 @@ elif page == "State":
         c1, c2, c3 = st.columns(3)
         c1.metric("Forecast", r.forecast_text); c2.metric("Persistence (last year)", r.persistence_text)
         c3.metric("Confidence", r.confidence.upper())
-        if r.confidence == "low": st.warning(f"{INSUFF}. Reason: {r.notes or 'low confidence'}")
-        st.caption("No prediction interval in the forecast file. Add it when Person 5's API provides one.")
+        iv = r.get("interval_80")
+        st.write(f"**Risk level:** {r.risk}" + (f" (percentile {r.get('percentile'):.0f})" if pd.notna(r.get("percentile")) else ""))
+        st.write("**80% interval:** " + (f"{iv[0]:,} to {iv[1]:,} cases" if isinstance(iv, (list, tuple)) else "not available (experimental horizon)"))
+        if r.confidence == "low":
+            st.warning(f"{INSUFF}. Reason: {r.notes or 'low confidence'}")
+        elif isinstance(r.get("risk_reason"), (list, tuple)) and r.get("risk_reason"):
+            st.caption("Risk reason: " + ", ".join(r.get("risk_reason")))
     st.plotly_chart(fig, use_container_width=True)
 
 elif page == "Disease explorer":
@@ -101,10 +123,12 @@ elif page == "System status":
 else:
     st.title("Limitations")
     st.markdown(f"""
-- Monthly disease values in the source tensor are an annual total split with one fixed curve, so **no monthly charts or accuracy are shown**.
-- The real information is annual totals; monthly disease values are modeled splits.
-- Weather is synthetic climatology, not measured historical weather.
-- Data runs through {latest_year}. This is not live or real-time.
-- Rows marked low confidence show *Insufficient evidence* instead of a risk colour.
+- Only annual totals are real. Monthly disease values are a fixed split of the annual total, so **no monthly charts or accuracy are shown**.
+- On annual totals the model is **statistically tied with last year's value** (persistence). The graph, GAT and weather variants make no significant difference.
+- Weather comes from NASA POWER, one centroid per state. Its effect points the right way but is not significant.
+- Data runs through {latest_year}. This is annual data, not live or real-time.
+- A risk level ranks the forecast against the state's own history. It is not a prediction of an outbreak.
+- Rows marked low confidence show *Insufficient evidence* instead of a risk colour, with the reason.
+- Horizons 2 and 3 are experimental and no better than persistence.
 - Rerunning on real monthly or newer annual data is how this can still give a positive result.
 """)
