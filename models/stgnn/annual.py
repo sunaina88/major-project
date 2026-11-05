@@ -10,6 +10,7 @@ p.add_argument("--graph", default="geo", choices=["geo", "identity", "knn", "dis
 p.add_argument("--weather", type=int, default=1)
 p.add_argument("--single", type=int, default=0)       # 1 = separate model per disease
 p.add_argument("--zero_missing", type=int, default=1)
+p.add_argument("--extra", default="")
 p.add_argument("--K", type=int, default=3)            # input window in years
 p.add_argument("--horizons", default="1")             # e.g. 1,2,3 (years ahead)
 p.add_argument("--cap", type=float, default=0.5)
@@ -21,7 +22,7 @@ p.add_argument("--forecast", type=int, default=0)
 a = p.parse_args()
 HS = [int(x) for x in a.horizons.split(",")]
 
-states, years, Y, Wraw = load_annual(a.data, a.zero_missing)
+states, years, Y, Wraw = load_annual(a.data, a.zero_missing, [c for c in a.extra.split(",") if c])
 T, N = Y.shape[0], Y.shape[1]
 M = (~np.isnan(Y)).astype(np.float32)
 Ylog = np.nan_to_num(np.log1p(Y), nan=0.0)
@@ -49,7 +50,7 @@ def fit(o, h, seed, X, Yn, g):
     tt = list(range(K, o - h + 1))                  # targets t+h-1 must be known (< o)
     if len(tt) == 0:
         return None
-    feat = list(g) + [3 + d for d in g] + ([6, 7] if a.weather else [])
+    feat = list(g) + [3 + d for d in g] + (list(range(6, 6 + Wraw.shape[-1])) if a.weather else [])
     xtr = torch.tensor(np.stack([X[t - K:t] for t in tt]))
     ytr = torch.tensor(np.stack([Yn[t + h - 1] for t in tt]).astype(np.float32))
     oh = np.zeros(3, dtype=np.float32); oh[g] = 1.0

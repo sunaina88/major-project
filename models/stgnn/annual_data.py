@@ -3,7 +3,7 @@ import numpy as np, pandas as pd, torch
 DIS = ["dengue_cases", "malaria_cases", "chikungunya_cases"]
 
 
-def load_annual(path, zero_missing=1):
+def load_annual(path, zero_missing=1, extra=()):
     states = open("configs/states.txt").read().split("\n")
     df = pd.read_csv(path, parse_dates=["start_date"])
     df["year"] = df.start_date.dt.year
@@ -24,7 +24,7 @@ def load_annual(path, zero_missing=1):
                     z = s == 0
                     nz += int(z.sum()); s[z] = np.nan
     print(f"[data] years {years[0]}-{years[-1]} | zeros treated as missing: {nz}")
-    W = np.stack([annual("temp_mean_c", "mean"), annual("rainfall_mm", "sum")], -1)
+    W = np.stack([annual("temp_mean_c", "mean"), annual("rainfall_mm", "sum")] + [annual(c, "mean") for c in extra], -1)
     return states, years, Y, W
 
 
