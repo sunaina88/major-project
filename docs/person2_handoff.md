@@ -65,3 +65,13 @@ python models/stgnn/predict.py
 - Person 6: label data as annual, latest 2022. No monthly replay or lead-time screens until real monthly data exists.
   Show persistence next to the model and add a limitations panel quoting the caveats above. Treat horizons 2-3 as experimental.
 - Person 1: newer annual data (2023+), real monthly data (MMIS, IDSP), and confirmation of which zeros are unreported.
+
+## Feature ablations (extra inputs)
+Five groups of extra inputs were added one group at a time to the baseline model (GCN, land-border graph, temperature
+and rainfall) and compared with that baseline on the same 16 rolling test years (2010-2025):
+humidity and wind (+0.016 [+0.000, +0.037]), monsoon rainfall (-0.006 [-0.019, +0.006]), population density and urban
+share (+0.004 [-0.008, +0.018]), elevation (+0.009 [-0.006, +0.026]), all together (+0.009 [-0.008, +0.024]).
+Differences in log-error from the baseline; negative means better. No group clearly improved on the baseline, so the final
+model is unchanged. About 17 variants were compared across all experiments, so one can look better by chance. Static
+features are constant per state and can only describe differences between states. Full table: docs/feature_ablation_results.txt.
+Code: models/stgnn/features_extra.py and the --static / --env options of models/stgnn/annual.py.
