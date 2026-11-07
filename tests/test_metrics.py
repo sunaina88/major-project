@@ -10,8 +10,8 @@ def test_basic():
 
 def test_reproduces_person2():
     df = pd.read_csv("data/processed/stgnn_annual_geo_w_h1.csv")
-    assert round(df["log_model"].mean(), 3) == 0.798
-    assert round(df["log_last"].mean(), 3) == 0.809
+    assert round(df["log_model"].mean(), 3) == 0.853
+    assert round(df["log_last"].mean(), 3) == 0.855
 
 def test_bootstrap_warns_on_nan():
     import pytest

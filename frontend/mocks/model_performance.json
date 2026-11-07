@@ -1,26 +1,26 @@
 [
  {
   "variant": "Persistence",
-  "log_mae": 0.809,
+  "log_mae": 0.855,
   "diff": null,
   "ci": null
  },
  {
   "variant": "Input window of 2 years",
-  "log_mae": 0.823,
-  "diff": 0.014,
+  "log_mae": 0.846,
+  "diff": -0.009,
   "ci": [
-   -0.038,
-   0.064
+   -0.054,
+   0.038
   ]
  },
  {
   "variant": "Input window of 5 years",
-  "log_mae": 0.823,
+  "log_mae": 0.869,
   "diff": 0.014,
   "ci": [
-   -0.021,
-   0.047
+   -0.015,
+   0.046
   ]
  },
  {
@@ -34,101 +34,119 @@
  },
  {
   "variant": "Distance graph",
-  "log_mae": 0.793,
-  "diff": -0.016,
+  "log_mae": 0.836,
+  "diff": -0.019,
   "ci": [
-   -0.064,
-   0.022
+   -0.063,
+   0.02
   ]
  },
  {
   "variant": "GAT",
-  "log_mae": 0.834,
-  "diff": 0.025,
+  "log_mae": 0.873,
+  "diff": 0.018,
   "ci": [
-   -0.011,
+   -0.026,
    0.06
   ]
  },
  {
   "variant": "Without weather",
-  "log_mae": 0.826,
-  "diff": 0.017,
+  "log_mae": 0.865,
+  "diff": 0.01,
   "ci": [
-   -0.008,
-   0.046
+   -0.019,
+   0.044
   ]
  },
  {
   "variant": "GCN, land-border graph, synthetic weather",
-  "log_mae": 0.798,
-  "diff": -0.011,
+  "log_mae": 0.853,
+  "diff": -0.001,
   "ci": [
-   -0.055,
-   0.028
+   -0.04,
+   0.039
   ]
  },
  {
   "variant": "1 year(s) ahead",
-  "log_mae": 0.798,
-  "diff": -0.011,
+  "log_mae": 0.853,
+  "diff": -0.001,
   "ci": [
-   -0.055,
-   0.028
+   -0.04,
+   0.039
   ]
  },
  {
   "variant": "2 year(s) ahead",
-  "log_mae": 1.137,
-  "diff": 0.049,
+  "log_mae": 1.104,
+  "diff": -0.006,
   "ci": [
-   0.006,
-   0.105
+   -0.033,
+   0.029
   ]
  },
  {
   "variant": "3 year(s) ahead",
   "log_mae": 1.294,
-  "diff": 0.026,
+  "diff": 0.012,
   "ci": [
-   -0.001,
-   0.055
+   -0.022,
+   0.049
   ]
  },
  {
   "variant": "Hybrid graph",
-  "log_mae": 0.792,
-  "diff": -0.017,
+  "log_mae": 0.84,
+  "diff": -0.015,
   "ci": [
-   -0.063,
-   0.026
+   -0.061,
+   0.027
   ]
  },
  {
   "variant": "No graph",
-  "log_mae": 0.81,
-  "diff": 0.002,
+  "log_mae": 0.843,
+  "diff": -0.012,
   "ci": [
-   -0.027,
-   0.029
+   -0.043,
+   0.024
   ]
  },
  {
   "variant": "kNN graph",
-  "log_mae": 0.79,
-  "diff": -0.019,
+  "log_mae": 0.836,
+  "diff": -0.018,
   "ci": [
-   -0.067,
-   0.022
+   -0.07,
+   0.033
+  ]
+ },
+ {
+  "variant": "p4_area",
+  "log_mae": 0.836,
+  "diff": -0.01,
+  "ci": [
+   -0.053,
+   0.028
+  ]
+ },
+ {
+  "variant": "p4_area_extra",
+  "log_mae": 0.827,
+  "diff": -0.018,
+  "ci": [
+   -0.053,
+   0.018
   ]
  },
  {
   "variant": "Separate model per disease",
-  "log_mae": 0.868,
-  "diff": 0.059,
+  "log_mae": 0.892,
+  "diff": 0.037,
   "ci": [
-   0.007,
-   0.119
+   -0.021,
+   0.097
   ]
  },
  {

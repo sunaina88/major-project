@@ -1,4 +1,4 @@
-[data] years 1999-2025 | zeros treated as missing: 297
+[data] years 1999-2025 | zeros treated as missing: 300
 [cfg] gat graph=geo weather=1 single=0 K=3 horizons=[1] tag=gat
 h=1 2010 done
 h=1 2011 done
@@ -18,11 +18,11 @@ h=1 2024 done
 h=1 2025 done
 
 === horizon 1 year(s) ahead | MEAN over 16 folds ===
-mae_model    4188.355
-mae_last     4083.832
-mae_avg2     4831.433
-log_model       0.834
-log_last        0.809
-log_avg2        0.859
-mae_model minus persistence: mean 104.522 CI [-191.825, 446.386] folds better 8/16
-log_model minus persistence: mean 0.025 CI [-0.010, 0.059] folds better 7/16
+mae_model    3737.463
+mae_last     3873.012
+mae_avg2     4492.811
+log_model       0.873
+log_last        0.855
+log_avg2        0.889
+mae_model minus persistence: mean -135.549 CI [-322.425, 64.345] folds better 11/16
+log_model minus persistence: mean 0.018 CI [-0.027, 0.059] folds better 9/16

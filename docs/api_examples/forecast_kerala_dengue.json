@@ -55,6 +55,18 @@
       "cases": 7938.0
     },
     {
+      "year": 2014,
+      "cases": 2575.0
+    },
+    {
+      "year": 2015,
+      "cases": 4075.0
+    },
+    {
+      "year": 2016,
+      "cases": 7439.0
+    },
+    {
       "year": 2017,
       "cases": 19994.0
     },
@@ -95,17 +107,17 @@
     {
       "year": 2026,
       "horizon": 1,
-      "forecast": 9554,
+      "forecast": 9437,
       "persistence": 10923.0,
       "interval_80": [
-        2761,
-        37451
+        2819,
+        40991
       ],
       "confidence": "normal",
       "notes": [],
       "risk_level": "High",
-      "percentile": 81.81818181818181,
-      "growth_vs_persistence_pct": -12.533186853428544,
+      "percentile": 84.0,
+      "growth_vs_persistence_pct": -13.604321157191247,
       "risk_reason": [],
       "experimental": false
     }

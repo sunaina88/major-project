@@ -1,0 +1,103 @@
+state_id,year,dengue_cases,dengue_deaths,source
+andaman_and_nicobar_islands,2014,139,0,Lok Sabha UQ 1110 (4.12.2015) Annexure-II
+andhra_pradesh,2014,1262,5,Lok Sabha UQ 1110 (4.12.2015) Annexure-II
+arunachal_pradesh,2014,27,0,Lok Sabha UQ 1110 (4.12.2015) Annexure-II
+assam,2014,85,0,Lok Sabha UQ 1110 (4.12.2015) Annexure-II
+bihar,2014,297,0,Lok Sabha UQ 1110 (4.12.2015) Annexure-II
+chandigarh,2014,13,0,Lok Sabha UQ 1110 (4.12.2015) Annexure-II
+chhattisgarh,2014,440,9,Lok Sabha UQ 1110 (4.12.2015) Annexure-II
+dadra_and_nagar_haveli_and_daman_and_diu,2014,687,1,Lok Sabha UQ 1110 (4.12.2015) Annexure-II (D&N Haveli 641 + Daman & Diu 46)
+delhi,2014,995,3,Lok Sabha UQ 1110 (4.12.2015) Annexure-II
+goa,2014,168,1,Lok Sabha UQ 1110 (4.12.2015) Annexure-II
+gujarat,2014,2320,3,Lok Sabha UQ 1110 (4.12.2015) Annexure-II
+haryana,2014,214,2,Lok Sabha UQ 1110 (4.12.2015) Annexure-II
+himachal_pradesh,2014,2,0,Lok Sabha UQ 1110 (4.12.2015) Annexure-II
+jammu_and_kashmir,2014,1,0,Lok Sabha UQ 1110 (4.12.2015) Annexure-II
+jharkhand,2014,36,0,Lok Sabha UQ 1110 (4.12.2015) Annexure-II
+karnataka,2014,3358,2,Lok Sabha UQ 1110 (4.12.2015) Annexure-II
+kerala,2014,2575,11,Lok Sabha UQ 1110 (4.12.2015) Annexure-II
+madhya_pradesh,2014,2131,13,Lok Sabha UQ 1110 (4.12.2015) Annexure-II
+maharashtra,2014,8573,54,Lok Sabha UQ 1110 (4.12.2015) Annexure-II
+manipur,2014,0,0,Lok Sabha UQ 1110 (4.12.2015) Annexure-II
+meghalaya,2014,0,0,Lok Sabha UQ 1110 (4.12.2015) Annexure-II
+mizoram,2014,19,0,Lok Sabha UQ 1110 (4.12.2015) Annexure-II
+nagaland,2014,0,0,Lok Sabha UQ 1110 (4.12.2015) Annexure-II
+odisha,2014,6433,9,Lok Sabha UQ 1110 (4.12.2015) Annexure-II
+puducherry,2014,1322,1,Lok Sabha UQ 1110 (4.12.2015) Annexure-II
+punjab,2014,472,8,Lok Sabha UQ 1110 (4.12.2015) Annexure-II
+rajasthan,2014,1243,7,Lok Sabha UQ 1110 (4.12.2015) Annexure-II
+sikkim,2014,5,0,Lok Sabha UQ 1110 (4.12.2015) Annexure-II
+tamil_nadu,2014,2804,3,Lok Sabha UQ 1110 (4.12.2015) Annexure-II
+telangana,2014,704,1,Lok Sabha UQ 1110 (4.12.2015) Annexure-II
+tripura,2014,6,0,Lok Sabha UQ 1110 (4.12.2015) Annexure-II
+uttar_pradesh,2014,200,0,Lok Sabha UQ 1110 (4.12.2015) Annexure-II
+uttarakhand,2014,106,0,Lok Sabha UQ 1110 (4.12.2015) Annexure-II
+west_bengal,2014,3934,4,Lok Sabha UQ 1110 (4.12.2015) Annexure-II
+andaman_and_nicobar_islands,2015,153,0,Dengue/DHF situation table 2015-2016 (record the URL)
+andhra_pradesh,2015,3159,2,Dengue/DHF situation table 2015-2016 (record the URL)
+arunachal_pradesh,2015,1933,1,Dengue/DHF situation table 2015-2016 (record the URL)
+assam,2015,1076,1,Dengue/DHF situation table 2015-2016 (record the URL)
+bihar,2015,1771,0,Dengue/DHF situation table 2015-2016 (record the URL)
+chandigarh,2015,966,1,Dengue/DHF situation table 2015-2016 (record the URL)
+chhattisgarh,2015,384,1,Dengue/DHF situation table 2015-2016 (record the URL)
+dadra_and_nagar_haveli_and_daman_and_diu,2015,1319,0,Dengue/DHF situation table 2015-2016 (D&N Haveli 1154 + Daman & Diu 165)
+delhi,2015,15867,60,Dengue/DHF situation table 2015-2016 (record the URL)
+goa,2015,293,0,Dengue/DHF situation table 2015-2016 (record the URL)
+gujarat,2015,5590,9,Dengue/DHF situation table 2015-2016 (record the URL)
+haryana,2015,9921,13,Dengue/DHF situation table 2015-2016 (record the URL)
+himachal_pradesh,2015,19,1,Dengue/DHF situation table 2015-2016 (record the URL)
+jammu_and_kashmir,2015,153,0,Dengue/DHF situation table 2015-2016 (record the URL)
+jharkhand,2015,102,0,Dengue/DHF situation table 2015-2016 (record the URL)
+karnataka,2015,5077,9,Dengue/DHF situation table 2015-2016 (record the URL)
+kerala,2015,4075,25,Dengue/DHF situation table 2015-2016 (record the URL)
+madhya_pradesh,2015,2108,8,Dengue/DHF situation table 2015-2016 (record the URL)
+maharashtra,2015,4936,23,Dengue/DHF situation table 2015-2016 (record the URL)
+manipur,2015,52,0,Dengue/DHF situation table 2015-2016 (record the URL)
+meghalaya,2015,13,0,Dengue/DHF situation table 2015-2016 (record the URL)
+mizoram,2015,43,0,Dengue/DHF situation table 2015-2016 (record the URL)
+nagaland,2015,21,1,Dengue/DHF situation table 2015-2016 (record the URL)
+odisha,2015,2450,2,Dengue/DHF situation table 2015-2016 (record the URL)
+puducherry,2015,771,0,Dengue/DHF situation table 2015-2016 (record the URL)
+punjab,2015,14128,18,Dengue/DHF situation table 2015-2016 (record the URL)
+rajasthan,2015,4043,7,Dengue/DHF situation table 2015-2016 (record the URL)
+sikkim,2015,21,0,Dengue/DHF situation table 2015-2016 (record the URL)
+tamil_nadu,2015,4535,12,Dengue/DHF situation table 2015-2016 (record the URL)
+telangana,2015,1831,2,Dengue/DHF situation table 2015-2016 (record the URL)
+tripura,2015,40,0,Dengue/DHF situation table 2015-2016 (record the URL)
+uttar_pradesh,2015,2892,9,Dengue/DHF situation table 2015-2016 (record the URL)
+uttarakhand,2015,1655,1,Dengue/DHF situation table 2015-2016 (record the URL)
+west_bengal,2015,8516,14,Dengue/DHF situation table 2015-2016 (record the URL)
+andaman_and_nicobar_islands,2016,92,0,Dengue/DHF situation table 2015-2016 (record the URL)
+andhra_pradesh,2016,3417,2,Dengue/DHF situation table 2015-2016 (record the URL)
+arunachal_pradesh,2016,13,0,Dengue/DHF situation table 2015-2016 (record the URL)
+assam,2016,6157,4,Dengue/DHF situation table 2015-2016 (record the URL)
+bihar,2016,1912,0,Dengue/DHF situation table 2015-2016 (record the URL)
+chandigarh,2016,1246,0,Dengue/DHF situation table 2015-2016 (record the URL)
+chhattisgarh,2016,356,0,Dengue/DHF situation table 2015-2016 (record the URL)
+dadra_and_nagar_haveli_and_daman_and_diu,2016,4250,2,Dengue/DHF situation table 2015-2016 (D&N Haveli 4161 + Daman & Diu 89)
+delhi,2016,4431,10,Dengue/DHF situation table 2015-2016 (record the URL)
+goa,2016,150,0,Dengue/DHF situation table 2015-2016 (record the URL)
+gujarat,2016,8028,14,Dengue/DHF situation table 2015-2016 (record the URL)
+haryana,2016,2493,0,Dengue/DHF situation table 2015-2016 (record the URL)
+himachal_pradesh,2016,322,0,Dengue/DHF situation table 2015-2016 (record the URL)
+jammu_and_kashmir,2016,79,1,Dengue/DHF situation table 2015-2016 (record the URL)
+jharkhand,2016,414,1,Dengue/DHF situation table 2015-2016 (record the URL)
+karnataka,2016,6083,8,Dengue/DHF situation table 2015-2016 (record the URL)
+kerala,2016,7439,13,Dengue/DHF situation table 2015-2016 (record the URL)
+madhya_pradesh,2016,3150,12,Dengue/DHF situation table 2015-2016 (record the URL)
+maharashtra,2016,6792,33,Dengue/DHF situation table 2015-2016 (record the URL)
+manipur,2016,51,1,Dengue/DHF situation table 2015-2016 (record the URL)
+meghalaya,2016,172,0,Dengue/DHF situation table 2015-2016 (record the URL)
+mizoram,2016,580,0,Dengue/DHF situation table 2015-2016 (record the URL)
+nagaland,2016,142,0,Dengue/DHF situation table 2015-2016 (record the URL)
+odisha,2016,8380,11,Dengue/DHF situation table 2015-2016 (record the URL)
+puducherry,2016,490,2,Dengue/DHF situation table 2015-2016 (record the URL)
+punjab,2016,10439,15,Dengue/DHF situation table 2015-2016 (record the URL)
+rajasthan,2016,5292,16,Dengue/DHF situation table 2015-2016 (record the URL)
+sikkim,2016,82,0,Dengue/DHF situation table 2015-2016 (record the URL)
+tamil_nadu,2016,2531,5,Dengue/DHF situation table 2015-2016 (record the URL)
+telangana,2016,4037,4,Dengue/DHF situation table 2015-2016 (record the URL)
+tripura,2016,102,0,Dengue/DHF situation table 2015-2016 (record the URL)
+uttar_pradesh,2016,15033,42,Dengue/DHF situation table 2015-2016 (record the URL)
+uttarakhand,2016,2146,4,Dengue/DHF situation table 2015-2016 (record the URL)
+west_bengal,2016,22865,45,Dengue/DHF situation table 2015-2016 (record the URL)

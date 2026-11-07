@@ -2,9 +2,9 @@
  "newest_year": 2025,
  "diseases": {
   "dengue": {
-   "missing_ref": 0.38782051282051283,
+   "missing_ref": 0.28205128205128205,
    "missing_new": 0.05555555555555555,
-   "log_median_shift_sd": 0.44681197138077816
+   "log_median_shift_sd": 0.4112824018765607
   },
   "malaria": {
    "missing_ref": 0.0811965811965812,

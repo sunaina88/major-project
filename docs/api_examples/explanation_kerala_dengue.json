@@ -3,7 +3,7 @@
   "disease": "dengue",
   "year": 2026,
   "horizon": 1,
-  "base_forecast": 9554.0,
+  "base_forecast": 9437.2,
   "persistence": 10923.0,
   "label": "Model attribution, not a causal effect",
   "method": "Occlusion: one input group at a time is set to the training average (observed flag 0) and the forecast is recomputed.",
@@ -11,36 +11,36 @@
     {
       "group": "own_history",
       "description": "The state's own history of this disease",
-      "forecast_without_group": 3857.4,
-      "change_cases": -5696.6,
-      "change_log": -0.9068,
-      "share_of_total_change": 0.643
+      "forecast_without_group": 2784.3,
+      "change_cases": -6652.9,
+      "change_log": -1.2204,
+      "share_of_total_change": 0.792
     },
     {
       "group": "other_diseases",
       "description": "The state's history of the other two diseases",
-      "forecast_without_group": 6156.3,
-      "change_cases": -3397.6,
-      "change_log": -0.4394,
-      "share_of_total_change": 0.312
+      "forecast_without_group": 7404.6,
+      "change_cases": -2032.5,
+      "change_log": -0.2425,
+      "share_of_total_change": 0.157
     },
     {
       "group": "neighbours",
       "description": "Disease history of neighbouring states in the model graph",
-      "forecast_without_group": 9444.2,
-      "change_cases": -109.8,
-      "change_log": -0.0116,
-      "share_of_total_change": 0.008
+      "forecast_without_group": 9850.3,
+      "change_cases": 413.1,
+      "change_log": 0.0428,
+      "share_of_total_change": 0.028
     },
     {
       "group": "weather",
       "description": "The state's own temperature and rainfall",
-      "forecast_without_group": 10059.7,
-      "change_cases": 505.8,
-      "change_log": 0.0516,
-      "share_of_total_change": 0.037
+      "forecast_without_group": 9103.0,
+      "change_cases": -334.1,
+      "change_log": -0.036,
+      "share_of_total_change": 0.023
     }
   ],
-  "summary": "Largest change when removed: the state's own history of this disease (64% of the total change). Model attribution, not a causal effect.",
+  "summary": "Largest change when removed: the state's own history of this disease (79% of the total change). Model attribution, not a causal effect.",
   "notes": []
 }

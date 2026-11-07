@@ -1,4 +1,4 @@
-[data] years 1999-2025 | zeros treated as missing: 297
+[data] years 1999-2025 | zeros treated as missing: 300
 [cfg] gcn graph=identity weather=1 single=0 K=3 horizons=[1] tag=identity
 h=1 2010 done
 h=1 2011 done
@@ -18,11 +18,11 @@ h=1 2024 done
 h=1 2025 done
 
 === horizon 1 year(s) ahead | MEAN over 16 folds ===
-mae_model    4077.399
-mae_last     4083.832
-mae_avg2     4831.433
-log_model       0.810
-log_last        0.809
-log_avg2        0.859
-mae_model minus persistence: mean -6.433 CI [-246.465, 217.732] folds better 8/16
-log_model minus persistence: mean 0.002 CI [-0.026, 0.029] folds better 8/16
+mae_model    3693.965
+mae_last     3873.012
+mae_avg2     4492.811
+log_model       0.843
+log_last        0.855
+log_avg2        0.889
+mae_model minus persistence: mean -179.046 CI [-420.293, 46.780] folds better 10/16
+log_model minus persistence: mean -0.012 CI [-0.044, 0.024] folds better 10/16

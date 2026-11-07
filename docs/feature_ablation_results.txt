@@ -1,8 +1,7 @@
 diff < 0 means the model is better. CI = 95% bootstrap over folds.
 
-fx_base      h=1 | log-MAE 0.798 vs persistence 0.809 | diff -0.011 [-0.055,+0.027] | MAE 3985 vs 4084
-fx_hum       h=1 | log-MAE 0.814 vs persistence 0.809 | diff +0.006 [-0.026,+0.037] | MAE 4025 vs 4084 | vs fx_base: +0.016 [+0.000,+0.037]
-fx_monsoon   h=1 | log-MAE 0.792 vs persistence 0.809 | diff -0.017 [-0.061,+0.023] | MAE 3889 vs 4084 | vs fx_base: -0.006 [-0.019,+0.006]
-fx_demo      h=1 | log-MAE 0.802 vs persistence 0.809 | diff -0.006 [-0.043,+0.030] | MAE 3918 vs 4084 | vs fx_base: +0.004 [-0.008,+0.018]
-fx_elev      h=1 | log-MAE 0.807 vs persistence 0.809 | diff -0.002 [-0.043,+0.038] | MAE 3893 vs 4084 | vs fx_base: +0.009 [-0.006,+0.026]
-fx_all       h=1 | log-MAE 0.807 vs persistence 0.809 | diff -0.002 [-0.051,+0.040] | MAE 4070 vs 4084 | vs fx_base: +0.009 [-0.008,+0.024]
+fx_base      h=1 | log-MAE 0.853 vs persistence 0.855 | diff -0.001 [-0.040,+0.039] | MAE 3710 vs 3873
+fx_hum       h=1 | log-MAE 0.861 vs persistence 0.855 | diff +0.006 [-0.036,+0.046] | MAE 3698 vs 3873 | vs fx_base: +0.008 [-0.004,+0.019]
+fx_monsoon   h=1 | log-MAE 0.826 vs persistence 0.855 | diff -0.028 [-0.066,+0.005] | MAE 3499 vs 3873 | vs fx_base: -0.027 [-0.047,-0.010]
+fx_demo      h=1 | log-MAE 0.859 vs persistence 0.855 | diff +0.004 [-0.043,+0.052] | MAE 3677 vs 3873 | vs fx_base: +0.006 [-0.008,+0.019]
+fx_elev      h=1 | log-MAE 0.839 vs persistence 0.855 | diff -0.016 [-0.050,+0.019] | MAE 3537 vs 3873 | vs fx_base: -0.015 [-0.033,-0.000]

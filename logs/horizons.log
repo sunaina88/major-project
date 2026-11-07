@@ -1,4 +1,4 @@
-[data] years 1999-2025 | zeros treated as missing: 297
+[data] years 1999-2025 | zeros treated as missing: 300
 [cfg] gcn graph=geo weather=1 single=0 K=3 horizons=[1, 2, 3] tag=horizons
 h=1 2010 done
 h=1 2011 done
@@ -18,14 +18,14 @@ h=1 2024 done
 h=1 2025 done
 
 === horizon 1 year(s) ahead | MEAN over 16 folds ===
-mae_model    3985.248
-mae_last     4083.832
-mae_avg2     4831.433
-log_model       0.798
-log_last        0.809
-log_avg2        0.859
-mae_model minus persistence: mean -98.584 CI [-324.804, 148.507] folds better 12/16
-log_model minus persistence: mean -0.011 CI [-0.054, 0.026] folds better 10/16
+mae_model    3709.521
+mae_last     3873.012
+mae_avg2     4492.811
+log_model       0.853
+log_last        0.855
+log_avg2        0.889
+mae_model minus persistence: mean -163.491 CI [-328.171, 20.674] folds better 13/16
+log_model minus persistence: mean -0.001 CI [-0.040, 0.039] folds better 10/16
 h=2 2010 done
 h=2 2011 done
 h=2 2012 done
@@ -44,14 +44,14 @@ h=2 2024 done
 h=2 2025 done
 
 === horizon 2 year(s) ahead | MEAN over 16 folds ===
-mae_model    6534.271
-mae_last     6424.846
-mae_avg2     6830.029
-log_model       1.137
-log_last        1.088
-log_avg2        1.084
-mae_model minus persistence: mean 109.425 CI [-287.537, 560.478] folds better 9/16
-log_model minus persistence: mean 0.049 CI [0.006, 0.105] folds better 6/16
+mae_model    5583.374
+mae_last     5753.313
+mae_avg2     6076.323
+log_model       1.104
+log_last        1.110
+log_avg2        1.093
+mae_model minus persistence: mean -169.940 CI [-441.450, 123.816] folds better 11/16
+log_model minus persistence: mean -0.006 CI [-0.032, 0.028] folds better 11/16
 h=3 2010 done
 h=3 2011 done
 h=3 2012 done
@@ -70,11 +70,11 @@ h=3 2024 done
 h=3 2025 done
 
 === horizon 3 year(s) ahead | MEAN over 16 folds ===
-mae_model    8992.631
-mae_last     8129.298
-mae_avg2     8901.203
+mae_model    7559.225
+mae_last     7045.246
+mae_avg2     7782.177
 log_model       1.294
-log_last        1.268
-log_avg2        1.270
-mae_model minus persistence: mean 863.334 CI [227.299, 1542.519] folds better 4/16
-log_model minus persistence: mean 0.026 CI [-0.001, 0.055] folds better 7/16
+log_last        1.282
+log_avg2        1.262
+mae_model minus persistence: mean 513.979 CI [48.732, 1024.761] folds better 6/16
+log_model minus persistence: mean 0.012 CI [-0.021, 0.048] folds better 8/16

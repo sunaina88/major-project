@@ -4,7 +4,7 @@
       "name": "annual_final",
       "version": "1.0.0",
       "file": "models/stgnn/annual_final.pt",
-      "sha256": "209c64f7345aacc05d223f6b6191aace94fa08aac890b4378427c4cb49156055",
+      "sha256": "529e8e438b256daa2272196f817f402649283802e646769e02f0f7df5780ba1e",
       "training_years": "1999-2025",
       "horizons_years_ahead": [
         1,
@@ -39,12 +39,12 @@
           "horizon": 1,
           "variant": "GCN, land-border graph, synthetic weather",
           "n_folds": 16,
-          "log_mae_model": 0.798,
-          "log_mae_persistence": 0.809,
-          "diff_vs_persistence": -0.011,
+          "log_mae_model": 0.853,
+          "log_mae_persistence": 0.855,
+          "diff_vs_persistence": -0.001,
           "ci_95": [
-            -0.055,
-            0.028
+            -0.04,
+            0.039
           ],
           "tie": true,
           "folds_better_than_persistence": 10
@@ -55,30 +55,30 @@
             "horizon": 1,
             "variant": "Input window of 2 years",
             "n_folds": 16,
-            "log_mae_model": 0.823,
-            "log_mae_persistence": 0.809,
-            "diff_vs_persistence": 0.014,
+            "log_mae_model": 0.846,
+            "log_mae_persistence": 0.855,
+            "diff_vs_persistence": -0.009,
             "ci_95": [
-              -0.038,
-              0.064
+              -0.054,
+              0.038
             ],
             "tie": true,
-            "folds_better_than_persistence": 6
+            "folds_better_than_persistence": 9
           },
           {
             "tag": "K5",
             "horizon": 1,
             "variant": "Input window of 5 years",
             "n_folds": 16,
-            "log_mae_model": 0.823,
-            "log_mae_persistence": 0.809,
+            "log_mae_model": 0.869,
+            "log_mae_persistence": 0.855,
             "diff_vs_persistence": 0.014,
             "ci_95": [
-              -0.021,
-              0.047
+              -0.015,
+              0.046
             ],
             "tie": true,
-            "folds_better_than_persistence": 8
+            "folds_better_than_persistence": 9
           },
           {
             "tag": "clean",
@@ -100,42 +100,42 @@
             "horizon": 1,
             "variant": "Distance graph",
             "n_folds": 16,
-            "log_mae_model": 0.793,
-            "log_mae_persistence": 0.809,
-            "diff_vs_persistence": -0.016,
+            "log_mae_model": 0.836,
+            "log_mae_persistence": 0.855,
+            "diff_vs_persistence": -0.019,
             "ci_95": [
-              -0.064,
-              0.022
+              -0.063,
+              0.02
             ],
             "tie": true,
-            "folds_better_than_persistence": 9
+            "folds_better_than_persistence": 10
           },
           {
             "tag": "gat",
             "horizon": 1,
             "variant": "GAT",
             "n_folds": 16,
-            "log_mae_model": 0.834,
-            "log_mae_persistence": 0.809,
-            "diff_vs_persistence": 0.025,
+            "log_mae_model": 0.873,
+            "log_mae_persistence": 0.855,
+            "diff_vs_persistence": 0.018,
             "ci_95": [
-              -0.011,
+              -0.026,
               0.06
             ],
             "tie": true,
-            "folds_better_than_persistence": 7
+            "folds_better_than_persistence": 9
           },
           {
             "tag": "geo_now",
             "horizon": 1,
             "variant": "Without weather",
             "n_folds": 16,
-            "log_mae_model": 0.826,
-            "log_mae_persistence": 0.809,
-            "diff_vs_persistence": 0.017,
+            "log_mae_model": 0.865,
+            "log_mae_persistence": 0.855,
+            "diff_vs_persistence": 0.01,
             "ci_95": [
-              -0.008,
-              0.046
+              -0.019,
+              0.044
             ],
             "tie": true,
             "folds_better_than_persistence": 9
@@ -145,12 +145,12 @@
             "horizon": 1,
             "variant": "GCN, land-border graph, synthetic weather",
             "n_folds": 16,
-            "log_mae_model": 0.798,
-            "log_mae_persistence": 0.809,
-            "diff_vs_persistence": -0.011,
+            "log_mae_model": 0.853,
+            "log_mae_persistence": 0.855,
+            "diff_vs_persistence": -0.001,
             "ci_95": [
-              -0.055,
-              0.028
+              -0.04,
+              0.039
             ],
             "tie": true,
             "folds_better_than_persistence": 10
@@ -160,12 +160,12 @@
             "horizon": 1,
             "variant": "1 year(s) ahead",
             "n_folds": 16,
-            "log_mae_model": 0.798,
-            "log_mae_persistence": 0.809,
-            "diff_vs_persistence": -0.011,
+            "log_mae_model": 0.853,
+            "log_mae_persistence": 0.855,
+            "diff_vs_persistence": -0.001,
             "ci_95": [
-              -0.055,
-              0.028
+              -0.04,
+              0.039
             ],
             "tie": true,
             "folds_better_than_persistence": 10
@@ -175,15 +175,15 @@
             "horizon": 2,
             "variant": "2 year(s) ahead",
             "n_folds": 16,
-            "log_mae_model": 1.137,
-            "log_mae_persistence": 1.088,
-            "diff_vs_persistence": 0.049,
+            "log_mae_model": 1.104,
+            "log_mae_persistence": 1.11,
+            "diff_vs_persistence": -0.006,
             "ci_95": [
-              0.006,
-              0.105
+              -0.033,
+              0.029
             ],
-            "tie": false,
-            "folds_better_than_persistence": 6
+            "tie": true,
+            "folds_better_than_persistence": 11
           },
           {
             "tag": "horizons",
@@ -191,73 +191,103 @@
             "variant": "3 year(s) ahead",
             "n_folds": 16,
             "log_mae_model": 1.294,
-            "log_mae_persistence": 1.268,
-            "diff_vs_persistence": 0.026,
+            "log_mae_persistence": 1.282,
+            "diff_vs_persistence": 0.012,
             "ci_95": [
-              -0.001,
-              0.055
+              -0.022,
+              0.049
             ],
             "tie": true,
-            "folds_better_than_persistence": 7
+            "folds_better_than_persistence": 8
           },
           {
             "tag": "hybrid",
             "horizon": 1,
             "variant": "Hybrid graph",
             "n_folds": 16,
-            "log_mae_model": 0.792,
-            "log_mae_persistence": 0.809,
-            "diff_vs_persistence": -0.017,
+            "log_mae_model": 0.84,
+            "log_mae_persistence": 0.855,
+            "diff_vs_persistence": -0.015,
             "ci_95": [
-              -0.063,
-              0.026
+              -0.061,
+              0.027
             ],
             "tie": true,
-            "folds_better_than_persistence": 11
+            "folds_better_than_persistence": 10
           },
           {
             "tag": "identity",
             "horizon": 1,
             "variant": "No graph",
             "n_folds": 16,
-            "log_mae_model": 0.81,
-            "log_mae_persistence": 0.809,
-            "diff_vs_persistence": 0.002,
+            "log_mae_model": 0.843,
+            "log_mae_persistence": 0.855,
+            "diff_vs_persistence": -0.012,
             "ci_95": [
-              -0.027,
-              0.029
+              -0.043,
+              0.024
             ],
             "tie": true,
-            "folds_better_than_persistence": 8
+            "folds_better_than_persistence": 10
           },
           {
             "tag": "knn",
             "horizon": 1,
             "variant": "kNN graph",
             "n_folds": 16,
-            "log_mae_model": 0.79,
-            "log_mae_persistence": 0.809,
-            "diff_vs_persistence": -0.019,
+            "log_mae_model": 0.836,
+            "log_mae_persistence": 0.855,
+            "diff_vs_persistence": -0.018,
             "ci_95": [
-              -0.067,
-              0.022
+              -0.07,
+              0.033
             ],
             "tie": true,
             "folds_better_than_persistence": 9
+          },
+          {
+            "tag": "p4_area",
+            "horizon": 1,
+            "variant": "p4_area",
+            "n_folds": 13,
+            "log_mae_model": 0.836,
+            "log_mae_persistence": 0.846,
+            "diff_vs_persistence": -0.01,
+            "ci_95": [
+              -0.053,
+              0.028
+            ],
+            "tie": true,
+            "folds_better_than_persistence": 8
+          },
+          {
+            "tag": "p4_area_extra",
+            "horizon": 1,
+            "variant": "p4_area_extra",
+            "n_folds": 13,
+            "log_mae_model": 0.827,
+            "log_mae_persistence": 0.846,
+            "diff_vs_persistence": -0.018,
+            "ci_95": [
+              -0.053,
+              0.018
+            ],
+            "tie": true,
+            "folds_better_than_persistence": 10
           },
           {
             "tag": "single",
             "horizon": 1,
             "variant": "Separate model per disease",
             "n_folds": 16,
-            "log_mae_model": 0.868,
-            "log_mae_persistence": 0.809,
-            "diff_vs_persistence": 0.059,
+            "log_mae_model": 0.892,
+            "log_mae_persistence": 0.855,
+            "diff_vs_persistence": 0.037,
             "ci_95": [
-              0.007,
-              0.119
+              -0.021,
+              0.097
             ],
-            "tie": false,
+            "tie": true,
             "folds_better_than_persistence": 6
           },
           {
@@ -291,11 +321,11 @@
             "folds_better_than_persistence": 8
           }
         ],
-        "variants_run": 14
+        "variants_run": 16
       },
       "summary": "Annual forecasts are statistically tied with persistence (last year's value). Not an outbreak or early-warning model.",
-      "git_commit": "ed57b53adb475af21e06aa75648c897a3e64a91c",
-      "registered_at": "2026-11-05T06:31:32+00:00",
+      "git_commit": "ea02bfcea16a705c1fc1abb6489c8dae938c323e",
+      "registered_at": "2026-11-07T14:53:48+00:00",
       "not_registered": "models/stgnn/archive_monthly/ (monthly models are invalid)"
     }
   ]

@@ -2,19 +2,19 @@
   "metric": "log-MAE (mean |log1p(pred) - log1p(true)|), lower is better",
   "reference": "persistence = last year's value",
   "evaluation": "Rolling origin, test years 2010-2025, trained on earlier years only (16 folds); 95% bootstrap interval over folds (10,000 resamples). Interval includes 0 = tie.",
-  "variants_run": 14,
-  "multiple_comparisons_note": "14 variants were compared; with that many, one can look better by chance.",
+  "variants_run": 16,
+  "multiple_comparisons_note": "16 variants were compared; with that many, one can look better by chance.",
   "headline": {
     "tag": "geo_w",
     "horizon": 1,
     "variant": "GCN, land-border graph, synthetic weather",
     "n_folds": 16,
-    "log_mae_model": 0.798,
-    "log_mae_persistence": 0.809,
-    "diff_vs_persistence": -0.011,
+    "log_mae_model": 0.853,
+    "log_mae_persistence": 0.855,
+    "diff_vs_persistence": -0.001,
     "ci_95": [
-      -0.055,
-      0.028
+      -0.04,
+      0.039
     ],
     "tie": true,
     "folds_better_than_persistence": 10
@@ -25,30 +25,30 @@
       "horizon": 1,
       "variant": "Input window of 2 years",
       "n_folds": 16,
-      "log_mae_model": 0.823,
-      "log_mae_persistence": 0.809,
-      "diff_vs_persistence": 0.014,
+      "log_mae_model": 0.846,
+      "log_mae_persistence": 0.855,
+      "diff_vs_persistence": -0.009,
       "ci_95": [
-        -0.038,
-        0.064
+        -0.054,
+        0.038
       ],
       "tie": true,
-      "folds_better_than_persistence": 6
+      "folds_better_than_persistence": 9
     },
     {
       "tag": "K5",
       "horizon": 1,
       "variant": "Input window of 5 years",
       "n_folds": 16,
-      "log_mae_model": 0.823,
-      "log_mae_persistence": 0.809,
+      "log_mae_model": 0.869,
+      "log_mae_persistence": 0.855,
       "diff_vs_persistence": 0.014,
       "ci_95": [
-        -0.021,
-        0.047
+        -0.015,
+        0.046
       ],
       "tie": true,
-      "folds_better_than_persistence": 8
+      "folds_better_than_persistence": 9
     },
     {
       "tag": "clean",
@@ -70,42 +70,42 @@
       "horizon": 1,
       "variant": "Distance graph",
       "n_folds": 16,
-      "log_mae_model": 0.793,
-      "log_mae_persistence": 0.809,
-      "diff_vs_persistence": -0.016,
+      "log_mae_model": 0.836,
+      "log_mae_persistence": 0.855,
+      "diff_vs_persistence": -0.019,
       "ci_95": [
-        -0.064,
-        0.022
+        -0.063,
+        0.02
       ],
       "tie": true,
-      "folds_better_than_persistence": 9
+      "folds_better_than_persistence": 10
     },
     {
       "tag": "gat",
       "horizon": 1,
       "variant": "GAT",
       "n_folds": 16,
-      "log_mae_model": 0.834,
-      "log_mae_persistence": 0.809,
-      "diff_vs_persistence": 0.025,
+      "log_mae_model": 0.873,
+      "log_mae_persistence": 0.855,
+      "diff_vs_persistence": 0.018,
       "ci_95": [
-        -0.011,
+        -0.026,
         0.06
       ],
       "tie": true,
-      "folds_better_than_persistence": 7
+      "folds_better_than_persistence": 9
     },
     {
       "tag": "geo_now",
       "horizon": 1,
       "variant": "Without weather",
       "n_folds": 16,
-      "log_mae_model": 0.826,
-      "log_mae_persistence": 0.809,
-      "diff_vs_persistence": 0.017,
+      "log_mae_model": 0.865,
+      "log_mae_persistence": 0.855,
+      "diff_vs_persistence": 0.01,
       "ci_95": [
-        -0.008,
-        0.046
+        -0.019,
+        0.044
       ],
       "tie": true,
       "folds_better_than_persistence": 9
@@ -115,12 +115,12 @@
       "horizon": 1,
       "variant": "GCN, land-border graph, synthetic weather",
       "n_folds": 16,
-      "log_mae_model": 0.798,
-      "log_mae_persistence": 0.809,
-      "diff_vs_persistence": -0.011,
+      "log_mae_model": 0.853,
+      "log_mae_persistence": 0.855,
+      "diff_vs_persistence": -0.001,
       "ci_95": [
-        -0.055,
-        0.028
+        -0.04,
+        0.039
       ],
       "tie": true,
       "folds_better_than_persistence": 10
@@ -130,12 +130,12 @@
       "horizon": 1,
       "variant": "1 year(s) ahead",
       "n_folds": 16,
-      "log_mae_model": 0.798,
-      "log_mae_persistence": 0.809,
-      "diff_vs_persistence": -0.011,
+      "log_mae_model": 0.853,
+      "log_mae_persistence": 0.855,
+      "diff_vs_persistence": -0.001,
       "ci_95": [
-        -0.055,
-        0.028
+        -0.04,
+        0.039
       ],
       "tie": true,
       "folds_better_than_persistence": 10
@@ -145,15 +145,15 @@
       "horizon": 2,
       "variant": "2 year(s) ahead",
       "n_folds": 16,
-      "log_mae_model": 1.137,
-      "log_mae_persistence": 1.088,
-      "diff_vs_persistence": 0.049,
+      "log_mae_model": 1.104,
+      "log_mae_persistence": 1.11,
+      "diff_vs_persistence": -0.006,
       "ci_95": [
-        0.006,
-        0.105
+        -0.033,
+        0.029
       ],
-      "tie": false,
-      "folds_better_than_persistence": 6
+      "tie": true,
+      "folds_better_than_persistence": 11
     },
     {
       "tag": "horizons",
@@ -161,73 +161,103 @@
       "variant": "3 year(s) ahead",
       "n_folds": 16,
       "log_mae_model": 1.294,
-      "log_mae_persistence": 1.268,
-      "diff_vs_persistence": 0.026,
+      "log_mae_persistence": 1.282,
+      "diff_vs_persistence": 0.012,
       "ci_95": [
-        -0.001,
-        0.055
+        -0.022,
+        0.049
       ],
       "tie": true,
-      "folds_better_than_persistence": 7
+      "folds_better_than_persistence": 8
     },
     {
       "tag": "hybrid",
       "horizon": 1,
       "variant": "Hybrid graph",
       "n_folds": 16,
-      "log_mae_model": 0.792,
-      "log_mae_persistence": 0.809,
-      "diff_vs_persistence": -0.017,
+      "log_mae_model": 0.84,
+      "log_mae_persistence": 0.855,
+      "diff_vs_persistence": -0.015,
       "ci_95": [
-        -0.063,
-        0.026
+        -0.061,
+        0.027
       ],
       "tie": true,
-      "folds_better_than_persistence": 11
+      "folds_better_than_persistence": 10
     },
     {
       "tag": "identity",
       "horizon": 1,
       "variant": "No graph",
       "n_folds": 16,
-      "log_mae_model": 0.81,
-      "log_mae_persistence": 0.809,
-      "diff_vs_persistence": 0.002,
+      "log_mae_model": 0.843,
+      "log_mae_persistence": 0.855,
+      "diff_vs_persistence": -0.012,
       "ci_95": [
-        -0.027,
-        0.029
+        -0.043,
+        0.024
       ],
       "tie": true,
-      "folds_better_than_persistence": 8
+      "folds_better_than_persistence": 10
     },
     {
       "tag": "knn",
       "horizon": 1,
       "variant": "kNN graph",
       "n_folds": 16,
-      "log_mae_model": 0.79,
-      "log_mae_persistence": 0.809,
-      "diff_vs_persistence": -0.019,
+      "log_mae_model": 0.836,
+      "log_mae_persistence": 0.855,
+      "diff_vs_persistence": -0.018,
       "ci_95": [
-        -0.067,
-        0.022
+        -0.07,
+        0.033
       ],
       "tie": true,
       "folds_better_than_persistence": 9
+    },
+    {
+      "tag": "p4_area",
+      "horizon": 1,
+      "variant": "p4_area",
+      "n_folds": 13,
+      "log_mae_model": 0.836,
+      "log_mae_persistence": 0.846,
+      "diff_vs_persistence": -0.01,
+      "ci_95": [
+        -0.053,
+        0.028
+      ],
+      "tie": true,
+      "folds_better_than_persistence": 8
+    },
+    {
+      "tag": "p4_area_extra",
+      "horizon": 1,
+      "variant": "p4_area_extra",
+      "n_folds": 13,
+      "log_mae_model": 0.827,
+      "log_mae_persistence": 0.846,
+      "diff_vs_persistence": -0.018,
+      "ci_95": [
+        -0.053,
+        0.018
+      ],
+      "tie": true,
+      "folds_better_than_persistence": 10
     },
     {
       "tag": "single",
       "horizon": 1,
       "variant": "Separate model per disease",
       "n_folds": 16,
-      "log_mae_model": 0.868,
-      "log_mae_persistence": 0.809,
-      "diff_vs_persistence": 0.059,
+      "log_mae_model": 0.892,
+      "log_mae_persistence": 0.855,
+      "diff_vs_persistence": 0.037,
       "ci_95": [
-        0.007,
-        0.119
+        -0.021,
+        0.097
       ],
-      "tie": false,
+      "tie": true,
       "folds_better_than_persistence": 6
     },
     {
@@ -266,21 +296,21 @@
       "a": "GAT",
       "b": "GCN, land-border graph, synthetic weather",
       "metric": "log-MAE",
-      "diff_a_minus_b": 0.035,
+      "diff_a_minus_b": 0.02,
       "ci_95": [
-        0.007,
-        0.068
+        -0.005,
+        0.047
       ],
-      "tie": false
+      "tie": true
     },
     {
       "a": "Separate model per disease",
       "b": "GCN, land-border graph, synthetic weather",
       "metric": "log-MAE",
-      "diff_a_minus_b": 0.07,
+      "diff_a_minus_b": 0.038,
       "ci_95": [
-        0.017,
-        0.127
+        0.006,
+        0.071
       ],
       "tie": false
     }
@@ -340,71 +370,71 @@
       "tag": "geo_w",
       "horizon": 1,
       "year": 2014,
-      "n": 51,
-      "mae_model": 7257.742258931442,
-      "mae_last": 7397.549019607844,
-      "mae_avg2": 7748.362745098039,
-      "log_model": 0.5449917733339693,
-      "log_last": 0.5528501230122959,
-      "log_avg2": 0.6802147402347124
+      "n": 80,
+      "mae_model": 5233.4384049117925,
+      "mae_last": 5292.385238023875,
+      "mae_avg2": 5436.746544990818,
+      "log_model": 0.8695175830513037,
+      "log_last": 0.8705020650932702,
+      "log_avg2": 0.920588277257683
     },
     {
       "tag": "geo_w",
       "horizon": 1,
       "year": 2015,
-      "n": 54,
-      "mae_model": 2694.951636882145,
-      "mae_last": 2786.3703703703704,
-      "mae_avg2": 5270.416666666667,
-      "log_model": 0.7495835381099487,
-      "log_last": 0.612574223794889,
-      "log_avg2": 0.6926873673154065
+      "n": 85,
+      "mae_model": 2405.101070791776,
+      "mae_last": 2661.4117647058824,
+      "mae_avg2": 4085.404817893589,
+      "log_model": 0.9043476260983568,
+      "log_last": 0.964011549987508,
+      "log_avg2": 0.8191266354556531
     },
     {
       "tag": "geo_w",
       "horizon": 1,
       "year": 2016,
-      "n": 59,
-      "mae_model": 5240.58940870602,
-      "mae_last": 4192.8478283583045,
-      "mae_avg2": 4559.474947002372,
-      "log_model": 1.09909890670738,
-      "log_last": 1.0454343634635557,
-      "log_avg2": 1.017596050705912
+      "n": 93,
+      "mae_model": 3170.606063519077,
+      "mae_last": 3556.570127668172,
+      "mae_avg2": 3728.4518480982792,
+      "log_model": 1.0420089862869326,
+      "log_last": 1.0353362740740486,
+      "log_avg2": 1.062977111371468
     },
     {
       "tag": "geo_w",
       "horizon": 1,
       "year": 2017,
-      "n": 63,
-      "mae_model": 5264.156610672332,
-      "mae_last": 4675.873363065713,
-      "mae_avg2": 5349.349379945556,
-      "log_model": 0.5296724217919704,
-      "log_last": 0.5587117541763078,
-      "log_avg2": 0.6361443177852458
+      "n": 97,
+      "mae_model": 3744.6624183938993,
+      "mae_last": 4169.144555393195,
+      "mae_avg2": 4539.01557666567,
+      "log_model": 0.6837300321238419,
+      "log_last": 0.636949818557802,
+      "log_avg2": 0.7099017640179269
     },
     {
       "tag": "geo_w",
       "horizon": 1,
       "year": 2018,
       "n": 98,
-      "mae_model": 6089.925472241302,
+      "mae_model": 6228.16333966757,
       "mae_last": 6827.15306122449,
-      "mae_avg2": 7997.48990751602,
-      "log_model": 0.7610380871314922,
+      "mae_avg2": 7717.515417720102,
+      "log_model": 0.757336287400425,
       "log_last": 0.8109138611132582,
-      "log_avg2": 0.951769973578562
+      "log_avg2": 0.9461750020001934
     },
     {
       "tag": "geo_w",
       "horizon": 1,
       "year": 2019,
       "n": 97,
-      "mae_model": 2722.7824469926845,
+      "mae_model": 2477.699862318564,
       "mae_last": 2796.082474226804,
       "mae_avg2": 5425.072164948454,
-      "log_model": 0.7439421567295871,
+      "log_model": 0.7245943092109416,
       "log_last": 0.7526014376181276,
       "log_avg2": 0.8416375185359694
     },
@@ -413,10 +443,10 @@
       "horizon": 1,
       "year": 2020,
       "n": 94,
-      "mae_model": 3543.4906727755456,
+      "mae_model": 3685.108040152948,
       "mae_last": 4009.989361702128,
       "mae_avg2": 3903.36170212766,
-      "log_model": 1.2593166908086055,
+      "log_model": 1.2664749287450277,
       "log_last": 1.3190372883851644,
       "log_avg2": 1.3774247298636366
     },
@@ -425,10 +455,10 @@
       "horizon": 1,
       "year": 2021,
       "n": 92,
-      "mae_model": 2589.6029032430183,
+      "mae_model": 2906.9902425164164,
       "mae_last": 3323.304347826087,
       "mae_avg2": 3632.1141304347834,
-      "log_model": 0.7387508687781306,
+      "log_model": 0.8277557042691651,
       "log_last": 1.0087401739291524,
       "log_avg2": 0.9173488280608078
     },
@@ -437,10 +467,10 @@
       "horizon": 1,
       "year": 2022,
       "n": 94,
-      "mae_model": 2433.086904960802,
+      "mae_model": 2767.6920890526703,
       "mae_last": 2798.095744680851,
       "mae_avg2": 2879.8936170212764,
-      "log_model": 0.9249561003114432,
+      "log_model": 1.0174078750917306,
       "log_last": 0.8939539544651236,
       "log_avg2": 0.9960379743567208
     },
@@ -449,10 +479,10 @@
       "horizon": 1,
       "year": 2023,
       "n": 98,
-      "mae_model": 3061.0639828212843,
+      "mae_model": 3744.9181069376136,
       "mae_last": 3095.8673469387754,
       "mae_avg2": 2899.2602040816328,
-      "log_model": 0.8008278627338048,
+      "log_model": 0.9465179024231224,
       "log_last": 0.748023909900218,
       "log_avg2": 0.792544196938752
     },
@@ -461,10 +491,10 @@
       "horizon": 1,
       "year": 2024,
       "n": 102,
-      "mae_model": 3228.37695658498,
+      "mae_model": 3232.0681431182625,
       "mae_last": 3120.656862745098,
       "mae_avg2": 3451.36274509804,
-      "log_model": 0.8921128743803769,
+      "log_model": 0.8751032595712896,
       "log_last": 0.8276391592265955,
       "log_avg2": 0.7784879703497718
     },
@@ -473,10 +503,10 @@
       "horizon": 1,
       "year": 2025,
       "n": 101,
-      "mae_model": 1753.5297716630191,
+      "mae_model": 1871.224738420589,
       "mae_last": 2487.1188118811883,
       "mae_avg2": 2742.8960396039606,
-      "log_model": 0.6691498486620747,
+      "log_model": 0.6821556944305115,
       "log_last": 0.728982655938847,
       "log_avg2": 0.8205168750454468
     }
