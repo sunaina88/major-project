@@ -47,7 +47,7 @@ def fetch(job):
     if os.path.exists(f):
         return job, json.load(open(f))
     q = dict(parameters=",".join(VARS), community="AG", latitude=lat, longitude=lon,
-             start=1999, end=2022, format="JSON")
+             start=1999, end=2025, format="JSON")
     err = None
     for attempt in range(5):
         try:
@@ -78,7 +78,7 @@ for (s, lat, lon), js in results:
     co = js.get("geometry", {}).get("coordinates", [])
     if len(co) >= 3 and co[2] is not None:
         elev.append((s, float(co[2])))
-    for yr in range(1999, 2023):
+    for yr in range(1999, 2026):
         for mo in range(1, 13):
             k = f"{yr}{mo:02d}"
             v = {}

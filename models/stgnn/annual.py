@@ -10,7 +10,8 @@ p.add_argument("--graph", default="geo", choices=["geo", "identity", "knn", "dis
 p.add_argument("--weather", type=int, default=1)
 p.add_argument("--single", type=int, default=0)       # 1 = separate model per disease
 p.add_argument("--zero_missing", type=int, default=1)
-p.add_argument("--extra", default="")
+p.add_argument("--static", default="")
+p.add_argument("--env", default="")
 p.add_argument("--K", type=int, default=3)            # input window in years
 p.add_argument("--horizons", default="1")             # e.g. 1,2,3 (years ahead)
 p.add_argument("--cap", type=float, default=0.5)
@@ -22,7 +23,17 @@ p.add_argument("--forecast", type=int, default=0)
 a = p.parse_args()
 HS = [int(x) for x in a.horizons.split(",")]
 
-states, years, Y, Wraw = load_annual(a.data, a.zero_missing, [c for c in a.extra.split(",") if c])
+states, years, Y, Wraw = load_annual(a.data, a.zero_missing)
+if a.static or a.env:
+    from features_extra import static_channels, env_channels
+    parts = [Wraw]
+    if a.static:
+        parts.append(static_channels(states, years, [c for c in a.static.split(",") if c]))
+    if a.env:
+        parts.append(env_channels(states, years, [c for c in a.env.split(",") if c]))
+    Wraw = np.concatenate(parts, -1)
+    print(f"[features] static={a.static or '-'} env={a.env or '-'} | weather channels now {Wraw.shape[-1]}")
+
 T, N = Y.shape[0], Y.shape[1]
 M = (~np.isnan(Y)).astype(np.float32)
 Ylog = np.nan_to_num(np.log1p(Y), nan=0.0)
