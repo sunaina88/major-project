@@ -36,7 +36,7 @@ Result files you can compare against: `data/processed/stgnn_annual_geo_w_h1.csv`
 
 Create `src/evaluation/metrics.py` with: `mae`, `log_mae`, `paired_diff(model_errors, reference_errors)`, `bootstrap_ci(values, n=10000, seed=0)`. Use the definitions in `handoff/README.md` section 6.
 
-**Test:** `tests/test_metrics.py` must reproduce the mean `log_model` (0.828) and `log_last` (0.846) from `stgnn_annual_geo_w_h1.csv` to three decimals. All other work depends on this being right.
+**Test:** `tests/test_metrics.py` must reproduce the mean `log_model` (0.853) and `log_last` (0.855) from `stgnn_annual_geo_w_h1.csv` to three decimals. All other work depends on this being right.
 
 ### Task 2: Backtesting harness
 

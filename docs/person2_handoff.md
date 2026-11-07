@@ -75,3 +75,12 @@ Differences in log-error from the baseline; negative means better. No group clea
 model is unchanged. About 17 variants were compared across all experiments, so one can look better by chance. Static
 features are constant per state and can only describe differences between states. Full table: docs/feature_ablation_results.txt.
 Code: models/stgnn/features_extra.py and the --static / --env options of models/stgnn/annual.py.
+
+## Feature ablations and robustness (after the dengue 2014-2016 fill)
+Extra inputs were added one group at a time to the baseline (16 test years). Monsoon rainfall (June-September total) was the
+only group with a visible effect: -0.027 [-0.047, -0.010] against the baseline in the first run, and in three reruns -0.018
+[-0.027, -0.010] (8 seeds), -0.017 [-0.031, -0.004] (zeros kept) and -0.006 [-0.020, +0.006] (no graph). The monsoon model is
+still statistically tied with persistence on log-MAE (-0.023 [-0.063, +0.013]); on raw MAE it beats persistence (-275 [-436, -111]).
+About 20 comparisons were made and the effect appeared only after the data change, so it is exploratory and the final model is
+unchanged. Humidity and wind (+0.008), population density and urban share (+0.006) and elevation (-0.015 [-0.033, -0.000]) showed no reliable effect.
+Zero handling: keeping zeros instead of treating them as missing gives 0.969 vs persistence 0.963, a tie again, so the conclusion does not depend on that heuristic.

@@ -13,7 +13,7 @@ The pipeline works end to end, but the data cannot support the original claims.
 - **Monthly disease values are not real.** Person 1's tensor splits every annual total with one fixed curve (weights 2, 2, 3, 4, 5, 8, 18, 22, 18, 10, 5, 3 %). Month-to-month ratios are identical for every state and year. Any model that sees last month's value can reproduce Feb to Dec exactly, so monthly accuracy numbers are artefacts.
 - **The real information is the annual total.** About 1,600 real numbers exist in total (10 to 21 observed years per state and disease).
 - **On annual totals the ST-GNN is statistically tied with "same as last year" (persistence).** This holds across graph definitions, GCN vs GAT, window length, weather on/off and horizons. 13 rolling-origin folds, 2010 to 2022, bootstrap intervals on log-error.
-- **Weather is now real** (NASA POWER, one centroid per state). It points the right way (log-MAE 0.828 vs 0.852 without weather) but the interval includes zero.
+- **Weather is now real** (NASA POWER, one centroid per state). It points the right way (log-MAE 0.853 vs 0.865 without weather) but the interval includes zero.
 - **The limit is the data, not the code.** Rerunning the same scripts on real monthly or newer annual data is how the project can still get a positive result.
 
 ---

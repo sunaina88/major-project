@@ -28,7 +28,7 @@ Year-ahead flag, lead time = 1 year by construction. Score = log1p(forecast) min
 
 ## Other results
 
-1. Metrics module reproduces Person 2: log_model 0.828, log_last 0.846; the backtest harness reproduces persistence and the two-year-average baseline exactly (tests/test_metrics.py, tests/test_backtest.py).
+1. Metrics module reproduces Person 2: log_model 0.853, log_last 0.855; the backtest harness reproduces persistence and the two-year-average baseline exactly (tests/test_metrics.py, tests/test_backtest.py).
 2. Anomaly detector: `data/processed/anomaly_annual.csv`, 1187 rows (state-disease-years with >=5 prior observed years). Columns: state_id, disease, year, observed, expected (median of last 5 observed years), zscore (log1p scale, 1.4826*MAD, floor 0.1), pctile (rank among earlier years). A test checks that rows up to year Y do not change when later years are altered. The scale floor of 0.1 applied to 162 of 1,187 rows (14%): dengue 19/333, malaria 100/608, chikungunya 43/246. On those rows, z-scores are inflated (a log change of 0.2 already gives z = 2), so treat large z-scores on malaria rows with caution.
-3. Sequence baselines (pooled GRU and LSTM, 3-year window, same folds and scored pairs as Person 2): GRU log-MAE 0.846, difference vs persistence +0.001 [-0.044, +0.046]; LSTM 0.838, difference -0.008 [-0.057, +0.042]. Persistence is 0.846. Both are statistically tied with persistence. Two comparisons were run.
+3. Sequence baselines (pooled GRU and LSTM, 3-year window, same folds and scored pairs as Person 2): GRU log-MAE 0.832, difference vs persistence -0.022 [-0.065, +0.012]; LSTM 0.823, difference -0.032 [-0.082, +0.008]. Persistence is 0.855. Both are statistically tied with persistence. Two comparisons were run.
 4. Monthly seasonality and lead time in months: blocked until Person 1 confirms real monthly data.

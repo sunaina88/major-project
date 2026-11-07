@@ -9,7 +9,7 @@
 ## 1. Where things stand
 
 - Person 2 already replaced the synthetic weather with NASA POWER monthly temperature and rainfall at **one centroid point per state** (`models/stgnn/download_weather.py`, output `data/processed/pan_india_state_enriched_tensor_real.csv`). A single point is a rough stand-in for a whole state, especially for large or varied states.
-- With real weather the annual model gets log-MAE 0.828 vs 0.852 without. The direction is favourable but not significant. Better environmental data is the most likely way to make that signal clearer.
+- With real weather the annual model gets log-MAE 0.853 vs 0.865 without. The direction is favourable but not significant. Better environmental data is the most likely way to make that signal clearer.
 - Person 6 needs a state-boundary file for the map, and nobody has one yet. **You are the owner.**
 
 ---
