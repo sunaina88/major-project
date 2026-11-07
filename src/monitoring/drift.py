@@ -1,8 +1,13 @@
 """Compare newest year with earlier years. Usage: python src/monitoring/drift.py"""
-import sys, json, argparse
+import argparse
+import json
+import sys
+
 import numpy as np
+
 sys.path.insert(0, "models/stgnn")
 from annual_data import load_annual
+
 
 def shift(ref, new):
     ref, new = ref[~np.isnan(ref)], new[~np.isnan(new)]
@@ -10,7 +15,8 @@ def shift(ref, new):
     return float((np.median(new) - np.median(ref)) / (np.std(ref) + 1e-9))
 
 def main(data, out, cfg):
-    th = json.load(open(cfg))
+    with open(cfg) as fh:
+        th = json.load(fh)
     states, years, Y, W = load_annual(data)
     Y, W = np.asarray(Y, float), np.asarray(W, float)
     ref = np.arange(len(years)) < len(years) - 1
@@ -25,11 +31,13 @@ def main(data, out, cfg):
         s = shift(W[ref, :, k], W[-1, :, k]); rep["weather"][n] = {"median_shift_sd": s}
         if s is not None and abs(s) > th["weather_shift_sd"]: rep["flags"].append(f"{n}: shift")
     rep["flagged"] = bool(rep["flags"])
-    json.dump(rep, open(out, "w"), indent=1); print(json.dumps(rep, indent=1))
+    with open(out, "w") as fh:
+        json.dump(rep, fh, indent=1)
+    print(json.dumps(rep, indent=1))
 
 if __name__ == "__main__":
     a = argparse.ArgumentParser()
     a.add_argument("--data", default="data/processed/pan_india_state_enriched_tensor.csv")
-    a.add_argument("--out", default="frontend/mocks/drift_report.json")
+    a.add_argument("--out", default="data/processed/drift_report.json")
     a.add_argument("--config", default="config/drift_thresholds.json")
     x = a.parse_args(); main(x.data, x.out, x.config)
