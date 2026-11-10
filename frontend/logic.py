@@ -2,17 +2,34 @@
 import pandas as pd
 
 LEVELS = ["Low", "Moderate", "High", "Very high", INSUFF := "Insufficient evidence"]
-COLOURS = {"Low": "#9ecae1", "Moderate": "#fdae6b", "High": "#de2d26", "Very high": "#a50f15", INSUFF: "#d9d9d9"}
+COLOURS = {"Low": "#9ecae1", "Moderate": "#fdae6b", "High": "#de2d26", "Very high": "#a50f15", INSUFF: "#808080"}
 SHORT = {"Low": "L", "Moderate": "M", "High": "H", "Very high": "V", INSUFF: "?"}
 
 
-def discrete_scale(levels):
+# One colour family per disease (light to dark = Low to Very high); grey = insufficient evidence.
+PALETTES = {"dengue": ["#fcbba1", "#fb6a4a", "#de2d26", "#a50f15"],
+            "malaria": ["#c6dbef", "#6baed6", "#3182bd", "#08519c"],
+            "chikungunya": ["#c7e9c0", "#74c476", "#31a354", "#006d2c"]}
+DISEASE_COLOURS = {d: p[2] for d, p in PALETTES.items()}
+
+
+def colour_map(disease=None):
+    if disease in PALETTES:
+        return {**dict(zip(LEVELS[:4], PALETTES[disease])), INSUFF: COLOURS[INSUFF]}
+    return COLOURS
+
+
+def discrete_scale(levels, disease=None):
     """Plotly colour scale with one flat band per level (first stop 0, last stop exactly 1)."""
-    n = len(levels)
-    cs = []
-    for i, l in enumerate(levels):
-        cs += [[i / n, COLOURS[l]], [(i + 1) / n, COLOURS[l]]]
+    n, cm, cs = len(levels), colour_map(disease), []
+    for i, lvl in enumerate(levels):
+        cs += [[i / n, cm[lvl]], [(i + 1) / n, cm[lvl]]]
     return cs
+
+
+def nice(state_id):
+    """andaman_and_nicobar_islands -> Andaman and Nicobar Islands"""
+    return state_id.replace("_", " ").title().replace(" And ", " and ")
 
 
 def build_display(rows, horizon=1):

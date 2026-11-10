@@ -13,7 +13,6 @@ Streamlit. The frontend calls only the API (`frontend/api_client.py`); the map o
 | Home, State, Disease explorer | `/forecast/{state_id}/{disease}?include_experimental=true` (history, forecast, persistence, interval, risk) |
 | Model comparison | `/model-performance` |
 | Annual replay | `/replay` |
-| System status | `/status` (drift report from `python src/monitoring/drift.py`) |
 | Limitations | static text |
 
 Rules enforced by tests: persistence beside every forecast, no risk colour on low-confidence rows, geojson ids equal the 36 ids in `configs/states.txt`, every page renders.
