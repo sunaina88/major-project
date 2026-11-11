@@ -7,6 +7,7 @@ import numpy as np
 import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
+import extra_pages as ex
 from logic import DISEASE_COLOURS, INSUFF, LEVELS, build_display, discrete_scale, nice
 
 st.set_page_config(page_title="VectorWatch India", layout="wide")
@@ -27,7 +28,8 @@ def load(name):
         st.warning(f"{e} Run with USE_MOCKS=true until it exists.")
         st.stop()
 
-PAGES = ["Home", "State", "Disease explorer", "Model comparison", "Annual replay", "Limitations"]
+PAGES = ["Start here", "Home", "State", "Disease explorer", "Time-lapse map", "Why this forecast?",
+         "Model comparison", "Research results", "Annual replay", "Data story", "Limitations"]
 page = st.sidebar.radio("Page", PAGES)
 
 fc = load("forecast"); hist = pd.DataFrame(load("history"))
@@ -38,7 +40,10 @@ def horizon_picker():
     if h > 1: st.warning("Horizons 2 and 3 are experimental; compare them with persistence.")
     return h
 
-if page == "Home":
+if page == "Start here":
+    ex.page_start(load("model_performance"), latest_year)
+
+elif page == "Home":
     st.title("VectorWatch India")
     d = st.tabs(DIS)
     for tab, dis in zip(d, DIS):
@@ -62,8 +67,9 @@ if page == "Home":
             st.dataframe(df[["State", "risk", "forecast_text", "persistence_text", "confidence"]], hide_index=True)
 
 elif page == "State":
-    scope = st.selectbox("State", ["India"] + STATES, format_func=lambda x: x if x == "India" else nice(x))
-    dis = st.selectbox("Disease", ["All"] + DIS)
+    scope = st.selectbox("State", ["India"] + STATES, index=STATES.index("kerala") + 1,
+                         format_func=lambda x: x if x == "India" else nice(x))
+    dis = st.selectbox("Disease", ["All"] + DIS, index=1)
     if dis == "All":
         years = sorted(hist.year.unique(), reverse=True)
         y = st.selectbox("Year", years)
@@ -111,12 +117,17 @@ elif page == "State":
                 st.warning(f"{INSUFF}. Reason: {r.notes or 'low confidence'}")
             elif isinstance(r.get("risk_reason"), (list, tuple)) and r.get("risk_reason"):
                 st.caption("Risk reason: " + ", ".join(r.get("risk_reason")))
+        fig.update_xaxes(tickformat="d")
         st.plotly_chart(fig, width="stretch")
 
 elif page == "Disease explorer":
     dis = st.selectbox("Disease", DIS)
     g = hist[hist.disease == dis]
-    st.subheader("National annual total"); st.line_chart(g.groupby("year").cases.sum())
+    st.subheader("National annual total")
+    nat = g.groupby("year").cases.sum().reset_index()
+    fig_n = go.Figure(go.Scatter(x=nat.year, y=nat.cases, mode="lines+markers", line=dict(color=DISEASE_COLOURS[dis])))
+    fig_n.update_xaxes(tickformat="d"); fig_n.update_layout(yaxis_title="Reported cases", margin=dict(t=10))
+    st.plotly_chart(fig_n, width="stretch", key="national_total")
     y = st.slider("Year", int(g.year.min()), int(g.year.max()), int(g.year.max()))
     gy = g[g.year == y].sort_values("cases", ascending=False)
     top = gy.head(10); names = [nice(x) for x in top.state_id]
@@ -127,6 +138,18 @@ elif page == "Disease explorer":
     st.plotly_chart(fig, width="stretch", key="top10")
     st.subheader("Distribution across states (log10 cases)")
     st.bar_chart(np.histogram(np.log10(gy.cases + 1), bins=10)[0])
+
+elif page == "Time-lapse map":
+    ex.page_timelapse(hist, STATES, GEOJSON)
+
+elif page == "Why this forecast?":
+    ex.page_why(STATES)
+
+elif page == "Research results":
+    ex.page_research(load("model_performance"))
+
+elif page == "Data story":
+    ex.page_story(hist, STATES, latest_year)
 
 elif page == "Model comparison":
     st.title("Model comparison (log-MAE, lower is better)")
@@ -141,13 +164,18 @@ elif page == "Model comparison":
 
 elif page == "Annual replay":
     st.title("Annual replay (backtest)")
-    rp = pd.DataFrame(load("replay")); y = st.selectbox("Year", sorted(rp.year.unique())); dis = st.selectbox("Disease", DIS)
-    d = rp[(rp.year == y) & (rp.disease == dis)].copy()
-    lm = lambda c: float(np.abs(np.log1p(d[c]) - np.log1p(d["true"])).mean())
-    c1, c2 = st.columns(2); c1.metric("log-MAE model", f"{lm('model'):.3f}"); c2.metric("log-MAE persistence", f"{lm('persistence'):.3f}")
-    d["State"] = d.state_id.map(nice)
-    st.dataframe(d[["State", "true", "model", "persistence"]], hide_index=True)
-    st.caption("Backtest on past years. Not a live forecast.")
+    rp = pd.DataFrame(load("replay"))
+    tab_year, tab_state = st.tabs(["By year", "One state over time"])
+    with tab_year:
+        y = st.selectbox("Year", sorted(rp.year.unique())); dis = st.selectbox("Disease", DIS)
+        d = rp[(rp.year == y) & (rp.disease == dis)].copy()
+        lm = lambda c: float(np.abs(np.log1p(d[c]) - np.log1p(d["true"])).mean())
+        c1, c2 = st.columns(2); c1.metric("log-MAE model", f"{lm('model'):.3f}"); c2.metric("log-MAE persistence", f"{lm('persistence'):.3f}")
+        d["State"] = d.state_id.map(nice)
+        st.dataframe(d[["State", "true", "model", "persistence"]], hide_index=True)
+        st.caption("Backtest on past years. Not a live forecast.")
+    with tab_state:
+        ex.backtest_by_state(rp, STATES)
 
 else:
     st.title("Limitations")

@@ -12,7 +12,11 @@ Streamlit. The frontend calls only the API (`frontend/api_client.py`); the map o
 |---|---|
 | Home, State, Disease explorer | `/forecast/{state_id}/{disease}?include_experimental=true` (history, forecast, persistence, interval, risk) |
 | Model comparison | `/model-performance` |
-| Annual replay | `/replay` |
-| Limitations | static text |
+| Research results (forest plot, per-year errors) | `/model-performance` (`?tag=&horizon=` for per-year folds) |
+| Why this forecast? | `/explanation/{state_id}/{disease}` (needs torch on the API side) |
+| Time-lapse map | `/forecast/...` history (1999 to latest year) |
+| Annual replay (by year, one state over time) | `/replay` |
+| Data story | static `frontend/static/data_story.json` (rebuild: `python scripts/make_data_story.py`) |
+| Start here, Limitations | static text |
 
 Rules enforced by tests: persistence beside every forecast, no risk colour on low-confidence rows, geojson ids equal the 36 ids in `configs/states.txt`, every page renders.

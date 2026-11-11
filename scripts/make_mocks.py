@@ -44,9 +44,14 @@ summary = summarize(pd.concat(frames, ignore_index=True))
 headline = next(r for r in summary if r["tag"] == "geo_w" and r["horizon"] == 1)
 performance = [{"variant": "Persistence", "log_mae": headline["log_mae_persistence"],
                 "diff": None, "ci": None}]
+performance[0].update({"tag": None, "horizon": 1})
 performance.extend(
     {"variant": r["variant"], "log_mae": r["log_mae_model"],
-     "diff": r["diff_vs_persistence"], "ci": r["ci_95"]}
+     "diff": r["diff_vs_persistence"], "ci": r["ci_95"], "tag": r["tag"], "horizon": r["horizon"]}
     for r in summary
 )
 dump("model_performance", performance)
+
+# Per-year errors of every variant (used by the Research results page).
+folds = pd.concat(frames, ignore_index=True)[["tag", "horizon", "year", "log_model", "log_last"]]
+dump("model_folds", clean(folds))

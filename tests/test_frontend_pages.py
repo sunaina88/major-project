@@ -5,7 +5,8 @@ import pytest
 from streamlit.testing.v1 import AppTest
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-PAGES = ["Home", "State", "Disease explorer", "Model comparison", "Annual replay", "Limitations"]
+PAGES = ["Start here", "Home", "State", "Disease explorer", "Time-lapse map", "Why this forecast?",
+         "Model comparison", "Research results", "Annual replay", "Data story", "Limitations"]
 
 
 @pytest.mark.parametrize("page", PAGES)
@@ -35,7 +36,7 @@ def _run(**sel):
 
 
 def test_state_page_india_all_shows_pie():
-    at = _run()
+    at = _run(s0="India", s1="All")
     assert not at.exception
 
 

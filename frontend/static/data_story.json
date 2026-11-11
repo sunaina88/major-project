@@ -1,0 +1,1692 @@
+{
+ "monthly": {
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "share": [
+   0.02,
+   0.02,
+   0.03,
+   0.04,
+   0.05,
+   0.08,
+   0.18,
+   0.22,
+   0.18,
+   0.1,
+   0.05,
+   0.03
+  ],
+  "max_std_across_states_years_diseases": 0.0,
+  "same_for_all_diseases": true
+ },
+ "revisions": [
+  {
+   "year": 2021,
+   "disease": "dengue",
+   "state_id": "andaman_and_nicobar_islands",
+   "old": 175.0,
+   "new": 175.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "dengue",
+   "state_id": "andhra_pradesh",
+   "old": 4760.0,
+   "new": 4760.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "dengue",
+   "state_id": "arunachal_pradesh",
+   "old": 7.0,
+   "new": 7.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "dengue",
+   "state_id": "assam",
+   "old": 103.0,
+   "new": 103.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "dengue",
+   "state_id": "bihar",
+   "old": 633.0,
+   "new": 633.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "dengue",
+   "state_id": "chandigarh",
+   "old": 1596.0,
+   "new": 1596.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "dengue",
+   "state_id": "chhattisgarh",
+   "old": 1086.0,
+   "new": 1086.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "dengue",
+   "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+   "old": 826.0,
+   "new": 826.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "dengue",
+   "state_id": "delhi",
+   "old": 13089.0,
+   "new": 13089.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "dengue",
+   "state_id": "goa",
+   "old": 649.0,
+   "new": 649.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "dengue",
+   "state_id": "gujarat",
+   "old": 10983.0,
+   "new": 10983.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "dengue",
+   "state_id": "haryana",
+   "old": 11835.0,
+   "new": 11835.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "dengue",
+   "state_id": "himachal_pradesh",
+   "old": 349.0,
+   "new": 349.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "dengue",
+   "state_id": "jammu_and_kashmir",
+   "old": 1709.0,
+   "new": 1709.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "dengue",
+   "state_id": "jharkhand",
+   "old": 220.0,
+   "new": 220.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "dengue",
+   "state_id": "karnataka",
+   "old": 7393.0,
+   "new": 7393.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "dengue",
+   "state_id": "kerala",
+   "old": 3251.0,
+   "new": 3251.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "dengue",
+   "state_id": "lakshadweep",
+   "old": 1.0,
+   "new": 1.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "dengue",
+   "state_id": "madhya_pradesh",
+   "old": 15592.0,
+   "new": 15592.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "dengue",
+   "state_id": "maharashtra",
+   "old": 203.0,
+   "new": 12720.0,
+   "changed": true
+  },
+  {
+   "year": 2021,
+   "disease": "dengue",
+   "state_id": "manipur",
+   "old": 129.0,
+   "new": 203.0,
+   "changed": true
+  },
+  {
+   "year": 2021,
+   "disease": "dengue",
+   "state_id": "meghalaya",
+   "old": 12720.0,
+   "new": 129.0,
+   "changed": true
+  },
+  {
+   "year": 2021,
+   "disease": "dengue",
+   "state_id": "mizoram",
+   "old": 83.0,
+   "new": 83.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "dengue",
+   "state_id": "nagaland",
+   "old": 24.0,
+   "new": 24.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "dengue",
+   "state_id": "odisha",
+   "old": 7548.0,
+   "new": 7548.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "dengue",
+   "state_id": "puducherry",
+   "old": 1625.0,
+   "new": 1625.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "dengue",
+   "state_id": "punjab",
+   "old": 23389.0,
+   "new": 23389.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "dengue",
+   "state_id": "rajasthan",
+   "old": 20749.0,
+   "new": 20749.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "dengue",
+   "state_id": "sikkim",
+   "old": 243.0,
+   "new": 243.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "dengue",
+   "state_id": "tamil_nadu",
+   "old": 6039.0,
+   "new": 6039.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "dengue",
+   "state_id": "telangana",
+   "old": 349.0,
+   "new": 7135.0,
+   "changed": true
+  },
+  {
+   "year": 2021,
+   "disease": "dengue",
+   "state_id": "tripura",
+   "old": 7135.0,
+   "new": 349.0,
+   "changed": true
+  },
+  {
+   "year": 2021,
+   "disease": "dengue",
+   "state_id": "uttar_pradesh",
+   "old": 29750.0,
+   "new": 29750.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "dengue",
+   "state_id": "uttarakhand",
+   "old": 738.0,
+   "new": 738.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "dengue",
+   "state_id": "west_bengal",
+   "old": 8264.0,
+   "new": 8264.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "dengue",
+   "state_id": "andaman_and_nicobar_islands",
+   "old": 1080.0,
+   "new": 1014.0,
+   "changed": true
+  },
+  {
+   "year": 2022,
+   "disease": "dengue",
+   "state_id": "andhra_pradesh",
+   "old": 6391.0,
+   "new": 6391.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "dengue",
+   "state_id": "arunachal_pradesh",
+   "old": 102.0,
+   "new": 114.0,
+   "changed": true
+  },
+  {
+   "year": 2022,
+   "disease": "dengue",
+   "state_id": "assam",
+   "old": 1826.0,
+   "new": 1826.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "dengue",
+   "state_id": "bihar",
+   "old": 13281.0,
+   "new": 13972.0,
+   "changed": true
+  },
+  {
+   "year": 2022,
+   "disease": "dengue",
+   "state_id": "chandigarh",
+   "old": 910.0,
+   "new": 910.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "dengue",
+   "state_id": "chhattisgarh",
+   "old": 2633.0,
+   "new": 2679.0,
+   "changed": true
+  },
+  {
+   "year": 2022,
+   "disease": "dengue",
+   "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+   "old": 913.0,
+   "new": 913.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "dengue",
+   "state_id": "delhi",
+   "old": 10183.0,
+   "new": 10183.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "dengue",
+   "state_id": "goa",
+   "old": 443.0,
+   "new": 443.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "dengue",
+   "state_id": "gujarat",
+   "old": 6744.0,
+   "new": 6682.0,
+   "changed": true
+  },
+  {
+   "year": 2022,
+   "disease": "dengue",
+   "state_id": "haryana",
+   "old": 8996.0,
+   "new": 8996.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "dengue",
+   "state_id": "himachal_pradesh",
+   "old": 3326.0,
+   "new": 3326.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "dengue",
+   "state_id": "jammu_and_kashmir",
+   "old": 8269.0,
+   "new": 8269.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "dengue",
+   "state_id": "jharkhand",
+   "old": 290.0,
+   "new": 290.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "dengue",
+   "state_id": "karnataka",
+   "old": 9620.0,
+   "new": 9889.0,
+   "changed": true
+  },
+  {
+   "year": 2022,
+   "disease": "dengue",
+   "state_id": "kerala",
+   "old": 4432.0,
+   "new": 4432.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "dengue",
+   "state_id": "lakshadweep",
+   "old": 70.0,
+   "new": 67.0,
+   "changed": true
+  },
+  {
+   "year": 2022,
+   "disease": "dengue",
+   "state_id": "madhya_pradesh",
+   "old": 3205.0,
+   "new": 3318.0,
+   "changed": true
+  },
+  {
+   "year": 2022,
+   "disease": "dengue",
+   "state_id": "maharashtra",
+   "old": 8560.0,
+   "new": 8578.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "dengue",
+   "state_id": "manipur",
+   "old": 503.0,
+   "new": 503.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "dengue",
+   "state_id": "meghalaya",
+   "old": 26.0,
+   "new": 26.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "dengue",
+   "state_id": "mizoram",
+   "old": 1868.0,
+   "new": 1868.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "dengue",
+   "state_id": "nagaland",
+   "old": 154.0,
+   "new": 154.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "dengue",
+   "state_id": "odisha",
+   "old": 7063.0,
+   "new": 7063.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "dengue",
+   "state_id": "puducherry",
+   "old": 1673.0,
+   "new": 1673.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "dengue",
+   "state_id": "punjab",
+   "old": 11038.0,
+   "new": 11030.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "dengue",
+   "state_id": "rajasthan",
+   "old": 13491.0,
+   "new": 13491.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "dengue",
+   "state_id": "sikkim",
+   "old": 260.0,
+   "new": 264.0,
+   "changed": true
+  },
+  {
+   "year": 2022,
+   "disease": "dengue",
+   "state_id": "tamil_nadu",
+   "old": 6430.0,
+   "new": 6430.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "dengue",
+   "state_id": "telangana",
+   "old": 8972.0,
+   "new": 8972.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "dengue",
+   "state_id": "tripura",
+   "old": 55.0,
+   "new": 56.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "dengue",
+   "state_id": "uttar_pradesh",
+   "old": 19821.0,
+   "new": 19821.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "dengue",
+   "state_id": "uttarakhand",
+   "old": 2337.0,
+   "new": 2337.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "dengue",
+   "state_id": "west_bengal",
+   "old": 1753.0,
+   "new": 67271.0,
+   "changed": true
+  },
+  {
+   "year": 2021,
+   "disease": "malaria",
+   "state_id": "andaman_and_nicobar_islands",
+   "old": 27.0,
+   "new": 27.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "malaria",
+   "state_id": "andhra_pradesh",
+   "old": 1315.0,
+   "new": 1315.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "malaria",
+   "state_id": "arunachal_pradesh",
+   "old": 8.0,
+   "new": 8.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "malaria",
+   "state_id": "assam",
+   "old": 162.0,
+   "new": 162.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "malaria",
+   "state_id": "bihar",
+   "old": 647.0,
+   "new": 647.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "malaria",
+   "state_id": "chandigarh",
+   "old": 6.0,
+   "new": 6.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "malaria",
+   "state_id": "chhattisgarh",
+   "old": 29733.0,
+   "new": 29733.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "malaria",
+   "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+   "old": 54.0,
+   "new": 54.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "malaria",
+   "state_id": "delhi",
+   "old": 167.0,
+   "new": 167.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "malaria",
+   "state_id": "goa",
+   "old": 90.0,
+   "new": 90.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "malaria",
+   "state_id": "gujarat",
+   "old": 4921.0,
+   "new": 4921.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "malaria",
+   "state_id": "haryana",
+   "old": 54.0,
+   "new": 54.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "malaria",
+   "state_id": "himachal_pradesh",
+   "old": 15.0,
+   "new": 15.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "malaria",
+   "state_id": "jammu_and_kashmir",
+   "old": 31.0,
+   "new": 31.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "malaria",
+   "state_id": "jharkhand",
+   "old": 14198.0,
+   "new": 14198.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "malaria",
+   "state_id": "karnataka",
+   "old": 913.0,
+   "new": 913.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "malaria",
+   "state_id": "kerala",
+   "old": 309.0,
+   "new": 309.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "malaria",
+   "state_id": "ladakh",
+   "old": 0.0,
+   "new": 0.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "malaria",
+   "state_id": "lakshadweep",
+   "old": 1.0,
+   "new": 1.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "malaria",
+   "state_id": "madhya_pradesh",
+   "old": 3181.0,
+   "new": 3181.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "malaria",
+   "state_id": "maharashtra",
+   "old": 19303.0,
+   "new": 19303.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "malaria",
+   "state_id": "manipur",
+   "old": 19.0,
+   "new": 19.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "malaria",
+   "state_id": "meghalaya",
+   "old": 491.0,
+   "new": 491.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "malaria",
+   "state_id": "mizoram",
+   "old": 8018.0,
+   "new": 8018.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "malaria",
+   "state_id": "nagaland",
+   "old": 8.0,
+   "new": 8.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "malaria",
+   "state_id": "odisha",
+   "old": 25503.0,
+   "new": 25503.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "malaria",
+   "state_id": "puducherry",
+   "old": 5.0,
+   "new": 5.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "malaria",
+   "state_id": "punjab",
+   "old": 71.0,
+   "new": 71.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "malaria",
+   "state_id": "rajasthan",
+   "old": 925.0,
+   "new": 925.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "malaria",
+   "state_id": "sikkim",
+   "old": 4.0,
+   "new": 4.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "malaria",
+   "state_id": "tamil_nadu",
+   "old": 772.0,
+   "new": 772.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "malaria",
+   "state_id": "telangana",
+   "old": 874.0,
+   "new": 874.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "malaria",
+   "state_id": "tripura",
+   "old": 10136.0,
+   "new": 10136.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "malaria",
+   "state_id": "uttar_pradesh",
+   "old": 13.0,
+   "new": 10792.0,
+   "changed": true
+  },
+  {
+   "year": 2021,
+   "disease": "malaria",
+   "state_id": "uttarakhand",
+   "old": 10792.0,
+   "new": 13.0,
+   "changed": true
+  },
+  {
+   "year": 2021,
+   "disease": "malaria",
+   "state_id": "west_bengal",
+   "old": 28987.0,
+   "new": 28987.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "malaria",
+   "state_id": "andaman_and_nicobar_islands",
+   "old": 46.0,
+   "new": 50.0,
+   "changed": true
+  },
+  {
+   "year": 2022,
+   "disease": "malaria",
+   "state_id": "andhra_pradesh",
+   "old": 2019.0,
+   "new": 2022.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "malaria",
+   "state_id": "arunachal_pradesh",
+   "old": 17.0,
+   "new": 18.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "malaria",
+   "state_id": "assam",
+   "old": 280.0,
+   "new": 280.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "malaria",
+   "state_id": "bihar",
+   "old": 539.0,
+   "new": 578.0,
+   "changed": true
+  },
+  {
+   "year": 2022,
+   "disease": "malaria",
+   "state_id": "chandigarh",
+   "old": 1.0,
+   "new": 2.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "malaria",
+   "state_id": "chhattisgarh",
+   "old": 30028.0,
+   "new": 30029.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "malaria",
+   "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+   "old": 39.0,
+   "new": 111.0,
+   "changed": true
+  },
+  {
+   "year": 2022,
+   "disease": "malaria",
+   "state_id": "delhi",
+   "old": 173.0,
+   "new": 263.0,
+   "changed": true
+  },
+  {
+   "year": 2022,
+   "disease": "malaria",
+   "state_id": "goa",
+   "old": 2.0,
+   "new": 587.0,
+   "changed": true
+  },
+  {
+   "year": 2022,
+   "disease": "malaria",
+   "state_id": "gujarat",
+   "old": 4766.0,
+   "new": 4785.0,
+   "changed": true
+  },
+  {
+   "year": 2022,
+   "disease": "malaria",
+   "state_id": "haryana",
+   "old": 50.0,
+   "new": 52.0,
+   "changed": true
+  },
+  {
+   "year": 2022,
+   "disease": "malaria",
+   "state_id": "himachal_pradesh",
+   "old": 10.0,
+   "new": 12.0,
+   "changed": true
+  },
+  {
+   "year": 2022,
+   "disease": "malaria",
+   "state_id": "jammu_and_kashmir",
+   "old": 37.0,
+   "new": 35.0,
+   "changed": true
+  },
+  {
+   "year": 2022,
+   "disease": "malaria",
+   "state_id": "jharkhand",
+   "old": 19129.0,
+   "new": 19167.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "malaria",
+   "state_id": "karnataka",
+   "old": 279.0,
+   "new": 289.0,
+   "changed": true
+  },
+  {
+   "year": 2022,
+   "disease": "malaria",
+   "state_id": "kerala",
+   "old": 439.0,
+   "new": 439.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "malaria",
+   "state_id": "ladakh",
+   "old": 0.0,
+   "new": 2.0,
+   "changed": true
+  },
+  {
+   "year": 2022,
+   "disease": "malaria",
+   "state_id": "lakshadweep",
+   "old": 0.0,
+   "new": 0.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "malaria",
+   "state_id": "madhya_pradesh",
+   "old": 3719.0,
+   "new": 3826.0,
+   "changed": true
+  },
+  {
+   "year": 2022,
+   "disease": "malaria",
+   "state_id": "maharashtra",
+   "old": 15437.0,
+   "new": 15451.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "malaria",
+   "state_id": "manipur",
+   "old": 14.0,
+   "new": 30.0,
+   "changed": true
+  },
+  {
+   "year": 2022,
+   "disease": "malaria",
+   "state_id": "meghalaya",
+   "old": 463.0,
+   "new": 479.0,
+   "changed": true
+  },
+  {
+   "year": 2022,
+   "disease": "malaria",
+   "state_id": "mizoram",
+   "old": 10222.0,
+   "new": 11156.0,
+   "changed": true
+  },
+  {
+   "year": 2022,
+   "disease": "malaria",
+   "state_id": "nagaland",
+   "old": 8.0,
+   "new": 9.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "malaria",
+   "state_id": "odisha",
+   "old": 23770.0,
+   "new": 23770.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "malaria",
+   "state_id": "puducherry",
+   "old": 0.0,
+   "new": 0.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "malaria",
+   "state_id": "punjab",
+   "old": 109.0,
+   "new": 119.0,
+   "changed": true
+  },
+  {
+   "year": 2022,
+   "disease": "malaria",
+   "state_id": "rajasthan",
+   "old": 1026.0,
+   "new": 1565.0,
+   "changed": true
+  },
+  {
+   "year": 2022,
+   "disease": "malaria",
+   "state_id": "sikkim",
+   "old": 6.0,
+   "new": 8.0,
+   "changed": true
+  },
+  {
+   "year": 2022,
+   "disease": "malaria",
+   "state_id": "tamil_nadu",
+   "old": 344.0,
+   "new": 354.0,
+   "changed": true
+  },
+  {
+   "year": 2022,
+   "disease": "malaria",
+   "state_id": "telangana",
+   "old": 611.0,
+   "new": 611.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "malaria",
+   "state_id": "tripura",
+   "old": 12771.0,
+   "new": 12771.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "malaria",
+   "state_id": "uttar_pradesh",
+   "old": 7039.0,
+   "new": 7039.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "malaria",
+   "state_id": "uttarakhand",
+   "old": 19.0,
+   "new": 19.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "malaria",
+   "state_id": "west_bengal",
+   "old": 40563.0,
+   "new": 40594.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "chikungunya",
+   "state_id": "andaman_and_nicobar_islands",
+   "old": 187.0,
+   "new": 187.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "chikungunya",
+   "state_id": "andhra_pradesh",
+   "old": 753.0,
+   "new": 753.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "chikungunya",
+   "state_id": "arunachal_pradesh",
+   "old": 0.0,
+   "new": 0.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "chikungunya",
+   "state_id": "assam",
+   "old": 2.0,
+   "new": 2.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "chikungunya",
+   "state_id": "bihar",
+   "old": 40.0,
+   "new": 40.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "chikungunya",
+   "state_id": "chandigarh",
+   "old": 397.0,
+   "new": 397.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "chikungunya",
+   "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+   "old": 0.0,
+   "new": 0.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "chikungunya",
+   "state_id": "delhi",
+   "old": 112.0,
+   "new": 112.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "chikungunya",
+   "state_id": "goa",
+   "old": 114.0,
+   "new": 114.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "chikungunya",
+   "state_id": "gujarat",
+   "old": 32372.0,
+   "new": 32372.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "chikungunya",
+   "state_id": "haryana",
+   "old": 765.0,
+   "new": 765.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "chikungunya",
+   "state_id": "jammu_and_kashmir",
+   "old": 7.0,
+   "new": 7.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "chikungunya",
+   "state_id": "jharkhand",
+   "old": 1064.0,
+   "new": 1064.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "chikungunya",
+   "state_id": "karnataka",
+   "old": 40134.0,
+   "new": 40134.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "chikungunya",
+   "state_id": "kerala",
+   "old": 3030.0,
+   "new": 3030.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "chikungunya",
+   "state_id": "madhya_pradesh",
+   "old": 3822.0,
+   "new": 3822.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "chikungunya",
+   "state_id": "maharashtra",
+   "old": 0.0,
+   "new": 21680.0,
+   "changed": true
+  },
+  {
+   "year": 2021,
+   "disease": "chikungunya",
+   "state_id": "manipur",
+   "old": 0.0,
+   "new": 0.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "chikungunya",
+   "state_id": "meghalaya",
+   "old": 21680.0,
+   "new": 0.0,
+   "changed": true
+  },
+  {
+   "year": 2021,
+   "disease": "chikungunya",
+   "state_id": "mizoram",
+   "old": 0.0,
+   "new": 0.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "chikungunya",
+   "state_id": "odisha",
+   "old": 0.0,
+   "new": 0.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "chikungunya",
+   "state_id": "puducherry",
+   "old": 7284.0,
+   "new": 7284.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "chikungunya",
+   "state_id": "punjab",
+   "old": 644.0,
+   "new": 644.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "chikungunya",
+   "state_id": "rajasthan",
+   "old": 1157.0,
+   "new": 1157.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "chikungunya",
+   "state_id": "sikkim",
+   "old": 457.0,
+   "new": 457.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "chikungunya",
+   "state_id": "tamil_nadu",
+   "old": 3654.0,
+   "new": 3654.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "chikungunya",
+   "state_id": "telangana",
+   "old": 220.0,
+   "new": 220.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "chikungunya",
+   "state_id": "tripura",
+   "old": 948.0,
+   "new": 948.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "chikungunya",
+   "state_id": "uttar_pradesh",
+   "old": 70.0,
+   "new": 70.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "chikungunya",
+   "state_id": "uttarakhand",
+   "old": 3.0,
+   "new": 3.0,
+   "changed": false
+  },
+  {
+   "year": 2021,
+   "disease": "chikungunya",
+   "state_id": "west_bengal",
+   "old": 154.0,
+   "new": 154.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "chikungunya",
+   "state_id": "andaman_and_nicobar_islands",
+   "old": 65.0,
+   "new": 65.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "chikungunya",
+   "state_id": "andhra_pradesh",
+   "old": 1611.0,
+   "new": 1611.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "chikungunya",
+   "state_id": "arunachal_pradesh",
+   "old": 0.0,
+   "new": 0.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "chikungunya",
+   "state_id": "assam",
+   "old": 0.0,
+   "new": 0.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "chikungunya",
+   "state_id": "bihar",
+   "old": 63.0,
+   "new": 67.0,
+   "changed": true
+  },
+  {
+   "year": 2022,
+   "disease": "chikungunya",
+   "state_id": "chandigarh",
+   "old": 153.0,
+   "new": 3600.0,
+   "changed": true
+  },
+  {
+   "year": 2022,
+   "disease": "chikungunya",
+   "state_id": "chhattisgarh",
+   "old": 39.0,
+   "new": 252.0,
+   "changed": true
+  },
+  {
+   "year": 2022,
+   "disease": "chikungunya",
+   "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+   "old": 1.0,
+   "new": 1.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "chikungunya",
+   "state_id": "delhi",
+   "old": 61.0,
+   "new": 61.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "chikungunya",
+   "state_id": "goa",
+   "old": 868.0,
+   "new": 868.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "chikungunya",
+   "state_id": "gujarat",
+   "old": 20854.0,
+   "new": 20855.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "chikungunya",
+   "state_id": "haryana",
+   "old": 2425.0,
+   "new": 2425.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "chikungunya",
+   "state_id": "himachal_pradesh",
+   "old": 253.0,
+   "new": 253.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "chikungunya",
+   "state_id": "jammu_and_kashmir",
+   "old": 37.0,
+   "new": 37.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "chikungunya",
+   "state_id": "jharkhand",
+   "old": 2113.0,
+   "new": 2113.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "chikungunya",
+   "state_id": "karnataka",
+   "old": 63549.0,
+   "new": 65340.0,
+   "changed": true
+  },
+  {
+   "year": 2022,
+   "disease": "chikungunya",
+   "state_id": "kerala",
+   "old": 1511.0,
+   "new": 1511.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "chikungunya",
+   "state_id": "lakshadweep",
+   "old": 107.0,
+   "new": 103.0,
+   "changed": true
+  },
+  {
+   "year": 2022,
+   "disease": "chikungunya",
+   "state_id": "madhya_pradesh",
+   "old": 4292.0,
+   "new": 4252.0,
+   "changed": true
+  },
+  {
+   "year": 2022,
+   "disease": "chikungunya",
+   "state_id": "maharashtra",
+   "old": 0.0,
+   "new": 14785.0,
+   "changed": true
+  },
+  {
+   "year": 2022,
+   "disease": "chikungunya",
+   "state_id": "manipur",
+   "old": 0.0,
+   "new": 0.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "chikungunya",
+   "state_id": "meghalaya",
+   "old": 14569.0,
+   "new": 0.0,
+   "changed": true
+  },
+  {
+   "year": 2022,
+   "disease": "chikungunya",
+   "state_id": "mizoram",
+   "old": 195.0,
+   "new": 195.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "chikungunya",
+   "state_id": "odisha",
+   "old": 0.0,
+   "new": 0.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "chikungunya",
+   "state_id": "puducherry",
+   "old": 11440.0,
+   "new": 11440.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "chikungunya",
+   "state_id": "punjab",
+   "old": 1043.0,
+   "new": 1087.0,
+   "changed": true
+  },
+  {
+   "year": 2022,
+   "disease": "chikungunya",
+   "state_id": "rajasthan",
+   "old": 212.0,
+   "new": 212.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "chikungunya",
+   "state_id": "sikkim",
+   "old": 1883.0,
+   "new": 1863.0,
+   "changed": true
+  },
+  {
+   "year": 2022,
+   "disease": "chikungunya",
+   "state_id": "tamil_nadu",
+   "old": 181.0,
+   "new": 4365.0,
+   "changed": true
+  },
+  {
+   "year": 2022,
+   "disease": "chikungunya",
+   "state_id": "telangana",
+   "old": 6608.0,
+   "new": 6608.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "chikungunya",
+   "state_id": "tripura",
+   "old": 919.0,
+   "new": 885.0,
+   "changed": true
+  },
+  {
+   "year": 2022,
+   "disease": "chikungunya",
+   "state_id": "uttar_pradesh",
+   "old": 200.0,
+   "new": 200.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "chikungunya",
+   "state_id": "uttarakhand",
+   "old": 2000.0,
+   "new": 2000.0,
+   "changed": false
+  },
+  {
+   "year": 2022,
+   "disease": "chikungunya",
+   "state_id": "west_bengal",
+   "old": 1230.0,
+   "new": 1533.0,
+   "changed": true
+  }
+ ]
+}
