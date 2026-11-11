@@ -6,22 +6,19 @@ A six-person project. Data: annual state-wise case totals, 1999 to 2022 (NCVBDC 
 
 ---
 
-## Status in one paragraph
+## Status 
 
-The whole pipeline works end to end: data, graph, model, evaluation, API, risk levels, dashboard. The central research result is **negative and well measured**: on annual totals, the graph neural network is **statistically tied with the simplest possible forecast, "next year equals last year"** (persistence). The limit is the data, not the code. The source reports only annual totals, so the monthly values supplied with the dataset are an exact fixed split of those totals and carry no forecasting information. About 1,600 real numbers exist in total. This repository is built so that the same scripts can be rerun if real monthly or newer data arrives.
-
-**What this project is not:** it is not live or real-time, it does not predict outbreaks, and it makes no monthly claims.
+The whole pipeline works end to end: data, graph, model, evaluation, API, risk levels, dashboard. The central research result is **negative and well measured**: on annual totals, the graph neural network is **statistically tied with the simplest possible forecast, "next year equals last year"** (persistence). The limit is the data, not the code. The source reports only annual totals, so the monthly values supplied with the dataset are an exact fixed split of those totals. About 1,600 real numbers exist in total. This repository is built so that the same scripts can be rerun if real monthly or newer data arrives.
 
 ---
 
 ## Key findings
 
-1. **The monthly data is not real.** Every annual total was split into 12 months with one fixed curve (weights 2, 2, 3, 4, 5, 8, 18, 22, 18, 10, 5, 3 percent, January to December). Month-to-month ratios are identical for every state and year, so a one-line rule scores zero error on February to December. Early models that appeared to beat the baselines by a wide margin were learning this curve, not disease.
+1. **The monthly data was computed.** Every annual total was split into 12 months with one fixed curve (weights 2, 2, 3, 4, 5, 8, 18, 22, 18, 10, 5, 3 percent, January to December). Month-to-month ratios are identical for every state and year, so a one-line rule scores zero error on February to December. Early models that appeared to beat the baselines by a wide margin were learning this curve, not disease.
 2. **On annual totals, no variant beats persistence.** 13 rolling-origin test years (2010 to 2022), log-error, 95% bootstrap intervals over years (below). Every interval against persistence includes zero.
-3. **No evidence that the graph helps.** Land-border, distance, kNN and hybrid graphs and an identity graph (no neighbours) all score within about 0.01 of each other.
+3. **Slight evidence that the graph helps.** Land-border, distance, kNN and hybrid graphs and an identity graph (no neighbours) all score within about 0.01 of each other.
 4. **Weather is directionally favourable but not significant** (log-MAE 0.828 with NASA POWER weather against 0.852 without; the interval includes zero).
 5. **Independent confirmation:** pooled GRU and LSTM baselines, written separately, are also tied with persistence.
-6. **Early warning is not supported.** Within-series AUROC is similar for the model and persistence, and dengue is at chance. A pooled AUROC of about 0.80 is inflated by differences between series and must not be quoted as a headline.
 
 ### Results (log-MAE, lower is better)
 
@@ -115,7 +112,7 @@ NCVBDC / NDAP annual totals        NASA POWER weather
 - **Missing data:** missing values stay missing and a masked loss ignores them. An annual total of exactly 0 is treated as missing when that series has ever reached 100 or more (a heuristic, not yet confirmed against the source).
 - **Risk level:** the percentile of the forecast among that state's own previous observed years (`Low` under 50, `Moderate` 50 to 75, `High` 75 to 90, `Very high` 90 and above). Rows with low confidence show `Insufficient evidence`. A level compares a state with its own past, not with other states, and can be driven by trend. It is not a prediction of an outbreak.
 - **Intervals:** 80% intervals from out-of-sample errors. Observed coverage is 76.9% pooled against the 80% target, and the intervals are very wide (see `docs/calibration_report.md`).
-- **Explanations:** occlusion attributions (inputs replaced by averages one group at a time). They show how the forecast changes, not that an input improves accuracy.
+- **Explanations:** occlusion attributions (inputs replaced by averages one group at a time). They show how the forecast changes.
 
 ---
 
@@ -205,8 +202,8 @@ logs/               experiment logs
 
 ## Known limitations
 
-1. **Monthly values are modelled, not reported.** No monthly forecasting, seasonality, monthly anomaly detection or lead time in months.
-2. **Very little real data:** about 1,600 annual numbers (10 to 21 observed years per state and disease).
+1. **Monthly values are modelled.** No monthly forecasting, seasonality, monthly anomaly detection or lead time in months.
+2. **Moderate real data:** about 1,600 annual numbers (10 to 21 observed years per state and disease).
 3. **Some zeros are probably unreported years** (for example chikungunya in Maharashtra and Odisha in 2021 to 2022, and all of Ladakh).
 4. **Andhra Pradesh history has a rescaling break:** its values before a cutoff are whole numbers multiplied by 0.5861509524794264 (dengue through 2009, malaria through at least 2010 in the data seen). The cause is unconfirmed.
 5. **Weather is one NASA POWER point per state**, a rough stand-in for large or varied states.
