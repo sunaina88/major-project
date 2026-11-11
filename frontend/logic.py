@@ -49,3 +49,46 @@ def build_display(rows, horizon=1):
     df["forecast_text"] = df["forecast"].apply(lambda v: f"{float(v):,.0f}")
     df["notes"] = df["notes"].fillna("")
     return df
+
+# ---- helpers for the research pages (kept here so they can be tested without Streamlit) ----
+
+def is_tie(ci):
+    """True when the 95% interval is missing or includes 0: no clear difference from persistence."""
+    if ci is None or len(ci) != 2:
+        return True
+    return ci[0] <= 0 <= ci[1]
+
+
+def verdict(ci):
+    """'tie', 'better than persistence' or 'worse than persistence' (diff is model minus persistence)."""
+    if is_tie(ci):
+        return "tie"
+    return "better than persistence" if ci[1] < 0 else "worse than persistence"
+
+
+def closer_years(d):
+    """d: replay rows of one state and disease (columns true, model, persistence).
+    Returns (model_closer, persistence_closer, equal) counted over years, using |log1p(x) - log1p(true)|."""
+    model_closer = pers_closer = equal = 0
+    for t, m, p in zip(d["true"], d["model"], d["persistence"]):
+        e_model = abs(_log1p(m) - _log1p(t))
+        e_pers = abs(_log1p(p) - _log1p(t))
+        if e_model < e_pers:
+            model_closer += 1
+        elif e_pers < e_model:
+            pers_closer += 1
+        else:
+            equal += 1
+    return model_closer, pers_closer, equal
+
+
+def _log1p(v):
+    import math
+    return math.log1p(max(float(v), 0.0))
+
+
+def reported_grid(hist, disease, states, years):
+    """Matrix [state][year] of 1 (a value was reported) or 0 (no value)."""
+    h = hist[hist.disease == disease]
+    seen = set(zip(h.state_id, h.year))
+    return [[1 if (s, y) in seen else 0 for y in years] for s in states]

@@ -67,7 +67,7 @@ def get(name):
     if name == "model_performance":
         j = _req("/model-performance")
         rows = [{"variant": "Persistence", "log_mae": j["headline"]["log_mae_persistence"],
-                 "diff": None, "ci": None}]
+                 "diff": None, "ci": None, "tag": None, "horizon": 1}]
         seen = set()
         for s in j["summary"]:
             v = s["variant"] if s["horizon"] == 1 else f'{s["variant"]} ({s["horizon"]} years ahead, vs its own persistence)'
@@ -75,6 +75,33 @@ def get(name):
                 continue
             seen.add(v)
             rows.append({"variant": v, "log_mae": s["log_mae_model"],
-                         "diff": s["diff_vs_persistence"], "ci": s["ci_95"]})
+                         "diff": s["diff_vs_persistence"], "ci": s["ci_95"],
+                         "tag": s["tag"], "horizon": s["horizon"]})
         return rows                
     raise KeyError(name)
+
+
+def get_folds(tag, horizon=1):
+    """Per-year errors of one variant: rows with year, log_model (model error), log_last (persistence error)."""
+    if USE_MOCKS:
+        rows = json.load(open(MOCKS / "model_folds.json"))
+        return [r for r in rows if r["tag"] == tag and r["horizon"] == horizon]
+    return _req("/model-performance", tag=tag, horizon=horizon)["folds"]
+
+
+def get_explanation(state_id, disease, horizon=1):
+    """Occlusion explanation for one state and disease. Raises NotAvailable with a readable reason."""
+    if USE_MOCKS:
+        path = MOCKS / f"explanation_{state_id}_{disease}.json"
+        if not path.exists():
+            raise NotAvailable("Demo mode has an explanation for Kerala dengue only. Start the API to see the others.")
+        return json.load(open(path))
+    r = requests.get(f"{API}/explanation/{state_id}/{disease}", params={"horizon": horizon}, timeout=120)
+    if r.status_code in (404, 503):
+        try:
+            detail = r.json().get("detail", "")
+        except ValueError:
+            detail = ""
+        raise NotAvailable(detail or "The API cannot explain this forecast.")
+    r.raise_for_status()
+    return r.json()

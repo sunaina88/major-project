@@ -3,7 +3,9 @@
   "variant": "Persistence",
   "log_mae": 0.809,
   "diff": null,
-  "ci": null
+  "ci": null,
+  "tag": null,
+  "horizon": 1
  },
  {
   "variant": "Input window of 2 years",
@@ -12,7 +14,9 @@
   "ci": [
    -0.038,
    0.064
-  ]
+  ],
+  "tag": "K2",
+  "horizon": 1
  },
  {
   "variant": "Input window of 5 years",
@@ -21,7 +25,9 @@
   "ci": [
    -0.021,
    0.047
-  ]
+  ],
+  "tag": "K5",
+  "horizon": 1
  },
  {
   "variant": "clean",
@@ -30,7 +36,9 @@
   "ci": [
    -0.055,
    0.028
-  ]
+  ],
+  "tag": "clean",
+  "horizon": 1
  },
  {
   "variant": "Distance graph",
@@ -39,7 +47,9 @@
   "ci": [
    -0.064,
    0.022
-  ]
+  ],
+  "tag": "dist",
+  "horizon": 1
  },
  {
   "variant": "GAT",
@@ -48,7 +58,9 @@
   "ci": [
    -0.011,
    0.06
-  ]
+  ],
+  "tag": "gat",
+  "horizon": 1
  },
  {
   "variant": "Without weather",
@@ -57,7 +69,9 @@
   "ci": [
    -0.008,
    0.046
-  ]
+  ],
+  "tag": "geo_now",
+  "horizon": 1
  },
  {
   "variant": "GCN, land-border graph, synthetic weather",
@@ -66,7 +80,9 @@
   "ci": [
    -0.055,
    0.028
-  ]
+  ],
+  "tag": "geo_w",
+  "horizon": 1
  },
  {
   "variant": "1 year(s) ahead",
@@ -75,7 +91,9 @@
   "ci": [
    -0.055,
    0.028
-  ]
+  ],
+  "tag": "horizons",
+  "horizon": 1
  },
  {
   "variant": "2 year(s) ahead",
@@ -84,7 +102,9 @@
   "ci": [
    0.006,
    0.105
-  ]
+  ],
+  "tag": "horizons",
+  "horizon": 2
  },
  {
   "variant": "3 year(s) ahead",
@@ -93,7 +113,9 @@
   "ci": [
    -0.001,
    0.055
-  ]
+  ],
+  "tag": "horizons",
+  "horizon": 3
  },
  {
   "variant": "Hybrid graph",
@@ -102,7 +124,9 @@
   "ci": [
    -0.063,
    0.026
-  ]
+  ],
+  "tag": "hybrid",
+  "horizon": 1
  },
  {
   "variant": "No graph",
@@ -111,7 +135,9 @@
   "ci": [
    -0.027,
    0.029
-  ]
+  ],
+  "tag": "identity",
+  "horizon": 1
  },
  {
   "variant": "kNN graph",
@@ -120,7 +146,31 @@
   "ci": [
    -0.067,
    0.022
-  ]
+  ],
+  "tag": "knn",
+  "horizon": 1
+ },
+ {
+  "variant": "p4_area",
+  "log_mae": 0.836,
+  "diff": -0.01,
+  "ci": [
+   -0.053,
+   0.028
+  ],
+  "tag": "p4_area",
+  "horizon": 1
+ },
+ {
+  "variant": "p4_area_extra",
+  "log_mae": 0.827,
+  "diff": -0.018,
+  "ci": [
+   -0.053,
+   0.018
+  ],
+  "tag": "p4_area_extra",
+  "horizon": 1
  },
  {
   "variant": "Separate model per disease",
@@ -129,7 +179,9 @@
   "ci": [
    0.007,
    0.119
-  ]
+  ],
+  "tag": "single",
+  "horizon": 1
  },
  {
   "variant": "v1geo",
@@ -138,7 +190,9 @@
   "ci": [
    -0.061,
    0.026
-  ]
+  ],
+  "tag": "v1geo",
+  "horizon": 1
  },
  {
   "variant": "zeros_kept",
@@ -147,6 +201,8 @@
   "ci": [
    -0.021,
    0.044
-  ]
+  ],
+  "tag": "zeros_kept",
+  "horizon": 1
  }
 ]
