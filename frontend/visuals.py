@@ -3,7 +3,7 @@ import numpy as np
 import plotly.graph_objects as go
 import plotly.io as pio
 import streamlit as st
-from logic import INSUFF, LEVELS, PALETTES, colour_map, discrete_scale, nice
+from logic import LEVELS, PALETTES, colour_map, discrete_scale, nice
 
 NAVY, PANEL, PANEL2 = "#0A1524", "#102438", "#14304A"
 TEAL, AMBER, RED = "#16C7B2", "#E8A34B", "#E5534B"
