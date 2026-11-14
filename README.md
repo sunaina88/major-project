@@ -2,23 +2,26 @@
 
 **Annual forecasting and risk-mapping of dengue, malaria and chikungunya across India's 36 states and union territories, with a spatio-temporal graph neural network, an API and a dashboard.**
 
-A six-person project. Data: annual state-wise case totals, 1999 to 2022 (NCVBDC / NDAP exports), plus NASA POWER weather.
+A six-person project. Data: annual state-wise case totals, 1999 to 2025 (NCVBDC / NDAP exports), plus synthetic climatology features in the registered model.
 
 ---
 
 ## Status 
 
-The whole pipeline works end to end: data, graph, model, evaluation, API, risk levels, dashboard. The central research result is **negative and well measured**: on annual totals, the graph neural network is **statistically tied with the simplest possible forecast, "next year equals last year"** (persistence). The limit is the data, not the code. The source reports only annual totals, so the monthly values supplied with the dataset are an exact fixed split of those totals. About 1,600 real numbers exist in total. This repository is built so that the same scripts can be rerun if real monthly or newer data arrives.
+The whole pipeline works end to end: data, graph, model, evaluation, API, risk levels, dashboard. The central research result is **negative and well measured**: on annual totals, the graph neural network is **statistically tied with the simplest possible forecast, "next year equals last year"** (persistence). The source reports only annual totals, so the monthly values supplied with the dataset are an exact fixed split of those totals. The processed tensor contains about 2,300 reported state-disease-year entries before the model's zero-as-missing heuristic. This repository is built so the same scripts can be rerun if real monthly data arrives or source revisions are resolved.
 
 ---
 
 ## Key findings
 
 1. **The monthly data was computed.** Every annual total was split into 12 months with one fixed curve (weights 2, 2, 3, 4, 5, 8, 18, 22, 18, 10, 5, 3 percent, January to December). Month-to-month ratios are identical for every state and year, so a one-line rule scores zero error on February to December. Early models that appeared to beat the baselines by a wide margin were learning this curve, not disease.
-2. **On annual totals, no variant beats persistence.** 13 rolling-origin test years (2010 to 2022), log-error, 95% bootstrap intervals over years (below). Every interval against persistence includes zero.
-3. **Slight evidence that the graph helps.** Land-border, distance, kNN and hybrid graphs and an identity graph (no neighbours) all score within about 0.01 of each other.
-4. **Weather is directionally favourable but not significant** (log-MAE 0.828 with NASA POWER weather against 0.852 without; the interval includes zero).
-5. **Independent confirmation:** pooled GRU and LSTM baselines, written separately, are also tied with persistence.
+2. **The headline model is statistically tied with persistence.** It scores 0.853 vs 0.855 on 16 rolling-origin test years (2010 to 2025); the 95% bootstrap interval for the difference is [-0.040, +0.039].
+3. **The 2021 fold is influential.** The mean difference from persistence is -0.001 including 2021 and +0.011 without it; both intervals include zero. The 2021 fold difference itself is -0.181.
+4. **Graph variants are not distinguishable.** kNN, distance, hybrid and land-border graphs score 0.836, 0.836, 0.840 and 0.853; the no-graph model scores 0.843. All intervals for comparisons with persistence include zero.
+5. **The weather comparison uses synthetic input.** Synthetic-weather log-MAE is 0.853 vs 0.865 without weather; their paired difference interval includes zero, so this does not establish that weather helps. The headline model does not use NASA POWER.
+6. **No main ST-GNN variant is distinguishable from persistence** on the 16-fold log-MAE comparison.
+7. **Earlier GRU/LSTM runs (2010-2022) were also tied with persistence.** They were not rerun on the current data snapshot.
+8. **Simple annual baselines show the same pattern.** SES with alpha 0.8 scores 0.848 vs persistence at 0.855, but the paired difference interval [-0.023, +0.009] includes zero. Other tested smoothing, trend and recent-average variants score worse.
 
 ### Results (log-MAE, lower is better)
 
@@ -26,17 +29,17 @@ Log-MAE is the mean of `|log1p(forecast) - log1p(actual)|`. Persistence is last 
 
 | Variant | log-MAE | Difference from persistence [95% CI] |
 |---|---|---|
-| Persistence (last year) | 0.846 | n/a |
-| GCN, land-border graph, real weather (headline) | 0.828 | -0.018 [-0.061, +0.026] |
-| GCN, no weather | 0.852 | +0.006 [-0.014, +0.029] |
-| GCN, no graph (identity) | 0.836 | -0.009 [-0.036, +0.014] |
-| GCN, kNN / distance / hybrid graph | 0.827 / 0.824 / 0.828 | all intervals include 0 |
-| GAT | 0.859 | +0.013 [-0.027, +0.050] |
-| Separate model per disease | 0.891 | +0.045 [-0.009, +0.106] |
-| Input window 2 / 5 years | 0.831 / 0.838 | all intervals include 0 |
-| 2 / 3 years ahead | 1.127 / 1.259 | persistence 1.093 / 1.240 |
+| Persistence (last year) | 0.855 | n/a |
+| GCN, land-border graph, synthetic weather (headline) | 0.853 | -0.001 [-0.040, +0.039] |
+| GCN, no weather | 0.865 | +0.010 [-0.019, +0.044] |
+| GCN, no graph (identity) | 0.843 | -0.012 [-0.043, +0.024] |
+| GCN, kNN / distance / hybrid graph | 0.836 / 0.836 / 0.840 | all intervals include 0 |
+| GAT | 0.873 | +0.018 [-0.026, +0.060] |
+| Separate model per disease | 0.892 | +0.037 [-0.021, +0.097] |
+| Input window 2 / 5 years | 0.846 / 0.869 | both intervals include 0 |
+| 2 / 3 years ahead | 1.104 / 1.294 | persistence 1.110 / 1.282; both intervals include 0 |
 
-Eleven variants were compared, so one can look better by chance. See [`docs/person2_handoff.md`](docs/person2_handoff.md) and `GET /model-performance`.
+All listed differences are against persistence; every 95% interval includes zero. Eleven main experiment variants were compared, so one can look better by chance. The separate simple-baseline comparison is in `data/processed/simple_baselines_summary.csv`. The registry also contains supplemental tags (`clean`, `v1geo`, `p4_area*`, `zeros_kept`) from earlier runs; they were not regenerated by this `run_all.sh` run and should not be treated as current results. See [`models/registry.json`](models/registry.json) and `GET /model-performance`.
 
 ---
 
@@ -79,7 +82,7 @@ Docker files are in `docker/` (see `docs/frontend.md` and `docs/api.md`).
 ```bash
 python models/stgnn/step2_build_graph.py        # land-border graph (hand-built neighbour list)
 python models/stgnn/step2b_more_graphs.py       # distance, kNN, hybrid graphs
-python models/stgnn/download_weather.py         # NASA POWER weather (needs internet)
+python models/stgnn/download_weather.py         # optional NASA POWER input for separate experiments
 bash models/stgnn/run_all.sh                    # every experiment, comparison table, final checkpoint
 python models/stgnn/predict.py                  # forecasts from models/stgnn/annual_final.pt
 ```
@@ -91,16 +94,16 @@ All scripts run from the repository root.
 ## How it works
 
 ```
-NCVBDC / NDAP annual totals        NASA POWER weather
+NCVBDC / NDAP annual totals        synthetic climatology
           \                                /
            v                              v
-   data tensor (36 states, 1999-2022)  ---->  annual series  [years x states x diseases]
+   data tensor (36 states, 1999-2025)  ---->  annual series  [years x states x diseases]
                                                      |
           land-border graph (71 edges) ----->  ST-GNN (graph conv -> GRU over 3 years -> graph conv)
                                                      |
                            shared head, 3 outputs, bounded correction to last year's value
                                                      |
-                       forecasts 2023-2025 + prediction intervals + risk levels + attributions
+                       forecasts 2026-2028 + prediction intervals + risk levels + attributions
                                                      |
                                     SQLite  ->  FastAPI  ->  Streamlit dashboard
 ```
@@ -108,7 +111,8 @@ NCVBDC / NDAP annual totals        NASA POWER weather
 - **Nodes:** 36 states and union territories, fixed alphabetical order in `configs/states.txt`. Join key is `state_id`.
 - **Graph:** states are linked by land borders; island territories are attached to the nearest mainland state (a modelling choice). Distance, kNN and hybrid graphs are also built.
 - **Model:** dense graph convolution (or graph attention) at each time step, a GRU over a 3-year window, a second graph layer, and one shared head for the three diseases. The head predicts a bounded correction to last year's value; forecasts are capped at each series' historical maximum, so the model cannot forecast a record year. Plain PyTorch, runs on CPU.
-- **Evaluation:** rolling origin. For each test year from 2010 to 2022, train on earlier years only and compute normalisation from them only. A state and disease is scored when the target year and last year are both observed.
+- **Evaluation:** rolling origin. For each test year from 2010 to 2025, train on earlier years only and compute normalisation from them only. A state and disease is scored when the target year and last year are both observed.
+- **Headline weather:** annual temperature and rainfall are generated by `src/ingestion/weather/build_weather_tensor.py` from state climatology profiles, fixed seasonal curves and seeded noise. These synthetic columns—not NASA POWER—are used by the registered checkpoint.
 - **Missing data:** missing values stay missing and a masked loss ignores them. An annual total of exactly 0 is treated as missing when that series has ever reached 100 or more (a heuristic, not yet confirmed against the source).
 - **Risk level:** the percentile of the forecast among that state's own previous observed years (`Low` under 50, `Moderate` 50 to 75, `High` 75 to 90, `Very high` 90 and above). Rows with low confidence show `Insufficient evidence`. A level compares a state with its own past, not with other states, and can be driven by trend. It is not a prediction of an outbreak.
 - **Intervals:** 80% intervals from out-of-sample errors. Observed coverage is 76.9% pooled against the 80% target, and the intervals are very wide (see `docs/calibration_report.md`).
@@ -203,19 +207,19 @@ logs/               experiment logs
 ## Known limitations
 
 1. **Monthly values are modelled.** No monthly forecasting, seasonality, monthly anomaly detection or lead time in months.
-2. **Moderate real data:** about 1,600 annual numbers (10 to 21 observed years per state and disease).
+2. **Limited real data:** about 2,300 reported state-disease-year entries before the zero-as-missing heuristic, with uneven coverage and dengue missing for 2014-2016.
 3. **Some zeros are probably unreported years** (for example chikungunya in Maharashtra and Odisha in 2021 to 2022, and all of Ladakh).
 4. **Andhra Pradesh history has a rescaling break:** its values before a cutoff are whole numbers multiplied by 0.5861509524794264 (dengue through 2009, malaria through at least 2010 in the data seen). The cause is unconfirmed.
-5. **Weather is one NASA POWER point per state**, a rough stand-in for large or varied states.
+5. **Headline weather is synthetic climatology**, not observed weather. NASA POWER appears only in separate/older runs and is a single point per state.
 6. **Forecasts are capped at the historical maximum**, which limits any use for early warning.
 7. **Risk levels reflect trend** (reported dengue has risen, reported malaria has fallen), so almost all malaria rows show Low and many dengue rows High. Levels do not compare states.
-8. **Thirteen test years** give wide uncertainty. Small true effects cannot be ruled out.
+8. **Sixteen test years** still give wide uncertainty. Small true effects cannot be ruled out; the 2021 fold particularly affects the mean difference.
 9. **Baseline numbers from the original pipeline** are monthly and not comparable with the annual evaluation.
 
 ## Future work
 
 - Real monthly surveillance data (for example NCVBDC monthly malaria reports, IDSP weekly reports), then rerun the same scripts.
-- Annual data for 2023 onward, giving a true out-of-sample test.
+- A clean 2023-2025 holdout is not currently possible because 2022 source values were revised.
 - Confirm which zeros are real; replace the rest with missing values at the source.
 - State boundaries for a clickable map; area-averaged weather; humidity, population, elevation.
 - District-level data where it exists, for a larger graph.

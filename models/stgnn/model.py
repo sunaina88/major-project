@@ -8,7 +8,7 @@ class GCNLayer(nn.Module):
     """x: [B,N,Fin] -> relu(A_norm @ (x W))"""
     def __init__(self, fin, fout, A):
         super().__init__()
-        self.register_buffer("A", A)          # [N,N] normalized
+        self.register_buffer("A", A)         
         self.lin = nn.Linear(fin, fout)
 
     def forward(self, x):
@@ -21,7 +21,7 @@ class GATLayer(nn.Module):
         super().__init__()
         N = A_raw.shape[0]
         mask = (A_raw + torch.eye(N)) > 0
-        self.register_buffer("mask", mask)    # [N,N] bool
+        self.register_buffer("mask", mask)    
         self.h, self.fo = heads, fout // heads
         assert fout % heads == 0
         self.W = nn.Linear(fin, fout, bias=False)
@@ -31,12 +31,12 @@ class GATLayer(nn.Module):
 
     def forward(self, x):
         B, N, _ = x.shape
-        h = self.W(x).view(B, N, self.h, self.fo)             # [B,N,H,fo]
-        es = (h * self.a_src).sum(-1)                          # [B,N,H]
-        ed = (h * self.a_dst).sum(-1)                          # [B,N,H]
-        e = F.leaky_relu(ed.unsqueeze(2) + es.unsqueeze(1), 0.2)   # [B,N(i),N(j),H]
+        h = self.W(x).view(B, N, self.h, self.fo)            
+        es = (h * self.a_src).sum(-1)                          
+        ed = (h * self.a_dst).sum(-1)                          
+        e = F.leaky_relu(ed.unsqueeze(2) + es.unsqueeze(1), 0.2)   
         e = e.masked_fill(~self.mask.view(1, N, N, 1), float("-inf"))
-        att = self.drop(torch.softmax(e, dim=2))               # over neighbors j
+        att = self.drop(torch.softmax(e, dim=2))              
         out = torch.einsum("bijh,bjhf->bihf", att, h).reshape(B, N, -1)
         return F.elu(out)
 
@@ -63,7 +63,7 @@ class STModel(nn.Module):
         nn.init.zeros_(self.head.weight)
         nn.init.zeros_(self.head.bias)
 
-    def forward(self, x):                      # x: [B,L,N,15]
+    def forward(self, x):                      
         base = x[:, 0 if self.base == "lag12" else -1, :, 0:3]
         x = x[..., self.feat_idx]
         B, L, N, Fd = x.shape

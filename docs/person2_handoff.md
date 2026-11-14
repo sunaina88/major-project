@@ -1,6 +1,6 @@
 # Person 2 handoff: ST-GNN (pan-India, 36 nodes)
 
-> Historical result snapshot: the scores and 2022 cutoff below describe the earlier real-weather run. The current source CSVs extend through 2025; rerun the pipeline with `scripts/rerun_disease_pipeline.ps1` and use the regenerated files under `data/processed/` for current results.
+> Historical result snapshot: the results table below describes the earlier run and is retained for context. The current checkpoint was registered on 2026-11-14 UTC after the latest data/model rerun. Current scores, synthetic-weather caveat, and baseline comparison are in `README.md` and `models/registry.json`.
 
 ## Bottom line
 On annual state-level totals, no spatio-temporal variant is statistically distinguishable from "same as last year"
@@ -75,3 +75,14 @@ Differences in log-error from the baseline; negative means better. No group clea
 model is unchanged. About 17 variants were compared across all experiments, so one can look better by chance. Static
 features are constant per state and can only describe differences between states. Full table: docs/feature_ablation_results.txt.
 Code: models/stgnn/features_extra.py and the --static / --env options of models/stgnn/annual.py.
+
+## Simple forecasting baselines
+After the annual tensor and ST-GNN folds are up to date, run
+`python scripts/evaluate_simple_baselines.py` from the repository root. This standalone
+comparison uses the same zero-as-missing rule, eligible state-disease-year pairs, test years
+starting in 2010, log1p evaluation, and fold-bootstrap intervals. It compares persistence,
+3/5-observation means, fixed-alpha exponential smoothing, predeclared shrunken trends, and
+one fixed damped-Holt specification. Trend forecasts are capped at each series' training
+maximum, matching the ST-GNN cap. It does not modify the checkpoint, registry, or existing
+experiment files; it writes `simple_baselines_folds.csv`, `simple_baselines_pairs.csv`, and
+`simple_baselines_summary.csv` under `data/processed/`.

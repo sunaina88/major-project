@@ -1,4 +1,4 @@
-[data] years 1999-2025 | zeros treated as missing: 297
+[data] years 1999-2025 | zeros treated as missing: 300
 [cfg] gcn graph=geo weather=1 single=0 K=3 horizons=[1] tag=geo_w
 h=1 2010 done
 h=1 2011 done
@@ -6,20 +6,23 @@ h=1 2012 done
 h=1 2013 done
 h=1 2014 done
 h=1 2015 done
-Traceback (most recent call last):
-  File "C:\Users\KIIT0001\major-project\models\stgnn\annual.py", line 114, in <module>
-    r = run(o, h)
-        ^^^^^^^^^
-  File "C:\Users\KIIT0001\major-project\models\stgnn\annual.py", line 80, in run
-    res = [fit(o, h, s, X, Yn, g) for s in range(a.seeds)]
-           ^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\KIIT0001\major-project\models\stgnn\annual.py", line 67, in fit
-    masked_huber(model(xtr[b]), ytr[b], mtr[b]).backward()
-  File "C:\Users\KIIT0001\major-project\.venv\Lib\site-packages\torch\_tensor.py", line 623, in backward
-    torch.autograd.backward(
-  File "C:\Users\KIIT0001\major-project\.venv\Lib\site-packages\torch\autograd\__init__.py", line 395, in backward
-    _engine_run_backward(
-  File "C:\Users\KIIT0001\major-project\.venv\Lib\site-packages\torch\autograd\graph.py", line 1072, in _engine_run_backward
-    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-KeyboardInterrupt
+h=1 2016 done
+h=1 2017 done
+h=1 2018 done
+h=1 2019 done
+h=1 2020 done
+h=1 2021 done
+h=1 2022 done
+h=1 2023 done
+h=1 2024 done
+h=1 2025 done
+
+=== horizon 1 year(s) ahead | MEAN over 16 folds ===
+mae_model    3709.521
+mae_last     3873.012
+mae_avg2     4492.811
+log_model       0.853
+log_last        0.855
+log_avg2        0.889
+mae_model minus persistence: mean -163.491 CI [-328.171, 20.674] folds better 13/16
+log_model minus persistence: mean -0.001 CI [-0.040, 0.039] folds better 10/16

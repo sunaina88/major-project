@@ -28,7 +28,7 @@ def load(name):
         st.warning(f"{e} Run with USE_MOCKS=true until it exists.")
         st.stop()
 
-PAGES = ["Start here", "Home", "State", "Disease explorer", "Time-lapse map", "Why this forecast?",
+PAGES = ["Home", "State", "Disease explorer", "Time-lapse map", "Why this forecast?",
          "Model comparison", "Research results", "Annual replay", "Data story", "Limitations"]
 page = st.sidebar.radio("Page", PAGES)
 
@@ -40,10 +40,7 @@ def horizon_picker():
     if h > 1: st.warning("Horizons 2 and 3 are experimental; compare them with persistence.")
     return h
 
-if page == "Start here":
-    ex.page_start(load("model_performance"), latest_year)
-
-elif page == "Home":
+if page == "Home":
     st.title("VectorWatch India")
     d = st.tabs(DIS)
     for tab, dis in zip(d, DIS):
@@ -136,8 +133,6 @@ elif page == "Disease explorer":
     fig.update_xaxes(categoryorder="array", categoryarray=names, tickangle=-35)
     fig.update_layout(yaxis_title="Reported cases")
     st.plotly_chart(fig, width="stretch", key="top10")
-    st.subheader("Distribution across states (log10 cases)")
-    st.bar_chart(np.histogram(np.log10(gy.cases + 1), bins=10)[0])
 
 elif page == "Time-lapse map":
     ex.page_timelapse(hist, STATES, GEOJSON)
