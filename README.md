@@ -1,27 +1,32 @@
 # VectorWatch India
 
-**Annual forecasting and risk-mapping of dengue, malaria and chikungunya across India's 36 states and union territories, with a spatio-temporal graph neural network, an API and a dashboard.**
+**Annual forecasting and risk-mapping of dengue, malaria and chikungunya across India's 36 states and union territories, using a spatio-temporal graph neural network (ST-GNN), a REST API and an interactive dashboard.**
 
-A six-person project. Data: annual state-wise case totals, 1999 to 2025 (NCVBDC / NDAP exports), plus synthetic climatology features in the registered model.
+A six-person project. Data: annual state-wise case totals, 1999 to 2025 (NCVBDC / NDAP exports). The registered model also uses synthetic climatology features (see [How it works](#how-it-works)).
 
 ---
 
-## Status 
+## Status
 
-The whole pipeline works end to end: data, graph, model, evaluation, API, risk levels, dashboard. The central research result is **negative and well measured**: on annual totals, the graph neural network is **statistically tied with the simplest possible forecast, "next year equals last year"** (persistence). The source reports only annual totals, so the monthly values supplied with the dataset are an exact fixed split of those totals. The processed tensor contains about 2,300 reported state-disease-year entries before the model's zero-as-missing heuristic. This repository is built so the same scripts can be rerun if real monthly data arrives or source revisions are resolved.
+The whole pipeline works end to end: data, graph, model, evaluation, API, risk levels and dashboard.
+
+The central research result is **negative and carefully measured**. In this rolling-origin evaluation, we did not detect a statistically significant difference from persistence ("next year equals last year"): 0.853 vs 0.855 log-MAE, with a 95% interval for the difference of [-0.040, +0.039]. This does not establish that the methods are equivalent.
+
+The source reports only annual totals, and monthly environmental data is not available. The monthly values supplied with the original dataset are an exact fixed split of the annual totals, so this repository works at annual resolution. The processed tensor holds about 2,300 reported state-disease-year entries before the model's zero-as-missing heuristic. The scripts can be rerun if real monthly data arrives or source revisions are resolved.
 
 ---
 
 ## Key findings
 
 1. **The monthly data was computed.** Every annual total was split into 12 months with one fixed curve (weights 2, 2, 3, 4, 5, 8, 18, 22, 18, 10, 5, 3 percent, January to December). Month-to-month ratios are identical for every state and year, so a one-line rule scores zero error on February to December. Early models that appeared to beat the baselines by a wide margin were learning this curve, not disease.
-2. **The headline model is statistically tied with persistence.** It scores 0.853 vs 0.855 on 16 rolling-origin test years (2010 to 2025); the 95% bootstrap interval for the difference is [-0.040, +0.039].
+2. **No detectable difference from persistence for the headline model.** It scores 0.853 vs 0.855 on 16 rolling-origin test years (2010 to 2025); the 95% bootstrap interval for the difference is [-0.040, +0.039].
 3. **The 2021 fold is influential.** The mean difference from persistence is -0.001 including 2021 and +0.011 without it; both intervals include zero. The 2021 fold difference itself is -0.181.
 4. **Graph variants are not distinguishable.** kNN, distance, hybrid and land-border graphs score 0.836, 0.836, 0.840 and 0.853; the no-graph model scores 0.843. All intervals for comparisons with persistence include zero.
 5. **The weather comparison uses synthetic input.** Synthetic-weather log-MAE is 0.853 vs 0.865 without weather; their paired difference interval includes zero, so this does not establish that weather helps. The headline model does not use NASA POWER.
 6. **No main ST-GNN variant is distinguishable from persistence** on the 16-fold log-MAE comparison.
-7. **Earlier GRU/LSTM runs (2010-2022) were also tied with persistence.** They were not rerun on the current data snapshot.
-8. **Simple annual baselines show the same pattern.** SES with alpha 0.8 scores 0.848 vs persistence at 0.855, but the paired difference interval [-0.023, +0.009] includes zero. Other tested smoothing, trend and recent-average variants score worse.
+7. **Extra environmental and demographic features did not produce a detectable improvement.** Humidity, monsoon, population density and elevation were tested as supplemental experiments (see [Feature ablation](#feature-ablation-supplemental)). None of them is in the registered model.
+8. **Earlier GRU/LSTM runs (2010-2022) were also tied with persistence.** They were not rerun on the current data snapshot.
+9. **Simple annual baselines show the same pattern.** SES with alpha 0.8 scores 0.848 vs persistence at 0.855, but the paired difference interval [-0.023, +0.009] includes zero. Other tested smoothing, trend and recent-average variants score worse.
 
 ### Results (log-MAE, lower is better)
 
@@ -39,7 +44,21 @@ Log-MAE is the mean of `|log1p(forecast) - log1p(actual)|`. Persistence is last 
 | Input window 2 / 5 years | 0.846 / 0.869 | both intervals include 0 |
 | 2 / 3 years ahead | 1.104 / 1.294 | persistence 1.110 / 1.282; both intervals include 0 |
 
-All listed differences are against persistence; every 95% interval includes zero. Eleven main experiment variants were compared, so one can look better by chance. The separate simple-baseline comparison is in `data/processed/simple_baselines_summary.csv`. The registry also contains supplemental tags (`clean`, `v1geo`, `p4_area*`, `zeros_kept`) from earlier runs; they were not regenerated by this `run_all.sh` run and should not be treated as current results. See [`models/registry.json`](models/registry.json) and `GET /model-performance`.
+All listed differences are against persistence; every 95% interval includes zero. Eleven main experiment variants were compared, so one can look better by chance. The separate simple-baseline comparison is in `data/processed/simple_baselines_summary.csv`. The registry also contains supplemental tags (`clean`, `v1geo`, `p4_area*`, `zeros_kept`) from earlier runs; they were not regenerated by the latest `run_all.sh` run and should not be treated as current results. See [`models/registry.json`](models/registry.json) and `GET /model-performance`.
+
+### Feature ablation (supplemental)
+
+The registered model consumes only disease histories, observed flags and two synthetic climate columns. To check whether other available variables help, each was added to a base model and compared on the same folds (`docs/feature_ablation_results.txt`).
+
+| Added to base | Difference from persistence [95% CI] | Difference from base [95% CI] |
+|---|---|---|
+| Monsoon features | -0.017 [-0.061, +0.023] | -0.006 [-0.019, +0.006] |
+| Population density | -0.006 [-0.043, +0.030] | +0.004 [-0.008, +0.018] |
+| Elevation | -0.002 [-0.043, +0.038] | +0.009 [-0.006, +0.026] |
+| All extra features | -0.002 [-0.051, +0.040] | +0.009 [-0.008, +0.024] |
+| Humidity | +0.006 [-0.026, +0.037] | +0.016 [+0.000, +0.037] |
+
+No extra feature produced a detectable improvement over the base model, and humidity was slightly worse. These runs report a different persistence value from the headline table, so compare numbers only within this table. They are not part of the registered model.
 
 ---
 
@@ -75,17 +94,19 @@ USE_MOCKS=false API_URL=http://localhost:8000 streamlit run frontend/app.py
 
 To run the dashboard on mock data (no API needed): `python scripts/make_mocks.py`, then `streamlit run frontend/app.py`. See [`docs/frontend.md`](docs/frontend.md).
 
-Docker files are in `docker/` (see `docs/frontend.md` and `docs/api.md`).
+Docker: `docker compose -f docker/docker-compose.yml up --build`, then open http://localhost:8501.
 
 ### Reproduce the experiments
 
 ```bash
-python models/stgnn/step2_build_graph.py        # land-border graph (hand-built neighbour list)
-python models/stgnn/step2b_more_graphs.py       # distance, kNN, hybrid graphs
+python models/stgnn/build_graph.py              # land-border graph (hand-built neighbour list)
+python models/stgnn/graphs.py                   # distance, kNN and hybrid graphs
 python models/stgnn/download_weather.py         # optional NASA POWER input for separate experiments
 bash models/stgnn/run_all.sh                    # every experiment, comparison table, final checkpoint
 python models/stgnn/predict.py                  # forecasts from models/stgnn/annual_final.pt
 ```
+
+Extra static or environmental columns can be tried with the `--static` and `--env` options of `models/stgnn/annual.py` (see `models/stgnn/features_extra.py`). They are off in the registered run.
 
 All scripts run from the repository root.
 
@@ -109,10 +130,11 @@ NCVBDC / NDAP annual totals        synthetic climatology
 ```
 
 - **Nodes:** 36 states and union territories, fixed alphabetical order in `configs/states.txt`. Join key is `state_id`.
+- **Inputs the model actually consumes (8 per state and year):** log1p annual dengue, malaria and chikungunya cases (normalised), three observed flags, and synthetic annual mean temperature and total rainfall (normalised). Population, elevation, humidity and monsoon features exist in the repository but are not used by the registered model.
 - **Graph:** states are linked by land borders; island territories are attached to the nearest mainland state (a modelling choice). Distance, kNN and hybrid graphs are also built.
 - **Model:** dense graph convolution (or graph attention) at each time step, a GRU over a 3-year window, a second graph layer, and one shared head for the three diseases. The head predicts a bounded correction to last year's value; forecasts are capped at each series' historical maximum, so the model cannot forecast a record year. Plain PyTorch, runs on CPU.
 - **Evaluation:** rolling origin. For each test year from 2010 to 2025, train on earlier years only and compute normalisation from them only. A state and disease is scored when the target year and last year are both observed.
-- **Headline weather:** annual temperature and rainfall are generated by `src/ingestion/weather/build_weather_tensor.py` from state climatology profiles, fixed seasonal curves and seeded noise. These synthetic columns—not NASA POWER—are used by the registered checkpoint.
+- **Headline weather:** annual temperature and rainfall are generated by `src/ingestion/weather/build_weather_tensor.py` from state climatology profiles, fixed seasonal curves and seeded noise. These synthetic columns, not NASA POWER, are used by the registered checkpoint.
 - **Missing data:** missing values stay missing and a masked loss ignores them. An annual total of exactly 0 is treated as missing when that series has ever reached 100 or more (a heuristic, not yet confirmed against the source).
 - **Risk level:** the percentile of the forecast among that state's own previous observed years (`Low` under 50, `Moderate` 50 to 75, `High` 75 to 90, `Very high` 90 and above). Rows with low confidence show `Insufficient evidence`. A level compares a state with its own past, not with other states, and can be driven by trend. It is not a prediction of an outbreak.
 - **Intervals:** 80% intervals from out-of-sample errors. Observed coverage is 76.9% pooled against the 80% target, and the intervals are very wide (see `docs/calibration_report.md`).
@@ -140,7 +162,22 @@ Details: [`docs/api.md`](docs/api.md).
 
 ## Dashboard
 
-Streamlit pages: Home (risk map and table), State (history, forecast beside persistence, interval, confidence and reason), Disease explorer, Model comparison, Annual replay (backtest), System status, Limitations. The home map is currently a placeholder tile grid until state boundaries are delivered.
+Streamlit, dark theme, state-boundary maps drawn from `data/processed/india_states.geojson`.
+
+| Page | What it shows |
+|---|---|
+| Home | Risk map and table |
+| State | History, forecast beside persistence, interval, confidence and reason |
+| Disease explorer | One disease across states |
+| Time-lapse map | Reported cases by year, 1999 to latest |
+| Why this forecast? | Occlusion attributions |
+| Model comparison | Variants against persistence |
+| Research results | Forest plot and per-year errors |
+| Annual replay | Backtest by year, one state over time |
+| Data story | Data-quality findings (static, `frontend/static/data_story.json`) |
+| Limitations | Plain-language caveats |
+
+Rules enforced by tests: persistence beside every forecast, no risk colour on low-confidence rows, GeoJSON ids equal the 36 ids in `configs/states.txt`, every page renders.
 
 ---
 
@@ -150,13 +187,14 @@ Streamlit pages: Home (risk map and table), State (history, forecast beside pers
 configs/            node order (states.txt) and settings
 config/             drift-monitor thresholds
 data/
-  raw/              source exports and downloaded weather
-  processed/        tensors, graph files, experiment results, forecasts, anomaly scores
+  raw/              source exports, state boundaries, downloaded weather, static features
+  processed/        tensors, graph files, GeoJSON, experiment results, forecasts, anomaly scores
 models/
   stgnn/            graph, model, experiments, annual_final.pt, predict.py
   registry.json     registered model (annual_final only)
 src/
-  ingestion/        disease data and weather ingestion
+  ingestion/        disease, weather and geography ingestion
+  features/         annual environment and static state features
   models/           baselines and sequence models
   evaluation/       metrics, backtest, early-warning evaluation
   anomaly/          annual anomaly detector
@@ -181,12 +219,15 @@ logs/               experiment logs
 | File | Contents |
 |---|---|
 | [`docs/data_pipeline.md`](docs/data_pipeline.md) | Original data and baseline pipeline (Person 1) |
+| [`docs/data_sources.md`](docs/data_sources.md) | Source exports, 2025 extension, revisions and data caveats |
 | [`docs/person2_handoff.md`](docs/person2_handoff.md) | Graph and model work, results, caveats |
 | [`docs/person3_findings.md`](docs/person3_findings.md) | Metrics, anomaly detection, early-warning evaluation, sequence baselines |
 | [`docs/api.md`](docs/api.md) | API reference and rules |
 | [`docs/risk_method.md`](docs/risk_method.md) | How risk levels are built and what they mean |
 | [`docs/calibration_report.md`](docs/calibration_report.md) | Interval calibration |
+| [`docs/feature_ablation_results.txt`](docs/feature_ablation_results.txt) | Supplemental feature-ablation results |
 | [`docs/frontend.md`](docs/frontend.md) | Dashboard structure and how to run it |
+| [`docs/figures/`](docs/figures/) | Anomaly timelines, early-warning ROC, error by state, forecast vs persistence |
 | [`docs/handoff/`](docs/handoff/) | Role-by-role instructions and shared rules |
 
 ---
@@ -195,10 +236,10 @@ logs/               experiment logs
 
 | Role | Scope | Status |
 |---|---|---|
-| Person 1: disease data and baselines | Ingestion, monthly tensor, baselines | Delivered; follow-ups open (newer annual data, real monthly data, which zeros are unreported, Andhra Pradesh rescaling) |
+| Person 1: disease data and baselines | Ingestion, monthly tensor, baselines | Delivered; follow-ups open (real monthly data, which zeros are unreported, Andhra Pradesh rescaling) |
 | Person 2: spatio-temporal GNN | Graph, model, experiments, checkpoint, forecasts; also `/replay`, `/status` and the dashboard's API adapter | Delivered |
 | Person 3: time series, anomaly, evaluation | Metrics, backtest, anomaly detector, early-warning evaluation, GRU/LSTM baselines | Delivered |
-| Person 4: geography and environment | State boundaries (GeoJSON), area-averaged weather, static features | Not started |
+| Person 4: geography and environment | State boundaries (GeoJSON), area-averaged weather, static features, feature ablation | Delivered; monthly environmental data is unavailable, and extra features gave no detectable gain |
 | Person 5: backend and risk | Database, API, risk engine, intervals, explanations, registry | Delivered |
 | Person 6: frontend and MLOps | Dashboard, containers, CI, drift monitor | Delivered |
 
@@ -206,24 +247,22 @@ logs/               experiment logs
 
 ## Known limitations
 
-1. **Monthly values are modelled.** No monthly forecasting, seasonality, monthly anomaly detection or lead time in months.
-2. **Limited real data:** about 2,300 reported state-disease-year entries before the zero-as-missing heuristic, with uneven coverage and dengue missing for 2014-2016.
+1. **Monthly values are modelled.** No monthly forecasting, seasonality, monthly anomaly detection or lead time in months, and no monthly environmental data.
+2. **Limited real data:** about 2,300 reported state-disease-year entries before the zero-as-missing heuristic, with uneven coverage and dengue missing for 2014-2016 in the original source (partly filled from a parliamentary table).
 3. **Some zeros are probably unreported years** (for example chikungunya in Maharashtra and Odisha in 2021 to 2022, and all of Ladakh).
 4. **Andhra Pradesh history has a rescaling break:** its values before a cutoff are whole numbers multiplied by 0.5861509524794264 (dengue through 2009, malaria through at least 2010 in the data seen). The cause is unconfirmed.
 5. **Headline weather is synthetic climatology**, not observed weather. NASA POWER appears only in separate/older runs and is a single point per state.
-6. **Forecasts are capped at the historical maximum**, which limits any use for early warning.
-7. **Risk levels reflect trend** (reported dengue has risen, reported malaria has fallen), so almost all malaria rows show Low and many dengue rows High. Levels do not compare states.
-8. **Sixteen test years** still give wide uncertainty. Small true effects cannot be ruled out; the 2021 fold particularly affects the mean difference.
-9. **Baseline numbers from the original pipeline** are monthly and not comparable with the annual evaluation.
+6. **The model does not use population, elevation, humidity or monsoon features.** They were tested separately and showed no detectable improvement.
+7. **Forecasts are capped at the historical maximum**, which limits any use for early warning.
+8. **Risk levels reflect trend** (reported dengue has risen, reported malaria has fallen), so almost all malaria rows show Low and many dengue rows High. Levels do not compare states.
+9. **Sixteen test years** still give wide uncertainty. Small true effects cannot be ruled out; the 2021 fold particularly affects the mean difference.
+10. **2022 source values were revised**, so a clean 2023-2025 holdout is not possible.
+11. **Baseline numbers from the original pipeline** are monthly and not comparable with the annual evaluation.
 
 ## Future work
 
 - Real monthly surveillance data (for example NCVBDC monthly malaria reports, IDSP weekly reports), then rerun the same scripts.
-- A clean 2023-2025 holdout is not currently possible because 2022 source values were revised.
+- Observed, grid-averaged weather in place of synthetic climatology, plus vegetation indices (NDVI).
 - Confirm which zeros are real; replace the rest with missing values at the source.
-- State boundaries for a clickable map; area-averaged weather; humidity, population, elevation.
 - District-level data where it exists, for a larger graph.
-
-## How to describe this project
-
-Use "statistically tied with persistence" and "no evidence of", not "does not work". Always show persistence next to a forecast. Do not report monthly results or call the system live or early-warning capable.
+- A graph view in the dashboard showing the state network over the map.
