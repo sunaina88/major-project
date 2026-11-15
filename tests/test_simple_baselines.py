@@ -33,6 +33,15 @@ def test_damped_holt_forecast_is_below_undamped_linear_extrapolation():
     assert 3.0 < forecast < 4.0
 
 
+def test_damped_holt_initializes_from_two_observations_without_reprocessing_them():
+    forecast = _damped_holt_forecast(
+        np.array([2000, 2001]),
+        np.array([1.0, 2.0]),
+        target_year=2002,
+    )
+    assert forecast == 2.8
+
+
 def test_persistence_predictor_returns_last_observed_value():
     history = np.array([[[1.0]], [[np.nan]], [[4.0]]])
     prediction = make_predictor("persistence")(
