@@ -265,7 +265,3 @@ logs/               experiment logs
 - Observed, grid-averaged weather in place of synthetic climatology, plus vegetation indices (NDVI).
 - Confirm which zeros are real; replace the rest with missing values at the source.
 - District-level data where it exists, for a larger graph.
-
-## How to describe this project
-
-Use "did not detect a statistically significant difference from persistence" and "no evidence of", not "does not work". Do not say the methods are equivalent. Always show persistence next to a forecast. Do not report monthly results or call the system live or early-warning capable.
