@@ -58,12 +58,12 @@ def _damped_holt_forecast(years, log_values, target_year):
     if len(log_values) < 2:
         return float(log_values[-1])
 
-    level = float(log_values[0])
+    level = float(log_values[1])
     gap = max(int(years[1] - years[0]), 1)
     trend = float((log_values[1] - log_values[0]) / gap)
-    previous_year = int(years[0])
+    previous_year = int(years[1])
 
-    for year, value in zip(years[1:], log_values[1:]):
+    for year, value in zip(years[2:], log_values[2:]):
         gap = max(int(year - previous_year), 1)
         damped_sum = HOLT_DAMPING * (1.0 - HOLT_DAMPING**gap) / (1.0 - HOLT_DAMPING)
         projected_level = level + damped_sum * trend
