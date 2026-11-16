@@ -170,14 +170,16 @@ Streamlit, dark theme, state-boundary maps drawn from `data/processed/india_stat
 | Page | What it shows |
 |---|---|
 | Home | Risk map and table |
-| State | History, forecast beside persistence, interval, confidence and reason |
+| How it works | Forecast and history; graph metrics |
+| Data story | Monthly split, coverage and source revisions |
 | Disease explorer | One disease across states |
 | Time-lapse map | Reported cases by year, 1999 to latest |
+| Climate & Geography | Monthly weather map, state climate trends and state profile (environmental context) |
+| State | History, forecast beside persistence, interval, confidence and reason |
 | Why this forecast? | Occlusion attributions |
 | Network | The state graph over the map, with a build-the-graph slider and neighbour details |
-| Research results | Forest plot against persistence, per-year errors, all variants |
 | Annual replay | Backtest overview, by year, one state over time |
-| Data story | Monthly split, coverage and source revisions |
+| Research results | Forest plot against persistence, per-year errors, all variants |
 | Limitations | Plain-language caveats |
 
 Rules enforced by tests: persistence beside every forecast, no risk colour on low-confidence rows, GeoJSON ids equal the 36 ids in `configs/states.txt`, every page renders.

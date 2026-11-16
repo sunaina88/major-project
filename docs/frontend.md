@@ -12,15 +12,15 @@ Streamlit. The frontend calls only the API (`frontend/api_client.py`). The map o
 |---|---|
 | Home | `/forecast/{state_id}/{disease}`: risk map, summary figures and table |
 | How it works | Forecast and history from the API; graph metrics from `adjacency_raw.npy` |
-| State | `/forecast/...` (history, forecast, persistence, 80% interval, risk); compare states, CSV download |
+| Data story | static `frontend/static/data_story.json` (rebuild: `python scripts/make_data_story.py`) |
 | Disease explorer | History from `/forecast/...`: map by year, top states, national trend |
 | Time-lapse map | History 1999 to latest year, fixed log colour scale |
 | Climate & Geography | `/climate/monthly`, `/climate/annual`, `/state-profile`: monthly weather map, state climate trends and profile (context only) |
+| State | `/forecast/...` (history, forecast, persistence, 80% interval, risk); compare states, CSV download |
 | Why this forecast? | `/explanation/{state_id}/{disease}` (needs torch on the API side) |
 | Network | `adjacency_*.npy` graphs with state centroids from the GeoJSON; forecasts and risk from the API |
-| Research results | `/model-performance` (forest plot, per-year errors, all variants; `?tag=&horizon=` for folds) |
 | Annual replay | `/replay` (all years, by year, one state over time) |
-| Data story | static `frontend/static/data_story.json` (rebuild: `python scripts/make_data_story.py`) |
+| Research results | `/model-performance` (forest plot, per-year errors, all variants; `?tag=&horizon=` for folds) |
 | Limitations | static text |
 
 Rules enforced by tests: persistence beside every forecast, no risk colour on low-confidence rows, GeoJSON ids equal the 36 ids in `configs/states.txt`, every page renders.

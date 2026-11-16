@@ -5,8 +5,8 @@ import pytest
 from streamlit.testing.v1 import AppTest
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-PAGES = ["Home", "How it works", "State", "Disease explorer", "Time-lapse map", "Climate & Geography", "Why this forecast?", "Network",
-         "Research results", "Annual replay", "Data story", "Limitations"]
+PAGES = ["Home", "How it works", "Data story", "Disease explorer", "Time-lapse map", "Climate & Geography", "State",
+         "Why this forecast?", "Network", "Annual replay", "Research results", "Limitations"]
 
 
 @pytest.mark.parametrize("page", PAGES)
@@ -16,6 +16,13 @@ def test_page_renders_with_mocks(page, monkeypatch):
     at = AppTest.from_file(str(ROOT / "frontend" / "app.py"), default_timeout=60).run()
     at.sidebar.radio[0].set_value(page).run()
     assert not at.exception
+
+
+def test_sidebar_pages_follow_logical_order(monkeypatch):
+    monkeypatch.setenv("USE_MOCKS", "true")
+    monkeypatch.chdir(ROOT)
+    at = AppTest.from_file(str(ROOT / "frontend" / "app.py"), default_timeout=60).run()
+    assert at.sidebar.radio[0].options == PAGES
 
 
 def test_geojson_ids_match_states_both_ways():

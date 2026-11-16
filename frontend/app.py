@@ -40,8 +40,8 @@ def load(name):
         st.warning(f"{e} Run with USE_MOCKS=true until it exists.")
         st.stop()
 
-PAGES = ["Home", "How it works", "State", "Disease explorer", "Time-lapse map", "Climate & Geography", "Why this forecast?", "Network",
-         "Research results", "Annual replay", "Data story", "Limitations"]
+PAGES = ["Home", "How it works", "Data story", "Disease explorer", "Time-lapse map", "Climate & Geography", "State",
+         "Why this forecast?", "Network", "Annual replay", "Research results", "Limitations"]
 page = st.sidebar.radio("Page", PAGES)
 
 fc = load("forecast"); hist = pd.DataFrame(load("history"))
