@@ -17,7 +17,7 @@ Other commands: `python -m src.risk.calibrate` (rewrites `docs/calibration_repor
 
 ## Rules every response follows
 
-- Annual data only. No monthly values, no "live" or "real-time".
+- Disease data is annual only: no monthly case values, no "live" or "real-time". The `/climate/monthly` endpoint serves monthly weather for context; it is not a forecast input.
 - A forecast always comes with `persistence`, `confidence` and `notes`. `persistence` is `null` only when `notes` contains `no_last_year_value`.
 - Horizon 1 is the default. Horizons 2 and 3 appear only with `include_experimental=true` (or an explicit later `year` on `/risk-map`), are flagged `experimental`, and have `interval_80: null`.
 - `risk_level` is one of `Low`, `Moderate`, `High`, `Very high`, `Insufficient evidence`. For `Insufficient evidence` do not draw a risk colour; show `risk_reason`. `percentile` is `null` then.
@@ -34,6 +34,9 @@ Other commands: `python -m src.risk.calibrate` (rewrites `docs/calibration_repor
 | `GET /risk-map?disease=&year=` | One row per state: `risk_level`, `percentile`, `growth_vs_persistence_pct`, forecast, persistence, interval, confidence, notes. `year` defaults to the year after the latest observation (see `/health`); 404 outside the available forecast horizons |
 | `GET /model-performance?tag=&horizon=` | Summary of every variant against persistence with 95% intervals, model-vs-model comparisons, per-fold rows of `tag` (default `geo_w`, horizon 1), number of variants run |
 | `GET /explanation/{state_id}/{disease}?horizon=` | Occlusion attribution per input group. 503 if torch is not installed |
+| `GET /climate/monthly?state_id=&year=&month=` | Monthly weather averaged over NASA POWER sample points inside each state: `temp_mean_c`, `rainfall_mm`, `rh_mean_pct`, `wind_ms`, `n_points`. Environmental context, not a forecast input. 404 for an unknown state or empty selection |
+| `GET /climate/annual?state_id=` | Yearly mean temperature, total and monsoon rainfall, hottest-month temperature, mean humidity and wind |
+| `GET /state-profile?state_id=` | Area, population (Census 2011), density, urban fraction, mean elevation |
 
 Example (shortened):
 

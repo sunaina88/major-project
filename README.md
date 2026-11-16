@@ -157,6 +157,9 @@ Annual data only. Every forecast comes with `persistence`, `confidence` and `not
 | `GET /explanation/{state_id}/{disease}` | Occlusion attribution per input group |
 | `GET /replay` | Backtest: model, actual and persistence per state, disease and year |
 | `GET /status` | Data-drift report |
+| `GET /climate/monthly` | Monthly area-averaged weather per state (context, not a forecast input) |
+| `GET /climate/annual` | Yearly climate summaries per state |
+| `GET /state-profile` | Area, population (Census 2011), density, urban fraction, elevation |
 
 Details: [`docs/api.md`](docs/api.md).
 
@@ -170,6 +173,7 @@ Streamlit, dark theme, state-boundary maps drawn from `data/processed/india_stat
 | State | History, forecast beside persistence, interval, confidence and reason |
 | Disease explorer | One disease across states |
 | Time-lapse map | Reported cases by year, 1999 to latest |
+| Climate & Geography | Monthly weather map, state climate trends, state profile (environmental context) |
 | Why this forecast? | Occlusion attributions |
 | Model comparison | Variants against persistence |
 | Research results | Forest plot and per-year errors |

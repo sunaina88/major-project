@@ -10,7 +10,7 @@ from typing import Optional
 
 from fastapi import Depends, FastAPI, HTTPException, Query
 
-from src.api import db, performance
+from src.api import db, environment, performance
 from src.api.config import db_path
 from src.api.schemas import (Disease, Explanation, ForecastResponse, Health, Historical,
                              ModelInfo, ReplayRow, RiskMap, State)
@@ -238,6 +238,40 @@ def status():
                                  "python src/monitoring/drift.py --out data/processed/drift_report.json")
     with open(path, encoding="utf-8") as f:
         return json.load(f)
+
+
+def _env_rows(fn, what, state_id=None, **filters):
+    """Rows of one environment file; 404 for an unknown state or an empty selection, 503 if the file is missing."""
+    if state_id is not None and state_id not in environment.STATE_IDS:
+        raise HTTPException(404, f"Unknown state_id '{state_id}'. See /states.")
+    try:
+        rows = fn(state_id, **filters)
+    except FileNotFoundError as e:
+        raise HTTPException(503, f"{what} data file not found: {e.filename}")
+    if not rows:
+        raise HTTPException(404, f"No {what} rows for these filters.")
+    return rows
+
+
+@app.get("/climate/monthly", tags=["environment"])
+def climate_monthly(state_id: Optional[str] = None, year: Optional[int] = None,
+                    month: Optional[int] = Query(None, ge=1, le=12)):
+    """Monthly weather averaged over NASA POWER sample points inside each state: temp_mean_c, rainfall_mm,
+    rh_mean_pct, wind_ms and n_points (the number of sample points). Environmental context, not a forecast input."""
+    return _env_rows(environment.monthly, "climate", state_id, year=year, month=month)
+
+
+@app.get("/climate/annual", tags=["environment"])
+def climate_annual(state_id: Optional[str] = None):
+    """Yearly climate summaries per state: mean temperature, total and monsoon rainfall, hottest-month temperature,
+    mean humidity and wind. Environmental context, not a forecast input."""
+    return _env_rows(environment.annual, "annual climate", state_id)
+
+
+@app.get("/state-profile", tags=["environment"])
+def state_profile(state_id: Optional[str] = None):
+    """Fixed state geography: area, population (Census 2011, see population_year), density, urban fraction, mean elevation."""
+    return _env_rows(environment.profile, "state profile", state_id)
 
 
 @app.get("/", include_in_schema=False)

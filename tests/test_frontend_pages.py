@@ -5,7 +5,7 @@ import pytest
 from streamlit.testing.v1 import AppTest
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-PAGES = ["Home", "How it works", "State", "Disease explorer", "Time-lapse map", "Why this forecast?", "Network",
+PAGES = ["Home", "How it works", "State", "Disease explorer", "Time-lapse map", "Climate & Geography", "Why this forecast?", "Network",
          "Research results", "Annual replay", "Data story", "Limitations"]
 
 

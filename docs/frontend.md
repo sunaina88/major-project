@@ -5,7 +5,7 @@ Streamlit. The frontend calls only the API (`frontend/api_client.py`). The map o
 ## Run
 - Whole stack: `docker compose -f docker/docker-compose.yml up --build`, then open http://localhost:8501
 - Local: `python -m src.api.ingest`, `uvicorn src.api.main:app --port 8000`, then `USE_MOCKS=false streamlit run frontend/app.py`
-- Offline demo: `streamlit run frontend/app.py` (mocks in `frontend/mocks/`, rebuild with `python scripts/make_mocks.py`)
+- Offline demo: `streamlit run frontend/app.py` (mocks in `frontend/mocks/`, rebuild with `python scripts/make_mocks.py` and `python scripts/make_climate_mocks.py`)
 
 ## Pages and data
 | Page | Data |
@@ -15,6 +15,7 @@ Streamlit. The frontend calls only the API (`frontend/api_client.py`). The map o
 | State | `/forecast/...` (history, forecast, persistence, 80% interval, risk); compare states, CSV download |
 | Disease explorer | History from `/forecast/...`: map by year, top states, national trend |
 | Time-lapse map | History 1999 to latest year, fixed log colour scale |
+| Climate & Geography | `/climate/monthly`, `/climate/annual`, `/state-profile`: monthly weather map, state climate trends and profile (context only) |
 | Why this forecast? | `/explanation/{state_id}/{disease}` (needs torch on the API side) |
 | Network | `adjacency_*.npy` graphs with state centroids from the GeoJSON; forecasts and risk from the API |
 | Research results | `/model-performance` (forest plot, per-year errors, all variants; `?tag=&horizon=` for folds) |

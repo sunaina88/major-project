@@ -1,6 +1,7 @@
 """Extra pages. Each function draws one page. Rules kept on every page:
 persistence next to every forecast, a tie is called a tie, no overstated wording.
 Rule logic lives in logic.py; this file only draws."""
+import calendar
 import json
 import pathlib
 
@@ -456,7 +457,7 @@ def page_how(hist, states, fc, latest_year):
                      "from national surveillance exports. Missing values stay missing, and the model is told which "
                      "values were observed.")
             a, b, c = st.columns([0.7, 1.5, 1.3])
-            a.metric("States", len(states)); b.metric("Years", f"{int(hist.year.min())}\u2013{int(hist.year.max())}")            
+            a.metric("States", len(states)); b.metric("Years", f"{int(hist.year.min())}\u2013{int(hist.year.max())}")
             c.metric("Reported values", f"{len(hist):,}")
         with r:
             tr = hist.groupby(["year", "disease"]).cases.sum().reset_index()
@@ -541,3 +542,142 @@ def page_how(hist, states, fc, latest_year):
             st.metric("Risk level", str(row.risk))
         else:
             st.info("Not enough history for this selection.")
+
+
+# ---------------------------------------------------------------- Climate & Geography
+CLIMATE = {   # label: (column, unit, colour scale, decimals)
+    "Temperature": ("temp_mean_c", "\u00b0C", "Plasma", 1),
+    "Rainfall": ("rainfall_mm", "mm per month", [[0, "#14304a"], [0.5, "#1f8a9c"], [1, "#d7f7ef"]], 0),
+    "Humidity": ("rh_mean_pct", "%", "Viridis", 0),
+    "Wind speed": ("wind_ms", "m/s", "Cividis", 1),
+}
+GEOGRAPHY = {   # label: (column, unit, log colour scale, decimals, multiplier)
+    "Population density": ("population_density_per_km2", "people per km\u00b2", True, 0, 1),
+    "Elevation": ("mean_elevation_m", "m", False, 0, 1),
+    "Urban share": ("urban_fraction", "%", False, 1, 100),
+    "Area": ("area_km2", "km\u00b2", True, 0, 1),
+    "Population (Census 2011)": ("population", "people", True, 0, 1),
+}
+ANNUAL_CHARTS = [("mean_temp_c", "Mean temperature (\u00b0C)"), ("total_rain_mm", "Total rainfall (mm)"),
+                 ("monsoon_rain_mm", "Monsoon rainfall (mm)"), ("hottest_month_temp_c", "Hottest-month temperature (\u00b0C)"),
+                 ("mean_rh_pct", "Mean humidity (%)"), ("mean_wind_ms", "Mean wind speed (m/s)")]
+LOG_LABELS = {1: "10", 2: "100", 3: "1k", 4: "10k", 5: "100k", 6: "1M", 7: "10M", 8: "100M"}
+
+
+def _fmt(v, dp):
+    return "not available" if v is None or pd.isna(v) else f"{v:,.{dp}f}"
+
+
+def _climate_figure(geojson, states, z, text, scale, zmin, zmax, title, ticks=None):
+    cb = dict(title=title, thickness=10, len=0.7, outlinewidth=0)
+    if ticks:
+        cb.update(tickvals=[v for v in ticks if zmin <= v <= zmax], ticktext=[ticks[v] for v in ticks if zmin <= v <= zmax])
+    fig = go.Figure(go.Choropleth(geojson=geojson, locations=states, featureidkey="properties.state_id",
+                                  z=z, zmin=zmin, zmax=zmax, colorscale=scale, text=text, hoverinfo="text",
+                                  marker_line_width=0.5, marker_line_color="#0A1524", colorbar=cb))
+    fig.update_geos(visible=False, lonaxis_range=[67, 98], lataxis_range=[6, 37.5], bgcolor="rgba(0,0,0,0)")
+    fig.update_layout(height=620, margin=dict(l=0, r=0, t=0, b=0), paper_bgcolor="rgba(0,0,0,0)", geo_bgcolor="rgba(0,0,0,0)")
+    return fig
+
+
+def page_climate(states, geojson, load):
+    from api_client import NotAvailable
+    st.title("Climate & Geography")
+    st.caption("Environmental context for each state. These values are not inputs to the registered forecast; "
+               "the feature test is on the Research results page.")
+    try:
+        mo = pd.DataFrame(load("climate_monthly")); an = pd.DataFrame(load("climate_annual")); pr = pd.DataFrame(load("state_profile"))
+    except NotAvailable as e:
+        st.info(str(e))
+        return
+    state = st.selectbox("State (for trends and profile)", states, index=states.index("kerala") if "kerala" in states else 0,
+                         format_func=nice, key="clim_state")
+    tab_map, tab_trend, tab_prof = st.tabs(["Map", "State trends", "State profile"])
+
+    with tab_map:
+        c1, c2, c3 = st.columns([2, 2, 3])
+        measure = c1.selectbox("Measure", list(CLIMATE) + list(GEOGRAPHY), key="clim_measure")
+        if measure in CLIMATE:
+            col, unit, scale, dp = CLIMATE[measure]
+            year = c2.slider("Year", int(mo.year.min()), int(mo.year.max()), int(mo.year.max()), key="clim_year")
+            month = c3.select_slider("Month", list(range(1, 13)), value=7, key="clim_month", format_func=lambda m: calendar.month_name[m])
+            when = f"{calendar.month_name[month]} {year}"
+            sub = mo[(mo.year == year) & (mo.month == month)].set_index("state_id").reindex(states)
+            vals = sub[col]
+            zmin, zmax = float(mo[col].quantile(0.01)), float(mo[col].quantile(0.99))
+            text = [f"<b>{nice(s)}</b><br>{measure}: {_fmt(v, dp)} {unit if pd.notna(v) else ''}<br>{when}" for s, v in vals.items()]
+            fig = _climate_figure(geojson, states, vals.values, text, scale, zmin, zmax, unit)
+            note = f"{measure}, {when}, averaged over each state. The colour scale is the same for every month."
+        else:
+            col, unit, logscale, dp, mult = GEOGRAPHY[measure]
+            vals = pr.set_index("state_id").reindex(states)[col] * mult
+            text = [f"<b>{nice(s)}</b><br>{measure}: {_fmt(v, dp)} {unit if pd.notna(v) else ''}" for s, v in vals.items()]
+            if logscale:
+                z = np.log10(vals.where(vals > 0)); ticks = LOG_LABELS
+            else:
+                z = vals; ticks = None
+            fig = _climate_figure(geojson, states, z.values, text, "Viridis", float(np.nanmin(z)), float(np.nanmax(z)), unit, ticks)
+            note = f"{measure} by state." + (" Population is from Census 2011." if "Population" in measure or "density" in measure else "") \
+                + (" Colours use a logarithmic scale." if logscale else "")
+        st.plotly_chart(fig, width="stretch", theme=None, key="clim_map")
+        st.caption(note)
+
+    with tab_trend:
+        mcol, mright = st.columns([2, 3])
+        tm = mcol.selectbox("Monthly measure", list(CLIMATE), key="clim_trend_measure")
+        col, unit, _, _ = CLIMATE[tm]
+        ms = mo[mo.state_id == state].sort_values(["year", "month"])
+        avg = mo.groupby(["year", "month"])[col].mean().reset_index().sort_values(["year", "month"])
+        dates = pd.to_datetime(dict(year=ms.year, month=ms.month, day=1))
+        adates = pd.to_datetime(dict(year=avg.year, month=avg.month, day=1))
+        fig = go.Figure()
+        fig.add_trace(go.Scatter(x=adates, y=avg[col], mode="lines", name="All-state average",
+                                 line=dict(color="#8FA6BA", width=1, dash="dot")))
+        fig.add_trace(go.Scatter(x=dates, y=ms[col], mode="lines", name=nice(state), line=dict(color="#16C7B2", width=2)))
+        fig.update_layout(height=340, yaxis_title=f"{tm} ({unit})", title=f"{nice(state)}: monthly {tm.lower()}",
+                          legend=dict(orientation="h", y=-0.2))
+        st.plotly_chart(fig, width="stretch", key="clim_monthly_line")
+        npts = int(ms.n_points.median()) if len(ms) else 0
+        st.caption(f"Each monthly value is the average over {npts} NASA POWER sample point{'s' if npts != 1 else ''} inside the state boundary.")
+        a_state = an[an.state_id == state].sort_values("year")
+        a_avg = an.groupby("year").mean(numeric_only=True).reset_index()
+        cols = st.columns(3)
+        for i, (c, title) in enumerate(ANNUAL_CHARTS):
+            f2 = go.Figure()
+            f2.add_trace(go.Scatter(x=a_avg.year, y=a_avg[c], mode="lines", line=dict(color="#8FA6BA", width=1, dash="dot"), name="All-state average"))
+            f2.add_trace(go.Scatter(x=a_state.year, y=a_state[c], mode="lines+markers", line=dict(color="#16C7B2", width=2), name=nice(state)))
+            f2.update_layout(height=250, title=dict(text=title, font=dict(size=13)), showlegend=False, margin=dict(l=0, r=10, t=40, b=10))
+            f2.update_xaxes(tickformat="d")
+            cols[i % 3].plotly_chart(f2, width="stretch", key=f"clim_annual_{c}")
+
+    with tab_prof:
+        row = pr[pr.state_id == state]
+        if row.empty:
+            st.info("No profile for this state.")
+        else:
+            row = row.iloc[0]
+            items = [("Area", "area_km2", "km\u00b2", 0, 1), ("Population (Census 2011)", "population", "", 0, 1),
+                     ("Density", "population_density_per_km2", "per km\u00b2", 0, 1), ("Urban share", "urban_fraction", "%", 1, 100),
+                     ("Mean elevation", "mean_elevation_m", "m", 0, 1)]
+            cols = st.columns(5)
+            for cc, (label, c, u, dp, mult) in zip(cols, items):
+                v = row[c]
+                cc.metric(label, "not available" if pd.isna(v) else f"{v * mult:,.{dp}f} {u}".strip())
+                if pd.notna(v):
+                    cc.caption(f"Rank {int(pr[c].rank(ascending=False)[row.name])} of {int(pr[c].notna().sum())}")
+            pick = st.selectbox("Compare all states", [i[0] for i in items], key="clim_compare")
+            label, c, u, dp, mult = next(i for i in items if i[0] == pick)
+            d = pr.assign(v=pr[c] * mult).dropna(subset=["v"]).sort_values("v")
+            colours = ["#16C7B2" if s == state else "#2c4660" for s in d.state_id]
+            fig = go.Figure(go.Bar(x=d.v, y=[nice(s) for s in d.state_id], orientation="h", marker_color=colours,
+                                   hovertemplate="%{y}: %{x:,.1f}<extra></extra>"))
+            fig.update_layout(height=760, margin=dict(l=0, r=10, t=10, b=10), xaxis_title=f"{label} {u}".strip(),
+                              xaxis_type="log" if c in ("area_km2", "population", "population_density_per_km2") else "linear")
+            st.plotly_chart(fig, width="stretch", key="clim_compare_bar")
+
+    with st.expander("About these data"):
+        st.write("**Weather:** monthly values from NASA POWER (temperature, precipitation, relative humidity and wind at 2 m), "
+                 "sampled on a 0.75\u00b0 grid inside each state boundary (up to 30 points) and averaged. Very small states have only "
+                 "one or a few sample points. **Geography:** area, mean elevation and urban share per state; population is from "
+                 "Census 2011. This page is exploratory: these variables were tested as model inputs and did not give a detectable "
+                 "improvement (see Research results).")

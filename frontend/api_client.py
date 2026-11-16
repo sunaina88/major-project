@@ -64,6 +64,12 @@ def get(name):
         return _req("/replay")                  
     if name == "drift_report":
         return _req("/status")  
+    if name == "climate_monthly":
+        return _req("/climate/monthly")
+    if name == "climate_annual":
+        return _req("/climate/annual")
+    if name == "state_profile":
+        return _req("/state-profile")
     if name == "model_performance":
         j = _req("/model-performance")
         rows = [{"variant": "Persistence", "log_mae": j["headline"]["log_mae_persistence"],

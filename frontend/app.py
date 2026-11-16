@@ -40,7 +40,7 @@ def load(name):
         st.warning(f"{e} Run with USE_MOCKS=true until it exists.")
         st.stop()
 
-PAGES = ["Home", "How it works", "State", "Disease explorer", "Time-lapse map", "Why this forecast?", "Network",
+PAGES = ["Home", "How it works", "State", "Disease explorer", "Time-lapse map", "Climate & Geography", "Why this forecast?", "Network",
          "Research results", "Annual replay", "Data story", "Limitations"]
 page = st.sidebar.radio("Page", PAGES)
 
@@ -245,6 +245,9 @@ elif page == "Time-lapse map":
 
 elif page == "Why this forecast?":
     ex.page_why(STATES)
+
+elif page == "Climate & Geography":
+    ex.page_climate(STATES, GEOJSON, load)
 
 elif page == "Network":
     ex.page_network(STATES, GEOJSON, fc)
