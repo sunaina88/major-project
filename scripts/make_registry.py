@@ -72,8 +72,8 @@ def main():
         "features": ["log1p annual dengue cases (normalised)", "log1p annual malaria cases (normalised)",
                      "log1p annual chikungunya cases (normalised)",
                      "observed flag dengue", "observed flag malaria", "observed flag chikungunya",
-                     "annual mean temperature (synthetic climatology, normalised)",
-                     "annual total rainfall (synthetic climatology, normalised)"],
+                     "annual mean temperature (NASA POWER, area-averaged, normalised)",
+                     "annual total rainfall (NASA POWER, area-averaged, normalised)"],
         "metrics": {
             "metric": (f"log-MAE, rolling origin, test years {int(headline_folds.year.min())}-"
                        f"{int(headline_folds.year.max())} ({len(headline_folds)} folds), "

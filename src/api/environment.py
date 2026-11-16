@@ -1,7 +1,8 @@
 """Environmental context served to the dashboard (Person 4's data).
 
-Area-averaged monthly weather, yearly climate summaries and fixed state geography. These are
-exploratory context only: the registered forecast does not use them (see docs/feature_ablation_results.txt).
+Area-averaged monthly weather, yearly climate summaries and fixed state geography. Yearly
+temperature and rainfall feed the forecast model; the other variables were tested and are not used
+(see docs/feature_ablation_results.txt).
 """
 from functools import lru_cache
 

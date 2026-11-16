@@ -33,8 +33,7 @@ New-Item -ItemType Directory -Force -Path (Join-Path $repoRoot "logs") | Out-Nul
 $pipeline = @(
     @("src/ingestion/disease/build_pan_india_state_tensor.py"),
     @("src/ingestion/disease/build_macro_checksum.py"),
-    @("src/ingestion/weather/build_weather_tensor.py"),
-    @("src/ingestion/weather/build_lag_features.py"),
+    @("src/ingestion/weather/apply_area_weather.py"),
     @("src/ingestion/disease/audit_zeros.py"),
     @("src/ingestion/disease/build_clean_tensor.py"),
     @("src/ingestion/disease/coverage_by_year.py"),

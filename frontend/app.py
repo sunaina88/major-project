@@ -39,9 +39,21 @@ def load(name):
     except api.NotAvailable as e:
         st.warning(f"{e} Run with USE_MOCKS=true until it exists.")
         st.stop()
+PAGES = [
+    "Home",
+    "How it works",
+    "Data story",
+    "Disease explorer",
+    "Time-lapse map",
+    "Climate & Geography",
+    "State",
+    "Why this forecast?",
+    "Network",
+    "Annual replay",
+    "Research results",
+    "Limitations",
+]
 
-PAGES = ["Home", "How it works", "Data story", "Disease explorer", "Time-lapse map", "Climate & Geography", "State",
-         "Why this forecast?", "Network", "Annual replay", "Research results", "Limitations"]
 page = st.sidebar.radio("Page", PAGES)
 
 fc = load("forecast"); hist = pd.DataFrame(load("history"))
@@ -250,7 +262,7 @@ elif page == "Climate & Geography":
     ex.page_climate(STATES, GEOJSON, load)
 
 elif page == "Network":
-    ex.page_network(STATES, GEOJSON, fc)
+    ex.page_network(STATES, GEOJSON, fc, load("model_performance"))
 
 elif page == "Research results":
     ex.page_research(load("model_performance"))
@@ -294,9 +306,9 @@ else:
 - Values for 2021 and 2022 were revised, so a clean 2023 to 2025 holdout is not possible. Data runs through {latest_year}; this is annual data, not live or real-time.
 
 **Model**
-- In rolling-origin evaluation (2010 to 2025), we did not detect a statistically significant difference from persistence (0.853 vs 0.855; 95% interval for the difference -0.040 to +0.039). This does not establish that the methods are equivalent.
-- Graph, GAT and weather variants, and the extra features tested separately (humidity, monsoon, population density, elevation), also showed no detectable difference.
-- The weather inputs are synthetic annual climatology, not observed weather.
+- In rolling-origin evaluation (2010 to 2025), we did not detect a statistically significant difference from persistence on our primary metric (log-MAE); the numbers and intervals are on the Research results page. This does not establish that the methods are equivalent.
+- Graph and weather variants, and the extra features tested separately (humidity, wind, monsoon, population density, elevation), also showed no detectable difference.
+- The weather inputs are yearly temperature and rainfall averaged from NASA POWER sample points inside each state, not station measurements.
 - Forecasts are capped at each series' historical maximum. Horizons 2 and 3 are experimental and carry no interval.
 
 **Reading the outputs**

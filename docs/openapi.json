@@ -461,6 +461,184 @@
           }
         }
       }
+    },
+    "/climate/monthly": {
+      "get": {
+        "tags": [
+          "environment"
+        ],
+        "summary": "Climate Monthly",
+        "description": "Monthly weather averaged over NASA POWER sample points inside each state: temp_mean_c, rainfall_mm,\nrh_mean_pct, wind_ms and n_points (the number of sample points). Yearly temperature and rainfall feed the forecast model; humidity and wind do not.",
+        "operationId": "climate_monthly_climate_monthly_get",
+        "parameters": [
+          {
+            "name": "state_id",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "State Id"
+            }
+          },
+          {
+            "name": "year",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Year"
+            }
+          },
+          {
+            "name": "month",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "integer",
+                  "maximum": 12,
+                  "minimum": 1
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Month"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/climate/annual": {
+      "get": {
+        "tags": [
+          "environment"
+        ],
+        "summary": "Climate Annual",
+        "description": "Yearly climate summaries per state: mean temperature, total and monsoon rainfall, hottest-month temperature,\nmean humidity and wind.",
+        "operationId": "climate_annual_climate_annual_get",
+        "parameters": [
+          {
+            "name": "state_id",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "State Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/state-profile": {
+      "get": {
+        "tags": [
+          "environment"
+        ],
+        "summary": "State Profile",
+        "description": "Fixed state geography: area, population (Census 2011, see population_year), density, urban fraction, mean elevation.",
+        "operationId": "state_profile_state_profile_get",
+        "parameters": [
+          {
+            "name": "state_id",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "State Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
     }
   },
   "components": {

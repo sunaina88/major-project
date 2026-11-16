@@ -26,6 +26,24 @@
  {
   "state_id": "andaman_and_nicobar_islands",
   "disease": "dengue",
+  "year": 2014,
+  "cases": 139.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "dengue",
+  "year": 2015,
+  "cases": 153.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "dengue",
+  "year": 2016,
+  "cases": 92.0
+ },
+ {
+  "state_id": "andaman_and_nicobar_islands",
+  "disease": "dengue",
   "year": 2017,
   "cases": 18.0
  },
@@ -410,6 +428,24 @@
  {
   "state_id": "andhra_pradesh",
   "disease": "dengue",
+  "year": 2014,
+  "cases": 1262.0
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "dengue",
+  "year": 2015,
+  "cases": 3159.0
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "dengue",
+  "year": 2016,
+  "cases": 3417.0
+ },
+ {
+  "state_id": "andhra_pradesh",
+  "disease": "dengue",
   "year": 2017,
   "cases": 4925.0
  },
@@ -740,6 +776,24 @@
  {
   "state_id": "arunachal_pradesh",
   "disease": "dengue",
+  "year": 2014,
+  "cases": 27.0
+ },
+ {
+  "state_id": "arunachal_pradesh",
+  "disease": "dengue",
+  "year": 2015,
+  "cases": 1933.0
+ },
+ {
+  "state_id": "arunachal_pradesh",
+  "disease": "dengue",
+  "year": 2016,
+  "cases": 13.0
+ },
+ {
+  "state_id": "arunachal_pradesh",
+  "disease": "dengue",
   "year": 2017,
   "cases": 18.0
  },
@@ -1006,6 +1060,24 @@
   "disease": "dengue",
   "year": 2013,
   "cases": 4526.0
+ },
+ {
+  "state_id": "assam",
+  "disease": "dengue",
+  "year": 2014,
+  "cases": 85.0
+ },
+ {
+  "state_id": "assam",
+  "disease": "dengue",
+  "year": 2015,
+  "cases": 1076.0
+ },
+ {
+  "state_id": "assam",
+  "disease": "dengue",
+  "year": 2016,
+  "cases": 6157.0
  },
  {
   "state_id": "assam",
@@ -1306,6 +1378,24 @@
   "disease": "dengue",
   "year": 2013,
   "cases": 1246.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "dengue",
+  "year": 2014,
+  "cases": 297.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "dengue",
+  "year": 2015,
+  "cases": 1771.0
+ },
+ {
+  "state_id": "bihar",
+  "disease": "dengue",
+  "year": 2016,
+  "cases": 1912.0
  },
  {
   "state_id": "bihar",
@@ -1652,6 +1742,24 @@
  {
   "state_id": "chandigarh",
   "disease": "dengue",
+  "year": 2014,
+  "cases": 13.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "dengue",
+  "year": 2015,
+  "cases": 966.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "dengue",
+  "year": 2016,
+  "cases": 1246.0
+ },
+ {
+  "state_id": "chandigarh",
+  "disease": "dengue",
   "year": 2017,
   "cases": 1125.0
  },
@@ -1964,6 +2072,24 @@
  {
   "state_id": "chhattisgarh",
   "disease": "dengue",
+  "year": 2014,
+  "cases": 440.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "dengue",
+  "year": 2015,
+  "cases": 384.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "dengue",
+  "year": 2016,
+  "cases": 356.0
+ },
+ {
+  "state_id": "chhattisgarh",
+  "disease": "dengue",
   "year": 2017,
   "cases": 444.00000000000006
  },
@@ -2218,6 +2344,24 @@
   "disease": "dengue",
   "year": 2013,
   "cases": 251.0
+ },
+ {
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "dengue",
+  "year": 2014,
+  "cases": 687.0
+ },
+ {
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "dengue",
+  "year": 2015,
+  "cases": 1319.0
+ },
+ {
+  "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
+  "disease": "dengue",
+  "year": 2016,
+  "cases": 4250.0
  },
  {
   "state_id": "dadra_and_nagar_haveli_and_daman_and_diu",
@@ -2536,6 +2680,24 @@
   "disease": "dengue",
   "year": 2013,
   "cases": 5574.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "dengue",
+  "year": 2014,
+  "cases": 995.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "dengue",
+  "year": 2015,
+  "cases": 15867.0
+ },
+ {
+  "state_id": "delhi",
+  "disease": "dengue",
+  "year": 2016,
+  "cases": 4431.0
  },
  {
   "state_id": "delhi",
@@ -2926,6 +3088,24 @@
   "disease": "dengue",
   "year": 2013,
   "cases": 198.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "dengue",
+  "year": 2014,
+  "cases": 168.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "dengue",
+  "year": 2015,
+  "cases": 293.0
+ },
+ {
+  "state_id": "goa",
+  "disease": "dengue",
+  "year": 2016,
+  "cases": 150.0
  },
  {
   "state_id": "goa",
@@ -3344,6 +3524,24 @@
  {
   "state_id": "gujarat",
   "disease": "dengue",
+  "year": 2014,
+  "cases": 2320.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "dengue",
+  "year": 2015,
+  "cases": 5590.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "dengue",
+  "year": 2016,
+  "cases": 8028.0
+ },
+ {
+  "state_id": "gujarat",
+  "disease": "dengue",
   "year": 2017,
   "cases": 4753.0
  },
@@ -3758,6 +3956,24 @@
  {
   "state_id": "haryana",
   "disease": "dengue",
+  "year": 2014,
+  "cases": 214.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "dengue",
+  "year": 2015,
+  "cases": 9921.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "dengue",
+  "year": 2016,
+  "cases": 2493.0
+ },
+ {
+  "state_id": "haryana",
+  "disease": "dengue",
   "year": 2017,
   "cases": 4550.0
  },
@@ -4088,6 +4304,24 @@
  {
   "state_id": "himachal_pradesh",
   "disease": "dengue",
+  "year": 2014,
+  "cases": 2.0
+ },
+ {
+  "state_id": "himachal_pradesh",
+  "disease": "dengue",
+  "year": 2015,
+  "cases": 19.0
+ },
+ {
+  "state_id": "himachal_pradesh",
+  "disease": "dengue",
+  "year": 2016,
+  "cases": 322.0
+ },
+ {
+  "state_id": "himachal_pradesh",
+  "disease": "dengue",
   "year": 2017,
   "cases": 452.0
  },
@@ -4342,6 +4576,24 @@
   "disease": "dengue",
   "year": 2013,
   "cases": 1796.8190419100745
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "dengue",
+  "year": 2014,
+  "cases": 1.0
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "dengue",
+  "year": 2015,
+  "cases": 153.0
+ },
+ {
+  "state_id": "jammu_and_kashmir",
+  "disease": "dengue",
+  "year": 2016,
+  "cases": 79.0
  },
  {
   "state_id": "jammu_and_kashmir",
@@ -4618,6 +4870,24 @@
   "disease": "dengue",
   "year": 2013,
   "cases": 161.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "dengue",
+  "year": 2014,
+  "cases": 36.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "dengue",
+  "year": 2015,
+  "cases": 102.0
+ },
+ {
+  "state_id": "jharkhand",
+  "disease": "dengue",
+  "year": 2016,
+  "cases": 414.0
  },
  {
   "state_id": "jharkhand",
@@ -5002,6 +5272,24 @@
   "disease": "dengue",
   "year": 2013,
   "cases": 6408.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "dengue",
+  "year": 2014,
+  "cases": 3358.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "dengue",
+  "year": 2015,
+  "cases": 5077.0
+ },
+ {
+  "state_id": "karnataka",
+  "disease": "dengue",
+  "year": 2016,
+  "cases": 6083.0
  },
  {
   "state_id": "karnataka",
@@ -5404,6 +5692,24 @@
   "disease": "dengue",
   "year": 2013,
   "cases": 7938.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "dengue",
+  "year": 2014,
+  "cases": 2575.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "dengue",
+  "year": 2015,
+  "cases": 4075.0
+ },
+ {
+  "state_id": "kerala",
+  "disease": "dengue",
+  "year": 2016,
+  "cases": 7439.0
  },
  {
   "state_id": "kerala",
@@ -6290,6 +6596,24 @@
  {
   "state_id": "madhya_pradesh",
   "disease": "dengue",
+  "year": 2014,
+  "cases": 2131.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "dengue",
+  "year": 2015,
+  "cases": 2108.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "dengue",
+  "year": 2016,
+  "cases": 3150.0
+ },
+ {
+  "state_id": "madhya_pradesh",
+  "disease": "dengue",
   "year": 2017,
   "cases": 2666.0
  },
@@ -6692,6 +7016,24 @@
  {
   "state_id": "maharashtra",
   "disease": "dengue",
+  "year": 2014,
+  "cases": 8573.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "dengue",
+  "year": 2015,
+  "cases": 4936.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "dengue",
+  "year": 2016,
+  "cases": 6792.0
+ },
+ {
+  "state_id": "maharashtra",
+  "disease": "dengue",
   "year": 2017,
   "cases": 7829.000000000001
  },
@@ -7046,6 +7388,18 @@
  {
   "state_id": "manipur",
   "disease": "dengue",
+  "year": 2015,
+  "cases": 52.0
+ },
+ {
+  "state_id": "manipur",
+  "disease": "dengue",
+  "year": 2016,
+  "cases": 51.0
+ },
+ {
+  "state_id": "manipur",
+  "disease": "dengue",
   "year": 2017,
   "cases": 193.0
  },
@@ -7282,6 +7636,18 @@
   "disease": "dengue",
   "year": 2013,
   "cases": 43.0
+ },
+ {
+  "state_id": "meghalaya",
+  "disease": "dengue",
+  "year": 2015,
+  "cases": 13.0
+ },
+ {
+  "state_id": "meghalaya",
+  "disease": "dengue",
+  "year": 2016,
+  "cases": 172.0
  },
  {
   "state_id": "meghalaya",
@@ -7562,6 +7928,24 @@
  {
   "state_id": "mizoram",
   "disease": "dengue",
+  "year": 2014,
+  "cases": 19.0
+ },
+ {
+  "state_id": "mizoram",
+  "disease": "dengue",
+  "year": 2015,
+  "cases": 43.0
+ },
+ {
+  "state_id": "mizoram",
+  "disease": "dengue",
+  "year": 2016,
+  "cases": 580.0
+ },
+ {
+  "state_id": "mizoram",
+  "disease": "dengue",
   "year": 2017,
   "cases": 136.0
  },
@@ -7810,6 +8194,18 @@
   "disease": "dengue",
   "year": 2011,
   "cases": 3.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "dengue",
+  "year": 2015,
+  "cases": 21.0
+ },
+ {
+  "state_id": "nagaland",
+  "disease": "dengue",
+  "year": 2016,
+  "cases": 142.0
  },
  {
   "state_id": "nagaland",
@@ -8134,6 +8530,24 @@
   "disease": "dengue",
   "year": 2013,
   "cases": 7132.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "dengue",
+  "year": 2014,
+  "cases": 6433.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "dengue",
+  "year": 2015,
+  "cases": 2450.0
+ },
+ {
+  "state_id": "odisha",
+  "disease": "dengue",
+  "year": 2016,
+  "cases": 8380.0
  },
  {
   "state_id": "odisha",
@@ -8476,6 +8890,24 @@
   "disease": "dengue",
   "year": 2013,
   "cases": 2215.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "dengue",
+  "year": 2014,
+  "cases": 1322.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "dengue",
+  "year": 2015,
+  "cases": 771.0
+ },
+ {
+  "state_id": "puducherry",
+  "disease": "dengue",
+  "year": 2016,
+  "cases": 490.0
  },
  {
   "state_id": "puducherry",
@@ -8870,6 +9302,24 @@
  {
   "state_id": "punjab",
   "disease": "dengue",
+  "year": 2014,
+  "cases": 472.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "dengue",
+  "year": 2015,
+  "cases": 14128.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "dengue",
+  "year": 2016,
+  "cases": 10439.0
+ },
+ {
+  "state_id": "punjab",
+  "disease": "dengue",
   "year": 2017,
   "cases": 15398.0
  },
@@ -9242,6 +9692,24 @@
  {
   "state_id": "rajasthan",
   "disease": "dengue",
+  "year": 2014,
+  "cases": 1243.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "dengue",
+  "year": 2015,
+  "cases": 4043.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "dengue",
+  "year": 2016,
+  "cases": 5292.0
+ },
+ {
+  "state_id": "rajasthan",
+  "disease": "dengue",
   "year": 2017,
   "cases": 8427.0
  },
@@ -9586,6 +10054,24 @@
   "disease": "dengue",
   "year": 2013,
   "cases": 38.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "dengue",
+  "year": 2014,
+  "cases": 5.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "dengue",
+  "year": 2015,
+  "cases": 21.0
+ },
+ {
+  "state_id": "sikkim",
+  "disease": "dengue",
+  "year": 2016,
+  "cases": 82.0
  },
  {
   "state_id": "sikkim",
@@ -9940,6 +10426,24 @@
   "disease": "dengue",
   "year": 2013,
   "cases": 6122.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "dengue",
+  "year": 2014,
+  "cases": 2804.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "dengue",
+  "year": 2015,
+  "cases": 4535.0
+ },
+ {
+  "state_id": "tamil_nadu",
+  "disease": "dengue",
+  "year": 2016,
+  "cases": 2531.0
  },
  {
   "state_id": "tamil_nadu",
@@ -10328,6 +10832,24 @@
  {
   "state_id": "telangana",
   "disease": "dengue",
+  "year": 2014,
+  "cases": 704.0
+ },
+ {
+  "state_id": "telangana",
+  "disease": "dengue",
+  "year": 2015,
+  "cases": 1831.0
+ },
+ {
+  "state_id": "telangana",
+  "disease": "dengue",
+  "year": 2016,
+  "cases": 4037.0
+ },
+ {
+  "state_id": "telangana",
+  "disease": "dengue",
   "year": 2017,
   "cases": 5369.0
  },
@@ -10618,6 +11140,24 @@
   "disease": "dengue",
   "year": 2013,
   "cases": 8.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "dengue",
+  "year": 2014,
+  "cases": 6.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "dengue",
+  "year": 2015,
+  "cases": 40.0
+ },
+ {
+  "state_id": "tripura",
+  "disease": "dengue",
+  "year": 2016,
+  "cases": 102.0
  },
  {
   "state_id": "tripura",
@@ -10976,6 +11516,24 @@
  {
   "state_id": "uttar_pradesh",
   "disease": "dengue",
+  "year": 2014,
+  "cases": 200.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "dengue",
+  "year": 2015,
+  "cases": 2892.0
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "dengue",
+  "year": 2016,
+  "cases": 15033.000000000002
+ },
+ {
+  "state_id": "uttar_pradesh",
+  "disease": "dengue",
   "year": 2017,
   "cases": 3092.0
  },
@@ -11312,6 +11870,24 @@
  {
   "state_id": "uttarakhand",
   "disease": "dengue",
+  "year": 2014,
+  "cases": 106.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "dengue",
+  "year": 2015,
+  "cases": 1655.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "dengue",
+  "year": 2016,
+  "cases": 2146.0
+ },
+ {
+  "state_id": "uttarakhand",
+  "disease": "dengue",
   "year": 2017,
   "cases": 849.0
  },
@@ -11626,6 +12202,24 @@
   "disease": "dengue",
   "year": 2013,
   "cases": 5920.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "dengue",
+  "year": 2014,
+  "cases": 3934.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "dengue",
+  "year": 2015,
+  "cases": 8516.0
+ },
+ {
+  "state_id": "west_bengal",
+  "disease": "dengue",
+  "year": 2016,
+  "cases": 22865.0
  },
  {
   "state_id": "west_bengal",
