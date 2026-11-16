@@ -18,11 +18,11 @@ h=1 2024 done
 h=1 2025 done
 
 === horizon 1 year(s) ahead | MEAN over 16 folds ===
-mae_model    3709.521
+mae_model    3634.768
 mae_last     3873.012
 mae_avg2     4492.811
-log_model       0.853
+log_model       0.840
 log_last        0.855
 log_avg2        0.889
-mae_model minus persistence: mean -163.491 CI [-328.171, 20.674] folds better 13/16
-log_model minus persistence: mean -0.001 CI [-0.040, 0.039] folds better 10/16
+mae_model minus persistence: mean -238.243 CI [-423.269, -66.260] folds better 10/16
+log_model minus persistence: mean -0.015 CI [-0.059, 0.025] folds better 9/16

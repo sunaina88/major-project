@@ -17,7 +17,7 @@ STATIC = pathlib.Path(__file__).resolve().parent / "static"
 DIS = ["dengue", "malaria", "chikungunya"]
 VERDICT_COLOUR = {"tie": "#8FA6BA", "better than persistence": "#2e7d32", "worse than persistence": "#c62828"}
 GROUP_LABEL = {"own_history": "Own history", "other_diseases": "Other diseases",
-               "neighbours": "Neighbouring states", "weather": "Weather (synthetic)"}
+               "neighbours": "Neighbouring states", "weather": "Weather"}
 
 
 @st.cache_data
@@ -317,7 +317,7 @@ def _lines(edges, cen, states):
     return lon, lat
 
 
-def page_network(states, geojson, fc):
+def page_network(states, geojson, fc, mp=None):
     from logic import INSUFF, build_display, colour_map
     st.title("State network")
     st.caption("How the model links the 36 states and union territories. Each state is a node; a graph layer lets it "
@@ -411,9 +411,18 @@ def page_network(states, geojson, fc):
                      "information from neighbours reaches it before the GRU reads the three-year history. "
                      "The 'Why this forecast?' page shows how much the neighbouring states change a forecast.")
         with st.expander("Graph variants tested"):
-            st.dataframe(pd.DataFrame({"Graph": ["No graph", "Land borders (registered)", "kNN", "Distance", "Hybrid"],
-                                       "log-MAE": [0.843, 0.853, 0.836, 0.836, 0.840]}), hide_index=True, width="stretch")
-            st.caption("Lower is better. Persistence scores 0.855; see Research results for the intervals.")
+            names = {"identity": "No graph", "geo_w": "Land borders (registered)", "knn": "kNN", "dist": "Distance", "hybrid": "Hybrid"}
+            rows = [r for r in (mp or []) if r.get("tag") in names and r.get("horizon", 1) == 1]
+            base = next((r["log_mae"] for r in (mp or []) if r.get("variant") == "Persistence"), None)
+            if rows:
+                order = list(names)
+                rows.sort(key=lambda r: order.index(r["tag"]))
+                st.dataframe(pd.DataFrame({"Graph": [names[r["tag"]] for r in rows], "log-MAE": [r["log_mae"] for r in rows]}),
+                             hide_index=True, width="stretch")
+                st.caption("Lower is better." + (f" Persistence scores {base:.3f}." if base is not None else "")
+                           + " See Research results for the intervals.")
+            else:
+                st.write("See Research results for the graph variants.")
 
 
 # ---------------------------------------------------------------- How it works
@@ -583,8 +592,8 @@ def _climate_figure(geojson, states, z, text, scale, zmin, zmax, title, ticks=No
 def page_climate(states, geojson, load):
     from api_client import NotAvailable
     st.title("Climate & Geography")
-    st.caption("Environmental context for each state. These values are not inputs to the registered forecast; "
-               "the feature test is on the Research results page.")
+    st.caption("Environmental context for each state. Yearly temperature and rainfall from this data feed the forecast model; "
+               "humidity, wind, population and elevation do not (tested on the Research results page).")
     try:
         mo = pd.DataFrame(load("climate_monthly")); an = pd.DataFrame(load("climate_annual")); pr = pd.DataFrame(load("state_profile"))
     except NotAvailable as e:
@@ -679,5 +688,5 @@ def page_climate(states, geojson, load):
         st.write("**Weather:** monthly values from NASA POWER (temperature, precipitation, relative humidity and wind at 2 m), "
                  "sampled on a 0.75\u00b0 grid inside each state boundary (up to 30 points) and averaged. Very small states have only "
                  "one or a few sample points. **Geography:** area, mean elevation and urban share per state; population is from "
-                 "Census 2011. This page is exploratory: these variables were tested as model inputs and did not give a detectable "
-                 "improvement (see Research results).")
+                 "Census 2011. The forecast model uses yearly temperature and rainfall from this weather data; humidity, wind and the "
+                 "geography variables were tested as extra inputs and did not give a detectable improvement (see Research results).")

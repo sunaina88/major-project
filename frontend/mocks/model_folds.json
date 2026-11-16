@@ -3,560 +3,448 @@
   "tag": "K2",
   "horizon": 1,
   "year": 2010,
-  "log_model": 0.7426667055420544,
+  "log_model": 0.7319632401336995,
   "log_last": 0.7426457239637664
  },
  {
   "tag": "K2",
   "horizon": 1,
   "year": 2011,
-  "log_model": 0.7887218563215536,
+  "log_model": 0.7873489811904691,
   "log_last": 0.7684212041238674
  },
  {
   "tag": "K2",
   "horizon": 1,
   "year": 2012,
-  "log_model": 0.8208557778052935,
+  "log_model": 0.8482004935168431,
   "log_last": 0.8377416466429017
  },
  {
   "tag": "K2",
   "horizon": 1,
   "year": 2013,
-  "log_model": 0.721684013919976,
+  "log_model": 0.7211077174612386,
   "log_last": 0.7306814519809451
  },
  {
   "tag": "K2",
   "horizon": 1,
   "year": 2014,
-  "log_model": 0.5800759318688656,
-  "log_last": 0.5528501230122959
+  "log_model": 0.8589819006017455,
+  "log_last": 0.8705020650932702
  },
  {
   "tag": "K2",
   "horizon": 1,
   "year": 2015,
-  "log_model": 0.7737442385866423,
-  "log_last": 0.612574223794889
+  "log_model": 0.9129908390151724,
+  "log_last": 0.964011549987508
  },
  {
   "tag": "K2",
   "horizon": 1,
   "year": 2016,
-  "log_model": 1.0871102319556485,
-  "log_last": 1.0454343634635557
+  "log_model": 1.069447428602898,
+  "log_last": 1.0353362740740486
  },
  {
   "tag": "K2",
   "horizon": 1,
   "year": 2017,
-  "log_model": 0.5238201744476177,
-  "log_last": 0.5587117541763078
+  "log_model": 0.64170301414853,
+  "log_last": 0.636949818557802
  },
  {
   "tag": "K2",
   "horizon": 1,
   "year": 2018,
-  "log_model": 0.7378484460142358,
+  "log_model": 0.7178111320503674,
   "log_last": 0.8109138611132582
  },
  {
   "tag": "K2",
   "horizon": 1,
   "year": 2019,
-  "log_model": 0.8012076605379728,
+  "log_model": 0.7133744573468092,
   "log_last": 0.7526014376181276
  },
  {
   "tag": "K2",
   "horizon": 1,
   "year": 2020,
-  "log_model": 1.3273245110554994,
+  "log_model": 1.323237716839253,
   "log_last": 1.3190372883851644
  },
  {
   "tag": "K2",
   "horizon": 1,
   "year": 2021,
-  "log_model": 0.7449340555797598,
+  "log_model": 0.7690304586337315,
   "log_last": 1.0087401739291524
  },
  {
   "tag": "K2",
   "horizon": 1,
   "year": 2022,
-  "log_model": 0.9788419952442524,
+  "log_model": 1.01565788402003,
   "log_last": 0.8939539544651236
  },
  {
   "tag": "K2",
   "horizon": 1,
   "year": 2023,
-  "log_model": 0.9684234404012596,
+  "log_model": 1.0080561793587397,
   "log_last": 0.748023909900218
  },
  {
   "tag": "K2",
   "horizon": 1,
   "year": 2024,
-  "log_model": 0.9057892088269712,
+  "log_model": 0.8699369191549348,
   "log_last": 0.8276391592265955
  },
  {
   "tag": "K2",
   "horizon": 1,
   "year": 2025,
-  "log_model": 0.6575506518044552,
+  "log_model": 0.6616730859359465,
   "log_last": 0.728982655938847
  },
  {
   "tag": "K5",
   "horizon": 1,
   "year": 2010,
-  "log_model": 0.7962400892311228,
+  "log_model": 0.7904701382501786,
   "log_last": 0.7426457239637664
  },
  {
   "tag": "K5",
   "horizon": 1,
   "year": 2011,
-  "log_model": 0.8141167813480383,
+  "log_model": 0.7923737450631475,
   "log_last": 0.7684212041238674
  },
  {
   "tag": "K5",
   "horizon": 1,
   "year": 2012,
-  "log_model": 0.8513903537873804,
+  "log_model": 0.8424781230386545,
   "log_last": 0.8377416466429017
  },
  {
   "tag": "K5",
   "horizon": 1,
   "year": 2013,
-  "log_model": 0.7049540691541363,
+  "log_model": 0.7109132998920489,
   "log_last": 0.7306814519809451
  },
  {
   "tag": "K5",
   "horizon": 1,
   "year": 2014,
-  "log_model": 0.5497053150169823,
-  "log_last": 0.5528501230122959
+  "log_model": 0.8545484522472009,
+  "log_last": 0.8705020650932702
  },
  {
   "tag": "K5",
   "horizon": 1,
   "year": 2015,
-  "log_model": 0.7014768611107611,
-  "log_last": 0.612574223794889
+  "log_model": 0.935347653993505,
+  "log_last": 0.964011549987508
  },
  {
   "tag": "K5",
   "horizon": 1,
   "year": 2016,
-  "log_model": 1.093203379150188,
-  "log_last": 1.0454343634635557
+  "log_model": 1.0379384579147193,
+  "log_last": 1.0353362740740486
  },
  {
   "tag": "K5",
   "horizon": 1,
   "year": 2017,
-  "log_model": 0.5525505329005933,
-  "log_last": 0.5587117541763078
+  "log_model": 0.6593709087350986,
+  "log_last": 0.636949818557802
  },
  {
   "tag": "K5",
   "horizon": 1,
   "year": 2018,
-  "log_model": 0.7578242753597924,
+  "log_model": 0.7352441355443795,
   "log_last": 0.8109138611132582
  },
  {
   "tag": "K5",
   "horizon": 1,
   "year": 2019,
-  "log_model": 0.7393360149202733,
+  "log_model": 0.6978264894972307,
   "log_last": 0.7526014376181276
  },
  {
   "tag": "K5",
   "horizon": 1,
   "year": 2020,
-  "log_model": 1.1852702911244044,
+  "log_model": 1.3292813796782317,
   "log_last": 1.3190372883851644
  },
  {
   "tag": "K5",
   "horizon": 1,
   "year": 2021,
-  "log_model": 1.142865924276151,
+  "log_model": 0.9429227136715452,
   "log_last": 1.0087401739291524
  },
  {
   "tag": "K5",
   "horizon": 1,
   "year": 2022,
-  "log_model": 0.8723017569154007,
+  "log_model": 0.9709795271985384,
   "log_last": 0.8939539544651236
  },
  {
   "tag": "K5",
   "horizon": 1,
   "year": 2023,
-  "log_model": 0.8721778842544363,
+  "log_model": 0.8947283090562598,
   "log_last": 0.748023909900218
  },
  {
   "tag": "K5",
   "horizon": 1,
   "year": 2024,
-  "log_model": 0.8798864196008728,
+  "log_model": 0.8099400239328831,
   "log_last": 0.8276391592265955
  },
  {
   "tag": "K5",
   "horizon": 1,
   "year": 2025,
-  "log_model": 0.6475858232879157,
-  "log_last": 0.728982655938847
- },
- {
-  "tag": "clean",
-  "horizon": 1,
-  "year": 2010,
-  "log_model": 0.7284791291740809,
-  "log_last": 0.7426457239637664
- },
- {
-  "tag": "clean",
-  "horizon": 1,
-  "year": 2011,
-  "log_model": 0.7815452724959739,
-  "log_last": 0.7684212041238674
- },
- {
-  "tag": "clean",
-  "horizon": 1,
-  "year": 2012,
-  "log_model": 0.8202501616692145,
-  "log_last": 0.8377416466429017
- },
- {
-  "tag": "clean",
-  "horizon": 1,
-  "year": 2013,
-  "log_model": 0.7264619981122115,
-  "log_last": 0.7306814519809451
- },
- {
-  "tag": "clean",
-  "horizon": 1,
-  "year": 2014,
-  "log_model": 0.5449917733339693,
-  "log_last": 0.5528501230122959
- },
- {
-  "tag": "clean",
-  "horizon": 1,
-  "year": 2015,
-  "log_model": 0.7495835381099487,
-  "log_last": 0.612574223794889
- },
- {
-  "tag": "clean",
-  "horizon": 1,
-  "year": 2016,
-  "log_model": 1.09909890670738,
-  "log_last": 1.0454343634635557
- },
- {
-  "tag": "clean",
-  "horizon": 1,
-  "year": 2017,
-  "log_model": 0.5296724217919704,
-  "log_last": 0.5587117541763078
- },
- {
-  "tag": "clean",
-  "horizon": 1,
-  "year": 2018,
-  "log_model": 0.7610380871314922,
-  "log_last": 0.8109138611132582
- },
- {
-  "tag": "clean",
-  "horizon": 1,
-  "year": 2019,
-  "log_model": 0.7439421567295871,
-  "log_last": 0.7526014376181276
- },
- {
-  "tag": "clean",
-  "horizon": 1,
-  "year": 2020,
-  "log_model": 1.2593166908086055,
-  "log_last": 1.3190372883851644
- },
- {
-  "tag": "clean",
-  "horizon": 1,
-  "year": 2021,
-  "log_model": 0.7387508687781306,
-  "log_last": 1.0087401739291524
- },
- {
-  "tag": "clean",
-  "horizon": 1,
-  "year": 2022,
-  "log_model": 0.9249561003114432,
-  "log_last": 0.8939539544651236
- },
- {
-  "tag": "clean",
-  "horizon": 1,
-  "year": 2023,
-  "log_model": 0.8008278627338048,
-  "log_last": 0.748023909900218
- },
- {
-  "tag": "clean",
-  "horizon": 1,
-  "year": 2024,
-  "log_model": 0.8921128743803769,
-  "log_last": 0.8276391592265955
- },
- {
-  "tag": "clean",
-  "horizon": 1,
-  "year": 2025,
-  "log_model": 0.6691498486620747,
+  "log_model": 0.6653183394132622,
   "log_last": 0.728982655938847
  },
  {
   "tag": "dist",
   "horizon": 1,
   "year": 2010,
-  "log_model": 0.6759196602342058,
+  "log_model": 0.6755869054811131,
   "log_last": 0.7426457239637664
  },
  {
   "tag": "dist",
   "horizon": 1,
   "year": 2011,
-  "log_model": 0.7306522892496015,
+  "log_model": 0.7445931095846845,
   "log_last": 0.7684212041238674
  },
  {
   "tag": "dist",
   "horizon": 1,
   "year": 2012,
-  "log_model": 0.8345435519862552,
+  "log_model": 0.832118010611179,
   "log_last": 0.8377416466429017
  },
  {
   "tag": "dist",
   "horizon": 1,
   "year": 2013,
-  "log_model": 0.7424938885152053,
+  "log_model": 0.7511607850569065,
   "log_last": 0.7306814519809451
  },
  {
   "tag": "dist",
   "horizon": 1,
   "year": 2014,
-  "log_model": 0.5490192438076669,
-  "log_last": 0.5528501230122959
+  "log_model": 0.8725858141866419,
+  "log_last": 0.8705020650932702
  },
  {
   "tag": "dist",
   "horizon": 1,
   "year": 2015,
-  "log_model": 0.7128459012091743,
-  "log_last": 0.612574223794889
+  "log_model": 0.8984968448466091,
+  "log_last": 0.964011549987508
  },
  {
   "tag": "dist",
   "horizon": 1,
   "year": 2016,
-  "log_model": 1.0850621069776205,
-  "log_last": 1.0454343634635557
+  "log_model": 1.06880218220674,
+  "log_last": 1.0353362740740486
  },
  {
   "tag": "dist",
   "horizon": 1,
   "year": 2017,
-  "log_model": 0.5207306768499073,
-  "log_last": 0.5587117541763078
+  "log_model": 0.639112989748232,
+  "log_last": 0.636949818557802
  },
  {
   "tag": "dist",
   "horizon": 1,
   "year": 2018,
-  "log_model": 0.7473527034533517,
+  "log_model": 0.729395574416895,
   "log_last": 0.8109138611132582
  },
  {
   "tag": "dist",
   "horizon": 1,
   "year": 2019,
-  "log_model": 0.7729561283034119,
+  "log_model": 0.6879005791231801,
   "log_last": 0.7526014376181276
  },
  {
   "tag": "dist",
   "horizon": 1,
   "year": 2020,
-  "log_model": 1.3182178021365785,
+  "log_model": 1.199788101048687,
   "log_last": 1.3190372883851644
  },
  {
   "tag": "dist",
   "horizon": 1,
   "year": 2021,
-  "log_model": 0.7097325151536569,
+  "log_model": 0.7252360086505708,
   "log_last": 1.0087401739291524
  },
  {
   "tag": "dist",
   "horizon": 1,
   "year": 2022,
-  "log_model": 0.9753971958871236,
+  "log_model": 0.8470827701447515,
   "log_last": 0.8939539544651236
  },
  {
   "tag": "dist",
   "horizon": 1,
   "year": 2023,
-  "log_model": 0.7865790999878407,
+  "log_model": 0.8249328884785324,
   "log_last": 0.748023909900218
  },
  {
   "tag": "dist",
   "horizon": 1,
   "year": 2024,
-  "log_model": 0.8573466294360549,
+  "log_model": 0.8872169111735841,
   "log_last": 0.8276391592265955
  },
  {
   "tag": "dist",
   "horizon": 1,
   "year": 2025,
-  "log_model": 0.664313383724754,
+  "log_model": 0.6966524703570449,
   "log_last": 0.728982655938847
  },
  {
   "tag": "gat",
   "horizon": 1,
   "year": 2010,
-  "log_model": 0.8607207790351986,
+  "log_model": 0.8321351579227583,
   "log_last": 0.7426457239637664
  },
  {
   "tag": "gat",
   "horizon": 1,
   "year": 2011,
-  "log_model": 0.7579273636087346,
+  "log_model": 0.7516443307088281,
   "log_last": 0.7684212041238674
  },
  {
   "tag": "gat",
   "horizon": 1,
   "year": 2012,
-  "log_model": 0.8127209794682982,
+  "log_model": 0.8349145120189947,
   "log_last": 0.8377416466429017
  },
  {
   "tag": "gat",
   "horizon": 1,
   "year": 2013,
-  "log_model": 0.838585988956948,
+  "log_model": 0.8036459538134242,
   "log_last": 0.7306814519809451
  },
  {
   "tag": "gat",
   "horizon": 1,
   "year": 2014,
-  "log_model": 0.5612952097703701,
-  "log_last": 0.5528501230122959
+  "log_model": 0.8460593434084999,
+  "log_last": 0.8705020650932702
  },
  {
   "tag": "gat",
   "horizon": 1,
   "year": 2015,
-  "log_model": 0.7214227209970844,
-  "log_last": 0.612574223794889
+  "log_model": 0.9643869566071896,
+  "log_last": 0.964011549987508
  },
  {
   "tag": "gat",
   "horizon": 1,
   "year": 2016,
-  "log_model": 1.0980408594110096,
-  "log_last": 1.0454343634635557
+  "log_model": 1.1292650032056524,
+  "log_last": 1.0353362740740486
  },
  {
   "tag": "gat",
   "horizon": 1,
   "year": 2017,
-  "log_model": 0.6373416870336761,
-  "log_last": 0.5587117541763078
+  "log_model": 0.7911513978020825,
+  "log_last": 0.636949818557802
  },
  {
   "tag": "gat",
   "horizon": 1,
   "year": 2018,
-  "log_model": 0.762054030804068,
+  "log_model": 0.7588647367823692,
   "log_last": 0.8109138611132582
  },
  {
   "tag": "gat",
   "horizon": 1,
   "year": 2019,
-  "log_model": 0.7178154231482055,
+  "log_model": 0.7158962283393028,
   "log_last": 0.7526014376181276
  },
  {
   "tag": "gat",
   "horizon": 1,
   "year": 2020,
-  "log_model": 1.2783678286423583,
+  "log_model": 1.3396860370255976,
   "log_last": 1.3190372883851644
  },
  {
   "tag": "gat",
   "horizon": 1,
   "year": 2021,
-  "log_model": 0.9103815085673056,
+  "log_model": 0.7609015559364635,
   "log_last": 1.0087401739291524
  },
  {
   "tag": "gat",
   "horizon": 1,
   "year": 2022,
-  "log_model": 1.0216103032884205,
+  "log_model": 0.9759648631989648,
   "log_last": 0.8939539544651236
  },
  {
   "tag": "gat",
   "horizon": 1,
   "year": 2023,
-  "log_model": 0.8111712448528258,
+  "log_model": 0.8889840714655306,
   "log_last": 0.748023909900218
  },
  {
   "tag": "gat",
   "horizon": 1,
   "year": 2024,
-  "log_model": 0.8938566893083264,
+  "log_model": 0.8301302868136461,
   "log_last": 0.8276391592265955
  },
  {
   "tag": "gat",
   "horizon": 1,
   "year": 2025,
-  "log_model": 0.6538672407984606,
+  "log_model": 0.6634488578727517,
   "log_last": 0.728982655938847
  },
  {
@@ -591,1365 +479,980 @@
   "tag": "geo_now",
   "horizon": 1,
   "year": 2014,
-  "log_model": 0.5510476227832046,
-  "log_last": 0.5528501230122959
+  "log_model": 0.8636438063005258,
+  "log_last": 0.8705020650932702
  },
  {
   "tag": "geo_now",
   "horizon": 1,
   "year": 2015,
-  "log_model": 0.7146801850584529,
-  "log_last": 0.612574223794889
+  "log_model": 0.912221903628725,
+  "log_last": 0.964011549987508
  },
  {
   "tag": "geo_now",
   "horizon": 1,
   "year": 2016,
-  "log_model": 1.0793865097423183,
-  "log_last": 1.0454343634635557
+  "log_model": 1.1017175822565368,
+  "log_last": 1.0353362740740486
  },
  {
   "tag": "geo_now",
   "horizon": 1,
   "year": 2017,
-  "log_model": 0.5340413724029266,
-  "log_last": 0.5587117541763078
+  "log_model": 0.6686532181633004,
+  "log_last": 0.636949818557802
  },
  {
   "tag": "geo_now",
   "horizon": 1,
   "year": 2018,
-  "log_model": 0.7659470171613075,
+  "log_model": 0.7340231602068938,
   "log_last": 0.8109138611132582
  },
  {
   "tag": "geo_now",
   "horizon": 1,
   "year": 2019,
-  "log_model": 0.7505619000007384,
+  "log_model": 0.7551229174814196,
   "log_last": 0.7526014376181276
  },
  {
   "tag": "geo_now",
   "horizon": 1,
   "year": 2020,
-  "log_model": 1.3182300000779883,
+  "log_model": 1.303289967994527,
   "log_last": 1.3190372883851644
  },
  {
   "tag": "geo_now",
   "horizon": 1,
   "year": 2021,
-  "log_model": 1.034514093344242,
+  "log_model": 0.9640213734653618,
   "log_last": 1.0087401739291524
  },
  {
   "tag": "geo_now",
   "horizon": 1,
   "year": 2022,
-  "log_model": 1.0538052573728178,
+  "log_model": 1.0415584814512548,
   "log_last": 0.8939539544651236
  },
  {
   "tag": "geo_now",
   "horizon": 1,
   "year": 2023,
-  "log_model": 0.8147855014574906,
+  "log_model": 0.9049719762654476,
   "log_last": 0.748023909900218
  },
  {
   "tag": "geo_now",
   "horizon": 1,
   "year": 2024,
-  "log_model": 0.857390171179568,
+  "log_model": 0.8382705908896594,
   "log_last": 0.8276391592265955
  },
  {
   "tag": "geo_now",
   "horizon": 1,
   "year": 2025,
-  "log_model": 0.6487693709401584,
+  "log_model": 0.6589821448562027,
   "log_last": 0.728982655938847
  },
  {
   "tag": "geo_w",
   "horizon": 1,
   "year": 2010,
-  "log_model": 0.7284791291740809,
+  "log_model": 0.739500104724169,
   "log_last": 0.7426457239637664
  },
  {
   "tag": "geo_w",
   "horizon": 1,
   "year": 2011,
-  "log_model": 0.7815452724959739,
+  "log_model": 0.7860830305585852,
   "log_last": 0.7684212041238674
  },
  {
   "tag": "geo_w",
   "horizon": 1,
   "year": 2012,
-  "log_model": 0.8202501616692145,
+  "log_model": 0.838131221191152,
   "log_last": 0.8377416466429017
  },
  {
   "tag": "geo_w",
   "horizon": 1,
   "year": 2013,
-  "log_model": 0.7264619981122115,
+  "log_model": 0.6952075914251469,
   "log_last": 0.7306814519809451
  },
  {
   "tag": "geo_w",
   "horizon": 1,
   "year": 2014,
-  "log_model": 0.5449917733339693,
-  "log_last": 0.5528501230122959
+  "log_model": 0.8508004011199114,
+  "log_last": 0.8705020650932702
  },
  {
   "tag": "geo_w",
   "horizon": 1,
   "year": 2015,
-  "log_model": 0.7495835381099487,
-  "log_last": 0.612574223794889
+  "log_model": 0.8955469532615359,
+  "log_last": 0.964011549987508
  },
  {
   "tag": "geo_w",
   "horizon": 1,
   "year": 2016,
-  "log_model": 1.09909890670738,
-  "log_last": 1.0454343634635557
+  "log_model": 1.0684891216661434,
+  "log_last": 1.0353362740740486
  },
  {
   "tag": "geo_w",
   "horizon": 1,
   "year": 2017,
-  "log_model": 0.5296724217919704,
-  "log_last": 0.5587117541763078
+  "log_model": 0.6348730680400979,
+  "log_last": 0.636949818557802
  },
  {
   "tag": "geo_w",
   "horizon": 1,
   "year": 2018,
-  "log_model": 0.7610380871314922,
+  "log_model": 0.7257174209937417,
   "log_last": 0.8109138611132582
  },
  {
   "tag": "geo_w",
   "horizon": 1,
   "year": 2019,
-  "log_model": 0.7439421567295871,
+  "log_model": 0.7055380522826328,
   "log_last": 0.7526014376181276
  },
  {
   "tag": "geo_w",
   "horizon": 1,
   "year": 2020,
-  "log_model": 1.2593166908086055,
+  "log_model": 1.336426696189558,
   "log_last": 1.3190372883851644
  },
  {
   "tag": "geo_w",
   "horizon": 1,
   "year": 2021,
-  "log_model": 0.7387508687781306,
+  "log_model": 0.7370829128012769,
   "log_last": 1.0087401739291524
  },
  {
   "tag": "geo_w",
   "horizon": 1,
   "year": 2022,
-  "log_model": 0.9249561003114432,
+  "log_model": 1.042162818254025,
   "log_last": 0.8939539544651236
  },
  {
   "tag": "geo_w",
   "horizon": 1,
   "year": 2023,
-  "log_model": 0.8008278627338048,
+  "log_model": 0.8489066124148968,
   "log_last": 0.748023909900218
  },
  {
   "tag": "geo_w",
   "horizon": 1,
   "year": 2024,
-  "log_model": 0.8921128743803769,
+  "log_model": 0.8512664866231142,
   "log_last": 0.8276391592265955
  },
  {
   "tag": "geo_w",
   "horizon": 1,
   "year": 2025,
-  "log_model": 0.6691498486620747,
+  "log_model": 0.6877106679899128,
   "log_last": 0.728982655938847
  },
  {
   "tag": "horizons",
   "horizon": 1,
   "year": 2010,
-  "log_model": 0.7284791291740809,
+  "log_model": 0.739500104724169,
   "log_last": 0.7426457239637664
  },
  {
   "tag": "horizons",
   "horizon": 1,
   "year": 2011,
-  "log_model": 0.7815452724959739,
+  "log_model": 0.7860830305585852,
   "log_last": 0.7684212041238674
  },
  {
   "tag": "horizons",
   "horizon": 1,
   "year": 2012,
-  "log_model": 0.8202501616692145,
+  "log_model": 0.838131221191152,
   "log_last": 0.8377416466429017
  },
  {
   "tag": "horizons",
   "horizon": 1,
   "year": 2013,
-  "log_model": 0.7264619981122115,
+  "log_model": 0.6952075914251469,
   "log_last": 0.7306814519809451
  },
  {
   "tag": "horizons",
   "horizon": 1,
   "year": 2014,
-  "log_model": 0.5449917733339693,
-  "log_last": 0.5528501230122959
+  "log_model": 0.8508004011199114,
+  "log_last": 0.8705020650932702
  },
  {
   "tag": "horizons",
   "horizon": 1,
   "year": 2015,
-  "log_model": 0.7495835381099487,
-  "log_last": 0.612574223794889
+  "log_model": 0.8955469532615359,
+  "log_last": 0.964011549987508
  },
  {
   "tag": "horizons",
   "horizon": 1,
   "year": 2016,
-  "log_model": 1.09909890670738,
-  "log_last": 1.0454343634635557
+  "log_model": 1.0684891216661434,
+  "log_last": 1.0353362740740486
  },
  {
   "tag": "horizons",
   "horizon": 1,
   "year": 2017,
-  "log_model": 0.5296724217919704,
-  "log_last": 0.5587117541763078
+  "log_model": 0.6348730680400979,
+  "log_last": 0.636949818557802
  },
  {
   "tag": "horizons",
   "horizon": 1,
   "year": 2018,
-  "log_model": 0.7610380871314922,
+  "log_model": 0.7257174209937417,
   "log_last": 0.8109138611132582
  },
  {
   "tag": "horizons",
   "horizon": 1,
   "year": 2019,
-  "log_model": 0.7439421567295871,
+  "log_model": 0.7055380522826328,
   "log_last": 0.7526014376181276
  },
  {
   "tag": "horizons",
   "horizon": 1,
   "year": 2020,
-  "log_model": 1.2593166908086055,
+  "log_model": 1.336426696189558,
   "log_last": 1.3190372883851644
  },
  {
   "tag": "horizons",
   "horizon": 1,
   "year": 2021,
-  "log_model": 0.7387508687781306,
+  "log_model": 0.7370829128012769,
   "log_last": 1.0087401739291524
  },
  {
   "tag": "horizons",
   "horizon": 1,
   "year": 2022,
-  "log_model": 0.9249561003114432,
+  "log_model": 1.042162818254025,
   "log_last": 0.8939539544651236
  },
  {
   "tag": "horizons",
   "horizon": 1,
   "year": 2023,
-  "log_model": 0.8008278627338048,
+  "log_model": 0.8489066124148968,
   "log_last": 0.748023909900218
  },
  {
   "tag": "horizons",
   "horizon": 1,
   "year": 2024,
-  "log_model": 0.8921128743803769,
+  "log_model": 0.8512664866231142,
   "log_last": 0.8276391592265955
  },
  {
   "tag": "horizons",
   "horizon": 1,
   "year": 2025,
-  "log_model": 0.6691498486620747,
+  "log_model": 0.6877106679899128,
   "log_last": 0.728982655938847
  },
  {
   "tag": "horizons",
   "horizon": 2,
   "year": 2010,
-  "log_model": 1.043768757716321,
+  "log_model": 1.064140149594828,
   "log_last": 1.060741179403603
  },
  {
   "tag": "horizons",
   "horizon": 2,
   "year": 2011,
-  "log_model": 0.887213769212823,
+  "log_model": 0.8493399256680245,
   "log_last": 0.897173196974653
  },
  {
   "tag": "horizons",
   "horizon": 2,
   "year": 2012,
-  "log_model": 0.9333092313345496,
+  "log_model": 0.9241885339419388,
   "log_last": 0.9423906701601068
  },
  {
   "tag": "horizons",
   "horizon": 2,
   "year": 2013,
-  "log_model": 1.1507700487644248,
+  "log_model": 1.1365363533363315,
   "log_last": 1.2227580625127925
  },
  {
   "tag": "horizons",
   "horizon": 2,
   "year": 2014,
-  "log_model": 0.8065059446007283,
-  "log_last": 0.8500236068303606
+  "log_model": 0.9516520542424022,
+  "log_last": 0.9682542768064424
  },
  {
   "tag": "horizons",
   "horizon": 2,
   "year": 2015,
-  "log_model": 0.8490318176998128,
-  "log_last": 0.7915286495443107
+  "log_model": 0.938919166518366,
+  "log_last": 0.8943689157408304
  },
  {
   "tag": "horizons",
   "horizon": 2,
   "year": 2016,
-  "log_model": 1.2612060211037854,
-  "log_last": 1.2266558609356033
+  "log_model": 1.459354703897197,
+  "log_last": 1.4621596424983652
  },
  {
   "tag": "horizons",
   "horizon": 2,
   "year": 2017,
-  "log_model": 1.2484848613202408,
-  "log_last": 1.17491140289688
+  "log_model": 1.1541094923972417,
+  "log_last": 1.1687110872988506
  },
  {
   "tag": "horizons",
   "horizon": 2,
   "year": 2018,
-  "log_model": 1.208099921604102,
-  "log_last": 1.1744343892524745
+  "log_model": 1.0381034358215977,
+  "log_last": 1.0819147894956718
  },
  {
   "tag": "horizons",
   "horizon": 2,
   "year": 2019,
-  "log_model": 1.0722954507572533,
+  "log_model": 0.9513487177797504,
   "log_last": 0.9897752575965626
  },
  {
   "tag": "horizons",
   "horizon": 2,
   "year": 2020,
-  "log_model": 1.2665138838230297,
+  "log_model": 1.2927582815464638,
   "log_last": 1.2898913601857949
  },
  {
   "tag": "horizons",
   "horizon": 2,
   "year": 2021,
-  "log_model": 1.138016394371348,
+  "log_model": 1.0008769642618545,
   "log_last": 1.104110586439037
  },
  {
   "tag": "horizons",
   "horizon": 2,
   "year": 2022,
-  "log_model": 1.8127483522366588,
+  "log_model": 1.4466941202085368,
   "log_last": 1.4334619908537811
  },
  {
   "tag": "horizons",
   "horizon": 2,
   "year": 2023,
-  "log_model": 1.3390870983523726,
+  "log_model": 1.241362056687476,
   "log_last": 1.187524621963037
  },
  {
   "tag": "horizons",
   "horizon": 2,
   "year": 2024,
-  "log_model": 1.0396035668148955,
+  "log_model": 1.0546809267256865,
   "log_last": 0.93794575248145
  },
  {
   "tag": "horizons",
   "horizon": 2,
   "year": 2025,
-  "log_model": 1.1350246517241511,
+  "log_model": 1.0695813410742467,
   "log_last": 1.121611261962462
  },
  {
   "tag": "horizons",
   "horizon": 3,
   "year": 2010,
-  "log_model": 0.9627181330441276,
+  "log_model": 0.9403276718552264,
   "log_last": 1.032105988478394
  },
  {
   "tag": "horizons",
   "horizon": 3,
   "year": 2011,
-  "log_model": 1.1021783447170952,
+  "log_model": 1.1071947090881482,
   "log_last": 1.0970824248958717
  },
  {
   "tag": "horizons",
   "horizon": 3,
   "year": 2012,
-  "log_model": 1.1705040240734863,
+  "log_model": 1.167066650116154,
   "log_last": 1.055058648484344
  },
  {
   "tag": "horizons",
   "horizon": 3,
   "year": 2013,
-  "log_model": 1.141133774254803,
+  "log_model": 1.1418150711626158,
   "log_last": 1.1435987316050735
  },
  {
   "tag": "horizons",
   "horizon": 3,
   "year": 2014,
-  "log_model": 1.1821998549525643,
-  "log_last": 1.1606524228928303
+  "log_model": 1.1747735504977208,
+  "log_last": 1.1837205607052033
  },
  {
   "tag": "horizons",
   "horizon": 3,
   "year": 2015,
-  "log_model": 1.0475306177819206,
-  "log_last": 1.0740914866414568
+  "log_model": 1.1313724788501045,
+  "log_last": 1.1816533016258215
  },
  {
   "tag": "horizons",
   "horizon": 3,
   "year": 2016,
-  "log_model": 1.2013011580472126,
-  "log_last": 1.228602652688102
+  "log_model": 1.2303428579745437,
+  "log_last": 1.230770036899557
  },
  {
   "tag": "horizons",
   "horizon": 3,
   "year": 2017,
-  "log_model": 1.266203084967367,
-  "log_last": 1.1855008979702597
+  "log_model": 1.4437500133330416,
+  "log_last": 1.5265135628302993
  },
  {
   "tag": "horizons",
   "horizon": 3,
   "year": 2018,
-  "log_model": 1.6410253076866406,
-  "log_last": 1.5065722677503548
+  "log_model": 1.4366512629973018,
+  "log_last": 1.3890044607000795
  },
  {
   "tag": "horizons",
   "horizon": 3,
   "year": 2019,
-  "log_model": 1.514121608873822,
-  "log_last": 1.4537527226976257
+  "log_model": 1.2599278472926454,
+  "log_last": 1.3294132423999316
  },
  {
   "tag": "horizons",
   "horizon": 3,
   "year": 2020,
-  "log_model": 1.6832666996377186,
+  "log_model": 1.6792229937423315,
   "log_last": 1.6979508723810577
  },
  {
   "tag": "horizons",
   "horizon": 3,
   "year": 2021,
-  "log_model": 1.2103636576156478,
+  "log_model": 1.1627067868650311,
   "log_last": 1.2381288671281028
  },
  {
   "tag": "horizons",
   "horizon": 3,
   "year": 2022,
-  "log_model": 1.2294486378464795,
+  "log_model": 1.175671382165939,
   "log_last": 1.18797622331747
  },
  {
   "tag": "horizons",
   "horizon": 3,
   "year": 2023,
-  "log_model": 1.804244986739749,
+  "log_model": 1.9341399133577808,
   "log_last": 1.807702415745743
  },
  {
   "tag": "horizons",
   "horizon": 3,
   "year": 2024,
-  "log_model": 1.298443415888877,
+  "log_model": 1.2977112052620845,
   "log_last": 1.276168200572021
  },
  {
   "tag": "horizons",
   "horizon": 3,
   "year": 2025,
-  "log_model": 1.247743764698605,
+  "log_model": 1.1354895118068131,
   "log_last": 1.1403157075820227
  },
  {
   "tag": "hybrid",
   "horizon": 1,
   "year": 2010,
-  "log_model": 0.7009216107628142,
+  "log_model": 0.6893257101857125,
   "log_last": 0.7426457239637664
  },
  {
   "tag": "hybrid",
   "horizon": 1,
   "year": 2011,
-  "log_model": 0.7596832904842689,
+  "log_model": 0.784195239201236,
   "log_last": 0.7684212041238674
  },
  {
   "tag": "hybrid",
   "horizon": 1,
   "year": 2012,
-  "log_model": 0.8253852147979992,
+  "log_model": 0.8618660072220334,
   "log_last": 0.8377416466429017
  },
  {
   "tag": "hybrid",
   "horizon": 1,
   "year": 2013,
-  "log_model": 0.7240802822630824,
+  "log_model": 0.7131399685638709,
   "log_last": 0.7306814519809451
  },
  {
   "tag": "hybrid",
   "horizon": 1,
   "year": 2014,
-  "log_model": 0.5419719281030636,
-  "log_last": 0.5528501230122959
+  "log_model": 0.8376139381613218,
+  "log_last": 0.8705020650932702
  },
  {
   "tag": "hybrid",
   "horizon": 1,
   "year": 2015,
-  "log_model": 0.773887862793638,
-  "log_last": 0.612574223794889
+  "log_model": 0.9113761249624291,
+  "log_last": 0.964011549987508
  },
  {
   "tag": "hybrid",
   "horizon": 1,
   "year": 2016,
-  "log_model": 1.085674084255208,
-  "log_last": 1.0454343634635557
+  "log_model": 1.0375741513871914,
+  "log_last": 1.0353362740740486
  },
  {
   "tag": "hybrid",
   "horizon": 1,
   "year": 2017,
-  "log_model": 0.5220067293302313,
-  "log_last": 0.5587117541763078
+  "log_model": 0.6298025702741133,
+  "log_last": 0.636949818557802
  },
  {
   "tag": "hybrid",
   "horizon": 1,
   "year": 2018,
-  "log_model": 0.7503095311343262,
+  "log_model": 0.7532542411765016,
   "log_last": 0.8109138611132582
  },
  {
   "tag": "hybrid",
   "horizon": 1,
   "year": 2019,
-  "log_model": 0.7173312903742479,
+  "log_model": 0.6990882441145805,
   "log_last": 0.7526014376181276
  },
  {
   "tag": "hybrid",
   "horizon": 1,
   "year": 2020,
-  "log_model": 1.2673763159796323,
+  "log_model": 1.2620739396798506,
   "log_last": 1.3190372883851644
  },
  {
   "tag": "hybrid",
   "horizon": 1,
   "year": 2021,
-  "log_model": 0.7269357768008271,
+  "log_model": 0.7138837495035826,
   "log_last": 1.0087401739291524
  },
  {
   "tag": "hybrid",
   "horizon": 1,
   "year": 2022,
-  "log_model": 0.8992397161896016,
+  "log_model": 0.9726729250756128,
   "log_last": 0.8939539544651236
  },
  {
   "tag": "hybrid",
   "horizon": 1,
   "year": 2023,
-  "log_model": 0.8397747501790641,
+  "log_model": 0.9110701214046766,
   "log_last": 0.748023909900218
  },
  {
   "tag": "hybrid",
   "horizon": 1,
   "year": 2024,
-  "log_model": 0.8766841674301146,
+  "log_model": 0.8705583228077661,
   "log_last": 0.8276391592265955
  },
  {
   "tag": "hybrid",
   "horizon": 1,
   "year": 2025,
-  "log_model": 0.6607918953324234,
+  "log_model": 0.7017884031317863,
   "log_last": 0.728982655938847
  },
  {
   "tag": "identity",
   "horizon": 1,
   "year": 2010,
-  "log_model": 0.7268898099061148,
+  "log_model": 0.7352811614358006,
   "log_last": 0.7426457239637664
  },
  {
   "tag": "identity",
   "horizon": 1,
   "year": 2011,
-  "log_model": 0.7853126343109634,
+  "log_model": 0.8052157687854138,
   "log_last": 0.7684212041238674
  },
  {
   "tag": "identity",
   "horizon": 1,
   "year": 2012,
-  "log_model": 0.7905212072490452,
+  "log_model": 0.7955249857256901,
   "log_last": 0.8377416466429017
  },
  {
   "tag": "identity",
   "horizon": 1,
   "year": 2013,
-  "log_model": 0.7367062217615319,
+  "log_model": 0.7298282506520701,
   "log_last": 0.7306814519809451
  },
  {
   "tag": "identity",
   "horizon": 1,
   "year": 2014,
-  "log_model": 0.5642819230118,
-  "log_last": 0.5528501230122959
+  "log_model": 0.7941550869220576,
+  "log_last": 0.8705020650932702
  },
  {
   "tag": "identity",
   "horizon": 1,
   "year": 2015,
-  "log_model": 0.6529412636294043,
-  "log_last": 0.612574223794889
+  "log_model": 0.9586157366318094,
+  "log_last": 0.964011549987508
  },
  {
   "tag": "identity",
   "horizon": 1,
   "year": 2016,
-  "log_model": 1.030230119366838,
-  "log_last": 1.0454343634635557
+  "log_model": 1.1298695576130648,
+  "log_last": 1.0353362740740486
  },
  {
   "tag": "identity",
   "horizon": 1,
   "year": 2017,
-  "log_model": 0.5995576864274581,
-  "log_last": 0.5587117541763078
+  "log_model": 0.6581945674233726,
+  "log_last": 0.636949818557802
  },
  {
   "tag": "identity",
   "horizon": 1,
   "year": 2018,
-  "log_model": 0.7827281563584634,
+  "log_model": 0.7612861974758178,
   "log_last": 0.8109138611132582
  },
  {
   "tag": "identity",
   "horizon": 1,
   "year": 2019,
-  "log_model": 0.8219416435786394,
+  "log_model": 0.7810838886902539,
   "log_last": 0.7526014376181276
  },
  {
   "tag": "identity",
   "horizon": 1,
   "year": 2020,
-  "log_model": 1.1847556481647497,
+  "log_model": 1.1979771150344662,
   "log_last": 1.3190372883851644
  },
  {
   "tag": "identity",
   "horizon": 1,
   "year": 2021,
-  "log_model": 0.979757446708762,
+  "log_model": 0.9032983596791944,
   "log_last": 1.0087401739291524
  },
  {
   "tag": "identity",
   "horizon": 1,
   "year": 2022,
-  "log_model": 0.9484870473985346,
+  "log_model": 0.872489229404516,
   "log_last": 0.8939539544651236
  },
  {
   "tag": "identity",
   "horizon": 1,
   "year": 2023,
-  "log_model": 0.8711087528789392,
+  "log_model": 0.8488186026567849,
   "log_last": 0.748023909900218
  },
  {
   "tag": "identity",
   "horizon": 1,
   "year": 2024,
-  "log_model": 0.8121867128631608,
+  "log_model": 0.7854247795043486,
   "log_last": 0.8276391592265955
  },
  {
   "tag": "identity",
   "horizon": 1,
   "year": 2025,
-  "log_model": 0.6764714041119688,
+  "log_model": 0.6977470797257239,
   "log_last": 0.728982655938847
  },
  {
   "tag": "knn",
   "horizon": 1,
   "year": 2010,
-  "log_model": 0.6954280654269681,
+  "log_model": 0.6883237053792928,
   "log_last": 0.7426457239637664
  },
  {
   "tag": "knn",
   "horizon": 1,
   "year": 2011,
-  "log_model": 0.6925311393402721,
+  "log_model": 0.6977291004802278,
   "log_last": 0.7684212041238674
  },
  {
   "tag": "knn",
   "horizon": 1,
   "year": 2012,
-  "log_model": 0.809214708281382,
+  "log_model": 0.8545459465834672,
   "log_last": 0.8377416466429017
  },
  {
   "tag": "knn",
   "horizon": 1,
   "year": 2013,
-  "log_model": 0.7511053030306364,
+  "log_model": 0.7253754876887044,
   "log_last": 0.7306814519809451
  },
  {
   "tag": "knn",
   "horizon": 1,
   "year": 2014,
-  "log_model": 0.5599581371329844,
-  "log_last": 0.5528501230122959
+  "log_model": 0.8640395701763574,
+  "log_last": 0.8705020650932702
  },
  {
   "tag": "knn",
   "horizon": 1,
   "year": 2015,
-  "log_model": 0.7413537266707602,
-  "log_last": 0.612574223794889
+  "log_model": 0.8678888778450929,
+  "log_last": 0.964011549987508
  },
  {
   "tag": "knn",
   "horizon": 1,
   "year": 2016,
-  "log_model": 1.0925865603977618,
-  "log_last": 1.0454343634635557
+  "log_model": 1.0742256461785915,
+  "log_last": 1.0353362740740486
  },
  {
   "tag": "knn",
   "horizon": 1,
   "year": 2017,
-  "log_model": 0.4852195770258515,
-  "log_last": 0.5587117541763078
+  "log_model": 0.5899692018549934,
+  "log_last": 0.636949818557802
  },
  {
   "tag": "knn",
   "horizon": 1,
   "year": 2018,
-  "log_model": 0.7730233924702113,
+  "log_model": 0.7641391991475553,
   "log_last": 0.8109138611132582
  },
  {
   "tag": "knn",
   "horizon": 1,
   "year": 2019,
-  "log_model": 0.7464165599044872,
+  "log_model": 0.6805945725545377,
   "log_last": 0.7526014376181276
  },
  {
   "tag": "knn",
   "horizon": 1,
   "year": 2020,
-  "log_model": 1.3001345080641429,
+  "log_model": 1.198670554527017,
   "log_last": 1.3190372883851644
  },
  {
   "tag": "knn",
   "horizon": 1,
   "year": 2021,
-  "log_model": 0.720869820380595,
+  "log_model": 0.7155818905817704,
   "log_last": 1.0087401739291524
  },
  {
   "tag": "knn",
   "horizon": 1,
   "year": 2022,
-  "log_model": 0.9400979912260348,
+  "log_model": 1.079440802064514,
   "log_last": 0.8939539544651236
  },
  {
   "tag": "knn",
   "horizon": 1,
   "year": 2023,
-  "log_model": 0.8122851851028613,
+  "log_model": 0.9218169589236066,
   "log_last": 0.748023909900218
  },
  {
   "tag": "knn",
   "horizon": 1,
   "year": 2024,
-  "log_model": 0.8763008657612326,
+  "log_model": 0.8371354641376375,
   "log_last": 0.8276391592265955
  },
  {
   "tag": "knn",
   "horizon": 1,
   "year": 2025,
-  "log_model": 0.6355075352722401,
+  "log_model": 0.6713001806184012,
   "log_last": 0.728982655938847
- },
- {
-  "tag": "p4_area_extra",
-  "horizon": 1,
-  "year": 2010,
-  "log_model": 0.7020651132211816,
-  "log_last": 0.7121260366775843
- },
- {
-  "tag": "p4_area_extra",
-  "horizon": 1,
-  "year": 2011,
-  "log_model": 0.7248719820950098,
-  "log_last": 0.7494478410590805
- },
- {
-  "tag": "p4_area_extra",
-  "horizon": 1,
-  "year": 2012,
-  "log_model": 0.832334127760461,
-  "log_last": 0.8275252850984761
- },
- {
-  "tag": "p4_area_extra",
-  "horizon": 1,
-  "year": 2013,
-  "log_model": 0.7001093262650911,
-  "log_last": 0.7221851560276783
- },
- {
-  "tag": "p4_area_extra",
-  "horizon": 1,
-  "year": 2014,
-  "log_model": 0.5410955018981523,
-  "log_last": 0.5528501230122959
- },
- {
-  "tag": "p4_area_extra",
-  "horizon": 1,
-  "year": 2015,
-  "log_model": 0.7422713383223996,
-  "log_last": 0.612574223794889
- },
- {
-  "tag": "p4_area_extra",
-  "horizon": 1,
-  "year": 2016,
-  "log_model": 1.073285355889509,
-  "log_last": 1.0223406198526048
- },
- {
-  "tag": "p4_area_extra",
-  "horizon": 1,
-  "year": 2017,
-  "log_model": 0.5234025270361822,
-  "log_last": 0.5520152443041001
- },
- {
-  "tag": "p4_area_extra",
-  "horizon": 1,
-  "year": 2018,
-  "log_model": 0.7410096864823223,
-  "log_last": 0.793690154155042
- },
- {
-  "tag": "p4_area_extra",
-  "horizon": 1,
-  "year": 2019,
-  "log_model": 0.70197426267098,
-  "log_last": 0.7369548662951831
- },
- {
-  "tag": "p4_area_extra",
-  "horizon": 1,
-  "year": 2020,
-  "log_model": 1.2516484674112685,
-  "log_last": 1.2853881679254164
- },
- {
-  "tag": "p4_area_extra",
-  "horizon": 1,
-  "year": 2021,
-  "log_model": 1.0946825629868426,
-  "log_last": 1.265464072048283
- },
- {
-  "tag": "p4_area_extra",
-  "horizon": 1,
-  "year": 2022,
-  "log_model": 1.1241970595814086,
-  "log_last": 1.1597511736774426
- },
- {
-  "tag": "p4_area",
-  "horizon": 1,
-  "year": 2010,
-  "log_model": 0.7072978552971199,
-  "log_last": 0.7121260366775843
- },
- {
-  "tag": "p4_area",
-  "horizon": 1,
-  "year": 2011,
-  "log_model": 0.7684717800940281,
-  "log_last": 0.7494478410590805
- },
- {
-  "tag": "p4_area",
-  "horizon": 1,
-  "year": 2012,
-  "log_model": 0.8320801641590678,
-  "log_last": 0.8275252850984761
- },
- {
-  "tag": "p4_area",
-  "horizon": 1,
-  "year": 2013,
-  "log_model": 0.6865829098545693,
-  "log_last": 0.7221851560276783
- },
- {
-  "tag": "p4_area",
-  "horizon": 1,
-  "year": 2014,
-  "log_model": 0.5330297415422722,
-  "log_last": 0.5528501230122959
- },
- {
-  "tag": "p4_area",
-  "horizon": 1,
-  "year": 2015,
-  "log_model": 0.7388203558331691,
-  "log_last": 0.612574223794889
- },
- {
-  "tag": "p4_area",
-  "horizon": 1,
-  "year": 2016,
-  "log_model": 1.0797735286043897,
-  "log_last": 1.0223406198526048
- },
- {
-  "tag": "p4_area",
-  "horizon": 1,
-  "year": 2017,
-  "log_model": 0.5436064074660212,
-  "log_last": 0.5520152443041001
- },
- {
-  "tag": "p4_area",
-  "horizon": 1,
-  "year": 2018,
-  "log_model": 0.756902616615027,
-  "log_last": 0.793690154155042
- },
- {
-  "tag": "p4_area",
-  "horizon": 1,
-  "year": 2019,
-  "log_model": 0.7108671794289043,
-  "log_last": 0.7369548662951831
- },
- {
-  "tag": "p4_area",
-  "horizon": 1,
-  "year": 2020,
-  "log_model": 1.278927857908015,
-  "log_last": 1.2853881679254164
- },
- {
-  "tag": "p4_area",
-  "horizon": 1,
-  "year": 2021,
-  "log_model": 1.044665976991684,
-  "log_last": 1.265464072048283
- },
- {
-  "tag": "p4_area",
-  "horizon": 1,
-  "year": 2022,
-  "log_model": 1.186830548893579,
-  "log_last": 1.1597511736774426
  },
  {
   "tag": "single",
   "horizon": 1,
   "year": 2010,
-  "log_model": 0.8092115787750078,
+  "log_model": 0.7463583930476259,
   "log_last": 0.7426457239637664
  },
  {
   "tag": "single",
   "horizon": 1,
   "year": 2011,
-  "log_model": 0.7847777964026658,
+  "log_model": 0.7813650919110616,
   "log_last": 0.7684212041238674
  },
  {
   "tag": "single",
   "horizon": 1,
   "year": 2012,
-  "log_model": 0.8176102073198852,
+  "log_model": 0.8281486211694741,
   "log_last": 0.8377416466429017
  },
  {
   "tag": "single",
   "horizon": 1,
   "year": 2013,
-  "log_model": 0.8879797808982971,
+  "log_model": 0.8341932651088116,
   "log_last": 0.7306814519809451
  },
  {
   "tag": "single",
   "horizon": 1,
   "year": 2014,
-  "log_model": 0.7280471230917092,
-  "log_last": 0.5528501230122959
+  "log_model": 0.9187140282121936,
+  "log_last": 0.8705020650932702
  },
  {
   "tag": "single",
   "horizon": 1,
   "year": 2015,
-  "log_model": 0.6772378955480376,
-  "log_last": 0.612574223794889
+  "log_model": 0.8651962307482635,
+  "log_last": 0.964011549987508
  },
  {
   "tag": "single",
   "horizon": 1,
   "year": 2016,
-  "log_model": 1.015875023843955,
-  "log_last": 1.0454343634635557
+  "log_model": 1.0731075480945884,
+  "log_last": 1.0353362740740486
  },
  {
   "tag": "single",
   "horizon": 1,
   "year": 2017,
-  "log_model": 0.6535789367221853,
-  "log_last": 0.5587117541763078
+  "log_model": 0.7534447761573002,
+  "log_last": 0.636949818557802
  },
  {
   "tag": "single",
   "horizon": 1,
   "year": 2018,
-  "log_model": 0.7511738334099278,
+  "log_model": 0.7863585078527454,
   "log_last": 0.8109138611132582
  },
  {
   "tag": "single",
   "horizon": 1,
   "year": 2019,
-  "log_model": 0.7887839854376677,
+  "log_model": 0.7494651526096907,
   "log_last": 0.7526014376181276
  },
  {
   "tag": "single",
   "horizon": 1,
   "year": 2020,
-  "log_model": 1.228835152760664,
+  "log_model": 1.1207751896353075,
   "log_last": 1.3190372883851644
  },
  {
   "tag": "single",
   "horizon": 1,
   "year": 2021,
-  "log_model": 0.9642631630496816,
+  "log_model": 0.8401017060421533,
   "log_last": 1.0087401739291524
  },
  {
   "tag": "single",
   "horizon": 1,
   "year": 2022,
-  "log_model": 1.2637000915512613,
+  "log_model": 1.2001251632979104,
   "log_last": 0.8939539544651236
  },
  {
   "tag": "single",
   "horizon": 1,
   "year": 2023,
-  "log_model": 0.9389248512279637,
+  "log_model": 0.9378007076870049,
   "log_last": 0.748023909900218
  },
  {
   "tag": "single",
   "horizon": 1,
   "year": 2024,
-  "log_model": 0.887073531032009,
+  "log_model": 0.8311345757230191,
   "log_last": 0.8276391592265955
  },
  {
   "tag": "single",
   "horizon": 1,
   "year": 2025,
-  "log_model": 0.6881932366779508,
+  "log_model": 0.801334829580281,
   "log_last": 0.728982655938847
- },
- {
-  "tag": "v1geo",
-  "horizon": 1,
-  "year": 2010,
-  "log_model": 0.688444263659394,
-  "log_last": 0.7121260366775843
- },
- {
-  "tag": "v1geo",
-  "horizon": 1,
-  "year": 2011,
-  "log_model": 0.7549079502554169,
-  "log_last": 0.7494478410590805
- },
- {
-  "tag": "v1geo",
-  "horizon": 1,
-  "year": 2012,
-  "log_model": 0.8173813677577935,
-  "log_last": 0.8275252850984761
- },
- {
-  "tag": "v1geo",
-  "horizon": 1,
-  "year": 2013,
-  "log_model": 0.6900829896284986,
-  "log_last": 0.7221851560276783
- },
- {
-  "tag": "v1geo",
-  "horizon": 1,
-  "year": 2014,
-  "log_model": 0.4834100242398955,
-  "log_last": 0.5528501230122959
- },
- {
-  "tag": "v1geo",
-  "horizon": 1,
-  "year": 2015,
-  "log_model": 0.7722334609099532,
-  "log_last": 0.612574223794889
- },
- {
-  "tag": "v1geo",
-  "horizon": 1,
-  "year": 2016,
-  "log_model": 1.0771638043481222,
-  "log_last": 1.0223406198526048
- },
- {
-  "tag": "v1geo",
-  "horizon": 1,
-  "year": 2017,
-  "log_model": 0.5407289231648831,
-  "log_last": 0.5520152443041001
- },
- {
-  "tag": "v1geo",
-  "horizon": 1,
-  "year": 2018,
-  "log_model": 0.7468766668550574,
-  "log_last": 0.793690154155042
- },
- {
-  "tag": "v1geo",
-  "horizon": 1,
-  "year": 2019,
-  "log_model": 0.6999715485419449,
-  "log_last": 0.7369548662951831
- },
- {
-  "tag": "v1geo",
-  "horizon": 1,
-  "year": 2020,
-  "log_model": 1.2894061911609038,
-  "log_last": 1.2853881679254164
- },
- {
-  "tag": "v1geo",
-  "horizon": 1,
-  "year": 2021,
-  "log_model": 1.0528769096642678,
-  "log_last": 1.265464072048283
- },
- {
-  "tag": "v1geo",
-  "horizon": 1,
-  "year": 2022,
-  "log_model": 1.1496149953958206,
-  "log_last": 1.1597511736774426
- },
- {
-  "tag": "zeros_kept",
-  "horizon": 1,
-  "year": 2010,
-  "log_model": 0.9552684207466235,
-  "log_last": 0.9569011130835372
- },
- {
-  "tag": "zeros_kept",
-  "horizon": 1,
-  "year": 2011,
-  "log_model": 0.8606111604065645,
-  "log_last": 0.8429789274968811
- },
- {
-  "tag": "zeros_kept",
-  "horizon": 1,
-  "year": 2012,
-  "log_model": 1.126312895839822,
-  "log_last": 1.095255055082711
- },
- {
-  "tag": "zeros_kept",
-  "horizon": 1,
-  "year": 2013,
-  "log_model": 0.7659149546961433,
-  "log_last": 0.8311785389256077
- },
- {
-  "tag": "zeros_kept",
-  "horizon": 1,
-  "year": 2014,
-  "log_model": 0.6322325908582009,
-  "log_last": 0.680336667462929
- },
- {
-  "tag": "zeros_kept",
-  "horizon": 1,
-  "year": 2015,
-  "log_model": 0.9135535786301732,
-  "log_last": 0.8106812333002518
- },
- {
-  "tag": "zeros_kept",
-  "horizon": 1,
-  "year": 2016,
-  "log_model": 1.5059036848240352,
-  "log_last": 1.4771058379526496
- },
- {
-  "tag": "zeros_kept",
-  "horizon": 1,
-  "year": 2017,
-  "log_model": 0.641925150119122,
-  "log_last": 0.602996576900056
- },
- {
-  "tag": "zeros_kept",
-  "horizon": 1,
-  "year": 2018,
-  "log_model": 0.7618186125936601,
-  "log_last": 0.8259797224283288
- },
- {
-  "tag": "zeros_kept",
-  "horizon": 1,
-  "year": 2019,
-  "log_model": 0.8616037200792804,
-  "log_last": 0.8632552208906704
- },
- {
-  "tag": "zeros_kept",
-  "horizon": 1,
-  "year": 2020,
-  "log_model": 1.361935947246299,
-  "log_last": 1.4414742945589225
- },
- {
-  "tag": "zeros_kept",
-  "horizon": 1,
-  "year": 2021,
-  "log_model": 1.019129741697933,
-  "log_last": 1.0753218919800345
- },
- {
-  "tag": "zeros_kept",
-  "horizon": 1,
-  "year": 2022,
-  "log_model": 0.9881803908526108,
-  "log_last": 0.9107186795824336
- },
- {
-  "tag": "zeros_kept",
-  "horizon": 1,
-  "year": 2023,
-  "log_model": 0.9776801467005268,
-  "log_last": 0.83545636680032
- },
- {
-  "tag": "zeros_kept",
-  "horizon": 1,
-  "year": 2024,
-  "log_model": 0.9863274898827008,
-  "log_last": 0.9017543462629452
- },
- {
-  "tag": "zeros_kept",
-  "horizon": 1,
-  "year": 2025,
-  "log_model": 0.701937624503122,
-  "log_last": 0.7421403491472399
  }
 ]

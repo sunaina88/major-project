@@ -257,14 +257,14 @@ def _env_rows(fn, what, state_id=None, **filters):
 def climate_monthly(state_id: Optional[str] = None, year: Optional[int] = None,
                     month: Optional[int] = Query(None, ge=1, le=12)):
     """Monthly weather averaged over NASA POWER sample points inside each state: temp_mean_c, rainfall_mm,
-    rh_mean_pct, wind_ms and n_points (the number of sample points). Environmental context, not a forecast input."""
+    rh_mean_pct, wind_ms and n_points (the number of sample points). Yearly temperature and rainfall feed the forecast model; humidity and wind do not."""
     return _env_rows(environment.monthly, "climate", state_id, year=year, month=month)
 
 
 @app.get("/climate/annual", tags=["environment"])
 def climate_annual(state_id: Optional[str] = None):
     """Yearly climate summaries per state: mean temperature, total and monsoon rainfall, hottest-month temperature,
-    mean humidity and wind. Environmental context, not a forecast input."""
+    mean humidity and wind."""
     return _env_rows(environment.annual, "annual climate", state_id)
 
 

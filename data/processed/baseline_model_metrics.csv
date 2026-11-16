@@ -1,163 +1,163 @@
 state_name,disease,model,mae,rmse
 Andaman And Nicobar Islands,dengue_cases,Seasonal_Naive,36.36666666666667,57.99970735558355
-Andaman And Nicobar Islands,dengue_cases,Gradient_Boosting,30.21484462298617,56.510164601272486
-Andaman And Nicobar Islands,dengue_cases,Gradient_Boosting_Weather,31.22656416682304,56.84221902932523
+Andaman And Nicobar Islands,dengue_cases,Gradient_Boosting,27.99776657352573,54.34295832830711
+Andaman And Nicobar Islands,dengue_cases,Gradient_Boosting_Weather,28.907290077348353,55.193751520260925
 Andaman And Nicobar Islands,malaria_cases,Seasonal_Naive,3.183333333333334,4.607543814224668
 Andaman And Nicobar Islands,malaria_cases,Gradient_Boosting,4.72967679582329,6.36622618061516
-Andaman And Nicobar Islands,malaria_cases,Gradient_Boosting_Weather,13.140752711012047,23.54920049325514
+Andaman And Nicobar Islands,malaria_cases,Gradient_Boosting_Weather,10.77052032421947,16.473995967078647
 Andaman And Nicobar Islands,chikungunya_cases,Seasonal_Naive,30.366666666666667,47.36055193935138
 Andaman And Nicobar Islands,chikungunya_cases,Gradient_Boosting,10.35782241867688,20.047686718960605
-Andaman And Nicobar Islands,chikungunya_cases,Gradient_Boosting_Weather,9.6602119721686,17.525991708364085
+Andaman And Nicobar Islands,chikungunya_cases,Gradient_Boosting_Weather,9.253047467794065,16.871007646994528
 Andhra Pradesh,dengue_cases,Seasonal_Naive,154.91666666666666,247.16865854445757
-Andhra Pradesh,dengue_cases,Gradient_Boosting,181.58719725177028,254.19194086266572
-Andhra Pradesh,dengue_cases,Gradient_Boosting_Weather,175.3906116543718,248.93838369342964
+Andhra Pradesh,dengue_cases,Gradient_Boosting,129.14527036389399,188.6116974660665
+Andhra Pradesh,dengue_cases,Gradient_Boosting_Weather,134.52323250764005,204.1771244704098
 Andhra Pradesh,malaria_cases,Seasonal_Naive,121.25,205.71324344015062
 Andhra Pradesh,malaria_cases,Gradient_Boosting,125.68211760397104,198.8565430041664
-Andhra Pradesh,malaria_cases,Gradient_Boosting_Weather,150.98696882743744,236.1722256434422
+Andhra Pradesh,malaria_cases,Gradient_Boosting_Weather,129.3906775808491,187.42414099379678
 Andhra Pradesh,chikungunya_cases,Seasonal_Naive,120.53333333333333,201.29828371515407
 Andhra Pradesh,chikungunya_cases,Gradient_Boosting,71.8483892061935,138.04422020531254
-Andhra Pradesh,chikungunya_cases,Gradient_Boosting_Weather,75.24215749005522,143.32211173663728
+Andhra Pradesh,chikungunya_cases,Gradient_Boosting_Weather,74.10483717300465,147.42997622751784
 Arunachal Pradesh,dengue_cases,Seasonal_Naive,6.483333333333333,10.35384855983513
-Arunachal Pradesh,dengue_cases,Gradient_Boosting,4.975275921642692,5.886437137963732
-Arunachal Pradesh,dengue_cases,Gradient_Boosting_Weather,5.8985299471984645,6.902860986521495
+Arunachal Pradesh,dengue_cases,Gradient_Boosting,24.743052336838694,44.08260546375483
+Arunachal Pradesh,dengue_cases,Gradient_Boosting_Weather,25.57497020512511,45.30790714751806
 Arunachal Pradesh,malaria_cases,Seasonal_Naive,1.0499999999999998,1.526278698883879
 Arunachal Pradesh,malaria_cases,Gradient_Boosting,7.6966409065887165,8.32543095699181
-Arunachal Pradesh,malaria_cases,Gradient_Boosting_Weather,56.13230285863488,101.11166979720203
+Arunachal Pradesh,malaria_cases,Gradient_Boosting_Weather,74.3184914288462,114.54734026525044
 Arunachal Pradesh,chikungunya_cases,Seasonal_Naive,0.3833333333333334,0.6434956617310381
 Arunachal Pradesh,chikungunya_cases,Gradient_Boosting,0.7573235697334079,1.1736444296278887
-Arunachal Pradesh,chikungunya_cases,Gradient_Boosting_Weather,0.9469611402070723,1.6012323070303207
+Arunachal Pradesh,chikungunya_cases,Gradient_Boosting_Weather,1.3979791841018312,1.9612819905970735
 Assam,dengue_cases,Seasonal_Naive,261.73333333333335,434.1707585885228
-Assam,dengue_cases,Gradient_Boosting,159.4112022111607,289.08098850242567
-Assam,dengue_cases,Gradient_Boosting_Weather,141.2994934152133,291.5975801347945
+Assam,dengue_cases,Gradient_Boosting,124.95798728557547,225.45529440673172
+Assam,dengue_cases,Gradient_Boosting_Weather,120.89177785643349,221.66357394438347
 Assam,malaria_cases,Seasonal_Naive,103.95,221.74609794387214
 Assam,malaria_cases,Gradient_Boosting,91.88540378346599,167.2335469818862
-Assam,malaria_cases,Gradient_Boosting_Weather,173.89123371616623,259.95404038050634
+Assam,malaria_cases,Gradient_Boosting_Weather,175.1522429614603,277.39162959217987
 Assam,chikungunya_cases,Seasonal_Naive,4.1,7.340131697274466
 Assam,chikungunya_cases,Gradient_Boosting,9.420455770947417,14.91730919283137
-Assam,chikungunya_cases,Gradient_Boosting_Weather,11.718137718960241,17.61610441824257
+Assam,chikungunya_cases,Gradient_Boosting_Weather,13.701800071070611,20.15554057323276
 Bihar,dengue_cases,Seasonal_Naive,600.8833333333334,909.4116120987239
-Bihar,dengue_cases,Gradient_Boosting,569.8556158186186,1013.9088252913829
-Bihar,dengue_cases,Gradient_Boosting_Weather,544.0111244323708,1008.4758544724216
+Bihar,dengue_cases,Gradient_Boosting,532.0860937802694,986.7778198138857
+Bihar,dengue_cases,Gradient_Boosting_Weather,497.62792196397095,960.1181494345968
 Bihar,malaria_cases,Seasonal_Naive,22.716666666666665,37.98969535720619
 Bihar,malaria_cases,Gradient_Boosting,16.00717908797786,22.635106598828873
-Bihar,malaria_cases,Gradient_Boosting_Weather,22.818066159588845,32.481842550363346
+Bihar,malaria_cases,Gradient_Boosting_Weather,20.249886349437507,27.080905167453228
 Bihar,chikungunya_cases,Seasonal_Naive,14.383333333333331,27.860111150771335
 Bihar,chikungunya_cases,Gradient_Boosting,8.044646260685424,14.644020788175306
-Bihar,chikungunya_cases,Gradient_Boosting_Weather,7.20960985610782,12.183157445293613
+Bihar,chikungunya_cases,Gradient_Boosting_Weather,9.535593856782286,15.419411118455828
 Chandigarh,dengue_cases,Seasonal_Naive,47.68333333333333,76.67241263974937
-Chandigarh,dengue_cases,Gradient_Boosting,33.19978723699667,70.44278065484333
-Chandigarh,dengue_cases,Gradient_Boosting_Weather,34.36993307832863,70.29261180982652
+Chandigarh,dengue_cases,Gradient_Boosting,27.04492433617114,47.469123973357874
+Chandigarh,dengue_cases,Gradient_Boosting_Weather,25.925416369664603,47.56953037906621
 Chandigarh,malaria_cases,Seasonal_Naive,1.1333333333333335,3.0366011701681646
 Chandigarh,malaria_cases,Gradient_Boosting,0.7945873113368328,1.2370790116024208
-Chandigarh,malaria_cases,Gradient_Boosting_Weather,1.2116892633507568,2.1279784083479587
+Chandigarh,malaria_cases,Gradient_Boosting_Weather,1.4935779805839198,2.130796996213751
 Chandigarh,chikungunya_cases,Seasonal_Naive,121.21666666666667,218.88093263994773
 Chandigarh,chikungunya_cases,Gradient_Boosting,71.3029751719983,125.39363042772021
-Chandigarh,chikungunya_cases,Gradient_Boosting_Weather,62.88389695283285,110.55260618484752
+Chandigarh,chikungunya_cases,Gradient_Boosting_Weather,64.62287473458196,120.36763921793005
 Chhattisgarh,dengue_cases,Seasonal_Naive,116.83333333333334,179.71984494392007
-Chhattisgarh,dengue_cases,Gradient_Boosting,97.2833606201313,144.34025274403137
-Chhattisgarh,dengue_cases,Gradient_Boosting_Weather,84.49939991796181,135.0292934474636
+Chhattisgarh,dengue_cases,Gradient_Boosting,83.93186265791861,132.29013561360748
+Chhattisgarh,dengue_cases,Gradient_Boosting_Weather,78.92063062129313,128.77190406768702
 Chhattisgarh,malaria_cases,Seasonal_Naive,196.28333333333336,364.80189119575573
 Chhattisgarh,malaria_cases,Gradient_Boosting,596.6683392392235,704.1415080424284
-Chhattisgarh,malaria_cases,Gradient_Boosting_Weather,623.6178822604709,721.1850347410996
+Chhattisgarh,malaria_cases,Gradient_Boosting_Weather,801.4095787546751,988.9510789572822
 Chhattisgarh,chikungunya_cases,Seasonal_Naive,62.638888888888886,96.57979539105361
 Chhattisgarh,chikungunya_cases,Gradient_Boosting,66.75,122.507137275072
 Chhattisgarh,chikungunya_cases,Gradient_Boosting_Weather,66.75,122.507137275072
 Dadra And Nagar Haveli And Daman And Diu,dengue_cases,Seasonal_Naive,37.68333333333333,54.61828161583507
-Dadra And Nagar Haveli And Daman And Diu,dengue_cases,Gradient_Boosting,33.63961892751921,43.04465827714579
-Dadra And Nagar Haveli And Daman And Diu,dengue_cases,Gradient_Boosting_Weather,30.352989182319504,40.2466995351919
+Dadra And Nagar Haveli And Daman And Diu,dengue_cases,Gradient_Boosting,39.47579903031547,67.19565330206818
+Dadra And Nagar Haveli And Daman And Diu,dengue_cases,Gradient_Boosting_Weather,39.434952093772935,72.19091702742183
 Dadra And Nagar Haveli And Daman And Diu,malaria_cases,Seasonal_Naive,2.8666666666666667,4.809712396114068
 Dadra And Nagar Haveli And Daman And Diu,malaria_cases,Gradient_Boosting,3.3901453107821826,4.232412264317347
-Dadra And Nagar Haveli And Daman And Diu,malaria_cases,Gradient_Boosting_Weather,7.230134646322069,13.043982899556395
+Dadra And Nagar Haveli And Daman And Diu,malaria_cases,Gradient_Boosting_Weather,9.693112200040288,13.471611634802793
 Dadra And Nagar Haveli And Daman And Diu,chikungunya_cases,Seasonal_Naive,0.03333333333333333,0.06801960501698512
 Dadra And Nagar Haveli And Daman And Diu,chikungunya_cases,Gradient_Boosting,0.3346946593852265,0.5018635955086863
-Dadra And Nagar Haveli And Daman And Diu,chikungunya_cases,Gradient_Boosting_Weather,0.1723561190755495,0.2398582247299083
+Dadra And Nagar Haveli And Daman And Diu,chikungunya_cases,Gradient_Boosting_Weather,0.6276324335806246,0.8746535013263116
 Delhi,dengue_cases,Seasonal_Naive,560.1666666666666,786.3800134879658
-Delhi,dengue_cases,Gradient_Boosting,463.69999600581525,721.8725365503406
-Delhi,dengue_cases,Gradient_Boosting_Weather,413.21779548802357,699.7855710321934
+Delhi,dengue_cases,Gradient_Boosting,309.1107173137231,499.4646211939891
+Delhi,dengue_cases,Gradient_Boosting_Weather,297.09581777744484,520.7848575296774
 Delhi,malaria_cases,Seasonal_Naive,13.433333333333334,27.967474680421184
 Delhi,malaria_cases,Gradient_Boosting,6.253992042669813,11.398029897176217
-Delhi,malaria_cases,Gradient_Boosting_Weather,6.136263065658223,9.910598076562867
+Delhi,malaria_cases,Gradient_Boosting_Weather,7.545028321138308,13.069703876910571
 Delhi,chikungunya_cases,Seasonal_Naive,164.03333333333333,369.2236049333791
 Delhi,chikungunya_cases,Gradient_Boosting,133.06289449451643,276.7277276298941
-Delhi,chikungunya_cases,Gradient_Boosting_Weather,116.26309865087528,258.5906562185477
+Delhi,chikungunya_cases,Gradient_Boosting_Weather,115.92302306076587,252.6863008240911
 Goa,dengue_cases,Seasonal_Naive,17.749999999999996,27.970659031682946
-Goa,dengue_cases,Gradient_Boosting,11.977412277321712,15.667857883272617
-Goa,dengue_cases,Gradient_Boosting_Weather,10.893820626782107,14.586271193732811
+Goa,dengue_cases,Gradient_Boosting,12.10226147234894,16.715215747138824
+Goa,dengue_cases,Gradient_Boosting_Weather,10.553977755620995,15.604682518689106
 Goa,malaria_cases,Seasonal_Naive,36.1,53.27229286098606
 Goa,malaria_cases,Gradient_Boosting,11.579256434743305,16.539358748438342
-Goa,malaria_cases,Gradient_Boosting_Weather,23.511690759272128,37.373909739335836
+Goa,malaria_cases,Gradient_Boosting_Weather,23.430478667695173,38.81983530187668
 Goa,chikungunya_cases,Seasonal_Naive,25.9,45.23058242679024
 Goa,chikungunya_cases,Gradient_Boosting,9.460733859189965,18.3590096401091
-Goa,chikungunya_cases,Gradient_Boosting_Weather,8.333937777326954,13.745721084279126
+Goa,chikungunya_cases,Gradient_Boosting_Weather,11.416035937070204,18.394286013569182
 Gujarat,dengue_cases,Seasonal_Naive,309.7833333333334,529.8030551629539
-Gujarat,dengue_cases,Gradient_Boosting,372.98086508504105,508.6882628049332
-Gujarat,dengue_cases,Gradient_Boosting_Weather,327.4867481669647,443.8566385660134
+Gujarat,dengue_cases,Gradient_Boosting,253.62212403148473,417.81969655305215
+Gujarat,dengue_cases,Gradient_Boosting_Weather,211.46501306323216,368.91546216253516
 Gujarat,malaria_cases,Seasonal_Naive,22.766666666666655,36.4172417040793
 Gujarat,malaria_cases,Gradient_Boosting,187.84803628336374,239.17223657483035
-Gujarat,malaria_cases,Gradient_Boosting_Weather,452.6459859898385,680.1541091446528
+Gujarat,malaria_cases,Gradient_Boosting_Weather,550.020227783612,725.8330559229759
 Gujarat,chikungunya_cases,Seasonal_Naive,824.0166666666667,1348.1487181489538
 Gujarat,chikungunya_cases,Gradient_Boosting,1209.9950796787382,1907.9502207295864
-Gujarat,chikungunya_cases,Gradient_Boosting_Weather,1258.4012074131908,1938.1553884333578
+Gujarat,chikungunya_cases,Gradient_Boosting_Weather,1258.518928770132,1910.6501131487043
 Haryana,dengue_cases,Seasonal_Naive,327.7833333333334,560.1489905432898
-Haryana,dengue_cases,Gradient_Boosting,449.89681719663184,725.4313819950097
-Haryana,dengue_cases,Gradient_Boosting_Weather,453.04052588604213,717.9726095427493
+Haryana,dengue_cases,Gradient_Boosting,329.0768445546649,520.7642333914455
+Haryana,dengue_cases,Gradient_Boosting_Weather,266.12343986299516,424.8262099091002
 Haryana,malaria_cases,Seasonal_Naive,8.933333333333335,21.258711155665104
 Haryana,malaria_cases,Gradient_Boosting,31.082147279404953,45.49422687422435
-Haryana,malaria_cases,Gradient_Boosting_Weather,72.97096199956091,115.98584580503703
+Haryana,malaria_cases,Gradient_Boosting_Weather,92.31147839353879,130.88443070697585
 Haryana,chikungunya_cases,Seasonal_Naive,280.3833333333333,478.47210134621923
 Haryana,chikungunya_cases,Gradient_Boosting,212.19636914353808,391.6248725217511
-Haryana,chikungunya_cases,Gradient_Boosting_Weather,188.41723081334433,358.3899034205243
+Haryana,chikungunya_cases,Gradient_Boosting_Weather,194.8768624694635,365.23917475275016
 Himachal Pradesh,dengue_cases,Seasonal_Naive,152.36666666666667,227.79704788839268
-Himachal Pradesh,dengue_cases,Gradient_Boosting,130.68969887843153,161.66533355015397
-Himachal Pradesh,dengue_cases,Gradient_Boosting_Weather,115.45185062570498,162.27192440699736
+Himachal Pradesh,dengue_cases,Gradient_Boosting,103.99378686103474,137.78404321329768
+Himachal Pradesh,dengue_cases,Gradient_Boosting_Weather,76.05597583312034,107.03803294085107
 Himachal Pradesh,malaria_cases,Seasonal_Naive,0.6333333333333333,1.0925566346876485
 Himachal Pradesh,malaria_cases,Gradient_Boosting,1.0573439022574234,1.2168306907201545
-Himachal Pradesh,malaria_cases,Gradient_Boosting_Weather,1.5989227595408348,2.1103490777402523
+Himachal Pradesh,malaria_cases,Gradient_Boosting_Weather,2.883529430417178,4.196804846402314
 Himachal Pradesh,chikungunya_cases,Seasonal_Naive,35.0,49.38640231210747
 Himachal Pradesh,chikungunya_cases,Gradient_Boosting,26.104166666666668,42.040126169331764
 Himachal Pradesh,chikungunya_cases,Gradient_Boosting_Weather,26.104166666666668,42.040126169331764
 Jammu And Kashmir,dengue_cases,Seasonal_Naive,234.16666666666669,377.7895019010807
-Jammu And Kashmir,dengue_cases,Gradient_Boosting,377.7648602109079,576.9583139566694
-Jammu And Kashmir,dengue_cases,Gradient_Boosting_Weather,376.9218293525676,566.6878849059644
+Jammu And Kashmir,dengue_cases,Gradient_Boosting,370.2769935501372,568.0858618331285
+Jammu And Kashmir,dengue_cases,Gradient_Boosting_Weather,362.1781477694547,557.841093066566
 Jammu And Kashmir,malaria_cases,Seasonal_Naive,1.6999999999999997,3.258557963271484
 Jammu And Kashmir,malaria_cases,Gradient_Boosting,1.2373990241828472,1.7081538527585711
-Jammu And Kashmir,malaria_cases,Gradient_Boosting_Weather,2.632629550041597,4.0812766825733
+Jammu And Kashmir,malaria_cases,Gradient_Boosting_Weather,2.540281574146793,3.5063637938058374
 Jammu And Kashmir,chikungunya_cases,Seasonal_Naive,121.83333333333333,228.99962535631656
 Jammu And Kashmir,chikungunya_cases,Gradient_Boosting,107.63486845184185,212.41158338680535
-Jammu And Kashmir,chikungunya_cases,Gradient_Boosting_Weather,107.64154489213702,212.40774028337003
+Jammu And Kashmir,chikungunya_cases,Gradient_Boosting_Weather,107.6339517874786,212.40629293545103
 Jharkhand,dengue_cases,Seasonal_Naive,77.93333333333334,132.87655519315663
-Jharkhand,dengue_cases,Gradient_Boosting,57.20217635936084,111.28792982776554
-Jharkhand,dengue_cases,Gradient_Boosting_Weather,53.27326983212528,109.92125042448845
+Jharkhand,dengue_cases,Gradient_Boosting,53.644362303545606,104.03886025929086
+Jharkhand,dengue_cases,Gradient_Boosting_Weather,51.134996694027215,102.07175996138739
 Jharkhand,malaria_cases,Seasonal_Naive,512.0833333333333,862.6002521407778
 Jharkhand,malaria_cases,Gradient_Boosting,647.2743050463089,981.5061884918807
-Jharkhand,malaria_cases,Gradient_Boosting_Weather,759.4739977110482,1100.5852956217695
+Jharkhand,malaria_cases,Gradient_Boosting_Weather,812.8930767275093,1229.7727367750833
 Jharkhand,chikungunya_cases,Seasonal_Naive,151.01666666666668,273.6237181361782
 Jharkhand,chikungunya_cases,Gradient_Boosting,209.71082624805146,358.18903486328605
-Jharkhand,chikungunya_cases,Gradient_Boosting_Weather,179.47881821365343,324.6801297733553
+Jharkhand,chikungunya_cases,Gradient_Boosting_Weather,192.8451363025647,337.5486395500367
 Karnataka,dengue_cases,Seasonal_Naive,910.3999999999999,1478.9266964885942
-Karnataka,dengue_cases,Gradient_Boosting,573.7149191952377,1218.2636961780865
-Karnataka,dengue_cases,Gradient_Boosting_Weather,608.1894890621251,1255.8194077964556
+Karnataka,dengue_cases,Gradient_Boosting,531.2681856779861,1023.1193933931085
+Karnataka,dengue_cases,Gradient_Boosting_Weather,508.7327139259958,990.1036130505219
 Karnataka,malaria_cases,Seasonal_Naive,32.28333333333333,53.31750050405589
 Karnataka,malaria_cases,Gradient_Boosting,63.75588427327945,72.85876145133712
-Karnataka,malaria_cases,Gradient_Boosting_Weather,172.09290812429992,255.15434181072135
+Karnataka,malaria_cases,Gradient_Boosting_Weather,167.12791072246299,245.52145467258634
 Karnataka,chikungunya_cases,Seasonal_Naive,1521.3166666666666,2229.1242962816887
 Karnataka,chikungunya_cases,Gradient_Boosting,1990.2279453979131,3428.340607628027
-Karnataka,chikungunya_cases,Gradient_Boosting_Weather,1694.4949329503788,2918.2666786378018
+Karnataka,chikungunya_cases,Gradient_Boosting_Weather,1998.7973755228306,3172.3819878147556
 Kerala,dengue_cases,Seasonal_Naive,472.03333333333325,800.7675796051352
-Kerala,dengue_cases,Gradient_Boosting,498.83662273461795,991.1068210346522
-Kerala,dengue_cases,Gradient_Boosting_Weather,483.1244342911454,946.0406680986999
+Kerala,dengue_cases,Gradient_Boosting,350.01628594664925,587.6283951853181
+Kerala,dengue_cases,Gradient_Boosting_Weather,378.10533586671255,645.9655924698664
 Kerala,malaria_cases,Seasonal_Naive,14.6,22.54960191814185
 Kerala,malaria_cases,Gradient_Boosting,19.05861765166907,27.26486265378957
-Kerala,malaria_cases,Gradient_Boosting_Weather,20.51572722593151,30.134208311632626
+Kerala,malaria_cases,Gradient_Boosting_Weather,19.949316474533408,29.649590629470843
 Kerala,chikungunya_cases,Seasonal_Naive,55.166666666666664,86.65054298733504
 Kerala,chikungunya_cases,Gradient_Boosting,133.21671168087127,180.26964140035753
-Kerala,chikungunya_cases,Gradient_Boosting_Weather,92.87159765792475,165.06267408191619
+Kerala,chikungunya_cases,Gradient_Boosting_Weather,86.99566500637972,145.0943981469939
 Ladakh,dengue_cases,Seasonal_Naive,,
 Ladakh,dengue_cases,Gradient_Boosting,,
 Ladakh,dengue_cases,Gradient_Boosting_Weather,,
 Ladakh,malaria_cases,Seasonal_Naive,0.2,0.4024094100954068
 Ladakh,malaria_cases,Gradient_Boosting,0.15161762494565462,0.2912345248454955
-Ladakh,malaria_cases,Gradient_Boosting_Weather,0.1581354753224873,0.3270245778855728
+Ladakh,malaria_cases,Gradient_Boosting_Weather,0.21022017439762955,0.41518608353303027
 Ladakh,chikungunya_cases,Seasonal_Naive,,
 Ladakh,chikungunya_cases,Gradient_Boosting,,
 Ladakh,chikungunya_cases,Gradient_Boosting_Weather,,
@@ -166,160 +166,160 @@ Lakshadweep,dengue_cases,Gradient_Boosting,19.183333333333334,33.368070866223796
 Lakshadweep,dengue_cases,Gradient_Boosting_Weather,19.183333333333334,33.368070866223796
 Lakshadweep,malaria_cases,Seasonal_Naive,0.13333333333333333,0.2545060575572482
 Lakshadweep,malaria_cases,Gradient_Boosting,0.022112147082003226,0.032938846967819305
-Lakshadweep,malaria_cases,Gradient_Boosting_Weather,0.04022702088487727,0.06727452372288426
+Lakshadweep,malaria_cases,Gradient_Boosting_Weather,0.06050295293508327,0.09839242374392827
 Lakshadweep,chikungunya_cases,Seasonal_Naive,18.638888888888893,29.189116502940305
 Lakshadweep,chikungunya_cases,Gradient_Boosting,142.7961871284003,163.6803979454373
-Lakshadweep,chikungunya_cases,Gradient_Boosting_Weather,119.69345270592218,139.8772278511532
+Lakshadweep,chikungunya_cases,Gradient_Boosting_Weather,128.91971738255637,146.2602558922464
 Madhya Pradesh,dengue_cases,Seasonal_Naive,704.15,1033.6047398272385
-Madhya Pradesh,dengue_cases,Gradient_Boosting,404.42520358437963,725.0156266992411
-Madhya Pradesh,dengue_cases,Gradient_Boosting_Weather,393.5459902576459,717.2999116607836
+Madhya Pradesh,dengue_cases,Gradient_Boosting,381.8149559867243,717.009421967585
+Madhya Pradesh,dengue_cases,Gradient_Boosting_Weather,390.9478603882605,712.7715494264485
 Madhya Pradesh,malaria_cases,Seasonal_Naive,95.05,182.106528402105
 Madhya Pradesh,malaria_cases,Gradient_Boosting,239.34449663787956,277.83610759753265
-Madhya Pradesh,malaria_cases,Gradient_Boosting_Weather,333.34854998447287,400.3138814936866
+Madhya Pradesh,malaria_cases,Gradient_Boosting_Weather,305.88697585661583,359.20103526814347
 Madhya Pradesh,chikungunya_cases,Seasonal_Naive,291.0166666666667,431.231021588197
 Madhya Pradesh,chikungunya_cases,Gradient_Boosting,374.98815510066925,672.767297630765
-Madhya Pradesh,chikungunya_cases,Gradient_Boosting_Weather,381.07641526265866,668.556392870113
+Madhya Pradesh,chikungunya_cases,Gradient_Boosting_Weather,376.6301564789001,661.4235107932808
 Maharashtra,dengue_cases,Seasonal_Naive,492.16666666666663,747.4560564207103
-Maharashtra,dengue_cases,Gradient_Boosting,487.0157152684175,747.869134466058
-Maharashtra,dengue_cases,Gradient_Boosting_Weather,445.56701818574857,733.5523858295986
+Maharashtra,dengue_cases,Gradient_Boosting,448.4351680545454,710.0891874298795
+Maharashtra,dengue_cases,Gradient_Boosting_Weather,407.88847556429727,692.6636006783938
 Maharashtra,malaria_cases,Seasonal_Naive,271.8333333333333,384.089556692186
 Maharashtra,malaria_cases,Gradient_Boosting,328.0144517302942,497.16211640823855
-Maharashtra,malaria_cases,Gradient_Boosting_Weather,296.5071690837744,431.706934464496
+Maharashtra,malaria_cases,Gradient_Boosting_Weather,412.1766339145818,690.7337345967383
 Maharashtra,chikungunya_cases,Seasonal_Naive,1277.15,1802.833456517823
 Maharashtra,chikungunya_cases,Gradient_Boosting,2037.4602589753863,3385.896651021343
-Maharashtra,chikungunya_cases,Gradient_Boosting_Weather,2049.921204671437,3327.479695977211
+Maharashtra,chikungunya_cases,Gradient_Boosting_Weather,2011.5061783724318,3318.576787016698
 Manipur,dengue_cases,Seasonal_Naive,94.20000000000002,177.6727680128087
-Manipur,dengue_cases,Gradient_Boosting,168.7384123891231,301.9686542745298
-Manipur,dengue_cases,Gradient_Boosting_Weather,165.7585809570463,298.5082598345972
+Manipur,dengue_cases,Gradient_Boosting,159.91929084834095,296.0012860082193
+Manipur,dengue_cases,Gradient_Boosting_Weather,162.68459115914678,295.3241000562149
 Manipur,malaria_cases,Seasonal_Naive,1.2666666666666666,2.0016726339072863
 Manipur,malaria_cases,Gradient_Boosting,0.962436872180147,1.1362073295422677
-Manipur,malaria_cases,Gradient_Boosting_Weather,4.256438705161861,6.450031370656879
+Manipur,malaria_cases,Gradient_Boosting_Weather,8.884460768742553,14.781666222313332
 Manipur,chikungunya_cases,Seasonal_Naive,0.0,0.0
 Manipur,chikungunya_cases,Gradient_Boosting,1.1569069227044741,1.4410533493447513
-Manipur,chikungunya_cases,Gradient_Boosting_Weather,1.3706357897596257,1.924949465968094
+Manipur,chikungunya_cases,Gradient_Boosting_Weather,1.5120065236560616,2.385800619746481
 Meghalaya,dengue_cases,Seasonal_Naive,6.05,9.078387889194131
-Meghalaya,dengue_cases,Gradient_Boosting,3.658525127768939,5.77565907744662
-Meghalaya,dengue_cases,Gradient_Boosting_Weather,3.519841016244653,5.583158132017639
+Meghalaya,dengue_cases,Gradient_Boosting,2.783052515859428,3.9521963714333888
+Meghalaya,dengue_cases,Gradient_Boosting_Weather,2.328556193067768,3.3117148284467213
 Meghalaya,malaria_cases,Seasonal_Naive,69.2,109.63399430225402
 Meghalaya,malaria_cases,Gradient_Boosting,69.5419703465478,89.68141312584974
-Meghalaya,malaria_cases,Gradient_Boosting_Weather,329.7217900695447,609.1271570387698
+Meghalaya,malaria_cases,Gradient_Boosting_Weather,187.69797308876747,248.24659010559512
 Meghalaya,chikungunya_cases,Seasonal_Naive,3.333333333333334,6.604910294621722
 Meghalaya,chikungunya_cases,Gradient_Boosting,3.033357448951534,5.38934678119292
-Meghalaya,chikungunya_cases,Gradient_Boosting_Weather,2.52231591629863,4.269447641027972
+Meghalaya,chikungunya_cases,Gradient_Boosting_Weather,3.7128617050725046,5.9962402824051475
 Mizoram,dengue_cases,Seasonal_Naive,67.45,112.79616468066044
-Mizoram,dengue_cases,Gradient_Boosting,97.25269448552288,150.28226029856833
-Mizoram,dengue_cases,Gradient_Boosting_Weather,97.46260207676164,149.96808891391302
+Mizoram,dengue_cases,Gradient_Boosting,83.25521293280364,138.28404604191087
+Mizoram,dengue_cases,Gradient_Boosting_Weather,86.26164552179424,139.88322869921714
 Mizoram,malaria_cases,Seasonal_Naive,317.3833333333334,519.0945447154434
 Mizoram,malaria_cases,Gradient_Boosting,201.41703535016748,336.79470384180615
-Mizoram,malaria_cases,Gradient_Boosting_Weather,192.19006719824952,300.4992164568957
+Mizoram,malaria_cases,Gradient_Boosting_Weather,256.9929792361676,463.9300422621455
 Mizoram,chikungunya_cases,Seasonal_Naive,15.650000000000002,23.828957873422276
 Mizoram,chikungunya_cases,Gradient_Boosting,12.86415699022898,24.66299106871463
-Mizoram,chikungunya_cases,Gradient_Boosting_Weather,12.954241779888928,24.748755282195194
+Mizoram,chikungunya_cases,Gradient_Boosting_Weather,12.822947325528407,24.78922855286705
 Nagaland,dengue_cases,Seasonal_Naive,164.96666666666667,329.648775436322
-Nagaland,dengue_cases,Gradient_Boosting,85.08464992061069,228.67360631269844
-Nagaland,dengue_cases,Gradient_Boosting_Weather,85.47302263364828,228.87303096767548
+Nagaland,dengue_cases,Gradient_Boosting,80.59641152041605,222.94341545590075
+Nagaland,dengue_cases,Gradient_Boosting_Weather,81.39555190322811,225.9987180095347
 Nagaland,malaria_cases,Seasonal_Naive,3.433333333333334,9.52590223198482
 Nagaland,malaria_cases,Gradient_Boosting,4.7385695299389194,7.19141355804657
-Nagaland,malaria_cases,Gradient_Boosting_Weather,8.480884041580378,16.431646456693578
+Nagaland,malaria_cases,Gradient_Boosting_Weather,14.949283554597718,23.581643139216283
 Nagaland,chikungunya_cases,Seasonal_Naive,3.0,5.039880950974934
 Nagaland,chikungunya_cases,Gradient_Boosting,2.1666666666666665,4.486201065489598
 Nagaland,chikungunya_cases,Gradient_Boosting_Weather,2.1666666666666665,4.486201065489598
 Odisha,dengue_cases,Seasonal_Naive,392.15,578.7299526664689
-Odisha,dengue_cases,Gradient_Boosting,337.8072651423827,518.4880354426276
-Odisha,dengue_cases,Gradient_Boosting_Weather,322.2567461093077,540.6860959103567
+Odisha,dengue_cases,Gradient_Boosting,251.0038318867888,431.77225314225507
+Odisha,dengue_cases,Gradient_Boosting_Weather,230.85956275744417,391.77251590819066
 Odisha,malaria_cases,Seasonal_Naive,1157.4666666666667,1770.4052385635705
 Odisha,malaria_cases,Gradient_Boosting,1041.3750344579046,1617.4641780513123
-Odisha,malaria_cases,Gradient_Boosting_Weather,1551.2942632668903,2115.4870950610252
+Odisha,malaria_cases,Gradient_Boosting_Weather,1153.5466695027637,1743.8465103340507
 Odisha,chikungunya_cases,Seasonal_Naive,2.733333333333333,5.575533457287593
 Odisha,chikungunya_cases,Gradient_Boosting,5.712210131271317,9.38925571562026
-Odisha,chikungunya_cases,Gradient_Boosting_Weather,8.258191965215678,14.389907881539546
+Odisha,chikungunya_cases,Gradient_Boosting_Weather,10.52041396266707,16.571652388264553
 Puducherry,dengue_cases,Seasonal_Naive,67.41666666666667,98.28040900064128
-Puducherry,dengue_cases,Gradient_Boosting,55.90789496508297,79.80168674955834
-Puducherry,dengue_cases,Gradient_Boosting_Weather,49.38783339717853,75.1596354043728
+Puducherry,dengue_cases,Gradient_Boosting,53.28089989054194,82.27060524596295
+Puducherry,dengue_cases,Gradient_Boosting_Weather,53.93507265472296,81.79581501715916
 Puducherry,malaria_cases,Seasonal_Naive,0.5999999999999999,0.8790070155199747
 Puducherry,malaria_cases,Gradient_Boosting,0.45518235926282025,0.5340317196557596
-Puducherry,malaria_cases,Gradient_Boosting_Weather,0.7540378791269391,1.1647886963969538
+Puducherry,malaria_cases,Gradient_Boosting_Weather,0.6414443223463271,0.8239826989834761
 Puducherry,chikungunya_cases,Seasonal_Naive,171.86666666666665,270.2751023926054
 Puducherry,chikungunya_cases,Gradient_Boosting,374.9062876033333,554.1400930583152
-Puducherry,chikungunya_cases,Gradient_Boosting_Weather,363.93497571467157,559.1731937911653
+Puducherry,chikungunya_cases,Gradient_Boosting_Weather,396.98528531979395,610.3580752061505
 Punjab,dengue_cases,Seasonal_Naive,644.6000000000001,1009.1492032136113
-Punjab,dengue_cases,Gradient_Boosting,380.02191864077014,673.8869660519298
-Punjab,dengue_cases,Gradient_Boosting_Weather,395.5945331134641,749.1309642316409
+Punjab,dengue_cases,Gradient_Boosting,356.24678834455585,640.9207094340536
+Punjab,dengue_cases,Gradient_Boosting_Weather,322.67093777816297,554.3982275541673
 Punjab,malaria_cases,Seasonal_Naive,7.916666666666668,15.192982371257242
 Punjab,malaria_cases,Gradient_Boosting,5.713448870174233,8.027076290756462
-Punjab,malaria_cases,Gradient_Boosting_Weather,8.744978251073672,13.282083519344923
+Punjab,malaria_cases,Gradient_Boosting_Weather,9.98456347209416,14.686220445978096
 Punjab,chikungunya_cases,Seasonal_Naive,332.3833333333333,552.016956822886
 Punjab,chikungunya_cases,Gradient_Boosting,238.64244684322847,476.45654419714594
-Punjab,chikungunya_cases,Gradient_Boosting_Weather,230.73602284878754,467.31645876105665
+Punjab,chikungunya_cases,Gradient_Boosting_Weather,228.88205800466352,468.05852554125386
 Rajasthan,dengue_cases,Seasonal_Naive,599.8833333333334,1045.1592299581278
-Rajasthan,dengue_cases,Gradient_Boosting,508.2267616145358,789.7147775335264
-Rajasthan,dengue_cases,Gradient_Boosting_Weather,487.1652145629711,742.6677598218305
+Rajasthan,dengue_cases,Gradient_Boosting,468.16696474451254,805.7033740218699
+Rajasthan,dengue_cases,Gradient_Boosting_Weather,429.46787622572106,735.2135017311575
 Rajasthan,malaria_cases,Seasonal_Naive,36.599999999999994,53.37164278278619
 Rajasthan,malaria_cases,Gradient_Boosting,76.20986660692834,105.00653902295397
-Rajasthan,malaria_cases,Gradient_Boosting_Weather,246.41635673222117,379.48432183436205
+Rajasthan,malaria_cases,Gradient_Boosting_Weather,333.9263783778622,472.81615801230646
 Rajasthan,chikungunya_cases,Seasonal_Naive,84.16666666666667,154.3599695948834
 Rajasthan,chikungunya_cases,Gradient_Boosting,48.79762086237299,129.33512291361913
-Rajasthan,chikungunya_cases,Gradient_Boosting_Weather,46.04332465042634,118.54821972005239
+Rajasthan,chikungunya_cases,Gradient_Boosting_Weather,51.93380720086637,129.16964239887068
 Sikkim,dengue_cases,Seasonal_Naive,9.466666666666667,15.396189138874593
-Sikkim,dengue_cases,Gradient_Boosting,9.193122305682351,11.67378280929007
-Sikkim,dengue_cases,Gradient_Boosting_Weather,8.721594266654446,11.38630188463294
+Sikkim,dengue_cases,Gradient_Boosting,6.332224257250554,8.960675572882161
+Sikkim,dengue_cases,Gradient_Boosting_Weather,6.2513488431160535,9.288831747524512
 Sikkim,malaria_cases,Seasonal_Naive,0.23333333333333334,0.40240941009540687
 Sikkim,malaria_cases,Gradient_Boosting,0.16784853971525354,0.21552255101270332
-Sikkim,malaria_cases,Gradient_Boosting_Weather,0.32602507991231366,0.5037035463182128
+Sikkim,malaria_cases,Gradient_Boosting_Weather,0.28495517181195296,0.41134869578237426
 Sikkim,chikungunya_cases,Seasonal_Naive,56.35,84.82389745820454
 Sikkim,chikungunya_cases,Gradient_Boosting,37.30026527249252,68.52745465155267
-Sikkim,chikungunya_cases,Gradient_Boosting_Weather,35.100998829477355,66.95296189363776
+Sikkim,chikungunya_cases,Gradient_Boosting_Weather,33.70001266073038,64.4312002352273
 Tamil Nadu,dengue_cases,Seasonal_Naive,482.31666666666666,924.7300862810366
-Tamil Nadu,dengue_cases,Gradient_Boosting,565.2387574710715,1206.1679329318254
-Tamil Nadu,dengue_cases,Gradient_Boosting_Weather,574.2460145992793,1152.7856883062798
+Tamil Nadu,dengue_cases,Gradient_Boosting,591.0154028011074,1057.5359107918093
+Tamil Nadu,dengue_cases,Gradient_Boosting_Weather,560.8738013790353,1072.3008510693578
 Tamil Nadu,malaria_cases,Seasonal_Naive,10.483333333333333,21.065167615442004
 Tamil Nadu,malaria_cases,Gradient_Boosting,37.620051407936465,43.43514180902393
-Tamil Nadu,malaria_cases,Gradient_Boosting_Weather,66.52882262073531,93.18742480544566
+Tamil Nadu,malaria_cases,Gradient_Boosting_Weather,79.45585185461981,106.97390447470184
 Tamil Nadu,chikungunya_cases,Seasonal_Naive,90.99999999999999,141.11215846505453
 Tamil Nadu,chikungunya_cases,Gradient_Boosting,59.9894858572391,89.65793975307714
-Tamil Nadu,chikungunya_cases,Gradient_Boosting_Weather,65.25747469795229,90.92026530644613
+Tamil Nadu,chikungunya_cases,Gradient_Boosting_Weather,77.29216953711214,122.15514492340893
 Telangana,dengue_cases,Seasonal_Naive,191.35,288.3016194312246
-Telangana,dengue_cases,Gradient_Boosting,304.37451473778344,363.66588752610323
-Telangana,dengue_cases,Gradient_Boosting_Weather,336.0991108267569,406.87112721638726
+Telangana,dengue_cases,Gradient_Boosting,207.4127213002911,262.3587591064127
+Telangana,dengue_cases,Gradient_Boosting_Weather,171.1082139250792,222.19485016220025
 Telangana,malaria_cases,Seasonal_Naive,10.316666666666666,17.245820556490397
 Telangana,malaria_cases,Gradient_Boosting,23.620154214643808,30.273024689012292
-Telangana,malaria_cases,Gradient_Boosting_Weather,76.12775890304714,133.49662735499527
+Telangana,malaria_cases,Gradient_Boosting_Weather,40.59580284670056,55.57144854041932
 Telangana,chikungunya_cases,Seasonal_Naive,482.18333333333334,765.7797619725051
 Telangana,chikungunya_cases,Gradient_Boosting,354.73886612748,670.6156175247373
-Telangana,chikungunya_cases,Gradient_Boosting_Weather,321.4367614614985,637.3965213600978
+Telangana,chikungunya_cases,Gradient_Boosting_Weather,312.9159783769295,607.1256028840533
 Tripura,dengue_cases,Seasonal_Naive,45.24999999999999,74.46834383369442
-Tripura,dengue_cases,Gradient_Boosting,55.55060308653906,91.43954775736826
-Tripura,dengue_cases,Gradient_Boosting_Weather,55.65471365703128,91.09533322013225
+Tripura,dengue_cases,Gradient_Boosting,51.28325545488063,87.8082001601714
+Tripura,dengue_cases,Gradient_Boosting_Weather,52.15844521373643,88.3716476758695
 Tripura,malaria_cases,Seasonal_Naive,588.9166666666666,859.3681518146536
 Tripura,malaria_cases,Gradient_Boosting,190.25443756633024,347.25234657842594
-Tripura,malaria_cases,Gradient_Boosting_Weather,192.3479805130799,327.13268500796073
+Tripura,malaria_cases,Gradient_Boosting_Weather,334.8033503205771,595.0757741491219
 Tripura,chikungunya_cases,Seasonal_Naive,64.61666666666667,98.64154949445324
 Tripura,chikungunya_cases,Gradient_Boosting,62.27442843601875,115.61926215475205
-Tripura,chikungunya_cases,Gradient_Boosting_Weather,59.790098959430544,113.67012433186235
+Tripura,chikungunya_cases,Gradient_Boosting_Weather,60.95665151870439,113.93666120689754
 Uttar Pradesh,dengue_cases,Seasonal_Naive,1295.6833333333334,1828.407740392352
-Uttar Pradesh,dengue_cases,Gradient_Boosting,1226.426587410155,1976.7415877187016
-Uttar Pradesh,dengue_cases,Gradient_Boosting_Weather,1224.342448230623,2012.4397064702346
+Uttar Pradesh,dengue_cases,Gradient_Boosting,1045.7987017516816,1732.416599116785
+Uttar Pradesh,dengue_cases,Gradient_Boosting_Weather,962.684592184036,1731.3535288645826
 Uttar Pradesh,malaria_cases,Seasonal_Naive,490.58333333333326,935.0949438818143
 Uttar Pradesh,malaria_cases,Gradient_Boosting,564.1415709027992,685.9695897590935
-Uttar Pradesh,malaria_cases,Gradient_Boosting_Weather,889.5925558553558,1137.5144388082392
+Uttar Pradesh,malaria_cases,Gradient_Boosting_Weather,894.3974252252415,1101.5547804107637
 Uttar Pradesh,chikungunya_cases,Seasonal_Naive,690.65,1230.7750276770055
 Uttar Pradesh,chikungunya_cases,Gradient_Boosting,546.9772871570375,1160.6734652234802
-Uttar Pradesh,chikungunya_cases,Gradient_Boosting_Weather,537.8884938843515,1144.026927048881
+Uttar Pradesh,chikungunya_cases,Gradient_Boosting_Weather,544.755598605367,1154.6506445334842
 Uttarakhand,dengue_cases,Seasonal_Naive,142.8,224.63784273061978
-Uttarakhand,dengue_cases,Gradient_Boosting,274.43561631515917,352.2002146440022
-Uttarakhand,dengue_cases,Gradient_Boosting_Weather,232.54946485018252,291.3865847558146
+Uttarakhand,dengue_cases,Gradient_Boosting,164.533723921056,279.7446274941816
+Uttarakhand,dengue_cases,Gradient_Boosting_Weather,129.8627336766756,207.63321271601018
 Uttarakhand,malaria_cases,Seasonal_Naive,4.583333333333334,10.666181134782963
 Uttarakhand,malaria_cases,Gradient_Boosting,4.271963455940682,5.8253034161851796
-Uttarakhand,malaria_cases,Gradient_Boosting_Weather,7.053959322637678,10.937070706804647
+Uttarakhand,malaria_cases,Gradient_Boosting_Weather,7.814307313330213,10.385894458928439
 Uttarakhand,chikungunya_cases,Seasonal_Naive,93.03333333333335,141.8607528529297
 Uttarakhand,chikungunya_cases,Gradient_Boosting,58.2037631491218,110.55250894534376
-Uttarakhand,chikungunya_cases,Gradient_Boosting_Weather,58.19650674981715,110.40044498080157
+Uttarakhand,chikungunya_cases,Gradient_Boosting_Weather,58.25134571008991,110.38529892271633
 West Bengal,dengue_cases,Seasonal_Naive,2686.1458333333335,4075.7466948472565
-West Bengal,dengue_cases,Gradient_Boosting,1407.0160409624966,2469.601984242914
-West Bengal,dengue_cases,Gradient_Boosting_Weather,1343.8412529320346,2520.947620164066
+West Bengal,dengue_cases,Gradient_Boosting,1161.9834807108402,2240.348182348037
+West Bengal,dengue_cases,Gradient_Boosting_Weather,1186.5118211419567,2419.0772186369863
 West Bengal,malaria_cases,Seasonal_Naive,788.3166666666665,1160.885060038245
 West Bengal,malaria_cases,Gradient_Boosting,418.150869435122,679.2661093959924
-West Bengal,malaria_cases,Gradient_Boosting_Weather,575.4015602591052,933.6760102893683
+West Bengal,malaria_cases,Gradient_Boosting_Weather,674.9332868125426,1198.234165503788
 West Bengal,chikungunya_cases,Seasonal_Naive,69.97916666666667,100.55973121317831
 West Bengal,chikungunya_cases,Gradient_Boosting,33.66571706279117,42.95985048769623
-West Bengal,chikungunya_cases,Gradient_Boosting_Weather,80.3672990466989,119.58440274262797
+West Bengal,chikungunya_cases,Gradient_Boosting_Weather,70.47804603693,109.30298854581517
