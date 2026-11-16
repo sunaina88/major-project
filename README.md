@@ -151,7 +151,7 @@ Annual data only. Every forecast comes with `persistence`, `confidence` and `not
 | `GET /health` | Status, data version, latest observed year |
 | `GET /states` | The 36 states |
 | `GET /historical/{state_id}` | Annual cases per disease |
-| `GET /forecast/{state_id}/{disease}` | History, forecasts, persistence, interval, confidence, notes, risk level |
+| `GET /forecast/{state_id}/{disease}` | History, forecast, persistence, interval, confidence, notes, risk level |
 | `GET /risk-map?disease=&year=` | Risk level per state |
 | `GET /model-performance` | Variants against persistence with 95% intervals, per-fold rows |
 | `GET /explanation/{state_id}/{disease}` | Occlusion attribution per input group |
@@ -173,12 +173,11 @@ Streamlit, dark theme, state-boundary maps drawn from `data/processed/india_stat
 | State | History, forecast beside persistence, interval, confidence and reason |
 | Disease explorer | One disease across states |
 | Time-lapse map | Reported cases by year, 1999 to latest |
-| Climate & Geography | Monthly weather map, state climate trends, state profile (environmental context) |
 | Why this forecast? | Occlusion attributions |
-| Model comparison | Variants against persistence |
-| Research results | Forest plot and per-year errors |
-| Annual replay | Backtest by year, one state over time |
-| Data story | Data-quality findings (static, `frontend/static/data_story.json`) |
+| Network | The state graph over the map, with a build-the-graph slider and neighbour details |
+| Research results | Forest plot against persistence, per-year errors, all variants |
+| Annual replay | Backtest overview, by year, one state over time |
+| Data story | Monthly split, coverage and source revisions |
 | Limitations | Plain-language caveats |
 
 Rules enforced by tests: persistence beside every forecast, no risk colour on low-confidence rows, GeoJSON ids equal the 36 ids in `configs/states.txt`, every page renders.
@@ -222,7 +221,6 @@ logs/               experiment logs
 
 | File | Contents |
 |---|---|
-| [`docs/data_pipeline.md`](docs/data_pipeline.md) | Original data and baseline pipeline (Person 1) |
 | [`docs/data_sources.md`](docs/data_sources.md) | Source exports, 2025 extension, revisions and data caveats |
 | [`docs/person2_handoff.md`](docs/person2_handoff.md) | Graph and model work, results, caveats |
 | [`docs/person3_findings.md`](docs/person3_findings.md) | Metrics, anomaly detection, early-warning evaluation, sequence baselines |
@@ -269,4 +267,3 @@ logs/               experiment logs
 - Observed, grid-averaged weather in place of synthetic climatology, plus vegetation indices (NDVI).
 - Confirm which zeros are real; replace the rest with missing values at the source.
 - District-level data where it exists, for a larger graph.
-- A graph view in the dashboard showing the state network over the map.
